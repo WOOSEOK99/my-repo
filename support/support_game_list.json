@@ -1,5 +1,23 @@
 {
-  "mslug": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0123.bin",
-  "19xx": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0122.bin",
-  "wof" : "https://github.com/WOOSEOK99/my-repo/blob/main/files/cpw01.bin"
+    "19xx": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0122.bin",
+        "title": "19XX - 운명과의 전쟁",
+        "genre": "슈팅",
+        "year": 1995,
+        "developer": "캡콤"
+    },
+    "mslug": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0123.bin",
+        "title": "메탈 슬러그 - 슈퍼 비히클-001",
+        "genre": "액션",
+        "year": 1996,
+        "developer": "나즈카"
+    },
+    "wof": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/cpw01.bin",
+        "title": "삼국지 2 / 천지를 먹다 2",    
+        "genre": "벨트스크롤 액션",
+        "year": 1992,
+        "developer": "캡콤"
+    }
 }
