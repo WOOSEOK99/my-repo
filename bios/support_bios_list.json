@@ -1,0 +1,26 @@
+{
+    "neogeo": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bneogeo.bin"
+    },
+    "pgm": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bpgm.bin"
+    },
+    "cpzn1": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bcpzn1.bin"
+    },
+    "cpzn2": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bcpzn2.bin"
+    },
+    "konamigx": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bkonamigx.bin"
+    },
+    "skns": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bskns.bin"
+    },
+    "stvbios": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bstvbios.bin"
+    },
+    "taitofx1": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/btaitofx1.bin"
+    }
+}
