@@ -5,6 +5,7 @@
         "genre": "슈팅",
         "year": 1995,
         "developer": "캡콤",
+        "portrait": true,
         "buttons " : 4,
         "LRbuttons": true
     },
@@ -14,6 +15,7 @@
         "genre": "액션",
         "year": 1996,
         "developer": "나즈카",
+        "portrait": false,
         "buttons ": 6,
         "LRbuttons": true
     },
@@ -23,6 +25,7 @@
         "genre": "벨트스크롤 액션",
         "year": 1992,
         "developer": "캡콤",
+        "portrait": false,
         "buttons ": 4,
         "LRbuttons": false
     }
