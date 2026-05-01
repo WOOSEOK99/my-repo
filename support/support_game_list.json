@@ -57,7 +57,7 @@
         "desc": "보스선택(캐릭터선택창에서 방향키 아래로하고 선택)",
         "genre": "벨트스크롤 액션",
         "series": "캐딜락 & 다이노소어",
-        "parent": "dino",
+        "parent": "",
         "year": 1996,
         "developer": "캡콤",
         "portrait": false,
