@@ -2,6 +2,7 @@
     "19xx": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0122.bin",
         "title": "19XX - 운명과의 전쟁",
+        "desc": "",
         "genre": "슈팅",
         "series": "",
         "parent": "",
@@ -14,6 +15,7 @@
     "mslug": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0123.bin",
         "title": "메탈 슬러그 - 슈퍼 비히클-001",
+        "desc": "",
         "genre": "액션",
         "series": "메탈 슬러그",
         "parent": "",
@@ -25,7 +27,8 @@
     },
     "wof": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/cpw01.bin",
-        "title": "삼국지 2 / 천지를 먹다 2",    
+        "title": "삼국지 2 / 천지를 먹다 2",
+        "desc": "",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
         "year": 1992,
@@ -36,7 +39,8 @@
     },
     "tk2c21": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/tk2c21.bin",
-        "title": "천지를 먹다 II :조운 연속공격",
+        "title": "천지를 먹다 II : 확장판",
+        "desc": "조운 연속 공격",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
         "parent": "wof",
@@ -48,7 +52,8 @@
     },
     "tk2h10": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/tk2h10.bin",
-        "title": "천지를 먹다 II :미령,미호,미미 (추가기술-잡은후 주먹으로 장풍)",
+        "title": "천지를 먹다 II : 확장판",
+        "desc": "미령,미호,미미 선택 가능",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
         "parent": "wof",
@@ -60,7 +65,8 @@
     },
     "tk2h65": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/tk2h65.bin",
-        "title": "천지를 먹다 II :장비 (추가기술-잡은후 레버이동)",
+        "title": "천지를 먹다 II : 확장판",
+        "desc": "장비 기술 : 잡은후 레버이동",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
         "parent": "wof",
@@ -72,7 +78,8 @@
     },
     "tk2h71": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/tk2h71.bin",
-        "title": "천지를 먹다 II :관우 (추가기술-잡은후 주먹으로 장풍)",
+        "title": "천지를 먹다 II : 확장판",
+        "desc": "관우 기술 : 잡은후 ↓ ↘ → + 👊 (주먹)",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
         "parent": "wof",
