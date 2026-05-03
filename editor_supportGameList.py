@@ -57,6 +57,7 @@ class GameJsonEditor:
 
         self.entries = {}
         self.bool_vars = {}
+        self.current_selected_key = ""
 
         # URL(파일명) - 가장 상단에 강조
         tk.Label(edit_frame, text="파일명:").grid(row=0, column=0, sticky="e", padx=2)
@@ -93,6 +94,16 @@ class GameJsonEditor:
         self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=15)
         self.entries["year"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
 
+        self.bool_vars["portrait"] = tk.BooleanVar()
+        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=7, column=1, sticky="w", padx=5, pady=2)
+
+        tk.Label(edit_frame, text="buttons").grid(row=8, column=0, sticky="e", padx=2)
+        self.entries["buttons"] = tk.Spinbox(edit_frame, from_=0, to=8, width=15)
+        self.entries["buttons"].grid(row=8, column=1, sticky="ew", padx=5, pady=2)
+
+        self.bool_vars["LRbuttons"] = tk.BooleanVar()
+        tk.Checkbutton(edit_frame, text="LRbuttons", variable=self.bool_vars["LRbuttons"]).grid(row=9, column=1, sticky="w", padx=5, pady=2)
+
         # [2] 이미지 미리보기 (크기를 줄이고 하단 배치)
         img_container = tk.Frame(right_frame, bd=1, relief="sunken", bg="white", height=170)
         img_container.pack(fill=tk.X, pady=5)
@@ -106,22 +117,25 @@ class GameJsonEditor:
         btn_frame = tk.Frame(right_frame)
         btn_frame.pack(fill=tk.X)
         
-        tk.Button(btn_frame, text="적용", command=self.apply_changes, bg="#e8f5e9").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
+        tk.Button(btn_frame, text="새로운게임추가", command=self.add_new_game, bg="#c8e6c9").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="복사", command=self.copy_item, bg="#e1f5fe").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
+        tk.Button(btn_frame, text="적용", command=self.apply_changes, bg="#e8f5e9").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="삭제", command=self.delete_item, bg="#ffebee").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
 
         edit_frame.columnconfigure(0, minsize=70)
         edit_frame.columnconfigure(1, weight=1)
 
     def clean_url_input(self, event):
-        """url 입력창에서 포커스가 나갈 때 파일명만 추출"""
+        """파일명만 입력하면 전체 경로로 자동 완성 (붙여넣기 대응)"""
         widget = event.widget
         val = widget.get().strip()
-        if "/" in val or "\\" in val:
-            # 주소나 경로가 포함되어 있다면 파일명만 남김
+        if val and not val.startswith("http"):
+            # 입력된 값이 파일명뿐이라면 기본 경로를 앞에 붙임
+            import os
             filename = os.path.basename(val)
+            full_url = f"{self.default_base}{filename}"
             widget.delete(0, tk.END)
-            widget.insert(0, filename)
+            widget.insert(0, full_url)
 
     def delete_item(self):
         """선택된 게임 항목을 삭제하는 기능"""
@@ -133,7 +147,7 @@ class GameJsonEditor:
         selected_key = raw_text.replace("   └─ ", "").strip()
         
         # 삭제 확인 창
-        confirm = messagebox.askyesno("삭제 확인", f"'{selected_key}' 항목을 정말로 삭제하시겠습니까?\n(메모리에서 즉시 삭제되며 저장 시 반영됩니다.)")
+        confirm = messagebox.askyesno("삭제 확인", f"'{selected_key}' 항목을 정말로 삭제하시겠습니까?\n(메모리에서 즉시 삭제되며 저장 시 반영됩니다.)", parent=self.root)
         
         if confirm:
             if selected_key in self.data:
@@ -144,7 +158,7 @@ class GameJsonEditor:
                     if isinstance(widget, (tk.Entry, ttk.Combobox, tk.Spinbox)):
                         widget.delete(0, tk.END)
                 self.img_label.config(image="", text="미리보기")
-                messagebox.showinfo("성공", f"'{selected_key}' 항목이 삭제되었습니다.")
+                messagebox.showinfo("성공", f"'{selected_key}' 항목이 삭제되었습니다.", parent=self.root)
 
     def load_image(self, key):
         """GitHub에서 이미지를 가져와서 UI 크기에 맞게 조절"""
@@ -169,6 +183,7 @@ class GameJsonEditor:
         if not self.listbox.curselection(): return
         raw_text = self.listbox.get(self.listbox.curselection())
         selected_key = raw_text.replace("   └─ ", "").strip()
+        self.current_selected_key = selected_key
         item_data = self.data.get(selected_key)
 
         for field, widget in self.entries.items():
@@ -190,34 +205,35 @@ class GameJsonEditor:
                 return
 
     def apply_changes(self):
-        if not self.listbox.curselection(): return
-        
-        raw_text = self.listbox.get(self.listbox.curselection())
-        selected_key = raw_text.replace("   └─ ", "").strip()
+        """데이터 업데이트 시 URL 형식 확인"""
+        if not self.listbox.curselection():
+            if not self.current_selected_key:
+                return
+            selected_key = self.current_selected_key
+        else:
+            raw_text = self.listbox.get(self.listbox.curselection())
+            selected_key = raw_text.replace("   └─ ", "").strip()
 
         for field, widget in self.entries.items():
             val = widget.get().strip()
             
-            # url 필드일 경우 경로가 포함되어 있다면 파일명만 추출
-            if field == "url" and ("/" in val or "\\" in val):
-                val = os.path.basename(val)
+            # url 필드인데 파일명만 있다면 전체 경로로 보정 후 저장
+            if field == "url" and val and not val.startswith("http"):
+                import os
+                val = f"{self.default_base}{os.path.basename(val)}"
             
-            # 숫자 필드 자동 변환 (year, buttons )
-            if field in ["year", "buttons "] or val.isdigit():
+            # 숫자형 변환
+            if field in ["year", "buttons"] or (isinstance(val, str) and val.isdigit()):
                 try: val = int(val)
                 except: val = 0
                 
             self.data[selected_key][field] = val
         
-        # 불리언 필드 적용
         for field in self.bool_vars:
             self.data[selected_key][field] = self.bool_vars[field].get()
-
-        self.refresh_series_list()
-        self.refresh_parent_list()
-        self.update_listbox()
+        
         self.select_listbox_key(selected_key)
-        messagebox.showinfo("완료", f"'{selected_key}' 데이터가 파일명 중심으로 업데이트되었습니다.")
+        messagebox.showinfo("완료", "데이터가 전체 경로 형식으로 업데이트되었습니다.", parent=self.root)
 
     def refresh_series_list(self):
         series_values = sorted({
@@ -250,39 +266,131 @@ class GameJsonEditor:
 
     def update_listbox(self):
         self.listbox.delete(0, tk.END)
-        parents = sorted([k for k, v in self.data.items() if not v.get("parent")])
-        clones = sorted([k for k, v in self.data.items() if v.get("parent")])
+        parents = [k for k, v in self.data.items() if not v.get("parent")]
+        clones = [k for k, v in self.data.items() if v.get("parent")]
         for p in parents:
             self.listbox.insert(tk.END, p)
             for c in clones:
                 if self.data[c].get("parent") == p:
                     self.listbox.insert(tk.END, f"   └─ {c}")
 
+    def add_new_game(self):
+        """새로운 게임 항목을 추가하는 기능 (parent 또는 clone)"""
+        # 커스텀 dialog 생성
+        dialog = tk.Toplevel(self.root)
+        dialog.title("새 게임 추가")
+        dialog.geometry("300x150")
+        dialog.resizable(False, False)
+        dialog.transient(self.root)
+        dialog.grab_set()
+        
+        # 게임 ID 입력
+        tk.Label(dialog, text="게임 Key(ID):").grid(row=0, column=0, padx=10, pady=10, sticky="e")
+        id_entry = tk.Entry(dialog, width=20)
+        id_entry.grid(row=0, column=1, padx=10, pady=10)
+        id_entry.focus()
+        
+        # 부모 게임 입력
+        tk.Label(dialog, text="부모 게임 Key (빈 칸이면 parent):").grid(row=1, column=0, padx=10, pady=5, sticky="e")
+        parent_entry = tk.Entry(dialog, width=20)
+        parent_entry.grid(row=1, column=1, padx=10, pady=5)
+        
+        result = {"new_key": None, "parent_key": None}
+        
+        def on_ok():
+            new_key = id_entry.get().strip()
+            parent_key = parent_entry.get().strip()
+            if not new_key:
+                messagebox.showwarning("경고", "게임 Key를 입력하세요.", parent=dialog)
+                return
+            if new_key in self.data:
+                messagebox.showwarning("경고", f"'{new_key}' 키가 이미 존재합니다.", parent=dialog)
+                return
+            if parent_key and parent_key not in self.data:
+                messagebox.showwarning("경고", f"'{parent_key}' 부모 게임이 존재하지 않습니다.", parent=dialog)
+                return
+            result["new_key"] = new_key
+            result["parent_key"] = parent_key if parent_key else ""
+            dialog.destroy()
+        
+        def on_cancel():
+            dialog.destroy()
+        
+        # 버튼
+        btn_frame = tk.Frame(dialog)
+        btn_frame.grid(row=2, column=0, columnspan=2, pady=10)
+        tk.Button(btn_frame, text="추가", command=on_ok).pack(side=tk.LEFT, padx=5)
+        tk.Button(btn_frame, text="취소", command=on_cancel).pack(side=tk.LEFT, padx=5)
+        
+        self.root.wait_window(dialog)
+        
+        if not result["new_key"]:
+            return
+        
+        new_key = result["new_key"]
+        parent_key = result["parent_key"]
+        
+        # 기본 템플릿으로 새 게임 추가
+        self.data[new_key] = {
+            "url": "",
+            "title": "",
+            "desc": "",
+            "genre": "",
+            "series": "",
+            "parent": parent_key,
+            "year": 0,
+            "developer": "",
+            "portrait": False,
+            "buttons": 0,
+            "LRbuttons": False
+        }
+        self.refresh_series_list()
+        self.refresh_parent_list()
+        self.update_listbox()
+        self.select_listbox_key(new_key)
+        self.on_select(None)
+        # messagebox.showinfo("성공", f"'{new_key}' 게임이 추가되었습니다.", parent=self.root)
+
     def copy_item(self):
         if not self.listbox.curselection(): return
         raw_text = self.listbox.get(self.listbox.curselection())
         source_key = raw_text.replace("   └─ ", "").strip()
-        new_key = simpledialog.askstring("복사", "새 Key(ID) 입력:", initialvalue=source_key+"_copy")
+        new_key = simpledialog.askstring("복사", "새 Key(ID) 입력:", initialvalue=source_key+"_copy", parent=self.root)
         if new_key and new_key not in self.data:
             self.data[new_key] = self.data[source_key].copy()
+            # parent 게임을 복사하면 clone으로 만들고 parent 설정
+            if self.data[source_key].get("parent") == "":
+                self.data[new_key]["parent"] = source_key
+            self.refresh_series_list()
+            self.refresh_parent_list()
             self.update_listbox()
             self.select_listbox_key(new_key)
             self.on_select(None)
 
     def save_file(self):
         if not self.file_path: return
-        # 부모-자식 순 정렬 저장
+        
+        # 저장 전 데이터 검증: url이 파일명만 있다면 전체 경로로 변환
+        for key in self.data:
+            url_val = str(self.data[key].get("url", ""))
+            if url_val and not url_val.startswith("http"):
+                import os
+                filename = os.path.basename(url_val)
+                self.data[key]["url"] = f"{self.default_base}{filename}"
+
+        # 부모-자식 순서 유지
         ordered = {}
-        parents = sorted([k for k, v in self.data.items() if not v.get("parent")])
-        clones = sorted([k for k, v in self.data.items() if v.get("parent")])
+        parents = [k for k, v in self.data.items() if not v.get("parent")]
+        clones = [k for k, v in self.data.items() if v.get("parent")]
         for p in parents:
             ordered[p] = self.data[p]
             for c in clones:
                 if self.data[c].get("parent") == p:
                     ordered[c] = self.data[c]
+
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(ordered, f, indent=4, ensure_ascii=False)
-        messagebox.showinfo("성공", "파일이 저장되었습니다.")
+        messagebox.showinfo("성공", "전체 경로를 포함하여 파일이 저장되었습니다.", parent=self.root)
 
 if __name__ == "__main__":
     root = tk.Tk()
