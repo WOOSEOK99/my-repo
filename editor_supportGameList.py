@@ -20,8 +20,22 @@ class GameJsonEditor:
         self.dev_list = ["캡콤", "나즈카", "SNK", "세가", "타이토", "코나미", "데이터 이스트"]
         self.series_list = []
         self.parent_list = []
+        self.version_var = tk.StringVar(value="Version: -")
 
         self.setup_ui()
+        self.auto_load_default()
+
+    def auto_load_default(self):
+        """dist 폴더 기준 support/support_game_list.json 자동 로드"""
+        default_path = os.path.join(os.getcwd(), "support", "support_game_list.json")
+        if os.path.exists(default_path):
+            self.file_path = default_path
+            with open(self.file_path, 'r', encoding='utf-8') as f:
+                self.data = json.load(f)
+            self.refresh_series_list()
+            self.refresh_parent_list()
+            self.update_listbox()
+            self.update_version_display()
 
     def setup_ui(self):
         # 상단 메뉴
@@ -122,8 +136,14 @@ class GameJsonEditor:
         tk.Button(btn_frame, text="적용", command=self.apply_changes, bg="#e8f5e9").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="삭제", command=self.delete_item, bg="#ffebee").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
 
-        edit_frame.columnconfigure(0, minsize=70)
-        edit_frame.columnconfigure(1, weight=1)
+        # 버전 표시를 우측 프레임 최상단(LabelFrame 위)에 배치하여 항상 보이게 함
+        version_frame = tk.Frame(right_frame)
+        version_frame.pack(fill=tk.X, pady=(0, 2))
+        tk.Label(version_frame, textvariable=self.version_var, font=("Malgun Gothic", 9, "bold"), fg="#1976d2").pack(side=tk.RIGHT)
+        
+        # [1] 데이터 입력 구역 (격자 배치 최적화)
+        edit_frame = tk.LabelFrame(right_frame, text="게임 정보", pady=5)
+        edit_frame.pack(fill=tk.X)
 
     def clean_url_input(self, event):
         """파일명만 입력하면 전체 경로로 자동 완성 (붙여넣기 대응)"""
@@ -276,26 +296,74 @@ class GameJsonEditor:
 
     def add_new_game(self):
         """새로운 게임 항목을 추가하는 기능 (parent 또는 clone)"""
+        import random
+        import shutil
+        import datetime
+
         # 커스텀 dialog 생성
         dialog = tk.Toplevel(self.root)
         dialog.title("새 게임 추가")
-        dialog.geometry("300x150")
+        dialog.geometry("400x200") # 크기를 약간 키움
         dialog.resizable(False, False)
+        
+        # 다이얼로그를 화면 중앙에 띄우기
+        self.root.update_idletasks()
+        width = 400
+        height = 200
+        x = self.root.winfo_x() + (self.root.winfo_width() // 2) - (width // 2)
+        y = self.root.winfo_y() + (self.root.winfo_height() // 2) - (height // 2)
+        dialog.geometry(f"{width}x{height}+{x}+{y}")
+
         dialog.transient(self.root)
         dialog.grab_set()
         
+        selected_file_name = tk.StringVar()
+
         # 게임 ID 입력
-        tk.Label(dialog, text="게임 Key(ID):").grid(row=0, column=0, padx=10, pady=10, sticky="e")
+        tk.Label(dialog, text="게임 Key(ID):").grid(row=0, column=0, padx=10, pady=5, sticky="e")
         id_entry = tk.Entry(dialog, width=20)
-        id_entry.grid(row=0, column=1, padx=10, pady=10)
+        id_entry.grid(row=0, column=1, padx=10, pady=5, sticky="w")
         id_entry.focus()
         
         # 부모 게임 입력
-        tk.Label(dialog, text="부모 게임 Key (빈 칸이면 parent):").grid(row=1, column=0, padx=10, pady=5, sticky="e")
+        tk.Label(dialog, text="부모 게임 Key:").grid(row=1, column=0, padx=10, pady=5, sticky="e")
         parent_entry = tk.Entry(dialog, width=20)
-        parent_entry.grid(row=1, column=1, padx=10, pady=5)
-        
-        result = {"new_key": None, "parent_key": None}
+        parent_entry.grid(row=1, column=1, padx=10, pady=5, sticky="w")
+
+        # 게임파일 추가 버튼
+        def pick_game_file():
+            source_file = filedialog.askopenfilename(title="게임 파일 선택")
+            if source_file:
+                # 파일 처리
+                dir_name = os.path.dirname(source_file)
+                base_name = os.path.basename(source_file)
+                name_only, ext = os.path.splitext(base_name)
+                
+                # 무작위 숫자 생성
+                prefix = random.randint(1000, 9999)
+                suffix = random.randint(1000, 9999)
+                new_filename = f"{prefix}_{name_only}_{suffix}.bin"
+                
+                # files 폴더가 없으면 생성
+                dest_dir = os.path.join(os.getcwd(), "files")
+                if not os.path.exists(dest_dir):
+                    os.makedirs(dest_dir)
+                
+                dest_path = os.path.join(dest_dir, new_filename)
+                shutil.copy2(source_file, dest_path)
+                
+                selected_file_name.set(new_filename)
+                
+                # Key가 비어 있으면 파일 이름(원본)을 기본값으로 제안
+                if not id_entry.get():
+                    id_entry.insert(0, name_only)
+                
+                messagebox.showinfo("성공", f"파일이 복사되었습니다: {new_filename}", parent=dialog)
+
+        tk.Button(dialog, text="게임파일 추가", command=pick_game_file).grid(row=2, column=0, padx=10, pady=5, sticky="e")
+        tk.Label(dialog, textvariable=selected_file_name, fg="darkgreen", font=("Consolas", 8)).grid(row=2, column=1, padx=10, pady=5, sticky="w")
+
+        result = {"new_key": None, "parent_key": None, "url_file": None}
         
         def on_ok():
             new_key = id_entry.get().strip()
@@ -311,6 +379,7 @@ class GameJsonEditor:
                 return
             result["new_key"] = new_key
             result["parent_key"] = parent_key if parent_key else ""
+            result["url_file"] = selected_file_name.get()
             dialog.destroy()
         
         def on_cancel():
@@ -318,7 +387,7 @@ class GameJsonEditor:
         
         # 버튼
         btn_frame = tk.Frame(dialog)
-        btn_frame.grid(row=2, column=0, columnspan=2, pady=10)
+        btn_frame.grid(row=3, column=0, columnspan=2, pady=10)
         tk.Button(btn_frame, text="추가", command=on_ok).pack(side=tk.LEFT, padx=5)
         tk.Button(btn_frame, text="취소", command=on_cancel).pack(side=tk.LEFT, padx=5)
         
@@ -331,8 +400,12 @@ class GameJsonEditor:
         parent_key = result["parent_key"]
         
         # 기본 템플릿으로 새 게임 추가
+        new_url = ""
+        if result["url_file"]:
+            new_url = f"{self.default_base}{result['url_file']}"
+
         self.data[new_key] = {
-            "url": "",
+            "url": new_url,
             "title": "",
             "desc": "",
             "genre": "",
@@ -352,15 +425,117 @@ class GameJsonEditor:
         # messagebox.showinfo("성공", f"'{new_key}' 게임이 추가되었습니다.", parent=self.root)
 
     def copy_item(self):
-        if not self.listbox.curselection(): return
+        """선택된 게임 항목을 복사하여 새로운 항목으로 추가하는 기능"""
+        if not self.listbox.curselection():
+            messagebox.showwarning("경고", "복사할 항목을 먼저 선택하세요.")
+            return
+        
         raw_text = self.listbox.get(self.listbox.curselection())
         source_key = raw_text.replace("   └─ ", "").strip()
-        new_key = simpledialog.askstring("복사", "새 Key(ID) 입력:", initialvalue=source_key+"_copy", parent=self.root)
-        if new_key and new_key not in self.data:
+        
+        # 커스텀 dialog 생성
+        dialog = tk.Toplevel(self.root)
+        dialog.title("게임 복사")
+        dialog.geometry("350x150")
+        dialog.resizable(False, False)
+        
+        # 다이얼로그를 화면 중앙에 띄우기
+        self.root.update_idletasks()
+        width = 350
+        height = 150
+        x = self.root.winfo_x() + (self.root.winfo_width() // 2) - (width // 2)
+        y = self.root.winfo_y() + (self.root.winfo_height() // 2) - (height // 2)
+        dialog.geometry(f"{width}x{height}+{x}+{y}")
+
+        dialog.transient(self.root)
+        dialog.grab_set()
+
+        # 원본 Key 표시
+        tk.Label(dialog, text=f"원본 Key: {source_key}", fg="gray").pack(pady=5)
+        
+        # 새 Key 입력 프레임
+        input_frame = tk.Frame(dialog)
+        input_frame.pack(pady=5)
+        
+        tk.Label(input_frame, text="새 Key(ID):").pack(side=tk.LEFT, padx=5)
+        new_key_entry = tk.Entry(input_frame, width=20)
+        new_key_entry.pack(side=tk.LEFT, padx=5)
+        new_key_entry.insert(0, source_key + "_copy")
+        new_key_entry.focus()
+        new_key_entry.selection_range(0, tk.END)
+
+        selected_file_name = tk.StringVar()
+
+        # 게임파일 추가 버튼 (add_new_game의 로직과 동일)
+        def pick_game_file():
+            import random
+            import shutil
+            source_file = filedialog.askopenfilename(title="게임 파일 선택")
+            if source_file:
+                base_name = os.path.basename(source_file)
+                name_only, ext = os.path.splitext(base_name)
+                
+                prefix = random.randint(1000, 9999)
+                suffix = random.randint(1000, 9999)
+                new_filename = f"{prefix}_{name_only}_{suffix}.bin"
+                
+                dest_dir = os.path.join(os.getcwd(), "files")
+                os.makedirs(dest_dir, exist_ok=True)
+                
+                dest_path = os.path.join(dest_dir, new_filename)
+                shutil.copy2(source_file, dest_path)
+                
+                selected_file_name.set(new_filename)
+                
+                # 새 Key가 기본값(_copy)이면 파일 이름으로 제안
+                if new_key_entry.get() == source_key + "_copy":
+                    new_key_entry.delete(0, tk.END)
+                    new_key_entry.insert(0, name_only)
+                
+                messagebox.showinfo("성공", f"파일이 복사되었습니다: {new_filename}", parent=dialog)
+
+        file_frame = tk.Frame(dialog)
+        file_frame.pack(pady=5)
+        tk.Button(file_frame, text="게임파일 추가", command=pick_game_file).pack(side=tk.LEFT, padx=5)
+        tk.Label(file_frame, textvariable=selected_file_name, fg="darkgreen", font=("Consolas", 8)).pack(side=tk.LEFT, padx=5)
+
+        result = {"new_key": None, "url_file": None}
+
+        def on_ok():
+            new_key = new_key_entry.get().strip()
+            if not new_key:
+                messagebox.showwarning("경고", "새로운 Key를 입력하세요.", parent=dialog)
+                return
+            if new_key in self.data:
+                messagebox.showwarning("경고", f"'{new_key}' 키가 이미 존재합니다.", parent=dialog)
+                return
+            result["new_key"] = new_key
+            result["url_file"] = selected_file_name.get()
+            dialog.destroy()
+
+        def on_cancel():
+            dialog.destroy()
+
+        # 버튼 프레임
+        btn_frame = tk.Frame(dialog)
+        btn_frame.pack(pady=10)
+        tk.Button(btn_frame, text="복사", command=on_ok, width=10).pack(side=tk.LEFT, padx=5)
+        tk.Button(btn_frame, text="취소", command=on_cancel, width=10).pack(side=tk.LEFT, padx=5)
+
+        self.root.wait_window(dialog)
+
+        if result["new_key"]:
+            new_key = result["new_key"]
             self.data[new_key] = self.data[source_key].copy()
+            
+            # 파일이 선택된 경우 URL 업데이트
+            if result["url_file"]:
+                self.data[new_key]["url"] = f"{self.default_base}{result['url_file']}"
+
             # parent 게임을 복사하면 clone으로 만들고 parent 설정
             if self.data[source_key].get("parent") == "":
                 self.data[new_key]["parent"] = source_key
+            
             self.refresh_series_list()
             self.refresh_parent_list()
             self.update_listbox()
@@ -390,10 +565,65 @@ class GameJsonEditor:
 
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(ordered, f, indent=4, ensure_ascii=False)
-        messagebox.showinfo("성공", "전체 경로를 포함하여 파일이 저장되었습니다.", parent=self.root)
+        
+        self.update_json_version()
+        messagebox.showinfo("성공", "파일이 저장되고 updates.json이 갱신되었습니다.", parent=self.root)
+
+    def update_json_version(self):
+        """update/updates.json 갱신 및 UI 표시"""
+        import datetime
+        updates_path = os.path.join(os.getcwd(), "update", "updates.json")
+        if not os.path.exists(updates_path):
+            # 파일이 없으면 생성
+            updates_data = {"support_game_list.json": ""}
+        else:
+            with open(updates_path, 'r', encoding='utf-8') as f:
+                try:
+                    updates_data = json.load(f)
+                except:
+                    updates_data = {"support_game_list.json": ""}
+
+        today = datetime.datetime.now().strftime("%Y%m%d")
+        current_val = str(updates_data.get("support_game_list.json", ""))
+        
+        new_val = today
+        if current_val.startswith(today):
+            # 오늘 이미 업데이트된 경우 접미사 숫자를 올림
+            if "_" in current_val:
+                prefix, count = current_val.split("_")
+                try:
+                    new_val = f"{today}_{int(count) + 1}"
+                except:
+                    new_val = f"{today}_1"
+            else:
+                new_val = f"{today}_1"
+        
+        updates_data["support_game_list.json"] = new_val
+        
+        # 폴더가 없으면 생성
+        os.makedirs(os.path.dirname(updates_path), exist_ok=True)
+        
+        with open(updates_path, 'w', encoding='utf-8') as f:
+            json.dump(updates_data, f, indent=4)
+        
+        self.update_version_display()
+
+    def update_version_display(self):
+        """UI에 현재 updates.json의 버전 표시"""
+        updates_path = os.path.join(os.getcwd(), "update", "updates.json")
+        if os.path.exists(updates_path):
+            with open(updates_path, 'r', encoding='utf-8') as f:
+                try:
+                    updates_data = json.load(f)
+                    version = updates_data.get("support_game_list.json", "-")
+                    self.version_var.set(f"Version: {version}")
+                except:
+                    self.version_var.set("Version: Error")
+        else:
+            self.version_var.set("Version: N/A")
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.geometry("850x500")
+    root.geometry("620x520")
     app = GameJsonEditor(root)
     root.mainloop()
