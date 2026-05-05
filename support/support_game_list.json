@@ -9,8 +9,8 @@
         "year": 1995,
         "developer": "캡콤",
         "portrait": true,
-        "buttons " : 2,
-        "LRbuttons": true
+        "LRbuttons": true,
+        "buttons": 2
     },
     "mslug": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0123.bin",
@@ -22,8 +22,8 @@
         "year": 1996,
         "developer": "나즈카",
         "portrait": false,
-        "buttons ": 6,
-        "LRbuttons": true
+        "LRbuttons": true,
+        "buttons": 6
     },
     "wofk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/tktkwofk.bin",
@@ -35,8 +35,34 @@
         "year": 1992,
         "developer": "캡콤",
         "portrait": false,
-        "buttons ": 4,
-        "LRbuttons": false
+        "LRbuttons": false,
+        "buttons": 4
+    },
+    "tk2c21k": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7379_tk2c21k_9293.bin",
+        "title": "천지를 먹다 2 (한글판)",
+        "desc": "조운 연속발차기 공격 (조운 선택시 공격이 강화되어 있습니다.)",
+        "genre": "벨트스크롤 액션",
+        "series": "삼국지 2",
+        "parent": "wofk",
+        "year": 1992,
+        "developer": "캡콤",
+        "portrait": false,
+        "LRbuttons": false,
+        "buttons": 4
+    },
+    "tk2h10dk": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4091_tk2h10dk_3032.bin",
+        "title": "천지를 먹다 2 (한글판)",
+        "desc": "미령,미호,미미 선택가능  / 관우,장비,조운,황충 강화",
+        "genre": "벨트스크롤 액션",
+        "series": "삼국지 2",
+        "parent": "wofk",
+        "year": 1992,
+        "developer": "캡콤",
+        "portrait": false,
+        "LRbuttons": false,
+        "buttons": 4
     },
     "dino": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/aadino.bin",
@@ -48,8 +74,8 @@
         "year": 1996,
         "developer": "캡콤",
         "portrait": false,
-        "buttons ": 4,
-        "LRbuttons": false
+        "LRbuttons": false,
+        "buttons": 4
     },
     "dinoslice": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/aadinoslice.bin",
@@ -61,7 +87,111 @@
         "year": 1996,
         "developer": "캡콤",
         "portrait": false,
-        "buttons ": 4,
+        "LRbuttons": false,
+        "buttons": 4
+    },
+    "wofchk": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7172_wofchk_9882.bin",
+        "title": "천지를 먹다 2 (한글판)",
+        "desc": "한글판, extra mode",
+        "genre": "벨트스크롤 액션",
+        "series": "삼국지 2",
+        "parent": "",
+        "year": 1992,
+        "developer": "캡콤",
+        "portrait": false,
+        "LRbuttons": false,
+        "buttons": 4
+    },
+    "gunbirdkp": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9045_gunbirdkp_9948.bin",
+        "title": "건버드",
+        "desc": "한글판",
+        "genre": "슈팅",
+        "series": "건버드",
+        "parent": "",
+        "year": 1994,
+        "developer": "싸이쿄",
+        "portrait": true,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "ichirk": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6832_ichirk_7760.bin",
+        "title": "퍼즐 앤 액션 - 이치탄트-R",
+        "desc": "한글판",
+        "genre": "퍼즐",
+        "series": "퍼즐 앤 액션 - 이치탄트",
+        "parent": "",
+        "year": 1994,
+        "developer": "",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "wbmlkb": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5456_wbmlkb_5073.bin",
+        "title": "원더 보이 인 몬스터 랜드",
+        "desc": "한글판",
+        "genre": "벨트스크롤 액션",
+        "series": "",
+        "parent": "",
+        "year": 1996,
+        "developer": "세가",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "blkdrgonk": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1069_blkdrgonk_4118.bin",
+        "title": "블랙 타이거",
+        "desc": "한글판",
+        "genre": "액션",
+        "series": "",
+        "parent": "",
+        "year": 1987,
+        "developer": "캡",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "searcheya": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3469_searcheya_2551.bin",
+        "title": "숨은그림찾기",
+        "desc": "한글판",
+        "genre": "퍼즐",
+        "series": "숨은그림찾기",
+        "parent": "",
+        "year": 1999,
+        "developer": "윤성",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "searchp2": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7037_searchp2_1381.bin",
+        "title": "숨은그림찾기 플러스 2.0",
+        "desc": "한글판",
+        "genre": "퍼즐",
+        "series": "숨은그림찾기",
+        "parent": "",
+        "year": 1999,
+        "developer": "윤성",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "tengaik": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6058_tengaik_5371.bin",
+        "title": "텐가이 / 전국 블레이드 - 전국 에이스 2",
+        "desc": "한글판",
+        "genre": "슈팅",
+        "series": "",
+        "parent": "",
+        "year": 1996,
+        "developer": "싸이쿄",
+        "portrait": true,
+        "buttons": 2,
         "LRbuttons": false
     }
 }

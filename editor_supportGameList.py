@@ -12,6 +12,7 @@ class GameJsonEditor:
         self.root.title("EK Launcher - Advanced Editor")
         self.data = {}
         self.file_path = ""
+        self.base_dir = self.get_base_dir()
         self.default_base = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
         self.img_base = "https://raw.githubusercontent.com/WOOSEOK99/my-Images/main/"
         
@@ -25,13 +26,40 @@ class GameJsonEditor:
         self.setup_ui()
         self.auto_load_default()
 
+    def get_base_dir(self):
+        import sys
+        if getattr(sys, 'frozen', False):
+            return os.path.dirname(sys.executable)
+        return os.path.dirname(os.path.abspath(__file__))
+
+    def _normalize_data(self, data):
+        """데이터 정규화: 'buttons ' 공백 제거 등"""
+        normalized = {}
+        if not isinstance(data, dict): return data
+        
+        for key, val in data.items():
+            if isinstance(val, dict):
+                # "buttons " 키 처리
+                if "buttons " in val:
+                    b_val = val.pop("buttons ")
+                    if "buttons" not in val or val["buttons"] == 0:
+                        val["buttons"] = b_val
+                
+                # developer 필드 보장
+                if "developer" not in val:
+                    val["developer"] = ""
+                    
+            normalized[key] = val
+        return normalized
+
     def auto_load_default(self):
-        """dist 폴더 기준 support/support_game_list.json 자동 로드"""
-        default_path = os.path.join(os.getcwd(), "support", "support_game_list.json")
+        """실행 파일 기준 support/support_game_list.json 자동 로드"""
+        default_path = os.path.join(self.base_dir, "support", "support_game_list.json")
         if os.path.exists(default_path):
             self.file_path = default_path
             with open(self.file_path, 'r', encoding='utf-8') as f:
-                self.data = json.load(f)
+                raw_data = json.load(f)
+            self.data = self._normalize_data(raw_data)
             self.refresh_series_list()
             self.refresh_parent_list()
             self.update_listbox()
@@ -117,6 +145,10 @@ class GameJsonEditor:
 
         self.bool_vars["LRbuttons"] = tk.BooleanVar()
         tk.Checkbutton(edit_frame, text="LRbuttons", variable=self.bool_vars["LRbuttons"]).grid(row=9, column=1, sticky="w", padx=5, pady=2)
+
+        tk.Label(edit_frame, text="developer").grid(row=10, column=0, sticky="e", padx=2)
+        self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=45)
+        self.entries["developer"].grid(row=10, column=1, sticky="ew", padx=5, pady=2)
 
         # [2] 이미지 미리보기 (크기를 줄이고 하단 배치)
         img_container = tk.Frame(right_frame, bd=1, relief="sunken", bg="white", height=170)
@@ -279,7 +311,8 @@ class GameJsonEditor:
         self.file_path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
         if not self.file_path: return
         with open(self.file_path, 'r', encoding='utf-8') as f:
-            self.data = json.load(f)
+            raw_data = json.load(f)
+        self.data = self._normalize_data(raw_data)
         self.refresh_series_list()
         self.refresh_parent_list()
         self.update_listbox()
@@ -345,7 +378,7 @@ class GameJsonEditor:
                 new_filename = f"{prefix}_{name_only}_{suffix}.bin"
                 
                 # files 폴더가 없으면 생성
-                dest_dir = os.path.join(os.getcwd(), "files")
+                dest_dir = os.path.join(self.base_dir, "files")
                 if not os.path.exists(dest_dir):
                     os.makedirs(dest_dir)
                 
@@ -479,7 +512,7 @@ class GameJsonEditor:
                 suffix = random.randint(1000, 9999)
                 new_filename = f"{prefix}_{name_only}_{suffix}.bin"
                 
-                dest_dir = os.path.join(os.getcwd(), "files")
+                dest_dir = os.path.join(self.base_dir, "files")
                 os.makedirs(dest_dir, exist_ok=True)
                 
                 dest_path = os.path.join(dest_dir, new_filename)
@@ -572,7 +605,7 @@ class GameJsonEditor:
     def update_json_version(self):
         """update/updates.json 갱신 및 UI 표시"""
         import datetime
-        updates_path = os.path.join(os.getcwd(), "update", "updates.json")
+        updates_path = os.path.join(self.base_dir, "update", "updates.json")
         if not os.path.exists(updates_path):
             # 파일이 없으면 생성
             updates_data = {"support_game_list.json": ""}
@@ -610,7 +643,7 @@ class GameJsonEditor:
 
     def update_version_display(self):
         """UI에 현재 updates.json의 버전 표시"""
-        updates_path = os.path.join(os.getcwd(), "update", "updates.json")
+        updates_path = os.path.join(self.base_dir, "update", "updates.json")
         if os.path.exists(updates_path):
             with open(updates_path, 'r', encoding='utf-8') as f:
                 try:
