@@ -118,8 +118,8 @@ class GameJsonEditor:
         self.entries["series"].grid(row=2, column=1, sticky="ew", padx=5, pady=2)
         self.entries["series"].set("")
 
-        tk.Label(edit_frame, text="desc").grid(row=3, column=0, sticky="e", padx=2)
-        self.entries["desc"] = tk.Entry(edit_frame, width=45)
+        tk.Label(edit_frame, text="desc").grid(row=3, column=0, sticky="ne", padx=2, pady=2)
+        self.entries["desc"] = tk.Text(edit_frame, width=45, height=4)
         self.entries["desc"].grid(row=3, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="parent").grid(row=4, column=0, sticky="e", padx=2)
@@ -209,6 +209,8 @@ class GameJsonEditor:
                 for widget in self.entries.values():
                     if isinstance(widget, (tk.Entry, ttk.Combobox, tk.Spinbox)):
                         widget.delete(0, tk.END)
+                    elif isinstance(widget, tk.Text):
+                        widget.delete("1.0", tk.END)
                 self.img_label.config(image="", text="미리보기")
                 messagebox.showinfo("성공", f"'{selected_key}' 항목이 삭제되었습니다.", parent=self.root)
 
@@ -242,6 +244,9 @@ class GameJsonEditor:
             if isinstance(widget, (tk.Entry, ttk.Combobox, tk.Spinbox)):
                 widget.delete(0, tk.END)
                 widget.insert(0, str(item_data.get(field, "")))
+            elif isinstance(widget, tk.Text):
+                widget.delete("1.0", tk.END)
+                widget.insert("1.0", str(item_data.get(field, "")))
         
         for field in self.bool_vars:
             self.bool_vars[field].set(item_data.get(field, False))
@@ -267,7 +272,10 @@ class GameJsonEditor:
             selected_key = raw_text.replace("   └─ ", "").strip()
 
         for field, widget in self.entries.items():
-            val = widget.get().strip()
+            if isinstance(widget, tk.Text):
+                val = widget.get("1.0", tk.END).strip()
+            else:
+                val = widget.get().strip()
             
             # url 필드인데 파일명만 있다면 전체 경로로 보정 후 저장
             if field == "url" and val and not val.startswith("http"):
@@ -657,6 +665,6 @@ class GameJsonEditor:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.geometry("620x520")
+    root.geometry("620x600")
     app = GameJsonEditor(root)
     root.mainloop()
