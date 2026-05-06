@@ -193,5 +193,83 @@
         "portrait": true,
         "buttons": 2,
         "LRbuttons": false
+    },
+    "mslug2t": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3050_mslug2t_3968.bin",
+        "title": "메탈 슬러그 2 터보",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "series": "메탈 슬러그",
+        "parent": "",
+        "year": 2015,
+        "developer": "SNK",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "mslug3": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1735_mslug3_7322.bin",
+        "title": "메탈 슬러그 3",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "series": "메탈 슬러그",
+        "parent": "",
+        "year": 2000,
+        "developer": "SNK",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "mslug4": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6069_mslug4_3128.bin",
+        "title": "메탈 슬러그 4",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "series": "메탈 슬러그",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": true
+    },
+    "mslug5": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1603_mslug5_1134.bin",
+        "title": "메탈 슬러그 5",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "series": "메탈 슬러그",
+        "parent": "",
+        "year": 2003,
+        "developer": "SNK",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "mslugx": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6975_mslugx_6131.bin",
+        "title": "메탈 슬러그 X",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "series": "메탈 슬러그",
+        "parent": "",
+        "year": 1999,
+        "developer": "SNK",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "sengoku3": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2393_sengoku3_7311.bin",
+        "title": "전국 전승 3",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "series": "전죽 전승",
+        "parent": "",
+        "year": 2001,
+        "developer": "SNK / 노이즈 팩토리",
+        "portrait": false,
+        "buttons": 6,
+        "LRbuttons": false
     }
 }
