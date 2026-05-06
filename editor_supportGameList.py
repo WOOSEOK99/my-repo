@@ -246,7 +246,11 @@ class GameJsonEditor:
                 widget.insert(0, str(item_data.get(field, "")))
             elif isinstance(widget, tk.Text):
                 widget.delete("1.0", tk.END)
-                widget.insert("1.0", str(item_data.get(field, "")))
+                text_val = str(item_data.get(field, ""))
+                if field == "desc":
+                    # JSON의 문자열 '\n'을 실제 줄바꿈으로 변환해서 UI에 표시
+                    text_val = text_val.replace("\\n", "\n")
+                widget.insert("1.0", text_val)
         
         for field in self.bool_vars:
             self.bool_vars[field].set(item_data.get(field, False))
@@ -274,6 +278,9 @@ class GameJsonEditor:
         for field, widget in self.entries.items():
             if isinstance(widget, tk.Text):
                 val = widget.get("1.0", tk.END).strip()
+                if field == "desc":
+                    # UI의 실제 줄바꿈을 JSON 저장 시 문자열 '\n'으로 자동 변환 (붙여넣기)
+                    val = val.replace("\n", "\\n")
             else:
                 val = widget.get().strip()
             

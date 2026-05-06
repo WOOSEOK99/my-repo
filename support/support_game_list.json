@@ -41,7 +41,7 @@
     "tk2c21k": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7379_tk2c21k_9293.bin",
         "title": "천지를 먹다 2 (한글판)",
-        "desc": "조운 연속발차기 공격 (조운 선택시 공격이 강화되어 있습니다.)",
+        "desc": "수정내용 : 조운 연속발차기 공격\\n설명 : 조운 선택시 일반공격시 발차기를 연속으로 합니다.",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
         "parent": "wofk",
@@ -54,7 +54,7 @@
     "tk2h10k": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6881_tk2h10k_8546.bin",
         "title": "천지를 먹다 2 (한글판)",
-        "desc": "미령,미호,미미 선택가능",
+        "desc": "수정내용 : 미령,미호,미미 선택 가능\\n기능 : 적을잡고 레버를 돌리면서 공격시 특수공격이 나감. 칼던지기는 찾아보세요.",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
         "parent": "wofk",
@@ -449,6 +449,19 @@
         "series": "",
         "parent": "",
         "year": 2003,
+        "developer": "SNK",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "kof97": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5606_kof97_9753.bin",
+        "title": "킹 오브 파이터즈 97",
+        "desc": "",
+        "genre": "격투",
+        "series": "킹 오브 파이터즈 97",
+        "parent": "",
+        "year": 1997,
         "developer": "SNK",
         "portrait": false,
         "buttons": 4,
