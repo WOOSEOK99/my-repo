@@ -101,54 +101,59 @@ class GameJsonEditor:
         self.bool_vars = {}
         self.current_selected_key = ""
 
-        # URL(파일명) - 가장 상단에 강조
-        tk.Label(edit_frame, text="파일명:").grid(row=0, column=0, sticky="e", padx=2)
+        # Key (ID) - 최상단 배치
+        tk.Label(edit_frame, text="Key (ID):").grid(row=0, column=0, sticky="e", padx=2)
+        self.key_entry = tk.Entry(edit_frame, fg="red", font=("Consolas", 10, "bold"), width=45)
+        self.key_entry.grid(row=0, column=1, sticky="ew", padx=5, pady=2)
+
+        # URL(파일명) - 두번째 배치
+        tk.Label(edit_frame, text="파일명:").grid(row=1, column=0, sticky="e", padx=2)
         url_ent = tk.Entry(edit_frame, fg="blue", font=("Consolas", 10, "bold"), width=45)
-        url_ent.grid(row=0, column=1, sticky="ew", padx=5, pady=2)
+        url_ent.grid(row=1, column=1, sticky="ew", padx=5, pady=2)
         url_ent.bind("<FocusOut>", self.clean_url_input)
         self.entries["url"] = url_ent
 
         # 주요 텍스트 필드 (1열 배치로 정리)
-        tk.Label(edit_frame, text="title").grid(row=1, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="title").grid(row=2, column=0, sticky="e", padx=2)
         self.entries["title"] = tk.Entry(edit_frame, width=45)
-        self.entries["title"].grid(row=1, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["title"].grid(row=2, column=1, sticky="ew", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="series").grid(row=2, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="series").grid(row=3, column=0, sticky="e", padx=2)
         self.entries["series"] = ttk.Combobox(edit_frame, values=self.series_list, width=45)
-        self.entries["series"].grid(row=2, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["series"].grid(row=3, column=1, sticky="ew", padx=5, pady=2)
         self.entries["series"].set("")
 
-        tk.Label(edit_frame, text="desc").grid(row=3, column=0, sticky="ne", padx=2, pady=2)
+        tk.Label(edit_frame, text="desc").grid(row=4, column=0, sticky="ne", padx=2, pady=2)
         self.entries["desc"] = tk.Text(edit_frame, width=45, height=4)
-        self.entries["desc"].grid(row=3, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["desc"].grid(row=4, column=1, sticky="ew", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="parent").grid(row=4, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="parent").grid(row=5, column=0, sticky="e", padx=2)
         self.entries["parent"] = ttk.Combobox(edit_frame, values=self.parent_list, width=45)
-        self.entries["parent"].grid(row=4, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["parent"].grid(row=5, column=1, sticky="ew", padx=5, pady=2)
         self.entries["parent"].set("")
 
         # 선택형 필드
-        tk.Label(edit_frame, text="genre").grid(row=5, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="genre").grid(row=6, column=0, sticky="e", padx=2)
         self.entries["genre"] = ttk.Combobox(edit_frame, values=self.genre_list, width=15)
-        self.entries["genre"].grid(row=5, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["genre"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="year").grid(row=6, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="year").grid(row=7, column=0, sticky="e", padx=2)
         self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=15)
-        self.entries["year"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["year"].grid(row=7, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["portrait"] = tk.BooleanVar()
-        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=7, column=1, sticky="w", padx=5, pady=2)
+        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=8, column=1, sticky="w", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="buttons").grid(row=8, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="buttons").grid(row=9, column=0, sticky="e", padx=2)
         self.entries["buttons"] = tk.Spinbox(edit_frame, from_=0, to=8, width=15)
-        self.entries["buttons"].grid(row=8, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["buttons"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["LRbuttons"] = tk.BooleanVar()
-        tk.Checkbutton(edit_frame, text="LRbuttons", variable=self.bool_vars["LRbuttons"]).grid(row=9, column=1, sticky="w", padx=5, pady=2)
+        tk.Checkbutton(edit_frame, text="LRbuttons", variable=self.bool_vars["LRbuttons"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="developer").grid(row=10, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="developer").grid(row=11, column=0, sticky="e", padx=2)
         self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=45)
-        self.entries["developer"].grid(row=10, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["developer"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
 
         # [2] 이미지 미리보기 (크기를 줄이고 하단 배치)
         img_container = tk.Frame(right_frame, bd=1, relief="sunken", bg="white", height=170)
@@ -206,6 +211,7 @@ class GameJsonEditor:
                 del self.data[selected_key]
                 self.update_listbox()
                 # 입력창 초기화
+                self.key_entry.delete(0, tk.END)
                 for widget in self.entries.values():
                     if isinstance(widget, (tk.Entry, ttk.Combobox, tk.Spinbox)):
                         widget.delete(0, tk.END)
@@ -239,6 +245,9 @@ class GameJsonEditor:
         selected_key = raw_text.replace("   └─ ", "").strip()
         self.current_selected_key = selected_key
         item_data = self.data.get(selected_key)
+        
+        self.key_entry.delete(0, tk.END)
+        self.key_entry.insert(0, selected_key)
 
         for field, widget in self.entries.items():
             if isinstance(widget, (tk.Entry, ttk.Combobox, tk.Spinbox)):
@@ -274,6 +283,33 @@ class GameJsonEditor:
         else:
             raw_text = self.listbox.get(self.listbox.curselection())
             selected_key = raw_text.replace("   └─ ", "").strip()
+
+        # Key 변경 처리
+        new_key = self.key_entry.get().strip()
+        if not new_key:
+            messagebox.showwarning("경고", "Key (ID) 값은 비워둘 수 없습니다.", parent=self.root)
+            return
+            
+        if new_key != selected_key:
+            if new_key in self.data:
+                confirm = messagebox.askyesno("덮어쓰기 확인", f"'{new_key}' 키가 이미 존재합니다. 기존 데이터를 이 내용으로 덮어쓰시겠습니까?", parent=self.root)
+                if not confirm:
+                    # 원래 Key 값으로 입력칸 복구
+                    self.key_entry.delete(0, tk.END)
+                    self.key_entry.insert(0, selected_key)
+                    return
+            # Key 이름 변경
+            self.data[new_key] = self.data.pop(selected_key)
+            # 자식 게임들의 parent 참조 업데이트
+            for k, v in self.data.items():
+                if v.get("parent") == selected_key:
+                    v["parent"] = new_key
+            self.current_selected_key = new_key
+            selected_key = new_key
+            # 목록 갱신
+            self.refresh_parent_list()
+            self.update_listbox()
+            self.select_listbox_key(selected_key)
 
         for field, widget in self.entries.items():
             if isinstance(widget, tk.Text):
@@ -420,8 +456,9 @@ class GameJsonEditor:
                 messagebox.showwarning("경고", "게임 Key를 입력하세요.", parent=dialog)
                 return
             if new_key in self.data:
-                messagebox.showwarning("경고", f"'{new_key}' 키가 이미 존재합니다.", parent=dialog)
-                return
+                confirm = messagebox.askyesno("덮어쓰기 확인", f"'{new_key}' 키가 이미 존재합니다. 덮어쓰시겠습니까?", parent=dialog)
+                if not confirm:
+                    return
             if parent_key and parent_key not in self.data:
                 messagebox.showwarning("경고", f"'{parent_key}' 부모 게임이 존재하지 않습니다.", parent=dialog)
                 return
@@ -555,8 +592,9 @@ class GameJsonEditor:
                 messagebox.showwarning("경고", "새로운 Key를 입력하세요.", parent=dialog)
                 return
             if new_key in self.data:
-                messagebox.showwarning("경고", f"'{new_key}' 키가 이미 존재합니다.", parent=dialog)
-                return
+                confirm = messagebox.askyesno("덮어쓰기 확인", f"'{new_key}' 키가 이미 존재합니다. 덮어쓰시겠습니까?", parent=dialog)
+                if not confirm:
+                    return
             result["new_key"] = new_key
             result["url_file"] = selected_file_name.get()
             dialog.destroy()

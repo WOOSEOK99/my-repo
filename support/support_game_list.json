@@ -1,16 +1,16 @@
 {
     "19xx": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0122.bin",
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4202_19xx_5027.bin",
         "title": "19XX - 운명과의 전쟁",
         "desc": "",
         "genre": "슈팅",
         "series": "",
         "parent": "",
         "year": 1995,
-        "developer": "캡콤",
+        "developer": "",
         "portrait": true,
-        "LRbuttons": true,
-        "buttons": 2
+        "buttons": 2,
+        "LRbuttons": false
     },
     "mslug": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0123.bin",
@@ -465,6 +465,71 @@
         "developer": "SNK",
         "portrait": false,
         "buttons": 4,
+        "LRbuttons": false
+    },
+    "1941": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6062_1941_3586.bin",
+        "title": "1941 - 카운터 어택 (세계판)",
+        "desc": "에너지(Vitality) 방식\n화면에 긴 막대기(에너지 바)가 있고, 적에게 맞으면 이게 줄어듭니다.\n에너지가 0이 되면 그 즉시 게임 끝(Game Over)입니다. 다시 하려면 동전을 새로 넣어야합니다.",
+        "genre": "슈팅",
+        "series": "",
+        "parent": "",
+        "year": 1990,
+        "developer": "캡콤",
+        "portrait": true,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "1942": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7926_1942_3142.bin",
+        "title": 1942,
+        "desc": "",
+        "genre": "슈팅",
+        "series": "",
+        "parent": "",
+        "year": 1984,
+        "developer": "캡콤",
+        "portrait": true,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "1943": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8008_1943_4340.bin",
+        "title": "1943 - 미드웨이 해전",
+        "desc": "",
+        "genre": "슈팅",
+        "series": "",
+        "parent": "",
+        "year": 1987,
+        "developer": "",
+        "portrait": true,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "1944": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3155_1944_6695.bin",
+        "title": "1944 - 루프 마스터",
+        "desc": "",
+        "genre": "슈팅",
+        "series": "",
+        "parent": "",
+        "year": 2000,
+        "developer": "캡콤 / 에이팅 /라이징",
+        "portrait": true,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "1945kiii": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4852_1945kiii_2220.bin",
+        "title": "1945k III",
+        "desc": "",
+        "genre": "슈팅",
+        "series": "",
+        "parent": "",
+        "year": 2000,
+        "developer": "오리엔탈",
+        "portrait": true,
+        "buttons": 2,
         "LRbuttons": false
     }
 }
