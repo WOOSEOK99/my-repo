@@ -57,7 +57,7 @@ class GameJsonEditor:
         default_path = os.path.join(self.base_dir, "support", "support_game_list.json")
         if os.path.exists(default_path):
             self.file_path = default_path
-            with open(self.file_path, 'r', encoding='utf-8') as f:
+            with open(self.file_path, 'r', encoding='utf-8-sig') as f:
                 raw_data = json.load(f)
             self.data = self._normalize_data(raw_data)
             self.refresh_series_list()
@@ -326,7 +326,7 @@ class GameJsonEditor:
                 val = f"{self.default_base}{os.path.basename(val)}"
             
             # 숫자형 변환
-            if field in ["year", "buttons"] or (isinstance(val, str) and val.isdigit()):
+            if field in ["year", "buttons"]:
                 try: val = int(val)
                 except: val = 0
                 
@@ -361,7 +361,7 @@ class GameJsonEditor:
     def load_file(self):
         self.file_path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
         if not self.file_path: return
-        with open(self.file_path, 'r', encoding='utf-8') as f:
+        with open(self.file_path, 'r', encoding='utf-8-sig') as f:
             raw_data = json.load(f)
         self.data = self._normalize_data(raw_data)
         self.refresh_series_list()
