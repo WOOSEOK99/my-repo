@@ -92,8 +92,8 @@
     },
     "wofchk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7172_wofchk_9882.bin",
-        "title": "천지를 먹다 2 (한글판)",
-        "desc": "한글판, extra mode",
+        "title": "천지를 먹다 2 체인저 (한글판)",
+        "desc": "한글판, extra mode\\n인터넷에서 우라모드를 검색하시면 방법을 찾으실수 있습니다.",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2 체인저",
         "parent": "",
@@ -530,6 +530,71 @@
         "developer": "오리엔탈",
         "portrait": true,
         "buttons": 2,
+        "LRbuttons": false
+    },
+    "ffight": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5691_ffight_8470.bin",
+        "title": "파이널 파이트",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "series": "",
+        "parent": "",
+        "year": 1989,
+        "developer": "캡콤",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "ffightb": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8428_ffightb_9903.bin",
+        "title": "파이널 파이트",
+        "desc": "캐릭터 추가 (적 선택 가능)",
+        "genre": "벨트스크롤 액션",
+        "series": "",
+        "parent": "ffight",
+        "year": 1989,
+        "developer": "해킹판",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "kov": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2063_kov_6493.bin",
+        "title": "삼국전기 플러스",
+        "desc": "",
+        "genre": "",
+        "series": "삼국전기",
+        "parent": "",
+        "year": 1999,
+        "developer": "IGS",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "kov115s02": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2010_kov115s02_6754.bin",
+        "title": "삼국전기",
+        "desc": "히든캐릭추가",
+        "genre": "",
+        "series": "삼국전기",
+        "parent": "kov",
+        "year": 1999,
+        "developer": "IGS",
+        "portrait": false,
+        "buttons": 4,
+        "LRbuttons": false
+    },
+    "kovplus": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8619_kovplus_2865.bin",
+        "title": "삼국전기",
+        "desc": "- 새로운 캐릭터 등장: '마법 장비(빨간 장비)'와 '백갑 황충(흰색 황충)'추가\\n- 히든 캐릭터 기본 개방: 제갈량, 초선, 장료\\n (단, 버전 설정에 따라 커맨드가 필요한 경우도 있습니다.)\\n\\n인터페이스(UI) 변화:\\n체력 게이지: 노란색에서 초록색으로 변경되었습니다.\\n기(Energy) 게이지: 빨간색에서 갈색으로 바뀌었습니다.\\n아이템 디자인: 천사부(반지 -> 지폐 모양)나 모래시계 등 일부 아이템의 도트 디자인이 더 직관적으로 수정되었습니다.",
+        "genre": "",
+        "series": "삼국전기",
+        "parent": "kov",
+        "year": 1999,
+        "developer": "IGS",
+        "portrait": false,
+        "buttons": 4,
         "LRbuttons": false
     }
 }
