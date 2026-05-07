@@ -560,7 +560,7 @@
     },
     "kov": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2063_kov_6493.bin",
-        "title": "삼국전기 플러스",
+        "title": "삼국전기",
         "desc": "",
         "genre": "",
         "series": "삼국전기",
@@ -586,7 +586,7 @@
     },
     "kovplus": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8619_kovplus_2865.bin",
-        "title": "삼국전기",
+        "title": "삼국전기 플러스",
         "desc": "- 새로운 캐릭터 등장: '마법 장비(빨간 장비)'와 '백갑 황충(흰색 황충)'추가\\n- 히든 캐릭터 기본 개방: 제갈량, 초선, 장료\\n (단, 버전 설정에 따라 커맨드가 필요한 경우도 있습니다.)\\n\\n인터페이스(UI) 변화:\\n체력 게이지: 노란색에서 초록색으로 변경되었습니다.\\n기(Energy) 게이지: 빨간색에서 갈색으로 바뀌었습니다.\\n아이템 디자인: 천사부(반지 -> 지폐 모양)나 모래시계 등 일부 아이템의 도트 디자인이 더 직관적으로 수정되었습니다.",
         "genre": "",
         "series": "삼국전기",
