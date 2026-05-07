@@ -1,0 +1,9 @@
+# PyInstaller artifacts
+build/
+dist/
+*.spec
+*.exe
+
+# Python compilation files
+__pycache__/
+*.pyc
