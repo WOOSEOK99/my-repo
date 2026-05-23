@@ -573,7 +573,7 @@
     },
     "kov115s02": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2010_kov115s02_6754.bin",
-        "title": "삼국전기",
+        "title": "삼국전기 (히든캐릭추가)",
         "desc": "히든캐릭추가",
         "genre": "벨트스크롤 액션",
         "series": "삼국전기",
@@ -896,19 +896,6 @@
         "buttons": 4,
         "LRbuttons": false
     },
-    "nss_adam": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5344_nss_adam_8408.bin",
-        "title": "아담스 패밀리 (닌텐도 슈퍼 시스템 기판)",
-        "desc": "",
-        "genre": "어드벤쳐",
-        "series": "",
-        "parent": "",
-        "year": 1992,
-        "developer": "Ocean",
-        "portrait": false,
-        "buttons": 4,
-        "LRbuttons": false
-    },
     "fantland": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5831_fantland_5100.bin",
         "title": "판타지 랜드 (세트 1)",
@@ -970,19 +957,6 @@
         "parent": "",
         "year": 1993,
         "developer": "Athena / Able",
-        "portrait": false,
-        "buttons": 4,
-        "LRbuttons": false
-    },
-    "nss_smw": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8160_nss_smw_8513.bin",
-        "title": "슈퍼 마리오 월드 (닌텐도 슈퍼 시스템 기판)",
-        "desc": "",
-        "genre": "어드벤쳐",
-        "series": "",
-        "parent": "",
-        "year": 1991,
-        "developer": "Nintendo",
         "portrait": false,
         "buttons": 4,
         "LRbuttons": false
