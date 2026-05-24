@@ -337,19 +337,6 @@
         "buttons": 6,
         "LRbuttons": false
     },
-    "sengoku3s09": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3877_sengoku3s09_9933.bin",
-        "title": "전국전승 3 : 쉬운조작,같은캐릭터 선택,모든 스테이지 오픈",
-        "desc": "쉬운필살기 버튼 적용\\n궁극인술 : 방향키 아래로 + L1 버튼\\n비상둔갑술 : R1 버튼",
-        "genre": "벨트스크롤 액션",
-        "series": "전국전승",
-        "parent": "sengoku3",
-        "year": 2001,
-        "developer": "kaze",
-        "portrait": false,
-        "buttons": 6,
-        "LRbuttons": true
-    },
     "kof95": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1507_kof95_5955.bin",
         "title": "킹 오브 파이터즈 95",
