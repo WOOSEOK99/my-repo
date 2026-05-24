@@ -17,13 +17,21 @@ class GameJsonEditor:
         self.img_base = "https://raw.githubusercontent.com/WOOSEOK99/my-Images/main/"
         
         # 자동 완성을 위한 사전 정의 데이터
-        self.genre_list = ["슈팅", "액션", "벨트스크롤 액션", "격투", "퍼즐", "스포츠", "레이싱"]
-        self.dev_list = ["캡콤", "나즈카", "SNK", "세가", "타이토", "코나미", "데이터 이스트"]
+        self.default_genres = ["슈팅", "액션", "벨트스크롤 액션", "격투", "퍼즐", "스포츠", "레이싱"]
+        self.default_devs = ["캡콤", "나즈카", "SNK", "세가", "타이토", "코나미", "데이터 이스트"]
+        self.genre_list = list(self.default_genres)
+        self.dev_list = list(self.default_devs)
         self.series_list = []
         self.parent_list = []
         self.version_var = tk.StringVar(value="Version: -")
+        
+        # 검색 관련 상태
+        self.search_results = []
+        self.current_search_index = -1
+        self.search_info_var = tk.StringVar(value="0/0")
 
         self.setup_ui()
+        self.bind_paste_cleaning()
         self.auto_load_default()
 
     def get_base_dir(self):
@@ -60,8 +68,7 @@ class GameJsonEditor:
             with open(self.file_path, 'r', encoding='utf-8-sig') as f:
                 raw_data = json.load(f)
             self.data = self._normalize_data(raw_data)
-            self.refresh_series_list()
-            self.refresh_parent_list()
+            self.refresh_all_lists()
             self.update_listbox()
             self.update_version_display()
 
@@ -76,9 +83,20 @@ class GameJsonEditor:
         main_frame = tk.Frame(self.root)
         main_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
-        # --- 좌측: 리스트박스 (폭 최적화) ---
+        # --- 좌측: 리스트박스 및 검색 (폭 최적화) ---
         list_frame = tk.Frame(main_frame)
         list_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 5))
+        
+        # 검색창 상단 배치
+        search_frame = tk.Frame(list_frame)
+        search_frame.pack(fill=tk.X, pady=(0, 5))
+        
+        self.search_entry = tk.Entry(search_frame, width=15)
+        self.search_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        self.search_entry.bind("<Return>", self.perform_search)
+        
+        tk.Button(search_frame, text="Next", command=self.go_next_search, font=("Malgun Gothic", 8)).pack(side=tk.LEFT, padx=2)
+        tk.Label(search_frame, textvariable=self.search_info_var, font=("Consolas", 8), width=5).pack(side=tk.LEFT)
         
         self.listbox = tk.Listbox(list_frame, width=25, font=("Malgun Gothic", 9))
         self.listbox.pack(side=tk.LEFT, fill=tk.Y)
@@ -149,7 +167,7 @@ class GameJsonEditor:
         self.entries["buttons"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["LRbuttons"] = tk.BooleanVar()
-        tk.Checkbutton(edit_frame, text="LRbuttons", variable=self.bool_vars["LRbuttons"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
+        tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
 
         tk.Label(edit_frame, text="developer").grid(row=11, column=0, sticky="e", padx=2)
         self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=45)
@@ -178,9 +196,34 @@ class GameJsonEditor:
         version_frame.pack(fill=tk.X, pady=(0, 2))
         tk.Label(version_frame, textvariable=self.version_var, font=("Malgun Gothic", 9, "bold"), fg="#1976d2").pack(side=tk.RIGHT)
         
-        # [1] 데이터 입력 구역 (격자 배치 최적화)
-        edit_frame = tk.LabelFrame(right_frame, text="게임 정보", pady=5)
-        edit_frame.pack(fill=tk.X)
+    def bind_paste_cleaning(self):
+        """모든 입력 위젯에 붙여넣기 클리닝 바인딩"""
+        widgets = [self.key_entry] + list(self.entries.values())
+        for w in widgets:
+            if isinstance(w, (tk.Entry, tk.Text, ttk.Combobox, tk.Spinbox)):
+                w.bind("<Control-v>", self.on_paste)
+                w.bind("<Shift-Insert>", self.on_paste)
+
+    def on_paste(self, event):
+        """붙여넣기 시 '출처' 이후 문구 자동 제거"""
+        try:
+            text = self.root.clipboard_get()
+            if "출처" in text:
+                text = text.split("출처")[0].strip()
+            
+            widget = event.widget
+            if isinstance(widget, tk.Text):
+                try: widget.delete("sel.first", "sel.last")
+                except: pass
+                widget.insert(tk.INSERT, text)
+            elif isinstance(widget, (tk.Entry, ttk.Combobox, tk.Spinbox)):
+                try: widget.delete("sel.first", "sel.last")
+                except: pass
+                widget.insert(tk.INSERT, text)
+            
+            return "break" # 기본 붙여넣기 동작 방지
+        except:
+            pass # 클립보드가 비어있거나 오류 시 기본 동작 수행
 
     def clean_url_input(self, event):
         """파일명만 입력하면 전체 경로로 자동 완성 (붙여넣기 대응)"""
@@ -239,6 +282,60 @@ class GameJsonEditor:
             # 이미지가 없거나 로드 실패 시 공간을 최소화
             self.img_label.config(image="", text="이미지 없음")
 
+    def perform_search(self, event=None):
+        """Key(ID) 또는 Title로 검색"""
+        query = self.search_entry.get().strip().lower()
+        if not query:
+            self.search_results = []
+            self.current_search_index = -1
+            self.search_info_var.set("0/0")
+            return
+
+        # 검색 결과 수집 (Key 또는 Title 매칭)
+        self.search_results = []
+        for key, val in self.data.items():
+            title = str(val.get("title", "")).lower()
+            if query in key.lower() or query in title:
+                self.search_results.append(key)
+        
+        if self.search_results:
+            self.current_search_index = 0
+            self.update_search_display()
+        else:
+            self.current_search_index = -1
+            self.search_info_var.set("0/0")
+            messagebox.showinfo("검색", "검색 결과가 없습니다.")
+
+    def go_next_search(self):
+        """다음 검색 결과로 이동"""
+        if not self.search_results:
+            return
+        
+        self.current_search_index = (self.current_search_index + 1) % len(self.search_results)
+        self.update_search_display()
+
+    def update_search_display(self):
+        """현재 검색 결과 선택 및 정보 갱신"""
+        idx = self.current_search_index
+        total = len(self.search_results)
+        self.search_info_var.set(f"{idx + 1}/{total}")
+        
+        key = self.search_results[idx]
+        self.select_listbox_key(key)
+        # on_select를 수동으로 호출하여 데이터 로드
+        self.on_select(None)
+
+    def select_listbox_key(self, key):
+        """Listbox에서 해당 Key(부모/자식 무관)를 찾아 선택"""
+        for idx in range(self.listbox.size()):
+            lb_text = self.listbox.get(idx).replace("   └─ ", "").strip()
+            if lb_text == key:
+                self.listbox.selection_clear(0, tk.END)
+                self.listbox.selection_set(idx)
+                self.listbox.activate(idx)
+                self.listbox.see(idx)
+                return
+
     def on_select(self, event):
         if not self.listbox.curselection(): return
         raw_text = self.listbox.get(self.listbox.curselection())
@@ -265,14 +362,6 @@ class GameJsonEditor:
             self.bool_vars[field].set(item_data.get(field, False))
 
         self.load_image(selected_key)
-
-    def select_listbox_key(self, key):
-        for idx in range(self.listbox.size()):
-            if self.listbox.get(idx).strip() == key:
-                self.listbox.selection_clear(0, tk.END)
-                self.listbox.selection_set(idx)
-                self.listbox.see(idx)
-                return
 
     def apply_changes(self):
         """데이터 업데이트 시 URL 형식 확인"""
@@ -307,7 +396,7 @@ class GameJsonEditor:
             self.current_selected_key = new_key
             selected_key = new_key
             # 목록 갱신
-            self.refresh_parent_list()
+            self.refresh_all_lists()
             self.update_listbox()
             self.select_listbox_key(selected_key)
 
@@ -335,6 +424,8 @@ class GameJsonEditor:
         for field in self.bool_vars:
             self.data[selected_key][field] = self.bool_vars[field].get()
         
+        self.refresh_all_lists()
+        
         self.select_listbox_key(selected_key)
         messagebox.showinfo("완료", "데이터가 전체 경로 형식으로 업데이트되었습니다.", parent=self.root)
 
@@ -358,14 +449,39 @@ class GameJsonEditor:
         if "parent" in self.entries:
             self.entries["parent"]["values"] = self.parent_list
 
+    def refresh_genre_list(self):
+        genres = set(self.default_genres) # 기존 기본값 유지하며 추가
+        for v in self.data.values():
+            g = str(v.get("genre", "")).strip()
+            if g:
+                genres.add(g)
+        self.genre_list = sorted(list(genres))
+        if "genre" in self.entries:
+            self.entries["genre"]["values"] = self.genre_list
+
+    def refresh_developer_list(self):
+        devs = set(self.default_devs) # 기존 기본값 유지하며 추가
+        for v in self.data.values():
+            d = str(v.get("developer", "")).strip()
+            if d:
+                devs.add(d)
+        self.dev_list = sorted(list(devs))
+        if "developer" in self.entries:
+            self.entries["developer"]["values"] = self.dev_list
+
+    def refresh_all_lists(self):
+        self.refresh_series_list()
+        self.refresh_parent_list()
+        self.refresh_genre_list()
+        self.refresh_developer_list()
+
     def load_file(self):
         self.file_path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
         if not self.file_path: return
         with open(self.file_path, 'r', encoding='utf-8-sig') as f:
             raw_data = json.load(f)
         self.data = self._normalize_data(raw_data)
-        self.refresh_series_list()
-        self.refresh_parent_list()
+        self.refresh_all_lists()
         self.update_listbox()
 
     def update_listbox(self):
@@ -502,8 +618,7 @@ class GameJsonEditor:
             "buttons": 0,
             "LRbuttons": False
         }
-        self.refresh_series_list()
-        self.refresh_parent_list()
+        self.refresh_all_lists()
         self.update_listbox()
         self.select_listbox_key(new_key)
         self.on_select(None)
@@ -622,8 +737,7 @@ class GameJsonEditor:
             if self.data[source_key].get("parent") == "":
                 self.data[new_key]["parent"] = source_key
             
-            self.refresh_series_list()
-            self.refresh_parent_list()
+            self.refresh_all_lists()
             self.update_listbox()
             self.select_listbox_key(new_key)
             self.on_select(None)

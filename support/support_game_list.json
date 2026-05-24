@@ -25,6 +25,19 @@
         "LRbuttons": true,
         "buttons": 4
     },
+    "mslugrmpl02": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3716_mslugrmpl02_4420.bin",
+        "title": "메탈 슬러그 : 탈것소환,무기변경,무한점프",
+        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "genre": "횡스크롤 액션",
+        "series": "메탈 슬러그",
+        "parent": "mslug",
+        "year": 0,
+        "developer": "kaze",
+        "portrait": false,
+        "LRbuttons": true,
+        "buttons": 6
+    },
     "wofk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/tktkwofk.bin",
         "title": "천지를 먹다 2 (한글판)",
@@ -40,7 +53,7 @@
     },
     "tk2c21k": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7379_tk2c21k_9293.bin",
-        "title": "천지를 먹다 2 (한글판)",
+        "title": "천지를 먹다 2 (조운 강화 버전)",
         "desc": "수정내용 : 조운 연속발차기 공격\\n설명 : 조운 선택시 일반공격시 발차기를 연속으로 합니다.",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
@@ -53,7 +66,7 @@
     },
     "tk2h10k": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6881_tk2h10k_8546.bin",
-        "title": "천지를 먹다 2 (한글판)",
+        "title": "천지를 먹다 2 (캐릭터 추가)",
         "desc": "수정내용 : 미령,미호,미미 선택 가능\\n기능 : 적을잡고 레버를 돌리면서 공격시 특수공격이 나감. 칼던지기는 찾아보세요.",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
@@ -79,7 +92,7 @@
     },
     "dinoslice": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/aadinoslice.bin",
-        "title": "캐딜락 & 다이노소어 : 확장판",
+        "title": "캐딜락 & 다이노소어 (보스선택)",
         "desc": "보스선택(캐릭터선택창에서 방향키 아래로하고 선택)",
         "genre": "벨트스크롤 액션",
         "series": "캐딜락 & 다이노소어",
@@ -105,8 +118,8 @@
     },
     "gunbirdkp": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9045_gunbirdkp_9948.bin",
-        "title": "건버드",
-        "desc": "한글판",
+        "title": "건버드 (한글판)",
+        "desc": "",
         "genre": "슈팅",
         "series": "건버드",
         "parent": "",
@@ -118,8 +131,8 @@
     },
     "ichirk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6832_ichirk_7760.bin",
-        "title": "퍼즐 앤 액션 - 이치탄트-R",
-        "desc": "한글판",
+        "title": "퍼즐 앤 액션 - 이치탄트-R (한글판)",
+        "desc": "",
         "genre": "퍼즐",
         "series": "퍼즐 앤 액션 - 이치탄트",
         "parent": "",
@@ -131,8 +144,8 @@
     },
     "wbmlkb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5456_wbmlkb_5073.bin",
-        "title": "원더 보이 인 몬스터 랜드",
-        "desc": "한글판",
+        "title": "원더 보이 인 몬스터 랜드 (한글판)",
+        "desc": "",
         "genre": "횡스크롤 액션",
         "series": "",
         "parent": "",
@@ -144,8 +157,8 @@
     },
     "blkdrgonk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1069_blkdrgonk_4118.bin",
-        "title": "블랙 타이거",
-        "desc": "한글판",
+        "title": "블랙 타이거 (한글판)",
+        "desc": "",
         "genre": "횡스크롤 액션",
         "series": "",
         "parent": "",
@@ -157,8 +170,8 @@
     },
     "searcheya": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3469_searcheya_2551.bin",
-        "title": "숨은그림찾기",
-        "desc": "한글판",
+        "title": "숨은그림찾기 (한글판)",
+        "desc": "",
         "genre": "퍼즐",
         "series": "숨은그림찾기",
         "parent": "",
@@ -170,8 +183,8 @@
     },
     "searchp2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7037_searchp2_1381.bin",
-        "title": "숨은그림찾기 플러스 2.0",
-        "desc": "한글판",
+        "title": "숨은그림찾기 플러스 2.0 (한글판)",
+        "desc": "",
         "genre": "퍼즐",
         "series": "숨은그림찾기",
         "parent": "",
@@ -183,8 +196,8 @@
     },
     "tengaik": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6058_tengaik_5371.bin",
-        "title": "텐가이 / 전국 블레이드 - 전국 에이스 2",
-        "desc": "한글판",
+        "title": "텐가이 / 전국 블레이드 - 전국 에이스 2 (한글판)",
+        "desc": "",
         "genre": "슈팅",
         "series": "",
         "parent": "",
@@ -220,6 +233,19 @@
         "buttons": 4,
         "LRbuttons": false
     },
+    "mslug3hek04": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2727_mslug3hek04_4763.bin",
+        "title": "메탈 슬러그 3 : 탈것소환,무기변경,바디타입변경",
+        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "genre": "횡스크롤 액션",
+        "series": "메탈 슬러그 3",
+        "parent": "mslug3",
+        "year": 0,
+        "developer": "kaze",
+        "portrait": false,
+        "buttons": 6,
+        "LRbuttons": true
+    },
     "mslug4": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6069_mslug4_3128.bin",
         "title": "메탈 슬러그 4",
@@ -231,6 +257,19 @@
         "developer": "",
         "portrait": false,
         "buttons": 4,
+        "LRbuttons": true
+    },
+    "mslug4ek01": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3480_mslug4ek01_7587.bin",
+        "title": "메탈 슬러그 4 : 탈것소환,무기변경,바디타입변경",
+        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "genre": "횡스크롤 액션",
+        "series": "메탈 슬러그 4",
+        "parent": "mslug4",
+        "year": 0,
+        "developer": "kaze",
+        "portrait": false,
+        "buttons": 6,
         "LRbuttons": true
     },
     "mslug5": {
@@ -246,6 +285,19 @@
         "buttons": 4,
         "LRbuttons": false
     },
+    "mslug5dh72": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1627_mslug5dh72_9295.bin",
+        "title": "메탈 슬러그 5 : 탈것소환",
+        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "genre": "횡스크롤 액션",
+        "series": "메탈 슬러그 5",
+        "parent": "mslug5",
+        "year": 0,
+        "developer": "kaze",
+        "portrait": false,
+        "buttons": 6,
+        "LRbuttons": true
+    },
     "mslugx": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6975_mslugx_6131.bin",
         "title": "메탈 슬러그 X",
@@ -259,18 +311,44 @@
         "buttons": 4,
         "LRbuttons": false
     },
+    "mslugxsp2": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3206_mslugxsp2_1720.bin",
+        "title": "메탈 슬러그 x : 탈것소환,무기변경",
+        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "genre": "횡스크롤 액션",
+        "series": "메탈 슬러그 X",
+        "parent": "mslugx",
+        "year": 0,
+        "developer": "kaze",
+        "portrait": false,
+        "buttons": 6,
+        "LRbuttons": true
+    },
     "sengoku3": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2393_sengoku3_7311.bin",
-        "title": "전국 전승 3",
+        "title": "전국전승 3",
         "desc": "",
         "genre": "벨트스크롤 액션",
-        "series": "전죽 전승",
+        "series": "전국전승",
         "parent": "",
         "year": 2001,
         "developer": "SNK / 노이즈 팩토리",
         "portrait": false,
         "buttons": 6,
         "LRbuttons": false
+    },
+    "sengoku3s09": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3877_sengoku3s09_9933.bin",
+        "title": "전국전승 3 : 쉬운조작,같은캐릭터 선택,모든 스테이지 오픈",
+        "desc": "쉬운필살기 버튼 적용\\n궁극인술 : 방향키 아래로 + L1 버튼\\n비상둔갑술 : R1 버튼",
+        "genre": "벨트스크롤 액션",
+        "series": "전국전승",
+        "parent": "sengoku3",
+        "year": 2001,
+        "developer": "kaze",
+        "portrait": false,
+        "buttons": 6,
+        "LRbuttons": true
     },
     "kof95": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1507_kof95_5955.bin",
@@ -547,8 +625,8 @@
     },
     "ffightb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8428_ffightb_9903.bin",
-        "title": "파이널 파이트",
-        "desc": "캐릭터 추가 (적 선택 가능)",
+        "title": "파이널 파이트 (캐릭터 추가)",
+        "desc": "",
         "genre": "벨트스크롤 액션",
         "series": "",
         "parent": "ffight",
@@ -664,7 +742,7 @@
     },
     "riotcity": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2820_riotcity_9454.bin",
-        "title": "라이엇 시티 (일본판) Riot City (Japan)",
+        "title": "라이엇 시티 (일본판)",
         "desc": "라이엇 시티(Riot City)는 1인 또는 2인 플레이가 가능한 횡스크롤 벨트스크롤 액션 게임입니다. 플레이어는 '폴(Paul)'과 '바비(Bobby)'라는 두 명의 재능 있는 파이터가 되어, 'MID'라고 알려진 마약 조직을 소탕하는 임무를 맡게 됩니다. 또한, 폴의 여자친구가 이 조직에 납치되었다는 사실이 밝혀져 그녀를 구출해야 합니다.\\n\\nMID의 은신처는 폐허가 된 낡은 건물들로 가득 차 슬럼가가 된 섬, '라이엇 아일랜드'에 위치해 있습니다. 주요 장소로는 아파트, 병원, 공장, 카지노 등이 있습니다.\\n\\n라이엇 시티는 캡콤의 뛰어난 명작인 1989년작 '파이널 파이트'를 사실상 그대로 복제한 게임으로, 게임 플레이와 그래픽 스타일 모두 원작의 영향을 크게 받았습니다. 게임 플레이상의 한 가지 차이점은 '파이널 파이트'와 달리 라이엇 시티에서는 무기를 주워서 사용할 수 없다는 점입니다. 다만, 다양한 컨테이너 속에 들어 있는 보너스 아이템은 수집할 수 있습니다.",
         "genre": "액션",
         "series": "",
@@ -677,7 +755,7 @@
     },
     "mightguy": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5076_mightguy_7039.bin",
-        "title": "마이티 가이 Mighty Guy",
+        "title": "마이티 가이",
         "desc": "마이티 가이(Mighty Guy)는 수많은 군인들을 물리치기 위해 총이 필요 없습니다! 만약 '이카리 워리어즈(Ikari Warriors)'가 기관총을 집에 두고 왔다면 이런 모습이었을 것입니다.",
         "genre": "액션",
         "series": "",
@@ -690,7 +768,7 @@
     },
     "madmotor": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9311_madmotor_7491.bin",
-        "title": "매드 모터 Mad Motor",
+        "title": "매드 모터",
         "desc": "",
         "genre": "액션",
         "series": "",
@@ -703,7 +781,7 @@
     },
     "fightrol": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4126_fightrol_8087.bin",
-        "title": "파이팅 롤러 Fighting Roller",
+        "title": "파이팅 롤러",
         "desc": "",
         "genre": "액션",
         "series": "",
@@ -736,19 +814,6 @@
         "parent": "",
         "year": 1988,
         "developer": "Taito Corporation Japan",
-        "portrait": false,
-        "buttons": 4,
-        "LRbuttons": false
-    },
-    "nss_con3": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9593_nss_con3_6916.bin",
-        "title": "혼두라 3 (魂斗羅 3): 에일리언 워즈 (닌텐도 슈퍼 시스템 기판)",
-        "desc": "서기 2636년.거듭된다”혼두라”와의 싸움에 진 에이리언은, 마침내 그 총력을 걸친 대규모 침략 공격을 개시했다.그 압도적인 물량과 과학력, 그리고 명확하게 이질의 힘을 숨긴 생명력.모든 점에 대해, 에이리언의 힘은 압도적이었다.그리고 반년 후, 에이리언에 점령되어 황폐 한 도시에 두 명의 남자가 나타났다.빌딩과 랑스, 지상 최강의 혼두라팀의 뜨거운 싸움이 지금, 다시 시작된다!인류의 손에 다시 대지를 되찾기 위해서",
-        "genre": "액션",
-        "series": "",
-        "parent": "",
-        "year": 1992,
-        "developer": "Konami",
         "portrait": false,
         "buttons": 4,
         "LRbuttons": false
@@ -800,7 +865,7 @@
         "series": "",
         "parent": "",
         "year": 0,
-        "developer": "Elettronica Video-Games S.R.L.\n출처: https://gamelory.tistory.com/10882 [게임로리:티스토리]",
+        "developer": "Elettronica Video-Games S.R.L.",
         "portrait": false,
         "buttons": 4,
         "LRbuttons": false
@@ -872,7 +937,7 @@
     },
     "rabbit": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6729_rabbit_6318.bin",
-        "title": "래빗 Rabbit (Japan)",
+        "title": "래빗 (Japan)",
         "desc": "",
         "genre": "대전 액션",
         "series": "",
@@ -1041,7 +1106,7 @@
     },
     "hopprobo": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7064_hopprobo_9789.bin",
-        "title": "호퍼 로보 Hopper Robo",
+        "title": "호퍼 로보",
         "desc": "",
         "genre": "아케이드",
         "series": "",
