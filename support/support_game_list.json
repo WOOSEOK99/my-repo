@@ -337,6 +337,19 @@
         "buttons": 6,
         "LRbuttons": false
     },
+    "sengoku3e3": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9468_sengoku3e3_8789.bin",
+        "title": "전국전승 3 (쉬운조작,같은캐릭터 선택,모든 스테이지 오픈)",
+        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "genre": "벨트스크롤 액션",
+        "series": "전국전승",
+        "parent": "sengoku3",
+        "year": 0,
+        "developer": "kaze",
+        "portrait": false,
+        "buttons": 6,
+        "LRbuttons": true
+    },
     "kof95": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1507_kof95_5955.bin",
         "title": "킹 오브 파이터즈 95",
