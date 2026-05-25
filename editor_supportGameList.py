@@ -218,6 +218,26 @@ class GameJsonEditor:
         cheat_xscroll.pack(side=tk.BOTTOM, fill=tk.X)
         self.cheat_text.pack(fill=tk.BOTH, expand=True)
 
+        # Cheat 찾기/바꾸기 프레임
+        cheat_replace_frame = tk.Frame(cheat_frame)
+        cheat_replace_frame.pack(fill=tk.X, pady=(2, 0))
+        
+        tk.Label(cheat_replace_frame, text="찾을문자:", font=("Malgun Gothic", 8)).pack(side=tk.LEFT)
+        self.cheat_find_entry = tk.Entry(cheat_replace_frame, width=8)
+        self.cheat_find_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=2)
+        
+        tk.Label(cheat_replace_frame, text="바꿀문자:", font=("Malgun Gothic", 8)).pack(side=tk.LEFT)
+        self.cheat_replace_entry = tk.Entry(cheat_replace_frame, width=8)
+        self.cheat_replace_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=2)
+        
+        tk.Button(
+            cheat_replace_frame, 
+            text="모두변경", 
+            command=self.cheat_replace_all, 
+            bg="#f0f0f0", 
+            font=("Malgun Gothic", 8)
+        ).pack(side=tk.LEFT, padx=2)
+
         # 저장 버튼
         cheat_btn_frame = tk.Frame(cheat_frame)
         cheat_btn_frame.pack(fill=tk.X, pady=(4, 0))
@@ -276,18 +296,21 @@ class GameJsonEditor:
         
     def bind_paste_cleaning(self):
         """모든 입력 위젯에 붙여넣기 클리닝 바인딩"""
-        widgets = [self.key_entry] + list(self.entries.values())
+        widgets = [self.key_entry, self.cheat_text, self.command_text] + list(self.entries.values())
         for w in widgets:
-            if isinstance(w, (tk.Entry, tk.Text, ttk.Combobox, tk.Spinbox)):
+            if getattr(w, "bind", None):
                 w.bind("<Control-v>", self.on_paste)
                 w.bind("<Shift-Insert>", self.on_paste)
 
     def on_paste(self, event):
-        """붙여넣기 시 '출처' 이후 문구 자동 제거"""
+        """붙여넣기 시 '출처' 이후 문구 자동 제거 및 줄바꿈 보정"""
         try:
             text = self.root.clipboard_get()
             if "출처" in text:
                 text = text.split("출처")[0].strip()
+            
+            # 윈도우/맥/웹 등에서 복사한 줄바꿈 문자를 표준 \n으로 강제 통일
+            text = text.replace("\r\n", "\n").replace("\r", "\n")
             
             widget = event.widget
             if isinstance(widget, tk.Text):
@@ -295,6 +318,8 @@ class GameJsonEditor:
                 except: pass
                 widget.insert(tk.INSERT, text)
             elif isinstance(widget, (tk.Entry, ttk.Combobox, tk.Spinbox)):
+                # 한 줄 입력창인 경우 붙여넣을 때 줄바꿈을 공백으로 교체 (한줄로 쭉 이어지게 방어)
+                text = text.replace("\n", " ").strip()
                 try: widget.delete("sel.first", "sel.last")
                 except: pass
                 widget.insert(tk.INSERT, text)
@@ -941,6 +966,28 @@ class GameJsonEditor:
         else:
             self.cheat_text.insert(tk.END, f"; '{key}' 에 대한 치트 데이터가 없습니다.\n")
 
+    def cheat_replace_all(self):
+        """Cheat Data 내의 특정 문자열을 일괄 변경"""
+        find_str = self.cheat_find_entry.get()
+        replace_str = self.cheat_replace_entry.get()
+        
+        if not find_str:
+            messagebox.showwarning("경고", "찾을 문자를 입력하세요.", parent=self.root)
+            return
+            
+        content = self.cheat_text.get("1.0", tk.END)
+        # tk.Text가 붙이는 마지막 자동 개행 무시
+        if content.endswith("\n"):
+            content = content[:-1]
+            
+        if find_str in content:
+            new_content = content.replace(find_str, replace_str)
+            self.cheat_text.delete("1.0", tk.END)
+            self.cheat_text.insert("1.0", new_content)
+            messagebox.showinfo("완료", f"'{find_str}' 문자열이 모두 변경되었습니다.\n\n(아랫방향 '저장' 버튼을 눌러야 파일에 최종 반영됩니다.)", parent=self.root)
+        else:
+            messagebox.showinfo("결과", f"'{find_str}' 문자열을 찾을 수 없습니다.", parent=self.root)
+
     def save_cheat_dat(self):
         """Text 위젯의 내용으로 cheat.dat의 해당 key 블록을 교체 후 저장."""
         key = self.current_selected_key
@@ -1034,7 +1081,7 @@ class GameJsonEditor:
 
     def _parse_command_dat(self):
         """command.dat 전체를 한 번만 파싱하여 {romkey: str} 딕셔너리로 캐시.
-        구조: $info=romkey  →  $cmd ... $end  (한 key에 여러 $cmd~$end 가능)
+        구조: $info=rom1,rom2  →  $cmd ... $end  (한 key에 여러 $cmd~$end 가능)
         """
         cache = {}
         if not os.path.exists(self.command_dat_path):
@@ -1043,8 +1090,7 @@ class GameJsonEditor:
         with open(self.command_dat_path, 'r', encoding='euc-kr', errors='replace') as f:
             lines = f.readlines()
 
-        current_key = None
-        collecting = False
+        current_keys = []
         buf = []
 
         for line in lines:
@@ -1053,24 +1099,21 @@ class GameJsonEditor:
 
             if lower.startswith('$info='):
                 # 이전 키 버퍼 저장
-                if current_key is not None and buf:
-                    cache[current_key] = ''.join(buf)
+                if current_keys and buf:
+                    content = ''.join(buf)
+                    for k in current_keys:
+                        cache[k] = content
                     buf = []
-                current_key = stripped[6:].strip().lower()
+                current_keys = [k.strip() for k in stripped[6:].split(',')]
                 buf.append(line)
-                collecting = False
-            elif lower == '$cmd':
-                collecting = True
-                buf.append(line)
-            elif lower == '$end':
-                buf.append(line)
-                collecting = False
-            elif current_key is not None:
+            elif current_keys:
                 buf.append(line)
 
         # 마지막 키 처리
-        if current_key is not None and buf:
-            cache[current_key] = ''.join(buf)
+        if current_keys and buf:
+            content = ''.join(buf)
+            for k in current_keys:
+                cache[k] = content
 
         self.command_cache = cache
 
@@ -1104,27 +1147,30 @@ class GameJsonEditor:
             orig_lines = f.readlines()
 
         key_lower = key.lower()
-        info_tag = f"$info={key_lower}"
 
-        # $info=key 줄의 인덱스 찾기
+        # $info=key 콤마 포함하여 검색
         start_idx = None
         for i, line in enumerate(orig_lines):
-            if line.strip().lower() == info_tag:
-                start_idx = i
-                break
+            stripped_line = line.strip().lower()
+            if stripped_line.startswith('$info='):
+                keys_in_line = [k.strip() for k in stripped_line[6:].split(',')]
+                if key_lower in keys_in_line:
+                    start_idx = i
+                    break
 
-        # $info=key 이후 마지막 $end 의 인덱스 찾기
-        end_idx = None
+        # 다음 $info= 를 만나기 직전까지를 한 블록으로 취급
+        end_idx = len(orig_lines) - 1
         if start_idx is not None:
-            for i in range(start_idx, len(orig_lines)):
-                if orig_lines[i].strip().lower() == '$end':
-                    end_idx = i
+            for i in range(start_idx + 1, len(orig_lines)):
+                if orig_lines[i].strip().lower().startswith('$info='):
+                    end_idx = i - 1
+                    break
 
         new_lines_raw = new_content.splitlines(keepends=True)
         if new_lines_raw and new_lines_raw[-1] in ('\n', '\r\n', ''):
             new_lines_raw = new_lines_raw[:-1]
 
-        if start_idx is not None and end_idx is not None:
+        if start_idx is not None:
             result = orig_lines[:start_idx] + new_lines_raw + ['\n'] + orig_lines[end_idx + 1:]
         else:
             # 없으면 파일 끝에 추가
