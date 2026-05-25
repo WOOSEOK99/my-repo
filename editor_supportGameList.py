@@ -30,6 +30,14 @@ class GameJsonEditor:
         self.current_search_index = -1
         self.search_info_var = tk.StringVar(value="0/0")
 
+        # cheat.dat 관련 상태
+        self.cheat_dat_path = os.path.join(self.get_base_dir(), "support", "cheat.dat")
+        self.cheat_cache = None  # {romkey: [line, ...]} 캐시 (최초 1회 파싱)
+
+        # command.dat 관련 상태
+        self.command_dat_path = os.path.join(self.get_base_dir(), "support", "command.dat")
+        self.command_cache = None  # {romkey: str} 캐시 (최초 1회 파싱)
+
         self.setup_ui()
         self.bind_paste_cleaning()
         self.auto_load_default()
@@ -79,15 +87,14 @@ class GameJsonEditor:
         menubar.add_command(label="저장하기", command=self.save_file)
         self.root.config(menu=menubar)
 
-        # 메인 프레임 (가로 배치 대신 세로 중심 배치로 변경하여 폭을 줄임)
+        # 메인 프레임 (3열: 리스트 | 게임정보 | 치트)
         main_frame = tk.Frame(self.root)
         main_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
-        # --- 좌측: 리스트박스 및 검색 (폭 최적화) ---
+        # --- 1열: 리스트박스 및 검색 ---
         list_frame = tk.Frame(main_frame)
         list_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 5))
         
-        # 검색창 상단 배치
         search_frame = tk.Frame(list_frame)
         search_frame.pack(fill=tk.X, pady=(0, 5))
         
@@ -107,94 +114,165 @@ class GameJsonEditor:
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
         self.listbox.config(yscrollcommand=scrollbar.set)
 
-        # --- 우측: 편집 및 이미지 (세로로 쌓기) ---
-        right_frame = tk.Frame(main_frame)
-        right_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
+        # --- 2열: 게임 정보 편집 ---
+        mid_frame = tk.Frame(main_frame)
+        mid_frame.pack(side=tk.LEFT, fill=tk.BOTH, padx=(0, 5))
 
-        # [1] 데이터 입력 구역 (격자 배치 최적화)
-        edit_frame = tk.LabelFrame(right_frame, text="게임 정보", pady=5)
+        edit_frame = tk.LabelFrame(mid_frame, text="게임 정보", pady=5)
         edit_frame.pack(fill=tk.X)
 
         self.entries = {}
         self.bool_vars = {}
         self.current_selected_key = ""
 
-        # Key (ID) - 최상단 배치
+        # Key (ID)
         tk.Label(edit_frame, text="Key (ID):").grid(row=0, column=0, sticky="e", padx=2)
-        self.key_entry = tk.Entry(edit_frame, fg="red", font=("Consolas", 10, "bold"), width=45)
+        self.key_entry = tk.Entry(edit_frame, fg="red", font=("Consolas", 10, "bold"), width=35)
         self.key_entry.grid(row=0, column=1, sticky="ew", padx=5, pady=2)
 
-        # URL(파일명) - 두번째 배치
+        # URL(파일명)
         tk.Label(edit_frame, text="파일명:").grid(row=1, column=0, sticky="e", padx=2)
-        url_ent = tk.Entry(edit_frame, fg="blue", font=("Consolas", 10, "bold"), width=45)
+        url_ent = tk.Entry(edit_frame, fg="blue", font=("Consolas", 10, "bold"), width=35)
         url_ent.grid(row=1, column=1, sticky="ew", padx=5, pady=2)
         url_ent.bind("<FocusOut>", self.clean_url_input)
         self.entries["url"] = url_ent
 
-        # 주요 텍스트 필드 (1열 배치로 정리)
         tk.Label(edit_frame, text="title").grid(row=2, column=0, sticky="e", padx=2)
-        self.entries["title"] = tk.Entry(edit_frame, width=45)
+        self.entries["title"] = tk.Entry(edit_frame, width=35)
         self.entries["title"].grid(row=2, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="series").grid(row=3, column=0, sticky="e", padx=2)
-        self.entries["series"] = ttk.Combobox(edit_frame, values=self.series_list, width=45)
+        self.entries["series"] = ttk.Combobox(edit_frame, values=self.series_list, width=35)
         self.entries["series"].grid(row=3, column=1, sticky="ew", padx=5, pady=2)
         self.entries["series"].set("")
 
         tk.Label(edit_frame, text="desc").grid(row=4, column=0, sticky="ne", padx=2, pady=2)
-        self.entries["desc"] = tk.Text(edit_frame, width=45, height=4)
+        self.entries["desc"] = tk.Text(edit_frame, width=35, height=4)
         self.entries["desc"].grid(row=4, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="parent").grid(row=5, column=0, sticky="e", padx=2)
-        self.entries["parent"] = ttk.Combobox(edit_frame, values=self.parent_list, width=45)
+        self.entries["parent"] = ttk.Combobox(edit_frame, values=self.parent_list, width=35)
         self.entries["parent"].grid(row=5, column=1, sticky="ew", padx=5, pady=2)
         self.entries["parent"].set("")
 
-        # 선택형 필드
         tk.Label(edit_frame, text="genre").grid(row=6, column=0, sticky="e", padx=2)
-        self.entries["genre"] = ttk.Combobox(edit_frame, values=self.genre_list, width=15)
+        self.entries["genre"] = ttk.Combobox(edit_frame, values=self.genre_list, width=35)
         self.entries["genre"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="year").grid(row=7, column=0, sticky="e", padx=2)
-        self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=15)
+        self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=35)
         self.entries["year"].grid(row=7, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["portrait"] = tk.BooleanVar()
         tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=8, column=1, sticky="w", padx=5, pady=2)
 
         tk.Label(edit_frame, text="buttons").grid(row=9, column=0, sticky="e", padx=2)
-        self.entries["buttons"] = tk.Spinbox(edit_frame, from_=0, to=8, width=15)
+        self.entries["buttons"] = tk.Spinbox(edit_frame, from_=0, to=8, width=35)
         self.entries["buttons"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["LRbuttons"] = tk.BooleanVar()
         tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
 
         tk.Label(edit_frame, text="developer").grid(row=11, column=0, sticky="e", padx=2)
-        self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=45)
+        self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=35)
         self.entries["developer"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
 
-        # [2] 이미지 미리보기 (크기를 줄이고 하단 배치)
-        img_container = tk.Frame(right_frame, bd=1, relief="sunken", bg="white", height=170)
+        # 이미지 미리보기
+        img_container = tk.Frame(mid_frame, bd=1, relief="sunken", bg="white", height=170)
         img_container.pack(fill=tk.X, pady=5)
         img_container.pack_propagate(False)
-        
-        # 이미지 크기를 200x200 정도로 제한하여 UI 비대화 방지
         self.img_label = tk.Label(img_container, text="미리보기", bg="white")
         self.img_label.pack(expand=True, fill=tk.BOTH)
 
-        # [3] 하단 버튼 (한 줄로 배치)
-        btn_frame = tk.Frame(right_frame)
+        # 버전 + 하단 버튼
+        version_frame = tk.Frame(mid_frame)
+        version_frame.pack(fill=tk.X, pady=(0, 2))
+        tk.Label(version_frame, textvariable=self.version_var, font=("Malgun Gothic", 9, "bold"), fg="#1976d2").pack(side=tk.RIGHT)
+
+        btn_frame = tk.Frame(mid_frame)
         btn_frame.pack(fill=tk.X)
-        
         tk.Button(btn_frame, text="새로운게임추가", command=self.add_new_game, bg="#c8e6c9").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="복사", command=self.copy_item, bg="#e1f5fe").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="적용", command=self.apply_changes, bg="#e8f5e9").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="삭제", command=self.delete_item, bg="#ffebee").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
 
-        # 버전 표시를 우측 프레임 최상단(LabelFrame 위)에 배치하여 항상 보이게 함
-        version_frame = tk.Frame(right_frame)
-        version_frame.pack(fill=tk.X, pady=(0, 2))
-        tk.Label(version_frame, textvariable=self.version_var, font=("Malgun Gothic", 9, "bold"), fg="#1976d2").pack(side=tk.RIGHT)
+        # --- 3열: Cheat Data ---
+        cheat_frame = tk.LabelFrame(main_frame, text="Cheat Data", pady=5)
+        cheat_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        # 치트 텍스트 + 스크롤바
+        cheat_text_frame = tk.Frame(cheat_frame)
+        cheat_text_frame.pack(fill=tk.BOTH, expand=True)
+
+        self.cheat_text = tk.Text(
+            cheat_text_frame,
+            font=("Consolas", 9),
+            wrap=tk.NONE,
+            undo=True,
+        )
+        cheat_yscroll = tk.Scrollbar(cheat_text_frame, command=self.cheat_text.yview)
+        cheat_xscroll = tk.Scrollbar(cheat_text_frame, orient=tk.HORIZONTAL, command=self.cheat_text.xview)
+        self.cheat_text.configure(yscrollcommand=cheat_yscroll.set, xscrollcommand=cheat_xscroll.set)
+
+        cheat_yscroll.pack(side=tk.RIGHT, fill=tk.Y)
+        cheat_xscroll.pack(side=tk.BOTTOM, fill=tk.X)
+        self.cheat_text.pack(fill=tk.BOTH, expand=True)
+
+        # 저장 버튼
+        cheat_btn_frame = tk.Frame(cheat_frame)
+        cheat_btn_frame.pack(fill=tk.X, pady=(4, 0))
+        tk.Button(
+            cheat_btn_frame,
+            text="검색",
+            command=self.open_cheat_search,
+            bg="#f0f0f0",
+            font=("Malgun Gothic", 9)
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, padx=2)
+        tk.Button(
+            cheat_btn_frame,
+            text="cheat.dat 저장",
+            command=self.save_cheat_dat,
+            bg="#fff9c4",
+            font=("Malgun Gothic", 9, "bold")
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, padx=2)
+
+        # --- 4열: Command Data ---
+        cmd_frame = tk.LabelFrame(main_frame, text="Command Data", pady=5)
+        cmd_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        cmd_text_frame = tk.Frame(cmd_frame)
+        cmd_text_frame.pack(fill=tk.BOTH, expand=True)
+
+        self.command_text = tk.Text(
+            cmd_text_frame,
+            font=("Consolas", 9),
+            wrap=tk.NONE,
+            undo=True,
+        )
+        cmd_yscroll = tk.Scrollbar(cmd_text_frame, command=self.command_text.yview)
+        cmd_xscroll = tk.Scrollbar(cmd_text_frame, orient=tk.HORIZONTAL, command=self.command_text.xview)
+        self.command_text.configure(yscrollcommand=cmd_yscroll.set, xscrollcommand=cmd_xscroll.set)
+
+        cmd_yscroll.pack(side=tk.RIGHT, fill=tk.Y)
+        cmd_xscroll.pack(side=tk.BOTTOM, fill=tk.X)
+        self.command_text.pack(fill=tk.BOTH, expand=True)
+
+        cmd_btn_frame = tk.Frame(cmd_frame)
+        cmd_btn_frame.pack(fill=tk.X, pady=(4, 0))
+        tk.Button(
+            cmd_btn_frame,
+            text="검색",
+            command=self.open_command_search,
+            bg="#f0f0f0",
+            font=("Malgun Gothic", 9)
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, padx=2)
+        tk.Button(
+            cmd_btn_frame,
+            text="command.dat 저장",
+            command=self.save_command_dat,
+            bg="#e8f4ff",
+            font=("Malgun Gothic", 9, "bold")
+        ).pack(side=tk.LEFT, fill=tk.X, expand=True, padx=2)
         
     def bind_paste_cleaning(self):
         """모든 입력 위젯에 붙여넣기 클리닝 바인딩"""
@@ -354,7 +432,6 @@ class GameJsonEditor:
                 widget.delete("1.0", tk.END)
                 text_val = str(item_data.get(field, ""))
                 if field == "desc":
-                    # JSON의 문자열 '\n'을 실제 줄바꿈으로 변환해서 UI에 표시
                     text_val = text_val.replace("\\n", "\n")
                 widget.insert("1.0", text_val)
         
@@ -362,6 +439,8 @@ class GameJsonEditor:
             self.bool_vars[field].set(item_data.get(field, False))
 
         self.load_image(selected_key)
+        self.load_cheat_data(selected_key)
+        self.load_command_data(selected_key)
 
     def apply_changes(self):
         """데이터 업데이트 시 URL 형식 확인"""
@@ -822,8 +901,352 @@ class GameJsonEditor:
         else:
             self.version_var.set("Version: N/A")
 
+    # ------------------------------------------------------------------ #
+    #  Cheat.dat 관련 메서드                                               #
+    # ------------------------------------------------------------------ #
+
+    def _parse_cheat_dat(self):
+        """cheat.dat 전체를 한 번만 파싱하여 {romkey: [lines]} 딕셔너리로 캐시."""
+        cache = {}
+        if not os.path.exists(self.cheat_dat_path):
+            self.cheat_cache = cache
+            return
+        with open(self.cheat_dat_path, 'r', encoding='euc-kr', errors='replace') as f:
+            lines = f.readlines()
+        current_key = None
+        for line in lines:
+            stripped = line.rstrip('\n').rstrip('\r')
+            # 치트 엔트리: 첫 문자가 ':' 이고 두 번째 ':' 까지 사이가 romkey
+            if stripped.startswith(':'):
+                parts = stripped.split(':')
+                if len(parts) >= 3:
+                    rk = parts[1].lower()
+                    if rk not in cache:
+                        cache[rk] = []
+                    cache[rk].append(line)
+                    current_key = rk
+            elif stripped.startswith('; [') and current_key is not None:
+                # 게임 구분 주석은 해당 키 블록에 포함
+                pass
+        self.cheat_cache = cache
+
+    def load_cheat_data(self, key):
+        """현재 선택된 key의 치트 라인을 Text 위젯에 표시."""
+        if self.cheat_cache is None:
+            self._parse_cheat_dat()
+        self.cheat_text.delete("1.0", tk.END)
+        lines = self.cheat_cache.get(key.lower(), [])
+        if lines:
+            self.cheat_text.insert(tk.END, "".join(lines))
+        else:
+            self.cheat_text.insert(tk.END, f"; '{key}' 에 대한 치트 데이터가 없습니다.\n")
+
+    def save_cheat_dat(self):
+        """Text 위젯의 내용으로 cheat.dat의 해당 key 블록을 교체 후 저장."""
+        key = self.current_selected_key
+        if not key:
+            messagebox.showwarning("경고", "선택된 게임이 없습니다.", parent=self.root)
+            return
+        if not os.path.exists(self.cheat_dat_path):
+            messagebox.showerror("오류", f"cheat.dat 파일을 찾을 수 없습니다:\n{self.cheat_dat_path}", parent=self.root)
+            return
+
+        new_content = self.cheat_text.get("1.0", tk.END)
+        # 빈 문자열이거나 '치트 데이터 없음' 메시지만 있으면 저장하지 않음
+        if new_content.strip().startswith("; '") and "치트 데이터가 없습니다" in new_content:
+            messagebox.showinfo("안내", "치트 내용이 없습니다. 저장을 건너뜁니다.", parent=self.root)
+            return
+
+        # 원본 파일 읽기
+        with open(self.cheat_dat_path, 'r', encoding='euc-kr', errors='replace') as f:
+            orig_lines = f.readlines()
+
+        key_lower = key.lower()
+        prefix = f":{key_lower}:"
+
+        # key 블록의 첫 줄과 마지막 줄 인덱스 탐색
+        start_idx = None
+        end_idx = None
+        for i, line in enumerate(orig_lines):
+            if line.lower().startswith(prefix):
+                if start_idx is None:
+                    start_idx = i
+                end_idx = i
+
+        new_lines_raw = new_content.splitlines(keepends=True)
+        # 마지막에 빈 줄이 추가되지 않도록 정리
+        if new_lines_raw and new_lines_raw[-1] in ('\n', '\r\n', ''):
+            new_lines_raw = new_lines_raw[:-1]
+
+        if start_idx is not None and end_idx is not None:
+            # 기존 블록 교체
+            result = orig_lines[:start_idx] + new_lines_raw + ['\n'] + orig_lines[end_idx + 1:]
+        else:
+            # 블록이 없으면 파일 끝에 추가
+            result = orig_lines + ['\n'] + new_lines_raw + ['\n']
+
+        with open(self.cheat_dat_path, 'w', encoding='euc-kr', errors='replace') as f:
+            f.writelines(result)
+
+        # 캐시 갱신
+        self.cheat_cache = None
+        self._parse_cheat_dat()
+
+        self.update_cheat_dat_version()
+        messagebox.showinfo("성공", "cheat.dat 저장 완료 및 updates.json 갱신되었습니다.", parent=self.root)
+
+    def update_cheat_dat_version(self):
+        """updates.json 의 'cheat.dat' 키 날짜 값을 갱신."""
+        import datetime
+        updates_path = os.path.join(self.base_dir, "update", "updates.json")
+        if os.path.exists(updates_path):
+            with open(updates_path, 'r', encoding='utf-8') as f:
+                try:
+                    updates_data = json.load(f)
+                except:
+                    updates_data = {}
+        else:
+            updates_data = {}
+
+        today = datetime.datetime.now().strftime("%Y%m%d")
+        current_val = str(updates_data.get("cheat.dat", ""))
+
+        if current_val.startswith(today):
+            if "_" in current_val:
+                prefix_d, count = current_val.split("_", 1)
+                try:
+                    new_val = f"{today}_{int(count) + 1}"
+                except:
+                    new_val = f"{today}_1"
+            else:
+                new_val = f"{today}_1"
+        else:
+            new_val = today
+
+        updates_data["cheat.dat"] = new_val
+        os.makedirs(os.path.dirname(updates_path), exist_ok=True)
+        with open(updates_path, 'w', encoding='utf-8') as f:
+            json.dump(updates_data, f, indent=4, ensure_ascii=False)
+
+    # ------------------------------------------------------------------ #
+    #  Command.dat 관련 메서드                                              #
+    # ------------------------------------------------------------------ #
+
+    def _parse_command_dat(self):
+        """command.dat 전체를 한 번만 파싱하여 {romkey: str} 딕셔너리로 캐시.
+        구조: $info=romkey  →  $cmd ... $end  (한 key에 여러 $cmd~$end 가능)
+        """
+        cache = {}
+        if not os.path.exists(self.command_dat_path):
+            self.command_cache = cache
+            return
+        with open(self.command_dat_path, 'r', encoding='euc-kr', errors='replace') as f:
+            lines = f.readlines()
+
+        current_key = None
+        collecting = False
+        buf = []
+
+        for line in lines:
+            stripped = line.rstrip('\r\n')
+            lower = stripped.lower()
+
+            if lower.startswith('$info='):
+                # 이전 키 버퍼 저장
+                if current_key is not None and buf:
+                    cache[current_key] = ''.join(buf)
+                    buf = []
+                current_key = stripped[6:].strip().lower()
+                buf.append(line)
+                collecting = False
+            elif lower == '$cmd':
+                collecting = True
+                buf.append(line)
+            elif lower == '$end':
+                buf.append(line)
+                collecting = False
+            elif current_key is not None:
+                buf.append(line)
+
+        # 마지막 키 처리
+        if current_key is not None and buf:
+            cache[current_key] = ''.join(buf)
+
+        self.command_cache = cache
+
+    def load_command_data(self, key):
+        """현재 선택된 key의 $cmd 블록을 Text 위젯에 표시."""
+        if self.command_cache is None:
+            self._parse_command_dat()
+        self.command_text.delete("1.0", tk.END)
+        content = self.command_cache.get(key.lower(), "")
+        if content:
+            self.command_text.insert(tk.END, content)
+        else:
+            self.command_text.insert(tk.END, f"; '{key}' 에 대한 커맨드 데이터가 없습니다.\n")
+
+    def save_command_dat(self):
+        """Text 위젯의 내용으로 command.dat의 해당 key 블록을 교체 후 저장."""
+        key = self.current_selected_key
+        if not key:
+            messagebox.showwarning("경고", "선택된 게임이 없습니다.", parent=self.root)
+            return
+        if not os.path.exists(self.command_dat_path):
+            messagebox.showerror("오류", f"command.dat 파일을 찾을 수 없습니다:\n{self.command_dat_path}", parent=self.root)
+            return
+
+        new_content = self.command_text.get("1.0", tk.END)
+        if new_content.strip().startswith("; '") and "커맨드 데이터가 없습니다" in new_content:
+            messagebox.showinfo("안내", "커맨드 내용이 없습니다. 저장을 건너뜁니다.", parent=self.root)
+            return
+
+        with open(self.command_dat_path, 'r', encoding='euc-kr', errors='replace') as f:
+            orig_lines = f.readlines()
+
+        key_lower = key.lower()
+        info_tag = f"$info={key_lower}"
+
+        # $info=key 줄의 인덱스 찾기
+        start_idx = None
+        for i, line in enumerate(orig_lines):
+            if line.strip().lower() == info_tag:
+                start_idx = i
+                break
+
+        # $info=key 이후 마지막 $end 의 인덱스 찾기
+        end_idx = None
+        if start_idx is not None:
+            for i in range(start_idx, len(orig_lines)):
+                if orig_lines[i].strip().lower() == '$end':
+                    end_idx = i
+
+        new_lines_raw = new_content.splitlines(keepends=True)
+        if new_lines_raw and new_lines_raw[-1] in ('\n', '\r\n', ''):
+            new_lines_raw = new_lines_raw[:-1]
+
+        if start_idx is not None and end_idx is not None:
+            result = orig_lines[:start_idx] + new_lines_raw + ['\n'] + orig_lines[end_idx + 1:]
+        else:
+            # 없으면 파일 끝에 추가
+            result = orig_lines + ['\n'] + new_lines_raw + ['\n']
+
+        with open(self.command_dat_path, 'w', encoding='euc-kr', errors='replace') as f:
+            f.writelines(result)
+
+        # 캐시 갱신
+        self.command_cache = None
+        self._parse_command_dat()
+
+        self.update_command_dat_version()
+        messagebox.showinfo("성공", "command.dat 저장 완료 및 updates.json 갱신되었습니다.", parent=self.root)
+
+    def update_command_dat_version(self):
+        """updates.json 의 'command.dat' 키 날짜 값을 갱신."""
+        import datetime
+        updates_path = os.path.join(self.base_dir, "update", "updates.json")
+        if os.path.exists(updates_path):
+            with open(updates_path, 'r', encoding='utf-8') as f:
+                try:
+                    updates_data = json.load(f)
+                except:
+                    updates_data = {}
+        else:
+            updates_data = {}
+
+        today = datetime.datetime.now().strftime("%Y%m%d")
+        current_val = str(updates_data.get("command.dat", ""))
+
+        if current_val.startswith(today):
+            if "_" in current_val:
+                prefix_d, count = current_val.split("_", 1)
+                try:
+                    new_val = f"{today}_{int(count) + 1}"
+                except:
+                    new_val = f"{today}_1"
+            else:
+                new_val = f"{today}_1"
+        else:
+            new_val = today
+
+        updates_data["command.dat"] = new_val
+        os.makedirs(os.path.dirname(updates_path), exist_ok=True)
+        with open(updates_path, 'w', encoding='utf-8') as f:
+            json.dump(updates_data, f, indent=4, ensure_ascii=False)
+
+    # ------------------------------------------------------------------ #
+    #  검색 다이얼로그 (Cheat / Command 공용)                             #
+    # ------------------------------------------------------------------ #
+
+    def open_cheat_search(self):
+        self._open_dat_search("cheat.dat 검색", "cheat_cache", self._parse_cheat_dat)
+
+    def open_command_search(self):
+        self._open_dat_search("command.dat 검색", "command_cache", self._parse_command_dat)
+
+    def _open_dat_search(self, title, cache_attr, parse_method):
+        cache = getattr(self, cache_attr)
+        if cache is None:
+            parse_method()
+            cache = getattr(self, cache_attr)
+
+        dialog = tk.Toplevel(self.root)
+        dialog.title(title)
+        dialog.geometry("600x400")
+        
+        self.root.update_idletasks()
+        width = 600
+        height = 400
+        x = self.root.winfo_x() + (self.root.winfo_width() // 2) - (width // 2)
+        y = self.root.winfo_y() + (self.root.winfo_height() // 2) - (height // 2)
+        dialog.geometry(f"{width}x{height}+{x}+{y}")
+        
+        dialog.transient(self.root)
+        
+        top_frame = tk.Frame(dialog)
+        top_frame.pack(fill=tk.X, padx=5, pady=5)
+        
+        tk.Label(top_frame, text="Key 검색:").pack(side=tk.LEFT)
+        search_entry = tk.Entry(top_frame, width=20)
+        search_entry.pack(side=tk.LEFT, padx=5)
+        search_entry.focus()
+        
+        text_frame = tk.Frame(dialog)
+        text_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+        
+        result_text = tk.Text(text_frame, font=("Consolas", 9), wrap=tk.NONE)
+        yscroll = tk.Scrollbar(text_frame, command=result_text.yview)
+        xscroll = tk.Scrollbar(text_frame, orient=tk.HORIZONTAL, command=result_text.xview)
+        result_text.configure(yscrollcommand=yscroll.set, xscrollcommand=xscroll.set)
+        
+        yscroll.pack(side=tk.RIGHT, fill=tk.Y)
+        xscroll.pack(side=tk.BOTTOM, fill=tk.X)
+        result_text.pack(fill=tk.BOTH, expand=True)
+        
+        def do_search(*args):
+            query = search_entry.get().strip().lower()
+            result_text.delete("1.0", tk.END)
+            if not query:
+                return
+            
+            content = ""
+            if "cheat" in cache_attr:
+                lines = cache.get(query, [])
+                if lines:
+                    content = "".join(lines)
+            else:
+                content = cache.get(query, "")
+                
+            if content:
+                result_text.insert(tk.END, content)
+            else:
+                result_text.insert(tk.END, f"'{query}' 에 해당하는 데이터가 없습니다.\n")
+                
+        search_entry.bind("<Return>", do_search)
+        tk.Button(top_frame, text="검색", command=do_search).pack(side=tk.LEFT, padx=5)
+
+
 if __name__ == "__main__":
     root = tk.Tk()
-    root.geometry("620x600")
+    root.geometry("1450x650")
     app = GameJsonEditor(root)
     root.mainloop()
