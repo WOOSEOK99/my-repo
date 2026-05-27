@@ -14,7 +14,7 @@
     },
     "mslug": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/kk0123.bin",
-        "title": "메탈 슬러그 - 슈퍼 비히클-001",
+        "title": "메탈 슬러그",
         "desc": "",
         "genre": "횡스크롤 액션",
         "series": "메탈 슬러그",
@@ -27,8 +27,8 @@
     },
     "mslugrmpl02": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3716_mslugrmpl02_4420.bin",
-        "title": "메탈 슬러그 : 탈것소환,무기변경,무한점프",
-        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "title": "메탈 슬러그 (수정판)",
+        "desc": "<수정 내용>\\n탈것소환,무기변경,무한점프\\n\\n사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
         "genre": "횡스크롤 액션",
         "series": "메탈 슬러그",
         "parent": "mslug",
@@ -40,7 +40,7 @@
     },
     "wofk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/tktkwofk.bin",
-        "title": "천지를 먹다 2 (한글판)",
+        "title": "천지를 먹다 2",
         "desc": "한글판",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2",
@@ -105,7 +105,7 @@
     },
     "wofchk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7172_wofchk_9882.bin",
-        "title": "천지를 먹다 2 체인저 (한글판)",
+        "title": "천지를 먹다 2 체인저",
         "desc": "한글판, extra mode\\n인터넷에서 우라모드를 검색하시면 방법을 찾으실수 있습니다.",
         "genre": "벨트스크롤 액션",
         "series": "삼국지 2 체인저",
@@ -118,7 +118,7 @@
     },
     "gunbirdkp": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9045_gunbirdkp_9948.bin",
-        "title": "건버드 (한글판)",
+        "title": "건버드",
         "desc": "",
         "genre": "슈팅",
         "series": "건버드",
@@ -131,7 +131,7 @@
     },
     "ichirk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6832_ichirk_7760.bin",
-        "title": "퍼즐 앤 액션 - 이치탄트-R (한글판)",
+        "title": "퍼즐 앤 액션",
         "desc": "",
         "genre": "퍼즐",
         "series": "퍼즐 앤 액션 - 이치탄트",
@@ -144,7 +144,7 @@
     },
     "wbmlkb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5456_wbmlkb_5073.bin",
-        "title": "원더 보이 인 몬스터 랜드 (한글판)",
+        "title": "원더 보이 인 몬스터 랜드",
         "desc": "",
         "genre": "횡스크롤 액션",
         "series": "",
@@ -157,7 +157,7 @@
     },
     "blkdrgonk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1069_blkdrgonk_4118.bin",
-        "title": "블랙 타이거 (한글판)",
+        "title": "블랙 타이거",
         "desc": "",
         "genre": "횡스크롤 액션",
         "series": "",
@@ -170,7 +170,7 @@
     },
     "searcheya": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3469_searcheya_2551.bin",
-        "title": "숨은그림찾기 (한글판)",
+        "title": "숨은그림찾기",
         "desc": "",
         "genre": "퍼즐",
         "series": "숨은그림찾기",
@@ -183,7 +183,7 @@
     },
     "searchp2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7037_searchp2_1381.bin",
-        "title": "숨은그림찾기 플러스 2.0 (한글판)",
+        "title": "숨은그림찾기 플러스",
         "desc": "",
         "genre": "퍼즐",
         "series": "숨은그림찾기",
@@ -196,7 +196,7 @@
     },
     "tengaik": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6058_tengaik_5371.bin",
-        "title": "텐가이 / 전국 블레이드 - 전국 에이스 2 (한글판)",
+        "title": "텐가이 / 전국 블레이드",
         "desc": "",
         "genre": "슈팅",
         "series": "",
@@ -235,8 +235,8 @@
     },
     "mslug3hek04": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2727_mslug3hek04_4763.bin",
-        "title": "메탈 슬러그 3 : 탈것소환,무기변경,바디타입변경",
-        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "title": "메탈 슬러그 3 (수정판)",
+        "desc": "<수정 내용>\\n탈것소환,무기변경,바디타입변경\\n\\n사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
         "genre": "횡스크롤 액션",
         "series": "메탈 슬러그 3",
         "parent": "mslug3",
@@ -261,8 +261,8 @@
     },
     "mslug4ek01": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3480_mslug4ek01_7587.bin",
-        "title": "메탈 슬러그 4 : 탈것소환,무기변경,바디타입변경",
-        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "title": "메탈 슬러그 4 (수정판)",
+        "desc": "<수정 내용>\\n탈것소환,무기변경,바디타입변경\\n\\n사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
         "genre": "횡스크롤 액션",
         "series": "메탈 슬러그 4",
         "parent": "mslug4",
@@ -287,8 +287,8 @@
     },
     "mslug5dh72": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1627_mslug5dh72_9295.bin",
-        "title": "메탈 슬러그 5 : 탈것소환",
-        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "title": "메탈 슬러그 5 (수정판)",
+        "desc": "<수정 내용>\\n동전 버튼 : 탈것소환",
         "genre": "횡스크롤 액션",
         "series": "메탈 슬러그 5",
         "parent": "mslug5",
@@ -313,8 +313,8 @@
     },
     "mslugxsp2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3206_mslugxsp2_1720.bin",
-        "title": "메탈 슬러그 x : 탈것소환,무기변경",
-        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "title": "메탈 슬러그 x (수정판)",
+        "desc": "<수정 내용>\\n탈것소환,무기변경\\n\\n사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
         "genre": "횡스크롤 액션",
         "series": "메탈 슬러그 X",
         "parent": "mslugx",
@@ -339,8 +339,8 @@
     },
     "sengoku3e3": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9468_sengoku3e3_8789.bin",
-        "title": "전국전승 3 (쉬운조작,같은캐릭터 선택,모든 스테이지 오픈)",
-        "desc": "사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
+        "title": "전국전승 3 (수정판)",
+        "desc": "<수정내용>\\n쉬운조작,같은캐릭터 선택,모든 스테이지 오픈)\\n\\n사용 방법은 게임시작후 [공] 버튼을 클릭하면 나옵니다.",
         "genre": "벨트스크롤 액션",
         "series": "전국전승",
         "parent": "sengoku3",
@@ -378,7 +378,7 @@
     },
     "kof98": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8580_kof98_9906.bin",
-        "title": "킹 오브 파이터즈 98 - 슬러그피스트",
+        "title": "킹 오브 파이터즈 98",
         "desc": "",
         "genre": "대전 액션",
         "series": "킹 오브 파이터즈 98",
@@ -391,7 +391,7 @@
     },
     "kof99": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5506_kof99_4199.bin",
-        "title": "킹 오브 파이터즈 99 - 밀레니엄 배틀",
+        "title": "킹 오브 파이터즈 99",
         "desc": "",
         "genre": "대전 액션",
         "series": "킹 오브 파이터즈 99",
@@ -456,7 +456,7 @@
     },
     "kof2k4se": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5735_kof2k4se_3144.bin",
-        "title": "킹 오브 파이터즈 특별판 2004",
+        "title": "킹 오브 파이터즈 2004 특별판",
         "desc": "해적판",
         "genre": "대전 액션",
         "series": "",
@@ -469,7 +469,7 @@
     },
     "samsho": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4980_samsho_7726.bin",
-        "title": "사무라이 쇼다운 / 사무라이 스피리츠",
+        "title": "사무라이 쇼다운",
         "desc": "",
         "genre": "대전 액션",
         "series": "",
@@ -547,8 +547,8 @@
     },
     "1941": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6062_1941_3586.bin",
-        "title": "1941 - 카운터 어택 (세계판)",
-        "desc": "에너지(Vitality) 방식\n화면에 긴 막대기(에너지 바)가 있고, 적에게 맞으면 이게 줄어듭니다.\n에너지가 0이 되면 그 즉시 게임 끝(Game Over)입니다. 다시 하려면 동전을 새로 넣어야합니다.",
+        "title": "1941 - 카운터 어택",
+        "desc": "에너지(Vitality) 방식\\n화면에 긴 막대기(에너지 바)가 있고, 적에게 맞으면 이게 줄어듭니다.\\n에너지가 0이 되면 그 즉시 게임 끝(Game Over)입니다. 다시 하려면 동전을 새로 넣어야합니다.",
         "genre": "슈팅",
         "series": "",
         "parent": "",
@@ -755,7 +755,7 @@
     },
     "riotcity": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2820_riotcity_9454.bin",
-        "title": "라이엇 시티 (일본판)",
+        "title": "라이엇 시티",
         "desc": "라이엇 시티(Riot City)는 1인 또는 2인 플레이가 가능한 횡스크롤 벨트스크롤 액션 게임입니다. 플레이어는 '폴(Paul)'과 '바비(Bobby)'라는 두 명의 재능 있는 파이터가 되어, 'MID'라고 알려진 마약 조직을 소탕하는 임무를 맡게 됩니다. 또한, 폴의 여자친구가 이 조직에 납치되었다는 사실이 밝혀져 그녀를 구출해야 합니다.\\n\\nMID의 은신처는 폐허가 된 낡은 건물들로 가득 차 슬럼가가 된 섬, '라이엇 아일랜드'에 위치해 있습니다. 주요 장소로는 아파트, 병원, 공장, 카지노 등이 있습니다.\\n\\n라이엇 시티는 캡콤의 뛰어난 명작인 1989년작 '파이널 파이트'를 사실상 그대로 복제한 게임으로, 게임 플레이와 그래픽 스타일 모두 원작의 영향을 크게 받았습니다. 게임 플레이상의 한 가지 차이점은 '파이널 파이트'와 달리 라이엇 시티에서는 무기를 주워서 사용할 수 없다는 점입니다. 다만, 다양한 컨테이너 속에 들어 있는 보너스 아이템은 수집할 수 있습니다.",
         "genre": "액션",
         "series": "",
@@ -807,7 +807,7 @@
     },
     "tshingen": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6532_tshingen_5161.bin",
-        "title": "신겐 사무라이 파이터 (일본판, 영어)",
+        "title": "신겐 사무라이 파이터",
         "desc": "명예로운 사무라이가 일본에서 사악한 사무라이들과 그들의 군단들을 몰아내기 위해 싸웁니다.",
         "genre": "액션",
         "series": "",
@@ -833,7 +833,7 @@
     },
     "gaiapols": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6459_gaiapols_2130.bin",
-        "title": "가이아 폴리스 (버전 EAF)",
+        "title": "가이아 폴리스",
         "desc": "괴물들로 가득 차고 사악한 왕의 손아귀에 놓인 머나먼 땅이 멸망의 위기에 처해 있습니다. 오직 소수의 용감한 영웅들(드래곤 워리어, 요정, 왕자)만이 사악한 왕을 타도하고 이 고통받는 땅에 평화를 되찾기 위해, '가이아폴리스(Gaiapolis)'라 불리는 하늘에 떠 있는 성채에 숨겨진 전설의 '황금 매의 검'을 찾으러 나섭니다. 이 게임은 매우 아름다운 2D 그래픽과 멋진 캐릭터 및 적 캐릭터 디자인, 훌륭한 사운드트랙을 자랑하며, 약간의 RPG 요소(캐릭터와 무기 레벨업, 다양한 마법 주문과 소환)가 가미된 중독성 있는 핵 앤 슬래시 액션을 선보입니다. 타이토의 '카다쉬(Cadash)'를 즐겁게 플레이하셨다면, 이 게임도 마음에 드실 겁니다!",
         "genre": "액션",
         "series": "",
@@ -937,7 +937,7 @@
     },
     "solfigtr": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9623_solfigtr_3165.bin",
-        "title": "솔리터리 파이터 (국제판)",
+        "title": "솔리터리 파이터",
         "desc": "여섯 명의 거리 불량배들이 지하 대전 액션 대회에서 상금을 차지하기 위해 격돌합니다. 일부 스테이지에는 상대에게 던질 수 있는 무기가 배치되어 있습니다.",
         "genre": "대전 액션",
         "series": "",
@@ -963,7 +963,7 @@
     },
     "fantland": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5831_fantland_5100.bin",
-        "title": "판타지 랜드 (세트 1)",
+        "title": "판타지 랜드",
         "desc": "",
         "genre": "어드벤쳐",
         "series": "",
@@ -1054,7 +1054,7 @@
     },
     "tkmmpzdm": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3522_tkmmpzdm_8667.bin",
-        "title": "두근두근 메모리얼 대전 퍼즐구슬 (버전 JAB)",
+        "title": "두근두근 메모리얼 대전 퍼즐구슬",
         "desc": "",
         "genre": "퍼즐",
         "series": "",
@@ -1067,7 +1067,7 @@
     },
     "teddybb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4085_teddybb_7975.bin",
-        "title": "테디보이 블루스 (신버전)",
+        "title": "테디보이 블루스",
         "desc": "",
         "genre": "아케이드",
         "series": "",
@@ -1080,7 +1080,7 @@
     },
     "ldrun4": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5566_ldrun4_8154.bin",
-        "title": "로드 런너 IV - 제국으로부터의 탈출",
+        "title": "로드 런너 IV",
         "desc": "",
         "genre": "아케이드",
         "series": "로드 런너",
@@ -1093,7 +1093,7 @@
     },
     "losttomb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3377_losttomb_3707.bin",
-        "title": "잃어버린 무덤 (저난이도)",
+        "title": "잃어버린 무덤",
         "desc": "",
         "genre": "아케이드",
         "series": "",
@@ -1145,7 +1145,7 @@
     },
     "docastle": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5983_docastle_5112.bin",
-        "title": "미스터 도의 성 (세트 1)",
+        "title": "미스터 도의 성",
         "desc": "",
         "genre": "아케이드",
         "series": "",
@@ -1197,7 +1197,7 @@
     },
     "blocken": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5268_blocken_9732.bin",
-        "title": "블러큰 (일본판)",
+        "title": "블러큰",
         "desc": "",
         "genre": "아케이드",
         "series": "",
@@ -1223,7 +1223,7 @@
     },
     "rodland": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9847_rodland_7570.bin",
-        "title": "로드 랜드 (국제판)",
+        "title": "로드 랜드",
         "desc": "",
         "genre": "아케이드",
         "series": "",
@@ -1275,7 +1275,7 @@
     },
     "ldrun3": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2988_ldrun3_4959.bin",
-        "title": "로드 런너 III - 황금 미로",
+        "title": "로드 런너 III",
         "desc": "",
         "genre": "아케이드",
         "series": "로드 런너",
@@ -1314,7 +1314,7 @@
     },
     "striderjrk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8152_striderjrk_9339.bin",
-        "title": "스트라이더 비룡 (한글판)",
+        "title": "스트라이더 비룡",
         "desc": "",
         "genre": "횡스크롤 액션",
         "series": "",
@@ -1327,7 +1327,7 @@
     },
     "dw": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9033_dw_5235.bin",
-        "title": "다이너스티 워즈 (천지를 먹다)",
+        "title": "다이너스티 워즈",
         "desc": "",
         "genre": "벨트스크롤 액션",
         "series": "",
@@ -1431,7 +1431,7 @@
     },
     "sf2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1442_sf2_8498.bin",
-        "title": "스트리트 파이터 II - 월드 워리어",
+        "title": "스트리트 파이터 II",
         "desc": "",
         "genre": "대전 액션",
         "series": "",
@@ -1470,7 +1470,7 @@
     },
     "captcomjk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3567_captcomjk_8080.bin",
-        "title": "캡틴 코만도 (한글판)",
+        "title": "캡틴 코만도",
         "desc": "",
         "genre": "벨트스크롤 액션",
         "series": "캡틴 코만도",
@@ -1483,8 +1483,8 @@
     },
     "captcomek1k": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8843_captcomek1k_6668.bin",
-        "title": "캡틴 코만도 (한글판)",
-        "desc": "동전버튼 누르면 무기가 생김\\n시작버튼 누르면 탈것이 생김\\n쉬운모드",
+        "title": "캡틴 코만도 (수정판)",
+        "desc": "<수정 내용>\\n동전버튼 누르면 무기가 생김\\n시작버튼 누르면 탈것이 생김\\n쉬운모드",
         "genre": "벨트스크롤 액션",
         "series": "캡틴 코만도",
         "parent": "captcomjk",
@@ -1496,7 +1496,7 @@
     },
     "knightsk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6902_knightsk_8084.bin",
-        "title": "원탁의 기사 (한글판)",
+        "title": "원탁의 기사",
         "desc": "",
         "genre": "벨트스크롤 액션",
         "series": "",
@@ -1509,7 +1509,7 @@
     },
     "sf2ce": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6352_sf2ce_2471.bin",
-        "title": "스트리트파이터2' 챔피온 에디션",
+        "title": "스트리트파이터2'",
         "desc": "",
         "genre": "대전 액션",
         "series": "스트리트파이터2'",
@@ -1522,7 +1522,7 @@
     },
     "sf2rb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8259_sf2rb_7747.bin",
-        "title": "스트리트파이터2' 챔피온 에디션 (레인보우)",
+        "title": "스트리트파이터2' (레인보우)",
         "desc": "- 스피드 업: 원작보다 게임 속도가 약 30% 이상 빨라졌으며, 이 속도는 훗날 캡콤이 공식적으로 만든 '스트리트 파이터 2 터보' 시리즈의 모태가 되었습니다.\\n- 공중 필살기: 공중에서 파동권, 승룡권 등 모든 필살기를 사용할 수 있는 파격적인 요소가 추가되었습니다.\\n- 난사 기능: 딜레이(경직) 없이 필살기를 연속으로 난사할 수 있어 밸런스는 완전히 파괴되었지만, 특유의 화려한 액션과 재미를 제공합니다.\\n- 실시간 캐릭터 변경: 플레이 도중 스타트 버튼을 누르면 다른 캐릭터로 즉시 변신할 수 있는 기상천외한 기능도 포함되었습니다",
         "genre": "대전 액션",
         "series": "스트리트파이터2'",
@@ -1535,7 +1535,7 @@
     },
     "sf2red": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1278_sf2red_1138.bin",
-        "title": "스트리트파이터2' 챔피온 에디션 (레드 웨이브)",
+        "title": "스트리트파이터2' (레드 웨이브)",
         "desc": "- 압도적인 게임 속도: 기본 게임 속도가 오리지널에 비해 2~3배 이상 빠르고 박진감 넘칩니다.\\n- 기술 난사 가능: 빠른 속도와 더불어 필살기를 연달아 사용하는 등 매우 화려하고 파괴적인 플레이가 가능합니다.\\n- 초기 하이스코어: 게임 구동 시 1위 스코어가 'WBH 1234567'로 고정되어 있는 것이 특징입니다",
         "genre": "대전 액션",
         "series": "스트리트파이터2'",
@@ -1548,7 +1548,7 @@
     },
     "sf2yyc": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4394_sf2yyc_6360.bin",
-        "title": "스트리트파이터2' 챔피온 에디션 (YYC)",
+        "title": "스트리트파이터2' (YYC)",
         "desc": "처음 시작 시 별다른 RAM 체크가 없다.\\n스트리트 파이터 2'의 타이틀 색상이 무지개 색이고 대시, 캡콤 로고 삭제.\\n처음으로 기기를 구동했을 때 하이스코어는 HCR의 2234753점[5]이다.\\n춘리 스테이지의 자전거 탄 사람들의 모습과 VS의 스프라이트가 색반전되어 있다.\\nVS 화면의 배경이 검은색이다.\\n춘리의 스피닝 버드 킥의 경우 바닥에 박히면서 공격하고, 류의 파동권은 사인파로 날아간다.\\n류와 켄의 승룡권은 평행으로 이동한다.\\n혼다의 백열장은 일부 스프라이트가 삭제되어 나타난다.",
         "genre": "대전 액션",
         "series": "스트리트파이터2'",
@@ -1561,7 +1561,7 @@
     },
     "sf2koryu": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8415_sf2koryu_6197.bin",
-        "title": "스트리트파이터2' 챔피온 에디션 (강룡)",
+        "title": "스트리트파이터2' (강룡)",
         "desc": "- 강룡권 (승룡권 파동): 류나 켄의 승룡권을 사용하면 하늘로 솟구침과 동시에 수많은 다발의 파동권이 난사됩니다. 과거 한국에서는 이 기술의 영향으로 게임 제목이 '구룡' 또는 '구룡권'으로 더 많이 불리기도 했습니다.\\n- 자유로운 캐릭터 변경: 게임 중 Start 버튼을 누르면 다른 캐릭터로 실시간 변신이 가능합니다.\\n- 기상천외한 기술: 공중에서 파동권 발사, 장풍을 쏠 수 없는 캐릭터의 장풍 사용, 순간 이동, 무한 롤링 어택 등 정상적인 플레이로는 상상할 수 없는 화려하고 파괴적인 기술들이 난무합니다",
         "genre": "대전 액션",
         "series": "스트리트파이터2'",
@@ -1678,7 +1678,7 @@
     },
     "ssf2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9640_ssf2_7127.bin",
-        "title": "슈퍼 스트리트 파이터 II: 새로운 도전자",
+        "title": "슈퍼 스트리트 파이터 II",
         "desc": "",
         "genre": "대전 액션",
         "series": "",
@@ -1691,7 +1691,7 @@
     },
     "ddsomak": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8704_ddsomak_9284.bin",
-        "title": "던전&드래곤: 미스타라에 드리운 그림자 (한글판)",
+        "title": "던전&드래곤: 미스타라에 드리운 그림자",
         "desc": "",
         "genre": "어드벤쳐",
         "series": "",
@@ -1704,7 +1704,7 @@
     },
     "sfa": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5319_sfa_7317.bin",
-        "title": "스트리트 파이터 알파: 워리어즈 드림",
+        "title": "스트리트 파이터 알파",
         "desc": "",
         "genre": "대전 액션",
         "series": "스트리트 파이터 알파",
@@ -1717,7 +1717,7 @@
     },
     "sfzjk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9498_sfzjk_7844.bin",
-        "title": "스트리트 파이터 제로 (한글판)",
+        "title": "스트리트 파이터 제로",
         "desc": "",
         "genre": "대전 액션",
         "series": "스트리트 파이터 알파",
@@ -1808,7 +1808,7 @@
     },
     "ringdest": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9136_ringdest_7728.bin",
-        "title": "슬램 마스터즈 II - 링 오브 디스트럭션",
+        "title": "슬램 마스터즈 II",
         "desc": "",
         "genre": "스포츠",
         "series": "슬램 마스터즈",
@@ -1925,7 +1925,7 @@
     },
     "csclubk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7950_csclubk_4604.bin",
-        "title": "캡콤 스포츠 클럽 (한글판)",
+        "title": "캡콤 스포츠 클럽",
         "desc": "",
         "genre": "스포츠",
         "series": "",
@@ -1977,7 +1977,7 @@
     },
     "bublcave": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5706_bublcave_9382.bin",
-        "title": "버블 보블 로스트 케이브 (v1.2)",
+        "title": "버블 보블 로스트 케이브",
         "desc": "",
         "genre": "아케이드",
         "series": "버블보블",
@@ -1990,7 +1990,7 @@
     },
     "tokio": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8839_tokio_3709.bin",
-        "title": "토키오 / 스크램블 포메이션",
+        "title": "토키오",
         "desc": "",
         "genre": "슈팅",
         "series": "",
@@ -2081,7 +2081,7 @@
     },
     "airbustr": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4798_airbustr_7282.bin",
-        "title": "에어 버스터: 트러블 스페셜티 레이드 유니트",
+        "title": "에어 버스터",
         "desc": "",
         "genre": "슈팅",
         "series": "",

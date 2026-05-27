@@ -9643,7 +9643,7 @@ $end
 
 
 
-$info=kof2k
+$info=kof2k,kof2000
 $cmd
 [ 기본 조작 방법에 대해 ]
 ───────────────────────
@@ -26344,7 +26344,7 @@ $end
 ###############################
 #
 
-$info=kov
+$info=kov,kov115s02,kovplus
 $cmd
 [ 기본 조작 방법에 대해 ]
 ───────────────────────
@@ -26457,6 +26457,7 @@ $cmd
 분노의 뇌전 : _2_8_A (게이지가 하나 이상 있을경우)
 장강대노 : _2_8_A (기 폭파후 게이지가 하나 이상 있을경우)
 $end
+
 
 $info=kov2
 $cmd
@@ -29464,7 +29465,7 @@ F3 키를 눌러 게임을 재시작하면 이제부터
 게임오버가 되어도 이어서 할수 있습니다.
 $end
 
-$info=kof2k3
+$info=kof2k3,kof2003
 $cmd
 [ 신 주인공 팀 ]
 
@@ -43655,7 +43656,7 @@ $end
 
 
 #파이널 투지   (C) 1989  CAPCOM
-$info=ffight,ffightj,ffightjk,ffightae,ffightaek
+$info=ffight,ffightb, ffightj,ffightjk,ffightae,ffightaek
 $cmd
 [ 기본 조작 방법에 대해 ]
 ──────────────────────────────
@@ -43689,6 +43690,7 @@ $cmd
 $end
 
 #파이널 투지   (C) 1989  CAPCOM
+
 $info=ffightjh01
 $cmd
 [ 기본 조작 방법에 대해 ]
