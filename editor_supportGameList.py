@@ -123,6 +123,7 @@ class GameJsonEditor:
 
         self.entries = {}
         self.bool_vars = {}
+        self.buttons_var = tk.IntVar(value=0)
         self.current_selected_key = ""
 
         # Key (ID)
@@ -159,23 +160,26 @@ class GameJsonEditor:
         self.entries["genre"] = ttk.Combobox(edit_frame, values=self.genre_list, width=35)
         self.entries["genre"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="year").grid(row=7, column=0, sticky="e", padx=2)
+        # tk.Label(edit_frame, text="year").grid(row=7, column=0, sticky="e", padx=2)
         self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=35)
-        self.entries["year"].grid(row=7, column=1, sticky="ew", padx=5, pady=2)
+        # self.entries["year"].grid(row=7, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["portrait"] = tk.BooleanVar()
         tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=8, column=1, sticky="w", padx=5, pady=2)
 
         tk.Label(edit_frame, text="buttons").grid(row=9, column=0, sticky="e", padx=2)
-        self.entries["buttons"] = tk.Spinbox(edit_frame, from_=0, to=8, width=35)
-        self.entries["buttons"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
+        btn_chk_frame = tk.Frame(edit_frame)
+        btn_chk_frame.grid(row=9, column=1, sticky="w", padx=5, pady=2)
+        tk.Checkbutton(btn_chk_frame, text="2", variable=self.buttons_var, onvalue=2, offvalue=0).pack(side=tk.LEFT, padx=2)
+        tk.Checkbutton(btn_chk_frame, text="4", variable=self.buttons_var, onvalue=4, offvalue=0).pack(side=tk.LEFT, padx=2)
+        tk.Checkbutton(btn_chk_frame, text="6", variable=self.buttons_var, onvalue=6, offvalue=0).pack(side=tk.LEFT, padx=2)
 
         self.bool_vars["LRbuttons"] = tk.BooleanVar()
-        tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
+        # tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="developer").grid(row=11, column=0, sticky="e", padx=2)
+        # tk.Label(edit_frame, text="developer").grid(row=11, column=0, sticky="e", padx=2)
         self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=35)
-        self.entries["developer"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
+        # self.entries["developer"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
 
         # 이미지 미리보기
         img_container = tk.Frame(mid_frame, bd=1, relief="sunken", bg="white", height=170)
@@ -195,6 +199,11 @@ class GameJsonEditor:
         tk.Button(btn_frame, text="복사", command=self.copy_item, bg="#e1f5fe").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="적용", command=self.apply_changes, bg="#e8f5e9").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         tk.Button(btn_frame, text="삭제", command=self.delete_item, bg="#ffebee").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
+
+        #batch_btn_frame = tk.Frame(mid_frame)
+        #batch_btn_frame.pack(fill=tk.X, pady=(2, 0))
+        #tk.Button(batch_btn_frame, text="모든 year=0", command=self.batch_set_year, bg="#fff3e0").#pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
+        #tk.Button(batch_btn_frame, text="모든 developer=''", command=self.batch_set_dev, #bg="#e0f7fa").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
 
         # --- 3열: Cheat Data ---
         cheat_frame = tk.LabelFrame(main_frame, text="Cheat Data", pady=5)
@@ -363,8 +372,38 @@ class GameJsonEditor:
                         widget.delete(0, tk.END)
                     elif isinstance(widget, tk.Text):
                         widget.delete("1.0", tk.END)
+                self.buttons_var.set(0)
                 self.img_label.config(image="", text="미리보기")
                 messagebox.showinfo("성공", f"'{selected_key}' 항목이 삭제되었습니다.", parent=self.root)
+
+    def batch_set_year(self):
+        """임시 버튼: 모든 항목의 year를 0으로 일괄 설정"""
+        confirm = messagebox.askyesno("일괄 처리", "모든 게임의 year 값을 0으로 변경하시겠습니까?", parent=self.root)
+        if confirm:
+            count = 0
+            for key in self.data:
+                self.data[key]["year"] = 0
+                count += 1
+            if self.current_selected_key and "year" in self.entries:
+                self.entries["year"].delete(0, tk.END)
+                self.entries["year"].insert(0, "0")
+            messagebox.showinfo("완료", f"총 {count}개의 항목이 year=0으로 변경되었습니다.\n메뉴에서 '저장하기'를 눌러 파일에 반영하세요.", parent=self.root)
+
+    def batch_set_dev(self):
+        """임시 버튼: 모든 항목의 developer를 ''로 일괄 설정"""
+        confirm = messagebox.askyesno("일괄 처리", "모든 게임의 developer 값을 비우시겠습니까?", parent=self.root)
+        if confirm:
+            count = 0
+            for key in self.data:
+                self.data[key]["developer"] = ""
+                count += 1
+            if self.current_selected_key and "developer" in self.entries:
+                if isinstance(self.entries["developer"], ttk.Combobox):
+                    self.entries["developer"].set("")
+                else:
+                    self.entries["developer"].delete(0, tk.END)
+            self.refresh_developer_list()
+            messagebox.showinfo("완료", f"총 {count}개의 항목이 developer=''로 변경되었습니다.\n메뉴에서 '저장하기'를 눌러 파일에 반영하세요.", parent=self.root)
 
     def load_image(self, key):
         """GitHub에서 이미지를 가져와서 UI 크기에 맞게 조절"""
@@ -462,6 +501,8 @@ class GameJsonEditor:
         
         for field in self.bool_vars:
             self.bool_vars[field].set(item_data.get(field, False))
+            
+        self.buttons_var.set(int(item_data.get("buttons") or 0))
 
         self.load_image(selected_key)
         self.load_cheat_data(selected_key)
@@ -519,11 +560,13 @@ class GameJsonEditor:
                 val = f"{self.default_base}{os.path.basename(val)}"
             
             # 숫자형 변환
-            if field in ["year", "buttons"]:
+            if field in ["year"]:
                 try: val = int(val)
                 except: val = 0
                 
             self.data[selected_key][field] = val
+            
+        self.data[selected_key]["buttons"] = self.buttons_var.get()
         
         for field in self.bool_vars:
             self.data[selected_key][field] = self.bool_vars[field].get()
