@@ -217441,3 +217441,491 @@
 :csclubk:00000001:FFB315:00000006:FFFFFFFF:Set MATCH score = 6 Now! PL2
 
 
+
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:60000000:0000:00000000:00000000:This game has got a LOT of cheats. Don't
+:bublboblu:60000000:0000:00000000:00000000:go mad as it may spoil the game too much!
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:60000000:0000:00000000:00000000:
+:bublboblu:00000000:E366:00000063:FFFFFFFF:동전 무한
+:bublboblu:00080300:E64B:00000063:00000000:Select Starting Round
+:bublboblu:60000000:0000:00000000:00000000:
+:bublboblu:00000000:E645:00000006:FFFFFFFF:생명 무한 PL1
+:bublboblu:00000000:E6B6:00000077:FFFFFFFF:무적 PL1
+:bublboblu:62000000:0000:00000000:00000000:스피드 선택 PL1
+:bublboblu:00010000:E6C1:0000000C:FFFFFFFF:일반
+:bublboblu:00010000:E6C1:00000014:FFFFFFFF:파워업
+:bublboblu:00010000:E6C1:00000028:FFFFFFFF:얼티메이트
+:bublboblu:00000001:E6C1:0000000C:FFFFFFFF:Speed to 일반 Now! PL1
+:bublboblu:00000001:E6C1:00000014:FFFFFFFF:Speed to 파워업 Now! PL1
+:bublboblu:00000001:E6C1:00000028:FFFFFFFF:Speed to 얼티메이트 Now! PL1
+:bublboblu:00000001:E6BF:00000014:FFFFFFFF:Fire Speed to 일반 Now! PL1
+:bublboblu:00000001:E6BF:00000005:FFFFFFFF:Fire Speed to 파워업 Now! PL1
+:bublboblu:00000000:E6BF:00000001:FFFFFFFF:Fire Speed Always 얼티메이트 PL1
+:bublboblu:62000000:0000:00000000:00000000:Select Bubble Range PL1
+:bublboblu:00010000:E6C2:00000040:FFFFFFFF:일반
+:bublboblu:00010000:E6C2:00000080:FFFFFFFF:Long
+:bublboblu:00010000:E6C2:000000FF:FFFFFFFF:Extra Long
+:bublboblu:00000001:E6C0:00000003:FFFFFFFF:Head Power to 일반 Now! PL1
+:bublboblu:00000001:E6C0:00000006:FFFFFFFF:Head Power to 파워업 Now! PL1
+:bublboblu:00000000:E6C0:00000009:FFFFFFFF:Head Power Always 얼티메이트 PL1
+:bublboblu:00000001:F60F:00000000:FFFFFFFF:Fire Bubbles Now! PL1
+:bublboblu:00000001:F60F:00000001:FFFFFFFF:Fire Lightnings Now! PL1
+:bublboblu:00000001:E742:0000003F:FFFFFFFF:Get EXTEND PL1
+:bublboblu:00000001:E742:00000001:00000001:Get letter - E (red) PL1
+:bublboblu:00000001:E742:00000002:00000002:Get letter - X (pink) PL1
+:bublboblu:00000001:E742:00000004:00000004:Get letter - T (yellow) PL1
+:bublboblu:00000001:E742:00000008:00000008:Get letter - E (green) PL1
+:bublboblu:00000001:E742:00000010:00000010:Get letter - N (blue) PL1
+:bublboblu:00000001:E742:00000020:00000020:Get letter - D (purple) PL1
+:bublboblu:60000000:0000:00000000:00000000:
+:bublboblu:00000000:E64A:00000006:FFFFFFFF:생명 무한 PL2
+:bublboblu:00000000:E6E8:00000077:FFFFFFFF:무적 PL2
+:bublboblu:62000000:0000:00000000:00000000:스피드 선택 PL2
+:bublboblu:00010000:E6F3:0000000C:FFFFFFFF:일반
+:bublboblu:00010000:E6F3:00000014:FFFFFFFF:파워업
+:bublboblu:00010000:E6F3:00000028:FFFFFFFF:얼티메이트
+:bublboblu:00000001:E6F3:0000000C:FFFFFFFF:Speed to 일반 Now! PL2
+:bublboblu:00000001:E6F3:00000014:FFFFFFFF:Speed to 파워업 Now! PL2
+:bublboblu:00000001:E6F3:00000028:FFFFFFFF:Speed to 얼티메이트 Now! PL2
+:bublboblu:00000001:E6F1:00000014:FFFFFFFF:Fire Speed to 일반 Now! PL2
+:bublboblu:00000001:E6F1:00000005:FFFFFFFF:Fire Speed to 파워업 Now! PL2
+:bublboblu:00000000:E6F1:00000001:FFFFFFFF:Fire Speed Always 얼티메이트 PL2
+:bublboblu:62000000:0000:00000000:00000000:Select Bubble Range PL2
+:bublboblu:00010000:E6F4:00000040:FFFFFFFF:일반
+:bublboblu:00010000:E6F4:00000080:FFFFFFFF:Long
+:bublboblu:00010000:E6F4:000000FF:FFFFFFFF:Extra Long
+:bublboblu:00000001:E6F2:00000003:FFFFFFFF:Head Power to 일반 Now! PL2
+:bublboblu:00000001:E6F2:00000006:FFFFFFFF:Head Power to 파워업 Now! PL2
+:bublboblu:00000000:E6F2:00000009:FFFFFFFF:Head Power Always 얼티메이트 PL2
+:bublboblu:00000001:F610:00000000:FFFFFFFF:Fire Bubbles Now! PL2
+:bublboblu:00000001:F610:00000001:FFFFFFFF:Fire Lightnings Now! PL2
+:bublboblu:00000001:E743:0000003F:FFFFFFFF:Get EXTEND PL2
+:bublboblu:00000001:E743:00000001:00000001:Get letter - E (red) PL2
+:bublboblu:00000001:E743:00000002:00000002:Get letter - X (pink) PL2
+:bublboblu:00000001:E743:00000004:00000004:Get letter - T (yellow) PL2
+:bublboblu:00000001:E743:00000008:00000008:Get letter - E (green) PL2
+:bublboblu:00000001:E743:00000010:00000010:Get letter - N (blue) PL2
+:bublboblu:00000001:E743:00000020:00000020:Get letter - D (purple) PL2
+:bublboblu:60000000:0000:00000000:00000000:
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:60000000:0000:00000000:00000000:This game has Super Mode by default so
+:bublboblu:60000000:0000:00000000:00000000:to turn it OFF use the following cheat
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:20800000:1B32:000000DB:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF:This ROM has been hacked to have Super Mode on all the time - but you can change it so that it is possible to toggle it ON and OFF with this ROM cheat.
+:bublboblu:20810000:1B33:000000E5:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (2/8)
+:bublboblu:20810000:1B34:000000A7:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (3/8)
+:bublboblu:20810000:1B35:00000018:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (4/8)
+:bublboblu:20810000:2932:000000DB:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (5/8)
+:bublboblu:20810000:2933:000000E5:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (6/8)
+:bublboblu:20810000:2934:000000A7:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (7/8)
+:bublboblu:20810000:2935:000000C9:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (8/8)
+:bublboblu:62000000:0000:00000000:00000000:Select 'Super' Mode:Baddies from first 50 levels switch with last and levels change colour, Title will display 'Super' if 켬(활성) before title displayed. Same as '1P,Jump,Bubble,Left,Right,Jump,1P,Right' on Title Screen
+:bublboblu:00010000:E5DB:00000001:FFFFFFFF:켬(활성)
+:bublboblu:00010000:E5DB:00000000:FFFFFFFF:끔(비활성)
+:bublboblu:62000000:0000:00000000:00000000:Select 'Original' Mode:Doors still appear even if you die. Same as 'Bubble,Jump,Bubble,Jump,Bubble,Jump,Right,1P' on Title Screen
+:bublboblu:00010000:E5D1:00000001:FFFFFFFF:켬(활성)
+:bublboblu:00010000:E5D1:00000000:FFFFFFFF:끔(비활성)
+:bublboblu:62000000:0000:00000000:00000000:Select '파워업' Mode:Fast feet, fast bubbles etc. Same as 'Left,Jump,Left,1P,Left,Bubble,Left,1P' on Title Screen
+:bublboblu:00010000:E5D2:00000001:FFFFFFFF:켬(활성)
+:bublboblu:00010000:E5D2:00000000:FFFFFFFF:끔(비활성)
+:bublboblu:00000000:E613:00000001:FFFFFFFF:Always get Bonus doors
+:bublboblu:00000000:F676:00000001:FFFFFFFF:Constant Extend Letters
+:bublboblu:00000000:E603:00000001:FFFFFFFF:Always Warn (Bell Item)
+:bublboblu:00000000:E5FA:00000003:FFFFFFFF:Apple or Orange? You decide!
+:bublboblu:00000000:E608:00000001:FFFFFFFF:Coke Can Item
+:bublboblu:62000000:0000:00000000:00000000:Select 파이어 볼 Bubble Occurence
+:bublboblu:00010000:6E30:00000001:FFFFFFFF:Always
+:bublboblu:00010000:6E30:00000003:FFFFFFFF:1 in 2
+:bublboblu:00010000:6E30:00000005:FFFFFFFF:1 in 3
+:bublboblu:00010000:6E30:00000007:FFFFFFFF:1 in 4
+:bublboblu:00010000:6E30:00000015:FFFFFFFF:1 in 16
+:bublboblu:00010000:6E30:0000001D:FFFFFFFF:1 in 256
+:bublboblu:00010000:6E30:00000025:FFFFFFFF:1 in 4096
+:bublboblu:00000000:5C2B:000000C9:FFFFFFFF:Disable Bubbles?
+:bublboblu:00000001:E6BB:00000005:FFFFFFFF:파이어 볼s for 5 levels
+:bublboblu:00000000:E6BE:00000040:FFFFFFFF:파이어 볼s
+:bublboblu:00000000:E5EE:00000007:FFFFFFFF:파이어 볼 Cross
+:bublboblu:62000001:0000:00000000:00000000:Select 1st Item Now!:Use this cheat only at the start of a level, before the item appears! (if it appears at all)  FORMAT Fruit Name (Points)
+:bublboblu:00010001:F44C:00000000:FFFFFFFF:Green Pepper (10 Pts)
+:bublboblu:00010001:F44C:00000001:FFFFFFFF:Aubergine (20 Pts)
+:bublboblu:00010001:F44C:00000002:FFFFFFFF:Carrot (30 Pts)
+:bublboblu:00010001:F44C:00000003:FFFFFFFF:Onion (40 Pts)
+:bublboblu:00010001:F44C:00000004:FFFFFFFF:Beetroot (50 Pts)
+:bublboblu:00010001:F44C:00000005:FFFFFFFF:Turnip (60 Pts)
+:bublboblu:00010001:F44C:00000006:FFFFFFFF:Parsnip (70 Pts)
+:bublboblu:00010001:F44C:00000007:FFFFFFFF:Marrow (80 Pts)
+:bublboblu:00010001:F44C:00000008:FFFFFFFF:Pea Pod (90 Pts)
+:bublboblu:00010001:F44C:00000009:FFFFFFFF:Mushroom (100 Pts)
+:bublboblu:00010001:F44C:0000000A:FFFFFFFF:Corn Cob (Lvl 35) (150 Pts)
+:bublboblu:00010001:F44C:0000000B:FFFFFFFF:Fried Egg (200 Pts)
+:bublboblu:00010001:F44C:0000000C:FFFFFFFF:Red Acorn Thingy (250 Pts)
+:bublboblu:00010001:F44C:0000000D:FFFFFFFF:Apple (300 Pts)
+:bublboblu:00010001:F44C:0000000E:FFFFFFFF:Lemon (350 Pts)
+:bublboblu:00010001:F44C:0000000F:FFFFFFFF:Orange (400 Pts)
+:bublboblu:00010001:F44C:00000010:FFFFFFFF:Peach (450 Pts)
+:bublboblu:00010001:F44C:00000011:FFFFFFFF:Bananas (500 Pts)
+:bublboblu:00010001:F44C:00000012:FFFFFFFF:Pear (550 Pts)
+:bublboblu:00010001:F44C:00000013:FFFFFFFF:Watermelon (600 Pts)
+:bublboblu:00010001:F44C:00000014:FFFFFFFF:Single Brown Lolly (Lvl 15) (650 Pts)
+:bublboblu:00010001:F44C:00000015:FFFFFFFF:Double Blue Lolly (700 Pts)
+:bublboblu:00010001:F44C:00000016:FFFFFFFF:Pink Pudding (Lvl 5) (750 Pts)
+:bublboblu:00010001:F44C:00000017:FFFFFFFF:Yellow Pudding (800 Pts)
+:bublboblu:00010001:F44C:00000018:FFFFFFFF:Green Pudding (850 Pts)
+:bublboblu:00010001:F44C:00000019:FFFFFFFF:Green And Brown Pudding (Lvl 40) (900 Pts)
+:bublboblu:00010001:F44C:0000001A:FFFFFFFF:Simple White Ice Cream Cone (950 Pts)
+:bublboblu:00010001:F44C:0000001B:FFFFFFFF:Double Scoop Ice Cream Cone (1,000 Pts)
+:bublboblu:00010001:F44C:0000001C:FFFFFFFF:Donut (Lvl 25) (1,000 Pts)
+:bublboblu:00010001:F44C:0000001D:FFFFFFFF:French Fries (1,000 Pts)
+:bublboblu:00010001:F44C:0000001E:FFFFFFFF:Sausage On A Stick (2,000 Pts)
+:bublboblu:00010001:F44C:0000001F:FFFFFFFF:Creme Caramel (2,000 Pts)
+:bublboblu:00010001:F44C:00000020:FFFFFFFF:Burger (2,000 Pts)
+:bublboblu:00010001:F44C:00000021:FFFFFFFF:Slice Of Cake (Triangular) (2,000 Pts)
+:bublboblu:00010001:F44C:00000022:FFFFFFFF:Cupcake (Blobby) (3,000 Pts)
+:bublboblu:00010001:F44C:00000023:FFFFFFFF:Chicken Leg (3,000 Pts)
+:bublboblu:00010001:F44C:00000024:FFFFFFFF:Purple Martini (3,000 Pts)
+:bublboblu:00010001:F44C:00000025:FFFFFFFF:Some Variety Of Sushi? (3,000 Pts)
+:bublboblu:00010001:F44C:00000026:FFFFFFFF:Pinkish Sweet (Lvl 50) (4,000 Pts)
+:bublboblu:00010001:F44C:00000027:FFFFFFFF:(Brown Or Red?) Eskimo Pie (4,000 Pts)
+:bublboblu:00010001:F44C:00000028:FFFFFFFF:(Brown Or Red?) Eskimo Pie (4,000 Pts)
+:bublboblu:00010001:F44C:00000029:FFFFFFFF:Mug Of Lager (Lvl 45) (4,000 Pts)
+:bublboblu:00010001:F44C:0000002A:FFFFFFFF:Purple Crystals (5,000 Pts)
+:bublboblu:00010001:F44C:0000002B:FFFFFFFF:Purple Jewel (5,000 Pts)
+:bublboblu:00010001:F44C:0000002C:FFFFFFFF:Yellow Butterfly (5,000 Pts)
+:bublboblu:00010001:F44C:0000002D:FFFFFFFF:Blue Crystals (5,000 Pts)
+:bublboblu:00010001:F44C:0000002E:FFFFFFFF:Blue Jewel (6,000 Pts)
+:bublboblu:00010001:F44C:0000002F:FFFFFFFF:Necklace With Purple Pendant (6,000 Pts)
+:bublboblu:00010001:F44C:00000030:FFFFFFFF:Purple Shell (6,000 Pts)
+:bublboblu:00010001:F44C:00000031:FFFFFFFF:Red Jewel (7,000 Pts)
+:bublboblu:00010001:F44C:00000032:FFFFFFFF:Necklace With Blue Pendant (7,000 Pts)
+:bublboblu:00010001:F44C:00000033:FFFFFFFF:Bowl Of Rice (7,000 Pts)
+:bublboblu:00010001:F44C:00000034:FFFFFFFF:Necklace With Red Pendant (8,000 Pts)
+:bublboblu:00010001:F44C:00000035:FFFFFFFF:Dinner (8,000 Pts)
+:bublboblu:00010001:F44C:00000036:FFFFFFFF:Red Crown, Blue Gems, No Cross (8,000 Pts)
+:bublboblu:00010001:F44C:00000037:FFFFFFFF:Red Crown, Blue Gems, Red Cross (8,000 Pts)
+:bublboblu:00010001:F44C:00000038:FFFFFFFF:Cyan Crown, Red Gems, No Cross (9,000 Pts)
+:bublboblu:00010001:F44C:00000039:FFFFFFFF:Blue Crown, Red Gems, Cyan Cross (9,000 Pts)
+:bublboblu:00010001:F44C:0000003A:FFFFFFFF:Gold Crown, Red Gems, No Cross (10,000 Pts)
+:bublboblu:00010001:F44C:0000003B:FFFFFFFF:Gold Crown, Red Gems, White Cross (10,000 Pts)
+:bublboblu:62000001:0000:00000000:00000000:Select 2nd Item Now!:Use this cheat only at the start of a level, before the item appears! (if it appears at all) When you are given a distribution, each bubble turns into an object.
+:bublboblu:00010001:F45E:00000000:FFFFFFFF:Pink Sweet (파워업 Fire Range)
+:bublboblu:00010001:F45E:00000001:FFFFFFFF:Blue Sweet (파워업 Head Power)
+:bublboblu:00010001:F45E:00000002:FFFFFFFF:Yellow Sweet (파워업 Fire Speed)
+:bublboblu:00010001:F45E:00000003:FFFFFFFF:Shoe (파워업 Speed)
+:bublboblu:00010001:F45E:00000004:FFFFFFFF:Clock (Slows Down The Monsters)
+:bublboblu:00010001:F45E:00000005:FFFFFFFF:Bomb (Turns Monsters Into Diamonds)
+:bublboblu:00010001:F45E:00000006:FFFFFFFF:Brown Umbrella (Warps You 3 Levels Farther)
+:bublboblu:00010001:F45E:00000007:FFFFFFFF:Red Umbrella (Warps You 5 Levels Farther)
+:bublboblu:00010001:F45E:00000008:FFFFFFFF:Pink Umbrella (Warps You 7 Levels Farther)
+:bublboblu:00010001:F45E:00000009:FFFFFFFF:Orange Potion (Potion Of Sunflowers)
+:bublboblu:00010001:F45E:0000000A:FFFFFFFF:Red Potion (Potion Of Flowers)
+:bublboblu:00010001:F45E:0000000B:FFFFFFFF:Green Potion (Potion Of Clovers)
+:bublboblu:00010001:F45E:0000000C:FFFFFFFF:Yellow Potion (Potion Of Rainbows)
+:bublboblu:00010001:F45E:0000000D:FFFFFFFF:Purple Potion (Potion Of Music Notes)
+:bublboblu:00010001:F45E:0000000E:FFFFFFFF:Heart (무적+Freeze Monsters)
+:bublboblu:00010001:F45E:0000000F:FFFFFFFF:Blue Ring (Points When You Walk)
+:bublboblu:00010001:F45E:00000010:FFFFFFFF:Pink Ring (Points When You Jump)
+:bublboblu:00010001:F45E:00000011:FFFFFFFF:Red Ring (Points When You Bubble)
+:bublboblu:00010001:F45E:00000012:FFFFFFFF:Blue Cross (Fills Screen With Water)
+:bublboblu:00010001:F45E:00000013:FFFFFFFF:Yellow Cross (Make Lightning Strike)
+:bublboblu:00010001:F45E:00000014:FFFFFFFF:Orange Cross (Fire Flames Not Bubbles)
+:bublboblu:00010001:F45E:00000015:FFFFFFFF:Blue Tea-Pot (Point When You Walk.Jump+Bubble)
+:bublboblu:00010001:F45E:00000018:FFFFFFFF:Yellow Tea-Pot (파워업 Fire Range+Speed+H Pwr)
+:bublboblu:00010001:F45E:00000016:FFFFFFFF:Red Tea-Pot (Blue + Yellow Teapots Combined)
+:bublboblu:00010001:F45E:00000017:FFFFFFFF:Purple Tea-Pot (Turn Monsters Into Diamonds)
+:bublboblu:00010001:F45E:00000019:FFFFFFFF:Book (Turns Monsters Into Diamonds)
+:bublboblu:00010001:F45E:0000001A:FFFFFFFF:Grey 'Ring?' (Makes Stars Fall)
+:bublboblu:00010001:F45E:0000001B:FFFFFFFF:Orange Necklace (The Extend Letters)
+:bublboblu:00010001:F45E:0000001C:FFFFFFFF:Grey Necklace (Produces A Big 파이어 볼)
+:bublboblu:00010001:F45E:0000001D:FFFFFFFF:Fork (Makes Fruits Fall)
+:bublboblu:00010001:F45E:0000001E:FFFFFFFF:Pink Chest (Pink Diamonds On Level End)
+:bublboblu:00010001:F45E:0000001F:FFFFFFFF:Yellow Chest (Yellow Diamonds On Level End)
+:bublboblu:00010001:F45E:00000020:FFFFFFFF:Red Chest (Red Diamonds On Level End)
+:bublboblu:00010001:F45E:00000021:FFFFFFFF:Blue Chest (Blue Diamonds On Level End)
+:bublboblu:00010001:F45E:00000022:FFFFFFFF:Grey Chest (Grey Diamonds On Level End)
+:bublboblu:00010001:F45E:00000023:FFFFFFFF:White Candy-Stick (Cakes On Level End)
+:bublboblu:00010001:F45E:00000024:FFFFFFFF:Yellow Candy-Stick (Chocolate Cakes On Level End)
+:bublboblu:00010001:F45E:00000025:FFFFFFFF:Red Candy-Stick (Watermelons On Level End)
+:bublboblu:00010001:F45E:00000026:FFFFFFFF:Orange Candy-Stick (Oranges On Level End)
+:bublboblu:00010001:F45E:00000027:FFFFFFFF:Brown Candy-Stick (Ice Creams On Level End)
+:bublboblu:00010001:F45E:00000028:FFFFFFFF:Blue Candy-Stick (Ice Creams On Level End)
+:bublboblu:00010001:F45E:00000029:FFFFFFFF:Bell (Destructive Item Warning)
+:bublboblu:00010001:F45E:0000002A:FFFFFFFF:Octopussy (Wood Crosses On Level End)
+:bublboblu:00010001:F45E:0000002B:FFFFFFFF:Pink Floyd (Aliens On Level End)
+:bublboblu:00010001:F45E:0000002C:FFFFFFFF:Glass Of Beer (???? On Level End)
+:bublboblu:00010001:F45E:0000002D:FFFFFFFF:Knife (Makes Fruits Fall)
+:bublboblu:00010001:F45E:0000002E:FFFFFFFF:Crystal Ball (Gives Level Beginning Items)
+:bublboblu:00010001:F45E:00000030:FFFFFFFF:Skeleton ('Hurry Up !' The Monsters)
+:bublboblu:00010001:F45E:00000031:FFFFFFFF:Bonus Door Lev. 20 (Warps You To Room Of Diamonds)
+:bublboblu:00010001:F45E:00000032:FFFFFFFF:Bonus Door Lev. 30 (Warps You To Room Of Diamonds)
+:bublboblu:00010001:F45E:00000033:FFFFFFFF:Bonus Door Lev. 40 (Warps You To Room Of Diamonds)
+:bublboblu:00010001:F45E:00000034:FFFFFFFF:Bonus Door Lev. 50 (Warps You To Level 70)
+:bublboblu:00000000:F44D:00000001:FFFFFFFF:Quick Fruit at start
+:bublboblu:00000000:E60A:00000001:FFFFFFFF:Lipstick
+:bublboblu:00000000:E345:00000005:FFFFFFFF:Stop the Baron
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:60000000:0000:00000000:00000000:These 5 cheats will make a potion appear
+:bublboblu:60000000:0000:00000000:00000000:on the next screen. It will be of the
+:bublboblu:60000000:0000:00000000:00000000:type requested unless you have earned a
+:bublboblu:60000000:0000:00000000:00000000:higher potion or you have fallen off the
+:bublboblu:60000000:0000:00000000:00000000:bottom of the screen since setting the
+:bublboblu:60000000:0000:00000000:00000000:cheat. Falling off the bottom will
+:bublboblu:60000000:0000:00000000:00000000:upgrade the potion to the next one!
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:00000001:E5E7:0000000F:FFFFFFFF:Sunflower Potion(next screen)
+:bublboblu:00000001:E5E7:00000010:FFFFFFFF:Flower Potion (next screen)
+:bublboblu:00000001:E5E7:00000011:FFFFFFFF:Clover Potion (next screen)
+:bublboblu:00000001:E5E7:00000012:FFFFFFFF:Rainbow Potion (next screen)
+:bublboblu:00000001:E5E7:00000013:FFFFFFFF:Musical Potion (next screen)
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:60000000:0000:00000000:00000000:These 2 cheats are useful when you Get
+:bublboblu:60000000:0000:00000000:00000000:stuck on a screen. Use only one at a time!
+:bublboblu:60000000:0000:00000000:00000000:------------------------------------------
+:bublboblu:00000001:F590:00000001:FFFFFFFF:Drown 'em All! Now! OR...
+:bublboblu:00000001:E720:00000001:FFFFFFFF:Throw The Book At Them Now!
+
+
+
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:60000000:0000:00000000:00000000:This game has got a LOT of cheats. Don't
+:bublcave:60000000:0000:00000000:00000000:go mad as it may spoil the game too much!
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:60000000:0000:00000000:00000000:
+:bublcave:00000000:E366:00000063:FFFFFFFF:동전 무한
+:bublcave:00080300:E64B:00000063:00000000:Select Starting Round
+:bublcave:60000000:0000:00000000:00000000:
+:bublcave:00000000:E645:00000006:FFFFFFFF:생명 무한 PL1
+:bublcave:00000000:E6B6:00000077:FFFFFFFF:무적 PL1
+:bublcave:62000000:0000:00000000:00000000:스피드 선택 PL1
+:bublcave:00010000:E6C1:0000000C:FFFFFFFF:일반
+:bublcave:00010000:E6C1:00000014:FFFFFFFF:파워업
+:bublcave:00010000:E6C1:00000028:FFFFFFFF:얼티메이트
+:bublcave:00000001:E6C1:0000000C:FFFFFFFF:Speed to 일반 Now! PL1
+:bublcave:00000001:E6C1:00000014:FFFFFFFF:Speed to 파워업 Now! PL1
+:bublcave:00000001:E6C1:00000028:FFFFFFFF:Speed to 얼티메이트 Now! PL1
+:bublcave:00000001:E6BF:00000014:FFFFFFFF:Fire Speed to 일반 Now! PL1
+:bublcave:00000001:E6BF:00000005:FFFFFFFF:Fire Speed to 파워업 Now! PL1
+:bublcave:00000000:E6BF:00000001:FFFFFFFF:Fire Speed Always 얼티메이트 PL1
+:bublcave:62000000:0000:00000000:00000000:Select Bubble Range PL1
+:bublcave:00010000:E6C2:00000040:FFFFFFFF:일반
+:bublcave:00010000:E6C2:00000080:FFFFFFFF:Long
+:bublcave:00010000:E6C2:000000FF:FFFFFFFF:Extra Long
+:bublcave:00000001:E6C0:00000003:FFFFFFFF:Head Power to 일반 Now! PL1
+:bublcave:00000001:E6C0:00000006:FFFFFFFF:Head Power to 파워업 Now! PL1
+:bublcave:00000000:E6C0:00000009:FFFFFFFF:Head Power Always 얼티메이트 PL1
+:bublcave:00000001:F60F:00000000:FFFFFFFF:Fire Bubbles Now! PL1
+:bublcave:00000001:F60F:00000001:FFFFFFFF:Fire Lightnings Now! PL1
+:bublcave:00000001:E742:0000003F:FFFFFFFF:Get EXTEND PL1
+:bublcave:00000001:E742:00000001:00000001:Get letter - E (red) PL1
+:bublcave:00000001:E742:00000002:00000002:Get letter - X (pink) PL1
+:bublcave:00000001:E742:00000004:00000004:Get letter - T (yellow) PL1
+:bublcave:00000001:E742:00000008:00000008:Get letter - E (green) PL1
+:bublcave:00000001:E742:00000010:00000010:Get letter - N (blue) PL1
+:bublcave:00000001:E742:00000020:00000020:Get letter - D (purple) PL1
+:bublcave:60000000:0000:00000000:00000000:
+:bublcave:00000000:E64A:00000006:FFFFFFFF:생명 무한 PL2
+:bublcave:00000000:E6E8:00000077:FFFFFFFF:무적 PL2
+:bublcave:62000000:0000:00000000:00000000:스피드 선택 PL2
+:bublcave:00010000:E6F3:0000000C:FFFFFFFF:일반
+:bublcave:00010000:E6F3:00000014:FFFFFFFF:파워업
+:bublcave:00010000:E6F3:00000028:FFFFFFFF:얼티메이트
+:bublcave:00000001:E6F3:0000000C:FFFFFFFF:Speed to 일반 Now! PL2
+:bublcave:00000001:E6F3:00000014:FFFFFFFF:Speed to 파워업 Now! PL2
+:bublcave:00000001:E6F3:00000028:FFFFFFFF:Speed to 얼티메이트 Now! PL2
+:bublcave:00000001:E6F1:00000014:FFFFFFFF:Fire Speed to 일반 Now! PL2
+:bublcave:00000001:E6F1:00000005:FFFFFFFF:Fire Speed to 파워업 Now! PL2
+:bublcave:00000000:E6F1:00000001:FFFFFFFF:Fire Speed Always 얼티메이트 PL2
+:bublcave:62000000:0000:00000000:00000000:Select Bubble Range PL2
+:bublcave:00010000:E6F4:00000040:FFFFFFFF:일반
+:bublcave:00010000:E6F4:00000080:FFFFFFFF:Long
+:bublcave:00010000:E6F4:000000FF:FFFFFFFF:Extra Long
+:bublcave:00000001:E6F2:00000003:FFFFFFFF:Head Power to 일반 Now! PL2
+:bublcave:00000001:E6F2:00000006:FFFFFFFF:Head Power to 파워업 Now! PL2
+:bublcave:00000000:E6F2:00000009:FFFFFFFF:Head Power Always 얼티메이트 PL2
+:bublcave:00000001:F610:00000000:FFFFFFFF:Fire Bubbles Now! PL2
+:bublcave:00000001:F610:00000001:FFFFFFFF:Fire Lightnings Now! PL2
+:bublcave:00000001:E743:0000003F:FFFFFFFF:Get EXTEND PL2
+:bublcave:00000001:E743:00000001:00000001:Get letter - E (red) PL2
+:bublcave:00000001:E743:00000002:00000002:Get letter - X (pink) PL2
+:bublcave:00000001:E743:00000004:00000004:Get letter - T (yellow) PL2
+:bublcave:00000001:E743:00000008:00000008:Get letter - E (green) PL2
+:bublcave:00000001:E743:00000010:00000010:Get letter - N (blue) PL2
+:bublcave:00000001:E743:00000020:00000020:Get letter - D (purple) PL2
+:bublcave:60000000:0000:00000000:00000000:
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:60000000:0000:00000000:00000000:This game has Super Mode by default so
+:bublcave:60000000:0000:00000000:00000000:to turn it OFF use the following cheat
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:20800000:1B32:000000DB:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF:This ROM has been hacked to have Super Mode on all the time - but you can change it so that it is possible to toggle it ON and OFF with this ROM cheat.
+:bublcave:20810000:1B33:000000E5:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (2/8)
+:bublcave:20810000:1B34:000000A7:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (3/8)
+:bublcave:20810000:1B35:00000018:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (4/8)
+:bublcave:20810000:2932:000000DB:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (5/8)
+:bublcave:20810000:2933:000000E5:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (6/8)
+:bublcave:20810000:2934:000000A7:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (7/8)
+:bublcave:20810000:2935:000000C9:FFFFFFFF:Turn Hard Coded 'Super' Mode OFF (8/8)
+:bublcave:62000000:0000:00000000:00000000:Select 'Super' Mode:Baddies from first 50 levels switch with last and levels change colour, Title will display 'Super' if 켬(활성) before title displayed. Same as '1P,Jump,Bubble,Left,Right,Jump,1P,Right' on Title Screen
+:bublcave:00010000:E5DB:00000001:FFFFFFFF:켬(활성)
+:bublcave:00010000:E5DB:00000000:FFFFFFFF:끔(비활성)
+:bublcave:62000000:0000:00000000:00000000:Select 'Original' Mode:Doors still appear even if you die. Same as 'Bubble,Jump,Bubble,Jump,Bubble,Jump,Right,1P' on Title Screen
+:bublcave:00010000:E5D1:00000001:FFFFFFFF:켬(활성)
+:bublcave:00010000:E5D1:00000000:FFFFFFFF:끔(비활성)
+:bublcave:62000000:0000:00000000:00000000:Select '파워업' Mode:Fast feet, fast bubbles etc. Same as 'Left,Jump,Left,1P,Left,Bubble,Left,1P' on Title Screen
+:bublcave:00010000:E5D2:00000001:FFFFFFFF:켬(활성)
+:bublcave:00010000:E5D2:00000000:FFFFFFFF:끔(비활성)
+:bublcave:00000000:E613:00000001:FFFFFFFF:Always get Bonus doors
+:bublcave:00000000:F676:00000001:FFFFFFFF:Constant Extend Letters
+:bublcave:00000000:E603:00000001:FFFFFFFF:Always Warn (Bell Item)
+:bublcave:00000000:E5FA:00000003:FFFFFFFF:Apple or Orange? You decide!
+:bublcave:00000000:E608:00000001:FFFFFFFF:Coke Can Item
+:bublcave:62000000:0000:00000000:00000000:Select 파이어 볼 Bubble Occurence
+:bublcave:00010000:6E30:00000001:FFFFFFFF:Always
+:bublcave:00010000:6E30:00000003:FFFFFFFF:1 in 2
+:bublcave:00010000:6E30:00000005:FFFFFFFF:1 in 3
+:bublcave:00010000:6E30:00000007:FFFFFFFF:1 in 4
+:bublcave:00010000:6E30:00000015:FFFFFFFF:1 in 16
+:bublcave:00010000:6E30:0000001D:FFFFFFFF:1 in 256
+:bublcave:00010000:6E30:00000025:FFFFFFFF:1 in 4096
+:bublcave:00000000:5C2B:000000C9:FFFFFFFF:Disable Bubbles?
+:bublcave:00000001:E6BB:00000005:FFFFFFFF:파이어 볼s for 5 levels
+:bublcave:00000000:E6BE:00000040:FFFFFFFF:파이어 볼s
+:bublcave:00000000:E5EE:00000007:FFFFFFFF:파이어 볼 Cross
+:bublcave:62000001:0000:00000000:00000000:Select 1st Item Now!:Use this cheat only at the start of a level, before the item appears! (if it appears at all)  FORMAT Fruit Name (Points)
+:bublcave:00010001:F44C:00000000:FFFFFFFF:Green Pepper (10 Pts)
+:bublcave:00010001:F44C:00000001:FFFFFFFF:Aubergine (20 Pts)
+:bublcave:00010001:F44C:00000002:FFFFFFFF:Carrot (30 Pts)
+:bublcave:00010001:F44C:00000003:FFFFFFFF:Onion (40 Pts)
+:bublcave:00010001:F44C:00000004:FFFFFFFF:Beetroot (50 Pts)
+:bublcave:00010001:F44C:00000005:FFFFFFFF:Turnip (60 Pts)
+:bublcave:00010001:F44C:00000006:FFFFFFFF:Parsnip (70 Pts)
+:bublcave:00010001:F44C:00000007:FFFFFFFF:Marrow (80 Pts)
+:bublcave:00010001:F44C:00000008:FFFFFFFF:Pea Pod (90 Pts)
+:bublcave:00010001:F44C:00000009:FFFFFFFF:Mushroom (100 Pts)
+:bublcave:00010001:F44C:0000000A:FFFFFFFF:Corn Cob (Lvl 35) (150 Pts)
+:bublcave:00010001:F44C:0000000B:FFFFFFFF:Fried Egg (200 Pts)
+:bublcave:00010001:F44C:0000000C:FFFFFFFF:Red Acorn Thingy (250 Pts)
+:bublcave:00010001:F44C:0000000D:FFFFFFFF:Apple (300 Pts)
+:bublcave:00010001:F44C:0000000E:FFFFFFFF:Lemon (350 Pts)
+:bublcave:00010001:F44C:0000000F:FFFFFFFF:Orange (400 Pts)
+:bublcave:00010001:F44C:00000010:FFFFFFFF:Peach (450 Pts)
+:bublcave:00010001:F44C:00000011:FFFFFFFF:Bananas (500 Pts)
+:bublcave:00010001:F44C:00000012:FFFFFFFF:Pear (550 Pts)
+:bublcave:00010001:F44C:00000013:FFFFFFFF:Watermelon (600 Pts)
+:bublcave:00010001:F44C:00000014:FFFFFFFF:Single Brown Lolly (Lvl 15) (650 Pts)
+:bublcave:00010001:F44C:00000015:FFFFFFFF:Double Blue Lolly (700 Pts)
+:bublcave:00010001:F44C:00000016:FFFFFFFF:Pink Pudding (Lvl 5) (750 Pts)
+:bublcave:00010001:F44C:00000017:FFFFFFFF:Yellow Pudding (800 Pts)
+:bublcave:00010001:F44C:00000018:FFFFFFFF:Green Pudding (850 Pts)
+:bublcave:00010001:F44C:00000019:FFFFFFFF:Green And Brown Pudding (Lvl 40) (900 Pts)
+:bublcave:00010001:F44C:0000001A:FFFFFFFF:Simple White Ice Cream Cone (950 Pts)
+:bublcave:00010001:F44C:0000001B:FFFFFFFF:Double Scoop Ice Cream Cone (1,000 Pts)
+:bublcave:00010001:F44C:0000001C:FFFFFFFF:Donut (Lvl 25) (1,000 Pts)
+:bublcave:00010001:F44C:0000001D:FFFFFFFF:French Fries (1,000 Pts)
+:bublcave:00010001:F44C:0000001E:FFFFFFFF:Sausage On A Stick (2,000 Pts)
+:bublcave:00010001:F44C:0000001F:FFFFFFFF:Creme Caramel (2,000 Pts)
+:bublcave:00010001:F44C:00000020:FFFFFFFF:Burger (2,000 Pts)
+:bublcave:00010001:F44C:00000021:FFFFFFFF:Slice Of Cake (Triangular) (2,000 Pts)
+:bublcave:00010001:F44C:00000022:FFFFFFFF:Cupcake (Blobby) (3,000 Pts)
+:bublcave:00010001:F44C:00000023:FFFFFFFF:Chicken Leg (3,000 Pts)
+:bublcave:00010001:F44C:00000024:FFFFFFFF:Purple Martini (3,000 Pts)
+:bublcave:00010001:F44C:00000025:FFFFFFFF:Some Variety Of Sushi? (3,000 Pts)
+:bublcave:00010001:F44C:00000026:FFFFFFFF:Pinkish Sweet (Lvl 50) (4,000 Pts)
+:bublcave:00010001:F44C:00000027:FFFFFFFF:(Brown Or Red?) Eskimo Pie (4,000 Pts)
+:bublcave:00010001:F44C:00000028:FFFFFFFF:(Brown Or Red?) Eskimo Pie (4,000 Pts)
+:bublcave:00010001:F44C:00000029:FFFFFFFF:Mug Of Lager (Lvl 45) (4,000 Pts)
+:bublcave:00010001:F44C:0000002A:FFFFFFFF:Purple Crystals (5,000 Pts)
+:bublcave:00010001:F44C:0000002B:FFFFFFFF:Purple Jewel (5,000 Pts)
+:bublcave:00010001:F44C:0000002C:FFFFFFFF:Yellow Butterfly (5,000 Pts)
+:bublcave:00010001:F44C:0000002D:FFFFFFFF:Blue Crystals (5,000 Pts)
+:bublcave:00010001:F44C:0000002E:FFFFFFFF:Blue Jewel (6,000 Pts)
+:bublcave:00010001:F44C:0000002F:FFFFFFFF:Necklace With Purple Pendant (6,000 Pts)
+:bublcave:00010001:F44C:00000030:FFFFFFFF:Purple Shell (6,000 Pts)
+:bublcave:00010001:F44C:00000031:FFFFFFFF:Red Jewel (7,000 Pts)
+:bublcave:00010001:F44C:00000032:FFFFFFFF:Necklace With Blue Pendant (7,000 Pts)
+:bublcave:00010001:F44C:00000033:FFFFFFFF:Bowl Of Rice (7,000 Pts)
+:bublcave:00010001:F44C:00000034:FFFFFFFF:Necklace With Red Pendant (8,000 Pts)
+:bublcave:00010001:F44C:00000035:FFFFFFFF:Dinner (8,000 Pts)
+:bublcave:00010001:F44C:00000036:FFFFFFFF:Red Crown, Blue Gems, No Cross (8,000 Pts)
+:bublcave:00010001:F44C:00000037:FFFFFFFF:Red Crown, Blue Gems, Red Cross (8,000 Pts)
+:bublcave:00010001:F44C:00000038:FFFFFFFF:Cyan Crown, Red Gems, No Cross (9,000 Pts)
+:bublcave:00010001:F44C:00000039:FFFFFFFF:Blue Crown, Red Gems, Cyan Cross (9,000 Pts)
+:bublcave:00010001:F44C:0000003A:FFFFFFFF:Gold Crown, Red Gems, No Cross (10,000 Pts)
+:bublcave:00010001:F44C:0000003B:FFFFFFFF:Gold Crown, Red Gems, White Cross (10,000 Pts)
+:bublcave:62000001:0000:00000000:00000000:Select 2nd Item Now!:Use this cheat only at the start of a level, before the item appears! (if it appears at all) When you are given a distribution, each bubble turns into an object.
+:bublcave:00010001:F45E:00000000:FFFFFFFF:Pink Sweet (파워업 Fire Range)
+:bublcave:00010001:F45E:00000001:FFFFFFFF:Blue Sweet (파워업 Head Power)
+:bublcave:00010001:F45E:00000002:FFFFFFFF:Yellow Sweet (파워업 Fire Speed)
+:bublcave:00010001:F45E:00000003:FFFFFFFF:Shoe (파워업 Speed)
+:bublcave:00010001:F45E:00000004:FFFFFFFF:Clock (Slows Down The Monsters)
+:bublcave:00010001:F45E:00000005:FFFFFFFF:Bomb (Turns Monsters Into Diamonds)
+:bublcave:00010001:F45E:00000006:FFFFFFFF:Brown Umbrella (Warps You 3 Levels Farther)
+:bublcave:00010001:F45E:00000007:FFFFFFFF:Red Umbrella (Warps You 5 Levels Farther)
+:bublcave:00010001:F45E:00000008:FFFFFFFF:Pink Umbrella (Warps You 7 Levels Farther)
+:bublcave:00010001:F45E:00000009:FFFFFFFF:Orange Potion (Potion Of Sunflowers)
+:bublcave:00010001:F45E:0000000A:FFFFFFFF:Red Potion (Potion Of Flowers)
+:bublcave:00010001:F45E:0000000B:FFFFFFFF:Green Potion (Potion Of Clovers)
+:bublcave:00010001:F45E:0000000C:FFFFFFFF:Yellow Potion (Potion Of Rainbows)
+:bublcave:00010001:F45E:0000000D:FFFFFFFF:Purple Potion (Potion Of Music Notes)
+:bublcave:00010001:F45E:0000000E:FFFFFFFF:Heart (무적+Freeze Monsters)
+:bublcave:00010001:F45E:0000000F:FFFFFFFF:Blue Ring (Points When You Walk)
+:bublcave:00010001:F45E:00000010:FFFFFFFF:Pink Ring (Points When You Jump)
+:bublcave:00010001:F45E:00000011:FFFFFFFF:Red Ring (Points When You Bubble)
+:bublcave:00010001:F45E:00000012:FFFFFFFF:Blue Cross (Fills Screen With Water)
+:bublcave:00010001:F45E:00000013:FFFFFFFF:Yellow Cross (Make Lightning Strike)
+:bublcave:00010001:F45E:00000014:FFFFFFFF:Orange Cross (Fire Flames Not Bubbles)
+:bublcave:00010001:F45E:00000015:FFFFFFFF:Blue Tea-Pot (Point When You Walk.Jump+Bubble)
+:bublcave:00010001:F45E:00000018:FFFFFFFF:Yellow Tea-Pot (파워업 Fire Range+Speed+H Pwr)
+:bublcave:00010001:F45E:00000016:FFFFFFFF:Red Tea-Pot (Blue + Yellow Teapots Combined)
+:bublcave:00010001:F45E:00000017:FFFFFFFF:Purple Tea-Pot (Turn Monsters Into Diamonds)
+:bublcave:00010001:F45E:00000019:FFFFFFFF:Book (Turns Monsters Into Diamonds)
+:bublcave:00010001:F45E:0000001A:FFFFFFFF:Grey 'Ring?' (Makes Stars Fall)
+:bublcave:00010001:F45E:0000001B:FFFFFFFF:Orange Necklace (The Extend Letters)
+:bublcave:00010001:F45E:0000001C:FFFFFFFF:Grey Necklace (Produces A Big 파이어 볼)
+:bublcave:00010001:F45E:0000001D:FFFFFFFF:Fork (Makes Fruits Fall)
+:bublcave:00010001:F45E:0000001E:FFFFFFFF:Pink Chest (Pink Diamonds On Level End)
+:bublcave:00010001:F45E:0000001F:FFFFFFFF:Yellow Chest (Yellow Diamonds On Level End)
+:bublcave:00010001:F45E:00000020:FFFFFFFF:Red Chest (Red Diamonds On Level End)
+:bublcave:00010001:F45E:00000021:FFFFFFFF:Blue Chest (Blue Diamonds On Level End)
+:bublcave:00010001:F45E:00000022:FFFFFFFF:Grey Chest (Grey Diamonds On Level End)
+:bublcave:00010001:F45E:00000023:FFFFFFFF:White Candy-Stick (Cakes On Level End)
+:bublcave:00010001:F45E:00000024:FFFFFFFF:Yellow Candy-Stick (Chocolate Cakes On Level End)
+:bublcave:00010001:F45E:00000025:FFFFFFFF:Red Candy-Stick (Watermelons On Level End)
+:bublcave:00010001:F45E:00000026:FFFFFFFF:Orange Candy-Stick (Oranges On Level End)
+:bublcave:00010001:F45E:00000027:FFFFFFFF:Brown Candy-Stick (Ice Creams On Level End)
+:bublcave:00010001:F45E:00000028:FFFFFFFF:Blue Candy-Stick (Ice Creams On Level End)
+:bublcave:00010001:F45E:00000029:FFFFFFFF:Bell (Destructive Item Warning)
+:bublcave:00010001:F45E:0000002A:FFFFFFFF:Octopussy (Wood Crosses On Level End)
+:bublcave:00010001:F45E:0000002B:FFFFFFFF:Pink Floyd (Aliens On Level End)
+:bublcave:00010001:F45E:0000002C:FFFFFFFF:Glass Of Beer (???? On Level End)
+:bublcave:00010001:F45E:0000002D:FFFFFFFF:Knife (Makes Fruits Fall)
+:bublcave:00010001:F45E:0000002E:FFFFFFFF:Crystal Ball (Gives Level Beginning Items)
+:bublcave:00010001:F45E:00000030:FFFFFFFF:Skeleton ('Hurry Up !' The Monsters)
+:bublcave:00010001:F45E:00000031:FFFFFFFF:Bonus Door Lev. 20 (Warps You To Room Of Diamonds)
+:bublcave:00010001:F45E:00000032:FFFFFFFF:Bonus Door Lev. 30 (Warps You To Room Of Diamonds)
+:bublcave:00010001:F45E:00000033:FFFFFFFF:Bonus Door Lev. 40 (Warps You To Room Of Diamonds)
+:bublcave:00010001:F45E:00000034:FFFFFFFF:Bonus Door Lev. 50 (Warps You To Level 70)
+:bublcave:00000000:F44D:00000001:FFFFFFFF:Quick Fruit at start
+:bublcave:00000000:E60A:00000001:FFFFFFFF:Lipstick
+:bublcave:00000000:E345:00000005:FFFFFFFF:Stop the Baron
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:60000000:0000:00000000:00000000:These 5 cheats will make a potion appear
+:bublcave:60000000:0000:00000000:00000000:on the next screen. It will be of the
+:bublcave:60000000:0000:00000000:00000000:type requested unless you have earned a
+:bublcave:60000000:0000:00000000:00000000:higher potion or you have fallen off the
+:bublcave:60000000:0000:00000000:00000000:bottom of the screen since setting the
+:bublcave:60000000:0000:00000000:00000000:cheat. Falling off the bottom will
+:bublcave:60000000:0000:00000000:00000000:upgrade the potion to the next one!
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:00000001:E5E7:0000000F:FFFFFFFF:Sunflower Potion(next screen)
+:bublcave:00000001:E5E7:00000010:FFFFFFFF:Flower Potion (next screen)
+:bublcave:00000001:E5E7:00000011:FFFFFFFF:Clover Potion (next screen)
+:bublcave:00000001:E5E7:00000012:FFFFFFFF:Rainbow Potion (next screen)
+:bublcave:00000001:E5E7:00000013:FFFFFFFF:Musical Potion (next screen)
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:60000000:0000:00000000:00000000:These 2 cheats are useful when you Get
+:bublcave:60000000:0000:00000000:00000000:stuck on a screen. Use only one at a time!
+:bublcave:60000000:0000:00000000:00000000:------------------------------------------
+:bublcave:00000001:F590:00000001:FFFFFFFF:Drown 'em All! Now! OR...
+:bublcave:00000001:E720:00000001:FFFFFFFF:Throw The Book At Them Now!
+
+

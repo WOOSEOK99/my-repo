@@ -139,7 +139,7 @@
         "year": 1994,
         "developer": "",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "wbmlkb": {
@@ -152,7 +152,7 @@
         "year": 1996,
         "developer": "세가",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "blkdrgonk": {
@@ -165,7 +165,7 @@
         "year": 1987,
         "developer": "캡콤",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "searcheya": {
@@ -178,7 +178,7 @@
         "year": 1999,
         "developer": "윤성",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "searchp2": {
@@ -191,7 +191,7 @@
         "year": 1999,
         "developer": "윤성",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "tengaik": {
@@ -698,7 +698,7 @@
         "year": 1977,
         "developer": "Exidy",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "robby": {
@@ -711,7 +711,7 @@
         "year": 1981,
         "developer": "Bally / Midway",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "targ": {
@@ -776,7 +776,7 @@
         "year": 1986,
         "developer": "Nichibutsu",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "madmotor": {
@@ -789,7 +789,7 @@
         "year": 1989,
         "developer": "Mitchell",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "fightrol": {
@@ -802,7 +802,7 @@
         "year": 1983,
         "developer": "Kaneko",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "tshingen": {
@@ -828,7 +828,7 @@
         "year": 1988,
         "developer": "Taito Corporation Japan",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "gaiapols": {
@@ -854,7 +854,7 @@
         "year": 1986,
         "developer": "코나미",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "theroes": {
@@ -948,19 +948,6 @@
         "buttons": 4,
         "LRbuttons": false
     },
-    "rabbit": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6729_rabbit_6318.bin",
-        "title": "래빗 (Japan)",
-        "desc": "",
-        "genre": "대전 액션",
-        "series": "",
-        "parent": "",
-        "year": 1997,
-        "developer": "Electronic Arts / Aorn",
-        "portrait": false,
-        "buttons": 4,
-        "LRbuttons": false
-    },
     "mcatadv": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6355_mcatadv_1845.bin",
         "title": "매지컬 캣 어드벤처",
@@ -984,7 +971,7 @@
         "year": 0,
         "developer": "Electronic Devices Italy",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "devilw": {
@@ -1036,7 +1023,7 @@
         "year": 1993,
         "developer": "Athena / Able",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "drgnbstr": {
@@ -1049,7 +1036,7 @@
         "year": 1984,
         "developer": "Namco",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "hardhea2": {
@@ -1062,7 +1049,7 @@
         "year": 1991,
         "developer": "SunA",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "tkmmpzdm": {
@@ -1088,7 +1075,7 @@
         "year": 1985,
         "developer": "세가",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "ldrun4": {
@@ -1101,7 +1088,7 @@
         "year": 1986,
         "developer": "Irem",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "losttomb": {
@@ -1114,7 +1101,7 @@
         "year": 1982,
         "developer": "Stern Electronics",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "hopprobo": {
@@ -1127,7 +1114,7 @@
         "year": 1983,
         "developer": "세가",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "kangaroo": {
@@ -1140,7 +1127,7 @@
         "year": 1982,
         "developer": "Sun Electronics",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "berlwall": {
@@ -1166,7 +1153,7 @@
         "year": 1983,
         "developer": "Universal",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "pandoras": {
@@ -1179,7 +1166,7 @@
         "year": 1984,
         "developer": "Konami",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "rainbow": {
@@ -1192,7 +1179,7 @@
         "year": 1987,
         "developer": "Taito Corporation",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "cbtime": {
@@ -1205,7 +1192,7 @@
         "year": 1983,
         "developer": "Data East Corporation",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "blocken": {
@@ -1244,7 +1231,7 @@
         "year": 1990,
         "developer": "Jaleco",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "iceclimb": {
@@ -1257,7 +1244,7 @@
         "year": 1984,
         "developer": "Nintendo",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "elevator": {
@@ -1270,7 +1257,7 @@
         "year": 1983,
         "developer": "Taito Corporation",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "nrallyx": {
@@ -1283,7 +1270,7 @@
         "year": 1981,
         "developer": "Namco",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "ldrun3": {
@@ -1296,7 +1283,7 @@
         "year": 1985,
         "developer": "Irem",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "ghouls": {
@@ -1309,7 +1296,7 @@
         "year": 1988,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "forgottn": {
@@ -1322,7 +1309,7 @@
         "year": 1988,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "striderjrk": {
@@ -1335,7 +1322,7 @@
         "year": 1989,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "dw": {
@@ -1361,7 +1348,7 @@
         "year": 1989,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "unsquad": {
@@ -1374,7 +1361,7 @@
         "year": 1989,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "mercs": {
@@ -1413,7 +1400,7 @@
         "year": 1990,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "cawing": {
@@ -1426,7 +1413,7 @@
         "year": 1990,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "nemo": {
@@ -1439,7 +1426,7 @@
         "year": 1990,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "sf2": {
@@ -1478,7 +1465,7 @@
         "year": 1991,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "captcomjk": {
@@ -1491,7 +1478,7 @@
         "year": 1991,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "captcomek1k": {
@@ -1504,7 +1491,7 @@
         "year": 1991,
         "developer": "kaze",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "knightsk": {
@@ -1517,7 +1504,7 @@
         "year": 1991,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "sf2ce": {
@@ -1673,7 +1660,7 @@
         "year": 1994,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "pang3": {
@@ -1803,7 +1790,7 @@
         "year": 19944,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 0,
+        "buttons": 4,
         "LRbuttons": false
     },
     "dstlk": {
@@ -1907,7 +1894,7 @@
         "year": 1996,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "xmvsf": {
@@ -1933,7 +1920,7 @@
         "year": 1997,
         "developer": "Capcom",
         "portrait": false,
-        "buttons": 4,
+        "buttons": 2,
         "LRbuttons": false
     },
     "csclubk": {
@@ -1947,6 +1934,71 @@
         "developer": "Capcom",
         "portrait": false,
         "buttons": 4,
+        "LRbuttons": false
+    },
+    "bublbobl": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3919_bublbobl_9757.bin",
+        "title": "버블 보블",
+        "desc": "",
+        "genre": "아케이드",
+        "series": "버블보블",
+        "parent": "",
+        "year": 1986,
+        "developer": "Taito",
+        "portrait": false,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "sboblbob": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6698_sboblbob_4933.bin",
+        "title": "슈퍼 버블 보블",
+        "desc": "",
+        "genre": "아케이드",
+        "series": "버블보블",
+        "parent": "bublbobl",
+        "year": 1986,
+        "developer": "bootleg",
+        "portrait": false,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "bublboblu": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9684_bublboblu_3124.bin",
+        "title": "버블 보블 (울트라 버전)",
+        "desc": "",
+        "genre": "아케이드",
+        "series": "버블보블",
+        "parent": "bublbobl",
+        "year": 1986,
+        "developer": "Taito",
+        "portrait": false,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "bublcave": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5706_bublcave_9382.bin",
+        "title": "버블 보블 로스트 케이브 (v1.2)",
+        "desc": "",
+        "genre": "아케이드",
+        "series": "버블보블",
+        "parent": "bublbobl",
+        "year": 1986,
+        "developer": "Taito",
+        "portrait": false,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "tokio": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8839_tokio_3709.bin",
+        "title": "토키오 / 스크램블 포메이션",
+        "desc": "",
+        "genre": "슈팅",
+        "series": "",
+        "parent": "",
+        "year": 1986,
+        "developer": "Taito",
+        "portrait": true,
+        "buttons": 2,
         "LRbuttons": false
     }
 }
