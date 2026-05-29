@@ -142,44 +142,56 @@ class GameJsonEditor:
         self.entries["title"] = tk.Entry(edit_frame, width=35)
         self.entries["title"].grid(row=2, column=1, sticky="ew", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="series").grid(row=3, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="title_en").grid(row=3, column=0, sticky="e", padx=2)
+        self.entries["title_en"] = tk.Entry(edit_frame, width=35)
+        self.entries["title_en"].grid(row=3, column=1, sticky="ew", padx=5, pady=2)
+
+        tk.Label(edit_frame, text="series").grid(row=4, column=0, sticky="e", padx=2)
         self.entries["series"] = ttk.Combobox(edit_frame, values=self.series_list, width=35)
-        self.entries["series"].grid(row=3, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["series"].grid(row=4, column=1, sticky="ew", padx=5, pady=2)
         self.entries["series"].set("")
 
-        tk.Label(edit_frame, text="desc").grid(row=4, column=0, sticky="ne", padx=2, pady=2)
-        self.entries["desc"] = tk.Text(edit_frame, width=35, height=4)
-        self.entries["desc"].grid(row=4, column=1, sticky="ew", padx=5, pady=2)
+        tk.Label(edit_frame, text="series_en").grid(row=5, column=0, sticky="e", padx=2)
+        self.entries["series_en"] = tk.Entry(edit_frame, width=35)
+        self.entries["series_en"].grid(row=5, column=1, sticky="ew", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="parent").grid(row=5, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="desc").grid(row=6, column=0, sticky="ne", padx=2, pady=2)
+        self.entries["desc"] = tk.Text(edit_frame, width=35, height=4)
+        self.entries["desc"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
+
+        tk.Label(edit_frame, text="parent").grid(row=7, column=0, sticky="e", padx=2)
         self.entries["parent"] = ttk.Combobox(edit_frame, values=self.parent_list, width=35)
-        self.entries["parent"].grid(row=5, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["parent"].grid(row=7, column=1, sticky="ew", padx=5, pady=2)
         self.entries["parent"].set("")
 
-        tk.Label(edit_frame, text="genre").grid(row=6, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="genre").grid(row=8, column=0, sticky="e", padx=2)
         self.entries["genre"] = ttk.Combobox(edit_frame, values=self.genre_list, width=35)
-        self.entries["genre"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
+        self.entries["genre"].grid(row=8, column=1, sticky="ew", padx=5, pady=2)
 
-        # tk.Label(edit_frame, text="year").grid(row=7, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="genre_en").grid(row=9, column=0, sticky="e", padx=2)
+        self.entries["genre_en"] = tk.Entry(edit_frame, width=35)
+        self.entries["genre_en"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
+
+        # tk.Label(edit_frame, text="year").grid(row=10, column=0, sticky="e", padx=2)
         self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=35)
-        # self.entries["year"].grid(row=7, column=1, sticky="ew", padx=5, pady=2)
+        # self.entries["year"].grid(row=10, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["portrait"] = tk.BooleanVar()
-        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=8, column=1, sticky="w", padx=5, pady=2)
+        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="buttons").grid(row=9, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="buttons").grid(row=11, column=0, sticky="e", padx=2)
         btn_chk_frame = tk.Frame(edit_frame)
-        btn_chk_frame.grid(row=9, column=1, sticky="w", padx=5, pady=2)
+        btn_chk_frame.grid(row=11, column=1, sticky="w", padx=5, pady=2)
         tk.Checkbutton(btn_chk_frame, text="2", variable=self.buttons_var, onvalue=2, offvalue=0).pack(side=tk.LEFT, padx=2)
         tk.Checkbutton(btn_chk_frame, text="4", variable=self.buttons_var, onvalue=4, offvalue=0).pack(side=tk.LEFT, padx=2)
         tk.Checkbutton(btn_chk_frame, text="6", variable=self.buttons_var, onvalue=6, offvalue=0).pack(side=tk.LEFT, padx=2)
 
         self.bool_vars["LRbuttons"] = tk.BooleanVar()
-        # tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
+        # tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=12, column=1, sticky="w", padx=5, pady=2)
 
-        # tk.Label(edit_frame, text="developer").grid(row=11, column=0, sticky="e", padx=2)
+        # tk.Label(edit_frame, text="developer").grid(row=13, column=0, sticky="e", padx=2)
         self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=35)
-        # self.entries["developer"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
+        # self.entries["developer"].grid(row=13, column=1, sticky="ew", padx=5, pady=2)
 
         # 이미지 미리보기
         img_container = tk.Frame(mid_frame, bd=1, relief="sunken", bg="white", height=170)
@@ -640,6 +652,7 @@ class GameJsonEditor:
             for c in clones:
                 if self.data[c].get("parent") == p:
                     self.listbox.insert(tk.END, f"   └─ {c}")
+        self.update_version_display()
 
     def add_new_game(self):
         """새로운 게임 항목을 추가하는 기능 (parent 또는 clone)"""
@@ -755,9 +768,12 @@ class GameJsonEditor:
         self.data[new_key] = {
             "url": new_url,
             "title": "",
+            "title_en": "",
             "desc": "",
             "genre": "",
+            "genre_en": "",
             "series": "",
+            "series_en": "",
             "parent": parent_key,
             "year": 0,
             "developer": "",
@@ -958,16 +974,17 @@ class GameJsonEditor:
     def update_version_display(self):
         """UI에 현재 updates.json의 버전 표시"""
         updates_path = os.path.join(self.base_dir, "update", "updates.json")
+        game_count = len(self.data) if hasattr(self, 'data') else 0
         if os.path.exists(updates_path):
             with open(updates_path, 'r', encoding='utf-8') as f:
                 try:
                     updates_data = json.load(f)
                     version = updates_data.get("support_game_list.json", "-")
-                    self.version_var.set(f"Version: {version}")
+                    self.version_var.set(f"Version: {version} (총 게임 수: {game_count})")
                 except:
-                    self.version_var.set("Version: Error")
+                    self.version_var.set(f"Version: Error (총 게임 수: {game_count})")
         else:
-            self.version_var.set("Version: N/A")
+            self.version_var.set(f"Version: N/A (총 게임 수: {game_count})")
 
     # ------------------------------------------------------------------ #
     #  Cheat.dat 관련 메서드                                               #
