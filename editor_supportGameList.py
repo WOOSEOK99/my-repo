@@ -15,11 +15,13 @@ class GameJsonEditor:
         self.base_dir = self.get_base_dir()
         self.default_base = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
         self.img_base = "https://raw.githubusercontent.com/WOOSEOK99/my-Images/main/"
+        self.marquee_base = "https://wooseok99.github.io/my-mrq/marquee/"
         
         # 자동 완성을 위한 사전 정의 데이터
         self.default_genres = ["슈팅", "액션", "벨트스크롤 액션", "격투", "퍼즐", "스포츠", "레이싱"]
         self.default_devs = ["캡콤", "나즈카", "SNK", "세가", "타이토", "코나미", "데이터 이스트"]
         self.genre_list = list(self.default_genres)
+        self.genre_en_list = []
         self.dev_list = list(self.default_devs)
         self.series_list = []
         self.parent_list = []
@@ -169,7 +171,7 @@ class GameJsonEditor:
         self.entries["genre"].grid(row=8, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="genre_en").grid(row=9, column=0, sticky="e", padx=2)
-        self.entries["genre_en"] = tk.Entry(edit_frame, width=35)
+        self.entries["genre_en"] = ttk.Combobox(edit_frame, values=self.genre_en_list, width=35)
         self.entries["genre_en"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
 
         # tk.Label(edit_frame, text="year").grid(row=10, column=0, sticky="e", padx=2)
@@ -199,6 +201,13 @@ class GameJsonEditor:
         img_container.pack_propagate(False)
         self.img_label = tk.Label(img_container, text="미리보기", bg="white")
         self.img_label.pack(expand=True, fill=tk.BOTH)
+
+        # 마키 이미지 미리보기
+        marquee_container = tk.Frame(mid_frame, bd=1, relief="sunken", bg="black", height=80)
+        marquee_container.pack(fill=tk.X, pady=(0, 5))
+        marquee_container.pack_propagate(False)
+        self.marquee_label = tk.Label(marquee_container, text="마키 이미지", bg="black", fg="white")
+        self.marquee_label.pack(expand=True, fill=tk.BOTH)
 
         # 버전 + 하단 버튼
         version_frame = tk.Frame(mid_frame)
@@ -386,6 +395,7 @@ class GameJsonEditor:
                         widget.delete("1.0", tk.END)
                 self.buttons_var.set(0)
                 self.img_label.config(image="", text="미리보기")
+                self.marquee_label.config(image="", text="마키 이미지")
                 messagebox.showinfo("성공", f"'{selected_key}' 항목이 삭제되었습니다.", parent=self.root)
 
     def batch_set_year(self):
@@ -435,6 +445,23 @@ class GameJsonEditor:
         except:
             # 이미지가 없거나 로드 실패 시 공간을 최소화
             self.img_label.config(image="", text="이미지 없음")
+
+    def load_marquee_image(self, key):
+        """GitHub에서 마키 이미지를 가져와서 UI 크기에 맞게 조절"""
+        try:
+            marquee_url = f"{self.marquee_base}{key}.png"
+            with urllib.request.urlopen(marquee_url) as url:
+                img_data = url.read()
+            
+            img = Image.open(BytesIO(img_data))
+            
+            # 마키 이미지의 특성에 맞게 가로로 길게 조절
+            img.thumbnail((350, 75)) 
+            
+            self.marquee_photo = ImageTk.PhotoImage(img)
+            self.marquee_label.config(image=self.marquee_photo, text="")
+        except:
+            self.marquee_label.config(image="", text="마키 없음")
 
     def perform_search(self, event=None):
         """Key(ID) 또는 Title로 검색"""
@@ -517,6 +544,7 @@ class GameJsonEditor:
         self.buttons_var.set(int(item_data.get("buttons") or 0))
 
         self.load_image(selected_key)
+        self.load_marquee_image(selected_key)
         self.load_cheat_data(selected_key)
         self.load_command_data(selected_key)
 
@@ -618,6 +646,16 @@ class GameJsonEditor:
         if "genre" in self.entries:
             self.entries["genre"]["values"] = self.genre_list
 
+    def refresh_genre_en_list(self):
+        genres_en = set()
+        for v in self.data.values():
+            g = str(v.get("genre_en", "")).strip()
+            if g:
+                genres_en.add(g)
+        self.genre_en_list = sorted(list(genres_en))
+        if "genre_en" in self.entries:
+            self.entries["genre_en"]["values"] = self.genre_en_list
+
     def refresh_developer_list(self):
         devs = set(self.default_devs) # 기존 기본값 유지하며 추가
         for v in self.data.values():
@@ -632,6 +670,7 @@ class GameJsonEditor:
         self.refresh_series_list()
         self.refresh_parent_list()
         self.refresh_genre_list()
+        self.refresh_genre_en_list()
         self.refresh_developer_list()
 
     def load_file(self):
@@ -1050,18 +1089,23 @@ class GameJsonEditor:
 
     def save_cheat_dat(self):
         """Text 위젯의 내용으로 cheat.dat의 해당 key 블록을 교체 후 저장."""
-        key = self.current_selected_key
-        if not key:
+        if not self.current_selected_key:
             messagebox.showwarning("경고", "선택된 게임이 없습니다.", parent=self.root)
             return
+        
+        new_content = self.cheat_text.get("1.0", tk.END)
+        self._save_cheat_dat_internal(self.current_selected_key, new_content, self.root)
+        
+        self.load_cheat_data(self.current_selected_key)
+
+    def _save_cheat_dat_internal(self, key, new_content, parent_window):
         if not os.path.exists(self.cheat_dat_path):
-            messagebox.showerror("오류", f"cheat.dat 파일을 찾을 수 없습니다:\n{self.cheat_dat_path}", parent=self.root)
+            messagebox.showerror("오류", f"cheat.dat 파일을 찾을 수 없습니다:\n{self.cheat_dat_path}", parent=parent_window)
             return
 
-        new_content = self.cheat_text.get("1.0", tk.END)
         # 빈 문자열이거나 '치트 데이터 없음' 메시지만 있으면 저장하지 않음
         if new_content.strip().startswith("; '") and "치트 데이터가 없습니다" in new_content:
-            messagebox.showinfo("안내", "치트 내용이 없습니다. 저장을 건너뜁니다.", parent=self.root)
+            messagebox.showinfo("안내", "치트 내용이 없습니다. 저장을 건너뜁니다.", parent=parent_window)
             return
 
         # 원본 파일 읽기
@@ -1100,7 +1144,7 @@ class GameJsonEditor:
         self._parse_cheat_dat()
 
         self.update_cheat_dat_version()
-        messagebox.showinfo("성공", "cheat.dat 저장 완료 및 updates.json 갱신되었습니다.", parent=self.root)
+        messagebox.showinfo("성공", "cheat.dat 저장 완료 및 updates.json 갱신되었습니다.", parent=parent_window)
 
     def update_cheat_dat_version(self):
         """updates.json 의 'cheat.dat' 키 날짜 값을 갱신."""
@@ -1190,17 +1234,22 @@ class GameJsonEditor:
 
     def save_command_dat(self):
         """Text 위젯의 내용으로 command.dat의 해당 key 블록을 교체 후 저장."""
-        key = self.current_selected_key
-        if not key:
+        if not self.current_selected_key:
             messagebox.showwarning("경고", "선택된 게임이 없습니다.", parent=self.root)
             return
+            
+        new_content = self.command_text.get("1.0", tk.END)
+        self._save_command_dat_internal(self.current_selected_key, new_content, self.root)
+        
+        self.load_command_data(self.current_selected_key)
+
+    def _save_command_dat_internal(self, key, new_content, parent_window):
         if not os.path.exists(self.command_dat_path):
-            messagebox.showerror("오류", f"command.dat 파일을 찾을 수 없습니다:\n{self.command_dat_path}", parent=self.root)
+            messagebox.showerror("오류", f"command.dat 파일을 찾을 수 없습니다:\n{self.command_dat_path}", parent=parent_window)
             return
 
-        new_content = self.command_text.get("1.0", tk.END)
         if new_content.strip().startswith("; '") and "커맨드 데이터가 없습니다" in new_content:
-            messagebox.showinfo("안내", "커맨드 내용이 없습니다. 저장을 건너뜁니다.", parent=self.root)
+            messagebox.showinfo("안내", "커맨드 내용이 없습니다. 저장을 건너뜁니다.", parent=parent_window)
             return
 
         with open(self.command_dat_path, 'r', encoding='euc-kr', errors='replace') as f:
@@ -1244,7 +1293,7 @@ class GameJsonEditor:
         self._parse_command_dat()
 
         self.update_command_dat_version()
-        messagebox.showinfo("성공", "command.dat 저장 완료 및 updates.json 갱신되었습니다.", parent=self.root)
+        messagebox.showinfo("성공", "command.dat 저장 완료 및 updates.json 갱신되었습니다.", parent=parent_window)
 
     def update_command_dat_version(self):
         """updates.json 의 'command.dat' 키 날짜 값을 갱신."""
@@ -1319,7 +1368,7 @@ class GameJsonEditor:
         text_frame = tk.Frame(dialog)
         text_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
         
-        result_text = tk.Text(text_frame, font=("Consolas", 9), wrap=tk.NONE)
+        result_text = tk.Text(text_frame, font=("Consolas", 9), wrap=tk.NONE, undo=True)
         yscroll = tk.Scrollbar(text_frame, command=result_text.yview)
         xscroll = tk.Scrollbar(text_frame, orient=tk.HORIZONTAL, command=result_text.xview)
         result_text.configure(yscrollcommand=yscroll.set, xscrollcommand=xscroll.set)
@@ -1328,12 +1377,16 @@ class GameJsonEditor:
         xscroll.pack(side=tk.BOTTOM, fill=tk.X)
         result_text.pack(fill=tk.BOTH, expand=True)
         
+        current_search_key = {"key": None}
+        
         def do_search(*args):
             query = search_entry.get().strip().lower()
             result_text.delete("1.0", tk.END)
             if not query:
+                current_search_key["key"] = None
                 return
             
+            current_search_key["key"] = query
             content = ""
             if "cheat" in cache_attr:
                 lines = cache.get(query, [])
@@ -1345,14 +1398,34 @@ class GameJsonEditor:
             if content:
                 result_text.insert(tk.END, content)
             else:
-                result_text.insert(tk.END, f"'{query}' 에 해당하는 데이터가 없습니다.\n")
+                if "cheat" in cache_attr:
+                    result_text.insert(tk.END, f"; '{query}' 에 대한 치트 데이터가 없습니다.\n")
+                else:
+                    result_text.insert(tk.END, f"; '{query}' 에 대한 커맨드 데이터가 없습니다.\n")
+                
+        def do_save(*args):
+            q = current_search_key["key"]
+            if not q:
+                messagebox.showwarning("경고", "먼저 검색을 통해 대상을 지정해주세요.", parent=dialog)
+                return
+                
+            new_content = result_text.get("1.0", tk.END)
+            if "cheat" in cache_attr:
+                self._save_cheat_dat_internal(q, new_content, dialog)
+                if getattr(self, "current_selected_key", None) == q:
+                    self.load_cheat_data(q)
+            else:
+                self._save_command_dat_internal(q, new_content, dialog)
+                if getattr(self, "current_selected_key", None) == q:
+                    self.load_command_data(q)
                 
         search_entry.bind("<Return>", do_search)
         tk.Button(top_frame, text="검색", command=do_search).pack(side=tk.LEFT, padx=5)
+        tk.Button(top_frame, text="저장", command=do_save, bg="#fff9c4", font=("Malgun Gothic", 9, "bold")).pack(side=tk.LEFT, padx=5)
 
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.geometry("1450x650")
+    root.geometry("1450x700")
     app = GameJsonEditor(root)
     root.mainloop()
