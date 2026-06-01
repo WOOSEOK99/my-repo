@@ -4417,18 +4417,18 @@
     },
     "uopoko": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5501_uopoko_7171.bin",
-        "title": "",
-        "title_en": "",
+        "title": "퍼즐 유 포코",
+        "title_en": "Puzzle Uo Poko",
         "desc": "",
-        "genre": "",
-        "genre_en": "",
+        "genre": "퍼즐",
+        "genre_en": "Puzzle",
         "series": "",
         "series_en": "",
         "parent": "",
         "year": 0,
         "developer": "",
         "portrait": false,
-        "buttons": 0,
+        "buttons": 2,
         "LRbuttons": false
     },
     "guwange": {
