@@ -5150,5 +5150,37 @@
         "portrait": false,
         "buttons": 2,
         "LRbuttons": false
+    },
+    "pc_smb2": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7947_pc_smb2_3465.bin",
+        "title": "슈퍼 마리오 형제 2",
+        "title_en": "Super Mario Bros. 2",
+        "desc": "",
+        "genre": "어드벤쳐",
+        "genre_en": "Adventure",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 2,
+        "LRbuttons": false
+    },
+    "pc_smb3": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4504_pc_smb3_7176.bin",
+        "title": "슈퍼 마리오 형제 3",
+        "title_en": "Super Mario Bros. 3",
+        "desc": "",
+        "genre": "어드벤쳐",
+        "genre_en": "Adventure",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 2,
+        "LRbuttons": false
     }
 }
