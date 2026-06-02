@@ -25,5 +25,26 @@
     },
     "nss": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bnss.bin"
-    }
+    },
+    "acpsx": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bacpsx.bin"
+    },
+    "cvs": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bcvs.bin"
+    },
+    "decocass": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bdecocass.bin"
+    },
+    "megaplay": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bmegaplay.bin"
+    },
+    "megatech": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bmegatech.bin"
+    },
+    "playch10": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bplaych10.bin"
+    },
+    "tps": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/btps.bin"
+    }    
 }
