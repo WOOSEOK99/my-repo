@@ -1521,7 +1521,7 @@
     },
     "iceclimb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8290_iceclimb_2180.bin",
-        "title": "VS 아이스 클라이머",
+        "title": "아이스 클라이머",
         "title_en": "VS. Ice Climber",
         "desc": "",
         "genre": "아케이드",
@@ -2193,7 +2193,7 @@
     },
     "avsp": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5678_avsp_1730.bin",
-        "title": "에일리언 VS 프레대터",
+        "title": "에일리언 프레대터",
         "title_en": "Alien vs. Predator",
         "desc": "",
         "genre": "어드벤쳐",
@@ -2337,7 +2337,7 @@
     },
     "xmvsf": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8013_xmvsf_3283.bin",
-        "title": "엑스맨 VS 스트리트 파이터",
+        "title": "엑스맨 스트리트 파이터",
         "title_en": "X-Men vs. Street Fighter",
         "desc": "",
         "genre": "대전 액션",
@@ -3553,7 +3553,7 @@
     },
     "baddudes": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1147_baddudes_4331.bin",
-        "title": "배드 듀디스 VS 드래곤닌자",
+        "title": "배드 듀디스 드래곤닌자",
         "title_en": "Bad Dudes vs. Dragonninja",
         "desc": "",
         "genre": "횡스크롤 액션",
@@ -4929,7 +4929,7 @@
     },
     "btlecity": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6499_btlecity_8513.bin",
-        "title": "VS 배틀 시티",
+        "title": "배틀 시티",
         "title_en": "Vs. Battle City",
         "desc": "",
         "genre": "아케이드",
@@ -4945,7 +4945,7 @@
     },
     "cstlevna": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8412_cstlevna_1233.bin",
-        "title": "VS 악마성 드라큘라",
+        "title": "악마성 드라큘라",
         "title_en": "Vs. Castlevania",
         "desc": "",
         "genre": "횡스크롤 액션",
@@ -4961,7 +4961,7 @@
     },
     "excitebk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3372_excitebk_9634.bin",
-        "title": "VS 익사이트 바이크",
+        "title": "익사이트 바이크",
         "title_en": "Vs. Excitebike",
         "desc": "",
         "genre": "스포츠",
@@ -4977,7 +4977,7 @@
     },
     "goonies": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4987_goonies_9155.bin",
-        "title": "VS 구니스",
+        "title": "구니스",
         "title_en": "Vs. The Goonies",
         "desc": "",
         "genre": "아케이드",
@@ -4993,7 +4993,7 @@
     },
     "rbibb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9019_rbibb_4087.bin",
-        "title": "VS 아타리 R.B.I. 야구",
+        "title": "아타리 R.B.I. 야구",
         "title_en": "Vs. Atari R.B.I. Baseball",
         "desc": "",
         "genre": "스포츠",
@@ -5009,7 +5009,7 @@
     },
     "suprmrio": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6025_suprmrio_9673.bin",
-        "title": "VS 슈퍼 마리오 형제",
+        "title": "슈퍼 마리오 형제",
         "title_en": "Vs. Super Mario Bros",
         "desc": "",
         "genre": "어드벤쳐",
@@ -5025,7 +5025,7 @@
     },
     "vsskykid": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9000_vsskykid_3834.bin",
-        "title": "VS 슈퍼 스카이키드",
+        "title": "슈퍼 스카이키드",
         "title_en": "Vs. Super SkyKid",
         "desc": "",
         "genre": "슈팅",
@@ -5041,7 +5041,7 @@
     },
     "vspinbal": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7470_vspinbal_9475.bin",
-        "title": "VS 핀볼",
+        "title": "핀볼",
         "title_en": "Vs. Pinball",
         "desc": "",
         "genre": "퍼즐",
@@ -5057,7 +5057,7 @@
     },
     "vssoccer": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4349_vssoccer_2885.bin",
-        "title": "VS 축구",
+        "title": "축구",
         "title_en": "Vs. Soccer",
         "desc": "",
         "genre": "스포츠",
@@ -5073,7 +5073,7 @@
     },
     "vsgradus": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3588_vsgradus_3721.bin",
-        "title": "VS 그라디우스",
+        "title": "그라디우스",
         "title_en": "Vs. Gradius",
         "desc": "",
         "genre": "슈팅",
@@ -5089,7 +5089,7 @@
     },
     "platoon": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5966_platoon_2547.bin",
-        "title": "VS 플래툰",
+        "title": "플래툰",
         "title_en": "Vs. Platoon",
         "desc": "",
         "genre": "슈팅",
@@ -5105,7 +5105,7 @@
     },
     "mightybj": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3993_mightybj_4517.bin",
-        "title": "VS 마이티 봄 잭",
+        "title": "마이티 봄 잭",
         "title_en": "Vs. Mighty Bomb Jack",
         "desc": "",
         "genre": "아케이드",
@@ -5121,7 +5121,7 @@
     },
     "jajamaru": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1857_jajamaru_2996.bin",
-        "title": "VS 닌자 자자마루군",
+        "title": "닌자 자자마루군",
         "title_en": "Vs. Ninja Jajamaru Kun",
         "desc": "",
         "genre": "아케이드",
@@ -5137,7 +5137,7 @@
     },
     "supxevs": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1930_supxevs_4088.bin",
-        "title": "VS 슈퍼 제비우스",
+        "title": "슈퍼 제비우스",
         "title_en": "Vs. Super Xevious",
         "desc": "",
         "genre": "슈팅",
