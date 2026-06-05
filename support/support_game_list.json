@@ -5153,8 +5153,8 @@
     },
     "pc_smb2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7947_pc_smb2_3465.bin",
-        "title": "슈퍼 마리오 형제 2 (패미컴)",
-        "title_en": "Super Mario Bros. 2 (PlayChoice)",
+        "title": "슈퍼 마리오 형제 2",
+        "title_en": "Super Mario Bros. 2",
         "desc": "",
         "genre": "어드벤쳐",
         "genre_en": "Adventure",
@@ -5169,8 +5169,8 @@
     },
     "pc_smb3": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4504_pc_smb3_7176.bin",
-        "title": "슈퍼 마리오 형제 3 (패미컴)",
-        "title_en": "Super Mario Bros. 3 (PlayChoice)",
+        "title": "슈퍼 마리오 형제 3",
+        "title_en": "Super Mario Bros. 3",
         "desc": "",
         "genre": "어드벤쳐",
         "genre_en": "Adventure",
@@ -5185,8 +5185,8 @@
     },
     "pc_smb": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7978_pc_smb_8576.bin",
-        "title": "슈퍼 마리오 형제 (패미컴)",
-        "title_en": "Super Mario Bros. (PlayChoice)",
+        "title": "슈퍼 마리오 형제",
+        "title_en": "Super Mario Bros.",
         "desc": "",
         "genre": "어드벤쳐",
         "genre_en": "Adventure",
@@ -5201,8 +5201,8 @@
     },
     "pc_tenis": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9039_pc_tenis_7871.bin",
-        "title": "테니스 (패미컴)",
-        "title_en": "Tennis (PlayChoice)",
+        "title": "테니스",
+        "title_en": "Tennis",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Sports",
@@ -5217,8 +5217,8 @@
     },
     "pc_mario": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6601_pc_mario_7213.bin",
-        "title": "마리오 형제 (패미컴)",
-        "title_en": "Mario Bros. (PlayChoice)",
+        "title": "마리오 형제",
+        "title_en": "Mario Bros.",
         "desc": "",
         "genre": "어드벤쳐",
         "genre_en": "Adventure",
@@ -5233,8 +5233,8 @@
     },
     "pc_bball": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5140_pc_bball_3035.bin",
-        "title": "야구 (패미컴)",
-        "title_en": "Baseball (PlayChoice)",
+        "title": "야구",
+        "title_en": "Baseball",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Sports",
@@ -5249,24 +5249,24 @@
     },
     "pc_bfght": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7444_pc_bfght_2563.bin",
-        "title": "",
-        "title_en": "",
+        "title": "벌룬 파이트",
+        "title_en": "Balloon Fight",
         "desc": "",
-        "genre": "",
-        "genre_en": "",
+        "genre": "아케이드",
+        "genre_en": "Arcade",
         "series": "",
         "series_en": "",
         "parent": "",
         "year": 0,
         "developer": "",
         "portrait": false,
-        "buttons": 0,
+        "buttons": 2,
         "LRbuttons": false
     },
     "pc_ebike": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9992_pc_ebike_8176.bin",
-        "title": "익사이트 바이크 (패미컴)",
-        "title_en": "Excite Bike (PlayChoice)",
+        "title": "익사이트 바이크",
+        "title_en": "Excite Bike",
         "desc": "",
         "genre": "레이싱",
         "genre_en": "Racing",
@@ -5281,8 +5281,8 @@
     },
     "pc_golf": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9596_pc_golf_4160.bin",
-        "title": "골프 (패미컴)",
-        "title_en": "Golf (PlayChoice)",
+        "title": "골프",
+        "title_en": "Golf",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Sports",
@@ -5298,7 +5298,7 @@
     "pc_kngfu": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4310_pc_kngfu_8746.bin",
         "title": "쿵푸",
-        "title_en": "Kung Fu (PlayChoice)",
+        "title_en": "Kung Fu",
         "desc": "",
         "genre": "횡스크롤 액션",
         "genre_en": "Side-scrolling Action",
@@ -5314,7 +5314,7 @@
     "pc_vball": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3786_pc_vball_4688.bin",
         "title": "배구",
-        "title_en": "Volley Ball (PlayChoice)",
+        "title_en": "Volley Ball",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Sports",
@@ -5330,7 +5330,7 @@
     "pc_1942": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8489_pc_1942_7596.bin",
         "title": "1942",
-        "title_en": "1942 (PlayChoice)",
+        "title_en": "1942",
         "desc": "",
         "genre": "슈팅",
         "genre_en": "Shoot 'em up",
@@ -5346,7 +5346,7 @@
     "pc_grdus": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6584_pc_grdus_7410.bin",
         "title": "그라디우스",
-        "title_en": "Gradius (PlayChoice)",
+        "title_en": "Gradius",
         "desc": "",
         "genre": "슈팅",
         "genre_en": "Shoot 'em up",
@@ -5362,7 +5362,7 @@
     "pc_tkfld": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3908_pc_tkfld_1054.bin",
         "title": "하이퍼 올림픽",
-        "title_en": "Track & Field (PlayChoice)",
+        "title_en": "Track & Field",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Sports",
@@ -5378,7 +5378,7 @@
     "pc_pwrst": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/6934_pc_pwrst_6435.bin",
         "title": "프로 레슬링",
-        "title_en": "Pro Wrestling (PlayChoice)",
+        "title_en": "Pro Wrestling",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Sports",
@@ -5394,7 +5394,7 @@
     "pc_trjan": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4633_pc_trjan_2435.bin",
         "title": "트로전",
-        "title_en": "Trojan (PlayChoice)",
+        "title_en": "Trojan",
         "desc": "",
         "genre": "횡스크롤 액션",
         "genre_en": "Side-scrolling Action",
@@ -5410,7 +5410,7 @@
     "pc_cvnia": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4054_pc_cvnia_6463.bin",
         "title": "악마성 드라큘라",
-        "title_en": "Castlevania (PlayChoice)",
+        "title_en": "Castlevania",
         "desc": "",
         "genre": "어드벤쳐",
         "genre_en": "Adventure",
@@ -5426,7 +5426,7 @@
     "pc_dbldr": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7182_pc_dbldr_1393.bin",
         "title": "더블 드리블",
-        "title_en": "Double Dribble (PlayChoice)",
+        "title_en": "Double Dribble",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Sports",
@@ -5442,7 +5442,7 @@
     "pc_rnatk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8222_pc_rnatk_1496.bin",
         "title": "러쉬 앤 어택",
-        "title_en": "Rush'n Attack (PlayChoice)",
+        "title_en": "Rush'n Attack",
         "desc": "",
         "genre": "아케이드",
         "genre_en": "Arcade",
@@ -5458,7 +5458,7 @@
     "pc_rygar": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8657_pc_rygar_9828.bin",
         "title": "아르고스의 전사",
-        "title_en": "Rygar (PlayChoice)",
+        "title_en": "Rygar",
         "desc": "",
         "genre": "횡스크롤 액션",
         "genre_en": "Side-scrolling Action",
@@ -5474,7 +5474,7 @@
     "pc_cntra": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1226_pc_cntra_6146.bin",
         "title": "혼두라",
-        "title_en": "Contra (PlayChoice)",
+        "title_en": "Contra",
         "desc": "",
         "genre": "횡스크롤 액션",
         "genre_en": "Side-scrolling Action",
@@ -5490,7 +5490,7 @@
     "pc_goons": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7977_pc_goons_1912.bin",
         "title": "구니스",
-        "title_en": "The Goonies (PlayChoice)",
+        "title_en": "The Goonies",
         "desc": "",
         "genre": "아케이드",
         "genre_en": "Arcade",
@@ -5506,7 +5506,7 @@
     "pc_mtoid": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4366_pc_mtoid_8400.bin",
         "title": "메트로이드",
-        "title_en": "Metroid (PlayChoice)",
+        "title_en": "Metroid",
         "desc": "",
         "genre": "횡스크롤 액션",
         "genre_en": "Side-scrolling Action",
@@ -5522,7 +5522,7 @@
     "pc_radrc": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1244_pc_radrc_7441.bin",
         "title": "래드 레이서",
-        "title_en": "Rad Racer (PlayChoice)",
+        "title_en": "Rad Racer",
         "desc": "",
         "genre": "레이싱",
         "genre_en": "Racing",
@@ -5538,7 +5538,7 @@
     "pc_miket": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2551_pc_miket_6157.bin",
         "title": "마이크 타이슨의 펀치아웃!!",
-        "title_en": "Mike Tyson's Punch-Out!! (PlayChoice)",
+        "title_en": "Mike Tyson's Punch-Out!!",
         "desc": "",
         "genre": "스포츠",
         "genre_en": "Shoot 'em up",
@@ -5554,7 +5554,7 @@
     "pc_rcpam": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8609_pc_rcpam_7344.bin",
         "title": "R.C. 프로 암",
-        "title_en": "R.C. Pro-Am (PlayChoice)",
+        "title_en": "R.C. Pro-Am",
         "desc": "",
         "genre": "레이싱",
         "genre_en": "Racing",
@@ -5570,7 +5570,7 @@
     "pc_rrngr": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4060_pc_rrngr_5288.bin",
         "title": "다람쥐 구조대 : 칩과 데일",
-        "title_en": "Chip'n Dale: Rescue Rangers (PlayChoice)",
+        "title_en": "Chip'n Dale: Rescue Rangers",
         "desc": "",
         "genre": "아케이드",
         "genre_en": "Arcade",
@@ -5586,7 +5586,7 @@
     "pc_ddrgn": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5690_pc_ddrgn_7207.bin",
         "title": "더블 드래곤",
-        "title_en": "Double Dragon (PlayChoice)",
+        "title_en": "Double Dragon",
         "desc": "",
         "genre": "벨트스크롤 액션",
         "genre_en": "Side-scrolling Action",
@@ -5602,7 +5602,7 @@
     "pc_ngaid": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1335_pc_ngaid_6785.bin",
         "title": "닌자 외전",
-        "title_en": "Ninja Gaiden (PlayChoice)",
+        "title_en": "Ninja Gaiden",
         "desc": "",
         "genre": "횡스크롤 액션",
         "genre_en": "Side-scrolling Action",
@@ -5618,7 +5618,7 @@
     "pc_tmnt": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2800_pc_tmnt_2960.bin",
         "title": "닌자거북이",
-        "title_en": "Teenage Mutant Ninja Turtles (PlayChoice)",
+        "title_en": "Teenage Mutant Ninja Turtles",
         "desc": "",
         "genre": "횡스크롤 액션",
         "genre_en": "Side-scrolling Action",
