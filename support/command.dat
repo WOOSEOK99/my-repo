@@ -92531,3 +92531,14 @@ $end
 
 
 
+
+$info=bigstrkb
+$cmd
+offense :
+   [A] Short pass 
+   [B] Long pass / Shoot 
+   [C] Fake play
+defense :
+   [A] Sliding tackle
+$end
+
