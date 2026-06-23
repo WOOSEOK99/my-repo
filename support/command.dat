@@ -31758,7 +31758,7 @@ battlega:0:101780:EE:000:Invulnerability ON
 battlega:0:101780:01:001:Invulnerability OFF
 $end
 #배틀 바크 RAID
-$info=bbakraid
+$info=bbakraid,bbakradu
 $cmd
 [ 기본 조작 방법에 대해 ]
 ──────────────────
@@ -31915,6 +31915,7 @@ bbakraid:0:20439F:EC:000:Invulnerability ON
 bbakraid:0:20439F:01:001:Invulnerability OFF
 $end
 #초절륜인 베라 보 맨
+
 $info=berabohm
 $cmd
 [ 기본 조작 방법에 대해·베라 보 맨 ]
