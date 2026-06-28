@@ -1,0 +1,24 @@
+title: 파워 드라이브, title_en: Power Drive
+title: F-1 드림, title_en: F-1 Dream
+title: 램페이지, title_en: Rampage
+title: 팀버, title_en: Timber
+title: 킹 오브 파이터즈 97 (한글판), title_en: The King of Fighters '97 (Korean)
+title: 탑 헌터 - 로디 & 케시, title_en: Top Hunter - Roddy and Cathy (korean)
+title: 타이거 로드, title_en: Tiger Road
+title: 와코, title_en: Wacko
+title: 사탄의 계곡, title_en: Satan's Hollow
+title: 저니, title_en: Journey
+title: 킹 오브 파이터즈 99 (한글판), title_en: The King of Fighters '99 (Korean)
+title: 퍼즐 드 퐁! R!, title_en: Puzzle De Pon! R!
+title: 킹 오브 파이터즈 2000 (한글판), title_en: The King of Fighters '2000 (Korean)
+title: 체르노브 - 아토믹 런너, title_en: Chelnov - Atomic Runner
+title: 스타 가즈, title_en: Star Guards
+title: 퍼즐 드 퐁! (한글판), title_en: Puzzle De Pon! (Korean)
+title: 탭퍼, title_en: Tapper
+title: 도미노맨, title_en: Domino Man
+title: 킹 오브 파이터즈 97 플러스 (한글판), title_en: The King of Fighters '97 Plus (Korean)
+title: 킹 오브 파이터즈 94 (루갈&킹 선택), title_en: The King of Fighters '94 (Can Choose Rugal & king)
+title: 디스크 오브 트론, title_en: Discs of Tron
+title: 아이언 호스, title_en: Iron Horse
+title: 킹 오브 파이터즈 98 (한글판), title_en: The King of Fighters '98 (Korean)
+title: 투 타이거, title_en: Two Tigers

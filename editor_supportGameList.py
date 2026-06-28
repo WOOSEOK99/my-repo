@@ -39,6 +39,8 @@ class GameJsonEditor:
         # command.dat 관련 상태
         self.command_dat_path = os.path.join(self.get_base_dir(), "support", "command.dat")
         self.command_cache = None  # {romkey: str} 캐시 (최초 1회 파싱)
+        
+        self.newly_added_keys = set()
 
         self.setup_ui()
         self.bind_paste_cleaning()
@@ -385,6 +387,8 @@ class GameJsonEditor:
         if confirm:
             if selected_key in self.data:
                 del self.data[selected_key]
+                if selected_key in self.newly_added_keys:
+                    self.newly_added_keys.remove(selected_key)
                 self.update_listbox()
                 # 입력창 초기화
                 self.key_entry.delete(0, tk.END)
@@ -574,6 +578,9 @@ class GameJsonEditor:
                     return
             # Key 이름 변경
             self.data[new_key] = self.data.pop(selected_key)
+            if selected_key in self.newly_added_keys:
+                self.newly_added_keys.remove(selected_key)
+                self.newly_added_keys.add(new_key)
             # 자식 게임들의 parent 참조 업데이트
             for k, v in self.data.items():
                 if v.get("parent") == selected_key:
@@ -820,6 +827,7 @@ class GameJsonEditor:
             "buttons": 0,
             "LRbuttons": False
         }
+        self.newly_added_keys.add(new_key)
         self.refresh_all_lists()
         self.update_listbox()
         self.select_listbox_key(new_key)
@@ -939,6 +947,8 @@ class GameJsonEditor:
             if self.data[source_key].get("parent") == "":
                 self.data[new_key]["parent"] = source_key
             
+            self.newly_added_keys.add(new_key)
+            
             self.refresh_all_lists()
             self.update_listbox()
             self.select_listbox_key(new_key)
@@ -951,7 +961,6 @@ class GameJsonEditor:
         for key in self.data:
             url_val = str(self.data[key].get("url", ""))
             if url_val and not url_val.startswith("http"):
-                import os
                 filename = os.path.basename(url_val)
                 self.data[key]["url"] = f"{self.default_base}{filename}"
 
@@ -968,8 +977,19 @@ class GameJsonEditor:
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(ordered, f, indent=4, ensure_ascii=False)
         
+        if self.newly_added_keys:
+            txt_path = os.path.join(self.base_dir, "newly_added_titles.txt")
+            with open(txt_path, 'w', encoding='utf-8') as tf:
+                for k in self.newly_added_keys:
+                    item = self.data.get(k)
+                    if item:
+                        title_str = item.get('title', '')
+                        title_en_str = item.get('title_en', '')
+                        tf.write(f"title: {title_str}, title_en: {title_en_str}\n")
+            self.newly_added_keys.clear()
+        
         self.update_json_version()
-        messagebox.showinfo("성공", "파일이 저장되고 updates.json이 갱신되었습니다.", parent=self.root)
+        messagebox.showinfo("성공", "파일이 저장되고 updates.json이 갱신됨.\n(새로 추가된 게임 목록은 newly_added_titles.txt에 저장되었습니다.)", parent=self.root)
 
     def update_json_version(self):
         """update/updates.json 갱신 및 UI 표시"""
