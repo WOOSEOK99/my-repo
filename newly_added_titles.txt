@@ -1,130 +1,138 @@
-<P>잇키</P>
-<P>크레이지 랠리</P>
-<P>매지컬 크리스탈</P>
-<P>B 랩 보이즈</P>
-<P>B 랩 보이즈 스페셜</P>
-<P>대전 퍼즐구슬</P>
-<P>그랜드 투어</P>
-<P>트릭 트랩</P>
-<P>세르베루스</P>
-<P>월드 시리즈: 시즌</P>
-<P>프로 사커</P>
-<P>쿼터백</P>
-<P>하이퍼 스포츠</P>
-<P>하이퍼 듀얼</P>
-<P>IQ 블럭</P>
-<P>샌드 스콜피온</P>
-<P>너클 죠</P>
-<P>카멜레온</P>
-<P>스냅 잭</P>
-<P>지직스</P>
-<P>부메랑</P>
-<P>잭과 콩나무</P>
-<P>로드 파이터</P>
-<P>벤 베로 베에</P>
-<P>개구리 숙녀</P>
-<P>펑키 피쉬</P>
-<P>메이엄 2002</P>
-<P>파워 플레이</P>
-<P>올가미</P>
-<P>히게마루 해적선</P>
-<P>타올라라! 프로야구 홈런 경쟁</P>
-<P>쇼군 워리어즈</P>
-<P>드래군 마이트</P>
-<P>블레이즈 온</P>
-<P>홀 랜드</P>
-<P>쟈칼</P>
-<P>앨리 마스터</P>
-<P>슈퍼 베이스볼 더블 플레이 홈런 더비</P>
-<P>스트라이크 존 베이스볼</P>
-<P>하운티드 캐슬</P>
-<P>섹시 파로디우스</P>
-<P>폭열 브레이커</P>
-<P>도로돈</P>
-<P>핀보</P>
-<P>카미카제 캐비</P>
-<P>리버레이션</P>
-<P>트윈비 야호!</P>
-<P>핼리 혜성</P>
-<P>레드 스톰 랠리 2011</P>
-<P>봉크 어드벤처</P>
-<P>헥시온</P>
-<P>매드 기어</P>
-<P>레밍즈</P>
-<P>베이스볼 더 시즌 II</P>
-<P>코스믹 어벤져</P>
-<P>극상 파로디우스</P>
-<P>쥬니어 팩맨</P>
-<P>무당벌레</P>
-<P>라스트 듀얼</P>
-<P>피그아웃</P>
-<P>스타워즈 - 제다이의 귀환</P>
-<P>Prosport</P>
-<P>킹 오브 복서</P>
-<P>헥사</P>
-<P>점핑 크로스</P>
-<P>Ikki</P>
-<P>Crazy Rally</P>
-<P>Magical Crystals</P>
-<P>B.Rap Boys</P>
-<P>B.Rap Boys Special</P>
-<P>Taisen Puzzle-dama</P>
-<P>Grand Tour</P>
-<P>Trick Trap</P>
-<P>Cerberus</P>
-<P>World Series: The Season</P>
-<P>Pro Soccer</P>
-<P>Quarterback</P>
-<P>Hyper Sports</P>
-<P>Hyper Duel</P>
-<P>IQ-Block</P>
-<P>Sand Scorpion</P>
-<P>Knuckle Joe</P>
-<P>Chameleon</P>
-<P>Snap Jack</P>
-<P>Zzyzzyxx</P>
-<P>Boomer Rang'r</P>
-<P>Jack the Giantkiller</P>
-<P>Road Fighter</P>
-<P>Ben Bero Beh</P>
-<P>Lady Frog</P>
-<P>Funky Fish</P>
-<P>Mayhem 2002</P>
-<P>Power Play</P>
-<P>Lasso</P>
-<P>Pirate Ship Higemaru</P>
-<P>Moero Pro Yakyuu Homerun</P>
-<P>Shogun Warriors</P>
-<P>Dragoon Might</P>
-<P>Blaze On</P>
-<P>Hole Land</P>
-<P>Jackal</P>
-<P>Alley Master</P>
-<P>Super Baseball Double Play Home Run Derby</P>
-<P>Strike Zone Baseball</P>
-<P>Haunted Castle</P>
-<P>Sexy Parodius</P>
-<P>Bakuretsu Breaker</P>
-<P>Dorodon</P>
-<P>Pinbo</P>
-<P>Kamikaze Cabbie</P>
-<P>Liberation</P>
-<P>Twin Bee Yahhoo!</P>
-<P>Halley's Comet</P>
-<P>Led Storm Rally 2011</P>
-<P>Bonk's Adventure</P>
-<P>Hexion</P>
-<P>Mad Gear</P>
-<P>Lemmings</P>
-<P>Baseball: The Season II</P>
-<P>Cosmic Avenger</P>
-<P>Gokujyou Parodius</P>
-<P>Jr. Pac-Man</P>
-<P>Lady Bug</P>
-<P>Last Duel</P>
-<P>Pig Out: Dine Like a Swine!</P>
-<P>Return of the Jedi</P>
-<P>Prosport</P>
-<P>King of Boxer</P>
-<P>Hexa</P>
-<P>Jumping Cross</P>
+<P>아토믹 펑크</P>
+<P>키드 니키 - 라디칼 닌자</P>
+<P>어벤징 스피리트</P>
+<P>원티드</P>
+<P>마계전설</P>
+<P>매그 맥스</P>
+<P>배틀 크루져 M-12</P>
+<P>매니아 챌린지</P>
+<P>블래스티드</P>
+<P>하코우!</P>
+<P>츠왁커리</P>
+<P>메이저 타이틀</P>
+<P>E.D.F. : 어스 디펜스 포스</P>
+<P>랜드 씨 에어 스쿼드</P>
+<P>배틀로드</P>
+<P>팩 & 팔</P>
+<P>메인 이벤트 (1984)</P>
+<P>키메라 비스트</P>
+<P>디그 더그 II</P>
+<P>리전더리 윙스</P>
+<P>슈퍼 팩맨</P>
+<P>트로전</P>
+<P>파이어 버렐</P>
+<P>마린 보이</P>
+<P>로드 런너</P>
+<P>노스트라다무스</P>
+<P>플러스 알파</P>
+<P>솔담</P>
+<P>드루아가의 탑</P>
+<P>쿵푸 마스터</P>
+<P>아스티아낙스</P>
+<P>실력!! 프로야구</P>
+<P>제노포브</P>
+<P>마피</P>
+<P>섹션 Z</P>
+<P>약탈자</P>
+<P>스페랑카</P>
+<P>코만도 (Sega 버전)</P>
+<P>마크로스 플러스</P>
+<P>호라이즌</P>
+<P>체인지</P>
+<P>그로브다</P>
+<P>정글러</P>
+<P>마빈스 메이즈</P>
+<P>로트 로트</P>
+<P>아치 라이벌스</P>
+<P>택티션</P>
+<P>스프링거</P>
+<P>세인트 드래곤</P>
+<P>메인 이벤트 (4인용 버전 Y)</P>
+<P>매트매니아</P>
+<P>하커</P>
+<P>트라이 스포츠</P>
+<P>영(影)의전설</P>
+<P>피그스킨 621AD</P>
+<P>이가 인술전</P>
+<P>로코 모션</P>
+<P>어벤져스</P>
+<P>망캉</P>
+<P>뱅가드 II</P>
+<P>64번가 - 탐정 이야기</P>
+<P>빅 스트라이커</P>
+<P>스페랑카 II</P>
+<P>P-47 - 팬텀 파이터</P>
+<P>사이배틀러</P>
+<P>로드 런너 II - 번질링 스트라이크 백</P>
+<P>매드 크래셔</P>
+<P>리스키 챌린지</P>
+<P>킥 오프</P>
+<P>New Atomic Punk - Global Quest</P>
+<P>Kid Niki - Radical Ninja</P>
+<P>Avenging Spirit</P>
+<P>Wanted</P>
+<P>Legend of Makai</P>
+<P>Mag Max</P>
+<P>Battle Cruiser M-12</P>
+<P>Mania Challenge</P>
+<P>Blasted</P>
+<P>Hachoo!</P>
+<P>Zwackery</P>
+<P>Major Title</P>
+<P>E.D.F. : Earth Defense Force</P>
+<P>Land Sea Air Squad</P>
+<P>The Battle-Road</P>
+<P>Pac & Pal</P>
+<P>Main Event (1984)</P>
+<P>Chimera Beast</P>
+<P>Dig Dug II</P>
+<P>Legendary Wings</P>
+<P>Super Pac-Man</P>
+<P>Trojan</P>
+<P>Fire Barrel</P>
+<P>Marine Boy</P>
+<P>Lode Runner</P>
+<P>Nostradamus</P>
+<P>Plus Alpha</P>
+<P>Soldam</P>
+<P>The Tower of Druaga</P>
+<P>Kung-Fu Master</P>
+<P>The Astyanax</P>
+<P>Jitsuryoku!! Pro Yakyuu</P>
+<P>Xenophobe</P>
+<P>Mappy</P>
+<P>Section Z</P>
+<P>Devastators</P>
+<P>Spelunker</P>
+<P>Commando (Sega)</P>
+<P>Macross Plus</P>
+<P>Horizon</P>
+<P>Changes</P>
+<P>Grobda</P>
+<P>Jungler</P>
+<P>Marvin's Maze</P>
+<P>Lot Lot</P>
+<P>Arch Rivals</P>
+<P>Tactician</P>
+<P>Springer</P>
+<P>Saint Dragon</P>
+<P>The Main Event (4 Players ver. Y)</P>
+<P>Mat Mania</P>
+<P>Hoccer</P>
+<P>Tri-Sports</P>
+<P>The Legend of Kage</P>
+<P>Pigskin 621AD</P>
+<P>Ninja Kazan</P>
+<P>Loco-Motion</P>
+<P>Avengers</P>
+<P>Markham</P>
+<P>Vanguard II</P>
+<P>64th. Street - A Detective Story</P>
+<P>Big Striker</P>
+<P>Spelunker II</P>
+<P>P-47 - The Phantom Fighter</P>
+<P>Cybattler</P>
+<P>Lode Runner II - The Bungeling Strikes Back</P>
+<P>Mad Crasher</P>
+<P>Risky Challenge</P>
+<P>Kick Off</P>

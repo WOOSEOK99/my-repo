@@ -5411,7 +5411,7 @@ $cmd
 파워가 매우 굉장하게 된다···
 $end
 
-$info=kof94,kof94kt
+$info=kof94,kof94kt,kof94rk,kof94srik,kof94s20k
 $cmd
 [ 기본 조작 방법에 대해 ]
 ───────────────────────
@@ -5749,7 +5749,8 @@ $cmd
 $end
 
 
-$info=kof95
+
+$info=kof95,kof95kt,kof95sehk
 $cmd
 [ 기본 조작 방법에 대해 ]
 ───────────────────────
@@ -6133,6 +6134,7 @@ $cmd
 $end
 
 
+
 $info=kof95sp,kof95sp
 $cmd
 [ 기본 조작 방법에 대해 ]
@@ -6273,7 +6275,7 @@ PS : 전투 중에 캐릭터 아바타 위에 표시됩니다!
 13. 인터페이스의 일부 미화;
 
 $end
-$info=kof96
+$info=kof96,kof96kt,kof96s20k
 $cmd
 [ 기본 조작 방법에 대해 ]
 ───────────────────────
@@ -6764,6 +6766,7 @@ $cmd
 삼신기 팀 : 쿄&이오리&치즈루
 게닛츠 팀 : 게닛츠&아무나 2명
 $end
+
 
 $info=kof97,kof97kt
 $cmd
@@ -11884,6 +11887,23 @@ _< 무기 변경 : _D
     _> 해비 머신건    
 $end
 $cmd
+[Hack Contents]
+_< Button Layout
+_D _E _F
+_A _B _C
+
+_< Default Weapon H (Heavy Machine Gun)
+_< Infinite Jump
+_< 99 Bombs
+_< Tank Summon : _F
+_< Weapon Change : _D
+_> Rocket Launcher
+_> Flame Shot
+_> Shotgun
+_> Heavy Machine Gun
+
+$end
+$cmd
 [ 캐릭터에 대해 ]
 ───────────────────────
 P1측：마르클리우스·데니스·로시 (마르코)
@@ -11979,6 +11999,7 @@ $cmd
 두명이 동시에 플레이해서 엔딩을 맞이하면，
 엔딩이 다른 것으로 바뀐다．
 $end
+
 
 
 $info=mslugrmhp01
@@ -42949,6 +42970,12 @@ $cmd
 ──────────────────────────────
 _> 쉐도우 보스 선택 : 캐릭터 선택화면에서 _2 _+ _A (선택버튼)
 $end
+$cmd
+[ Hack Contents ]
+──────────────────────────────
+_> Select Shadow Boss : _2 _+ _A (Select button) on character select screen
+$end
+
 
 $info=dinoz
 $cmd
