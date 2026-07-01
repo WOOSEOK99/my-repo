@@ -1,8 +1,8 @@
 {
     "cheat.dat": "20260629_4",
-    "command.dat": "20260629_4",
+    "command.dat": "20260701_9",
     "support_bios_list.json": "20260602",
-    "support_game_list.json": "20260630",
-    "snap": "20260619",
+    "support_game_list.json": "20260701_1",
+    "snap": "20260701",
     "min_app_version": "1.0.20"
 }

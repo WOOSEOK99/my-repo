@@ -1,59 +1,130 @@
-title: 황금성 / 글래디에이터, title_en: Gladiator
-title: 갱 버스터즈, title_en: Gang Busters
-title: 은하 임협전, title_en: Ginga NinkyouDen
-title: 갤러그 (빠른 총알 핵)), title_en: Galaga (fast shoot hack)
-title: 딩고, title_en: Dingo
-title: HAL21, title_en: HAL21
-title: 건틀렛 (2인용), title_en: Gauntlet (2 players)
-title: 오비트론, title_en: Orbitron
-title: 체크맨, title_en: Check Man
-title: 라이가 - 스트레토 파이터, title_en: Raiga - Strato Fighter
-title: 4 펀 인 1, title_en: 4 Fun in 1
-title: 스카이 베이스, title_en: Sky Base
-title: 건틀렛, title_en: Gauntlet
-title: 아즈리안 어택, title_en: Azurian Attack
-title: 건 딜러, title_en: Gun Dealer
-title: 문 에일리언 파트 2, title_en: Moon Alien Part 2
-title: 지러스, title_en: Gyruss
-title: 버섯미로 속의 벌레나 괴물같은 매누버들의 전쟁, title_en: War of the Bugs or Monsterous Manouvers in a Mushroom Maze
-title: 고스트멍커 갤럭시안, title_en: Ghostmuncher Galaxian
-title: 지그 재그, title_en: Zig Zag
-title: 갈리반 - 코스모 폴리스, title_en: Galivan - Cosmo Police
-title: 스쿼시, title_en: Squash
-title: 드래곤 보울, title_en: Dragon Bowl
-title: 건틀렛2, title_en: Gauntlet II
-title: 그린베레, title_en: Green Beret
-title: 그라디우스 III, title_en: Gradius III
-title: 피시즈, title_en: Pisces
-title: 유니워 S, title_en: UniWar S
-title: 킹 & 벌룬, title_en: King & Balloon
-title: 고인돌, title_en: Goindol
-title: 얌! 얌!?, title_en: Yam! Yam!?
-title: 붉은 UFO의 지구 공격으로부터의 방어, title_en: Defend the Terra Attack on the Red UFO
-title: 미스터 고에몽, title_en: Mr. Goemon
-title: 닌자 이마키, title_en: Ninja Emaki
-title: 매니악 스퀘어, title_en: Maniac Square
-title: 문 크레스타, title_en: Moon Cresta
-title: 갤러그, title_en: Galaga
-title: 마계촌, title_en: Ghosts'n Goblins
-title: 슈퍼 제비우스, title_en: Super Xevious
-title: 당가 - UFO 로보, title_en: Dangar - Ufo Robo
-title: 빈디케이터즈 파트 II, title_en: Vindicators Part II
-title: ASO - 아머드 스크럼 오브젝트, title_en: ASO - Armored Scrum Object
-title: 골! '92, title_en: Goal! '92
-title: 블랙홀, title_en: Black Hole
-title: 제비우스, title_en: Xevious
-title: 문 퀘이사, title_en: Moon Quasar
-title: 다이아몬드 런, title_en: Diamond Run
-title: 슈퍼 갤럭시안, title_en: Super Galaxian
-title: GI 죠, title_en: G.I. Joe
-title: 스크램블, title_en: Scramble
-title: 점프 버그, title_en: Jump Bug
-title: 문 셔틀, title_en: Moon Shuttle
-title: 건 스모크, title_en: Gun.Smoke
-title: 갤럭시안, title_en: Galaxian
-title: 가플러스, title_en: Gaplus
-title: 스노우 보드 선수권대회, title_en: Snow Board Championship
-title: 보스코니안, title_en: Bosconian
-title: 갤럭시안 파트 X, title_en: Galaxian Part X
-title: 디그 더그, title_en: Dig Dug
+<P>잇키</P>
+<P>크레이지 랠리</P>
+<P>매지컬 크리스탈</P>
+<P>B 랩 보이즈</P>
+<P>B 랩 보이즈 스페셜</P>
+<P>대전 퍼즐구슬</P>
+<P>그랜드 투어</P>
+<P>트릭 트랩</P>
+<P>세르베루스</P>
+<P>월드 시리즈: 시즌</P>
+<P>프로 사커</P>
+<P>쿼터백</P>
+<P>하이퍼 스포츠</P>
+<P>하이퍼 듀얼</P>
+<P>IQ 블럭</P>
+<P>샌드 스콜피온</P>
+<P>너클 죠</P>
+<P>카멜레온</P>
+<P>스냅 잭</P>
+<P>지직스</P>
+<P>부메랑</P>
+<P>잭과 콩나무</P>
+<P>로드 파이터</P>
+<P>벤 베로 베에</P>
+<P>개구리 숙녀</P>
+<P>펑키 피쉬</P>
+<P>메이엄 2002</P>
+<P>파워 플레이</P>
+<P>올가미</P>
+<P>히게마루 해적선</P>
+<P>타올라라! 프로야구 홈런 경쟁</P>
+<P>쇼군 워리어즈</P>
+<P>드래군 마이트</P>
+<P>블레이즈 온</P>
+<P>홀 랜드</P>
+<P>쟈칼</P>
+<P>앨리 마스터</P>
+<P>슈퍼 베이스볼 더블 플레이 홈런 더비</P>
+<P>스트라이크 존 베이스볼</P>
+<P>하운티드 캐슬</P>
+<P>섹시 파로디우스</P>
+<P>폭열 브레이커</P>
+<P>도로돈</P>
+<P>핀보</P>
+<P>카미카제 캐비</P>
+<P>리버레이션</P>
+<P>트윈비 야호!</P>
+<P>핼리 혜성</P>
+<P>레드 스톰 랠리 2011</P>
+<P>봉크 어드벤처</P>
+<P>헥시온</P>
+<P>매드 기어</P>
+<P>레밍즈</P>
+<P>베이스볼 더 시즌 II</P>
+<P>코스믹 어벤져</P>
+<P>극상 파로디우스</P>
+<P>쥬니어 팩맨</P>
+<P>무당벌레</P>
+<P>라스트 듀얼</P>
+<P>피그아웃</P>
+<P>스타워즈 - 제다이의 귀환</P>
+<P>Prosport</P>
+<P>킹 오브 복서</P>
+<P>헥사</P>
+<P>점핑 크로스</P>
+<P>Ikki</P>
+<P>Crazy Rally</P>
+<P>Magical Crystals</P>
+<P>B.Rap Boys</P>
+<P>B.Rap Boys Special</P>
+<P>Taisen Puzzle-dama</P>
+<P>Grand Tour</P>
+<P>Trick Trap</P>
+<P>Cerberus</P>
+<P>World Series: The Season</P>
+<P>Pro Soccer</P>
+<P>Quarterback</P>
+<P>Hyper Sports</P>
+<P>Hyper Duel</P>
+<P>IQ-Block</P>
+<P>Sand Scorpion</P>
+<P>Knuckle Joe</P>
+<P>Chameleon</P>
+<P>Snap Jack</P>
+<P>Zzyzzyxx</P>
+<P>Boomer Rang'r</P>
+<P>Jack the Giantkiller</P>
+<P>Road Fighter</P>
+<P>Ben Bero Beh</P>
+<P>Lady Frog</P>
+<P>Funky Fish</P>
+<P>Mayhem 2002</P>
+<P>Power Play</P>
+<P>Lasso</P>
+<P>Pirate Ship Higemaru</P>
+<P>Moero Pro Yakyuu Homerun</P>
+<P>Shogun Warriors</P>
+<P>Dragoon Might</P>
+<P>Blaze On</P>
+<P>Hole Land</P>
+<P>Jackal</P>
+<P>Alley Master</P>
+<P>Super Baseball Double Play Home Run Derby</P>
+<P>Strike Zone Baseball</P>
+<P>Haunted Castle</P>
+<P>Sexy Parodius</P>
+<P>Bakuretsu Breaker</P>
+<P>Dorodon</P>
+<P>Pinbo</P>
+<P>Kamikaze Cabbie</P>
+<P>Liberation</P>
+<P>Twin Bee Yahhoo!</P>
+<P>Halley's Comet</P>
+<P>Led Storm Rally 2011</P>
+<P>Bonk's Adventure</P>
+<P>Hexion</P>
+<P>Mad Gear</P>
+<P>Lemmings</P>
+<P>Baseball: The Season II</P>
+<P>Cosmic Avenger</P>
+<P>Gokujyou Parodius</P>
+<P>Jr. Pac-Man</P>
+<P>Lady Bug</P>
+<P>Last Duel</P>
+<P>Pig Out: Dine Like a Swine!</P>
+<P>Return of the Jedi</P>
+<P>Prosport</P>
+<P>King of Boxer</P>
+<P>Hexa</P>
+<P>Jumping Cross</P>

@@ -19157,6 +19157,18 @@ _> 바디 타입 변경 : _E or (시작) 버튼
 _> 무한 점프
 $end
 $cmd
+[ Hacking Contents ]
+_> Button Layout
+_D _E _F
+_A _B _C
+_> Default Weapon : Big Heavy Machine Gun
+_> Default Bomb : Fire
+_> Weapon Change : _D Button
+_> Vehicle Summon : _F or Coin Button
+_> Body Type Change : _E or (Start) Button
+_> Infinite Jump
+$end
+$cmd
 [ 캐릭터에 대해 ]
 ───────────────────────
 마르코 로시(Marco Rossi)              (마르코)
@@ -19540,6 +19552,7 @@ _A를 연사하면서，_8_6_8_6를 반복한다．
 꽤 빠르게 연사를 할 수 있다．
 $end
 
+
 $info=mslugxsp2
 $cmd
 [ 기본 조작 방법에 대해 ]
@@ -19628,6 +19641,71 @@ _> 버튼 배열
     13) 소형 미사일
     14) 작은 스프레이 건
     15) 첫 번째로 돌아갑니다.
+$end
+$cmd
+[ HACKING FEATURES]
+_> Button Layout
+   _D _E _F
+   _A _B _C
+
+1. Default Weapon: Big Heavy Machine Gun
+2. Default Bomb: Fire Bomb (x99)
+3. Mount System
+
+_> Instructions
+
+1) Summon Mount: F or S (Start Button)
+
+Summons 12 different mounts, including hostage helpers.
+
+In Stage 3, go to specific locations and press START 
+to call a mount.
+
+The same applies to Player 2.
+
+Mount Cycle:
+
+1) Original Tank 
+2) Hidden Golden 2-Wheel Tank 
+3) Camel 
+4) Fighter Jet 
+5) Jump Tank 
+6) Ostrich 
+7) Elephant 
+8) Helicopter 
+9) Submarine 
+10) Drill Car 
+11) Gatling Gun 
+12) Battle Robot 
+-> (Return to 1)
+
+5. Weapon Swap
+
+Press (D) to cycle through 14 types of ammunition.
+
+(May be unstable)
+
+Press (C + D) to transform into Fat mode (In Stage 3).
+
+The same applies to Player 2.
+
+Weapon Cycle:
+
+1) Howitzer
+2) Bouncing
+3) Trolley Missile
+4) Tracking Bomb 
+5) Big Laser 
+6) Big Machine Gun 
+7) Big Fire 
+8) Big Missile 
+9) Big Spray Gun 
+10) Small Laser 
+11) Small Machine Gun 
+12) Small Fire 
+13) Small Missile 
+14) Small Spray Gun 
+-> (Return to 1)
 $end
 $cmd
 [ 캐릭터에 대해 ]
@@ -19840,6 +19918,8 @@ _A를 연사하면서，_8_6_8_6를 반복한다．
 베기 캔슬과 같은 공격을 하면，
 꽤 빠르게 연사를 할 수 있다．
 $end
+
+
 
 
 
@@ -29224,9 +29304,62 @@ $cmd
    - 콤보 적중 치가 10, 25, 50, 100이면 
       공격이 한 번 강화됩니다
 $end
+$cmd
+[ HACKING FEATURES]
+1. Damage Formula (공격 공식)
+
+Damage = Points × Combo Count × Burst Multiplier
+
+2. Difficulty Settings (난이도 변경)
+
+Enemy Attack: 0.5x (Reduced)
+
+Player Defense: 2.0x (Increased)
+
+Boss HP: 2.0x (Increased)
+
+3. Hidden Content (숨겨진 캐릭터 및 기능)
+
+Unlock Hidden Characters (White Ghost & Country Select)
+
+4. Co-op Combo Mode (협동 콤보)
+
+Command: [↑ + C + D] (Toggle On/Off)
+
+Description: Enables 1P-side dual-hit mechanics against Bosses.
+
+5. Randomized Enemies (적 무작위 생성)
+
+Dynamic Enemy Spawning: Randomized
+
+6. Difficulty Level Selection (난이도 설정)
+
+Command: [Start + D] (Set Level 8)
+
+7. Character Selection (캐릭터 선택)
+
+Duplicate Characters Allowed
+
+8. Magic Burst & Bonus (마법 에너지 폭발)
+
+Command: [Start Button]
+
+Effect: Triggers Magic Explosion & Afterimage 
+(Grants Attack Bonus)
+
+9. Scaling Growth (성장 시스템)
+
+Attack power increases slightly every 100,000 (10W) points.
+
+10. Combo Bonus (콤보 보너스)
+
+Attack Power Upgrades: Triggered at 10, 25, 50, and 100 Combo Hits.
+$end
 #
 # 아수라 블레이드 (C) 1998 FUUKI
 #
+
+
 $info=asurabld
 $cmd
 [ 기본 조작 방법 ]
@@ -80895,6 +81028,19 @@ _> 바디 타입 변경 : _E or (시작) 버튼
 _> 무기 변경 : _D
 $end
 $cmd
+[ Hacking Contents ]
+───────────────────────
+_> Button Layout
+_D _E _F
+_A _B _C
+_> Default Weapon : Dual Heavy Machine Gun
+_> Default Bomb : Fire Bomb 99
+_> Vehicle Summon : _F or Coin Button
+_> Body Type Change : _E or (Start) Button
+_< Fat, Mummy
+_> Weapon Change : _D
+$end
+$cmd
 [ 캐릭터 ]
 ───────────────────────
 ○마르코·로씨 - Marco Rossi -
@@ -81161,6 +81307,7 @@ _A를 련 비치면서,_8_6_8_6를 반복한다.
 $end
 
 #메탈 슬러그  4
+
 $info=mslug4ek02
 $cmd
 [ 기본 조작 방법 ]
@@ -92178,11 +92325,19 @@ $cmd
 불기둥 횃불의 근처에서                                   _a
 $end
 $cmd
-[ 기본 조작 방법에 대해 ]
+[ 해킹 내용 ]
 ──────────────────────────────
 - 장비의 스피닝 파일 드라이버 시전 방법 변경
 : 상대 잡기 -> 방향키 조작  
 (상대를 잡은후 방향키만 움직이면 기술이 즉시 발동됨.)
+$end
+$cmd
+[ Hacking Contents ]
+──────────────────────────────
+Changed method for performing Zhang Fei's Spinning Piledriver:
+: Grab opponent -> Move directional pad
+(The skill is activated immediately by moving the directional 
+pad after grabbing the opponent.)
 $end
 $cmd
 관우
@@ -92259,6 +92414,7 @@ $end
 
 
 #천지를 먹다Ⅱ - 적벽 전투 -　　　　 (C) 1992  CAPCOM
+
 
 
 
@@ -92307,7 +92463,7 @@ $cmd
 불기둥 횃불의 근처에서                                   _a
 $end
 $cmd
-[ 기본 조작 방법에 대해 ]
+[ 해킹 내용 ]
 ──────────────────────────────
 - 장비의 기술인 스크류 파일 드라이버( 사이클론 ) 공격을 
   관우가 시전할수 있음.
@@ -92315,6 +92471,18 @@ $cmd
   잡기 -> 방향키 아래로 -> 방향키 앞으로 -> A 버튼
  ( 상대를 잡은 다음에 장풍을 쏜다는 느낌으로 레버나 
     방향키를 조작한다음 공격 버튼을 누른다.)
+$end
+$cmd
+[ Hacking Contents ]
+──────────────────────────────
+
+Guan Yu can now perform Zhang Fei's special skill, 
+Screw Piledriver (Cyclone).
+
+Skill Command:
+Grab -> Direction Down -> Direction Forward -> A Button
+(After grabbing the opponent, input the motion as 
+if performing a projectile attack, then press the attack button.)
 $end
 $cmd
 관우
@@ -92391,6 +92559,8 @@ $end
 
 
 #천지를 먹다Ⅱ - 적벽 전투 -　　　　 (C) 1992  CAPCOM
+
+
 
 
 
@@ -92442,7 +92612,7 @@ $cmd
 불기둥 횃불의 근처에서                                   _a
 $end
 $cmd
-[ 기본 조작 방법에 대해 ]
+[ 해킹 내용 ]
 ──────────────────────────────
 1. 시작버튼 캐릭터 변경
 2. 캐릭터 기술변경 
@@ -92458,6 +92628,28 @@ $cmd
 3. 보물대신 무기 드랍
 4. 무기사라지지 않음.
 5. 말공격강화 : 소닉붐 및 태클공격 강화
+$end
+$cmd
+[ Hacking Contents ]
+──────────────────────────────
+
+Start Button: Change Character
+
+Character Skill Change
+
+Guan Yu: Piledriver: Grab + Shoot Projectile (Hadouken) + A
+
+Zhang Fei: Piledriver: Grab + Lever Down + A
+
+Zhao Yun: Rapid Strikes
+
+Huang Zhong: Kusanagi Arrow (Sonic Boom)
+
+Weapon Drop instead of Treasure
+
+Weapon does not disappear
+
+Mount Attack Enhancement: Sonic Boom and Tackle Attack Enhanced
 $end
 $cmd
 관우
@@ -92534,6 +92726,7 @@ $end
 
 
 #천지를 먹다Ⅱ - 적벽 전투 -　　　　 (C) 1992  CAPCOM
+
 
 
 

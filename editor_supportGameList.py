@@ -979,13 +979,25 @@ class GameJsonEditor:
         
         if self.newly_added_keys:
             txt_path = os.path.join(self.base_dir, "newly_added_titles.txt")
+            
+            titles_ko = []
+            titles_en = []
+            for k in self.newly_added_keys:
+                item = self.data.get(k)
+                if item:
+                    title_str = item.get('title', '').strip()
+                    title_en_str = item.get('title_en', '').strip()
+                    if title_str:
+                        titles_ko.append(title_str)
+                    if title_en_str:
+                        titles_en.append(title_en_str)
+
             with open(txt_path, 'w', encoding='utf-8') as tf:
-                for k in self.newly_added_keys:
-                    item = self.data.get(k)
-                    if item:
-                        title_str = item.get('title', '')
-                        title_en_str = item.get('title_en', '')
-                        tf.write(f"title: {title_str}, title_en: {title_en_str}\n")
+                for t in titles_ko:
+                    tf.write(f"<P>{t}</P>\n")
+                for t in titles_en:
+                    tf.write(f"<P>{t}</P>\n")
+            
             self.newly_added_keys.clear()
         
         self.update_json_version()
