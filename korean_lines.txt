@@ -1,0 +1,79 @@
+Line 2712: :acrobatm:00000000:8026B:00000001:FFFFFFFF:׻ 㸮  PL1
+Line 2714: :acrobatm:00000001:8026B:00000001:FFFFFFFF:㸮   ! PL1
+Line 2722: :acrobatm:00000000:8028D:00000001:FFFFFFFF:׻ 㸮  PL2
+Line 2724: :acrobatm:00000001:8028D:00000001:FFFFFFFF:㸮   ! PL2
+Line 8842: :avenger2:00000001:C715:00000001:FFFFFFFF:ѹ濡  ó !
+Line 8855: :avengers:00000001:C715:00000001:FFFFFFFF:ѹ濡  ó !
+Line 18244: :buraiken:00000001:C715:00000001:FFFFFFFF:ѹ濡  ó !
+Line 31765: :ddonpach:00000001:10019A:00000000:FFFFFFFF:ѹ濡  ó !
+Line 31792: :ddonpchj:00000001:10019A:00000000:FFFFFFFF:ѹ濡  ó !
+Line 47857: :ffantasa:00000001:FF82F4:00000000:FFFFFFFF:ѹ濡  ó !
+Line 47858: :ffantasa:00010001:FF8324:00000000:FFFFFFFF:ѹ濡  ó ! (2/2)
+Line 47896: :ffantasy:00000001:FF82F4:00000000:FFFFFFFF:ѹ濡  ó !
+Line 47897: :ffantasy:00010001:FF8324:00000000:FFFFFFFF:ѹ濡  ó ! (2/2)
+Line 63942: :hippodrm:00000001:FF82F4:00000000:FFFFFFFF:ѹ濡  ó !
+Line 63943: :hippodrm:00010001:FF8324:00000000:FFFFFFFF:ѹ濡  ó ! (2/2)
+Line 70910: :juju:00000001:627E5:00000000:FFFFFFFF:ѹ濡  ó !
+Line 70911: :juju:00010001:62841:00000000:FFFFFFFF:ѹ濡  ó ! (2/2): Pt 2 for Boss 5, Pt 1 for all other bosses
+Line 70932: :jujub:00000001:627E5:00000000:FFFFFFFF:ѹ濡  ó !
+Line 70933: :jujub:00010001:62841:00000000:FFFFFFFF:ѹ濡  ó ! (2/2): Pt 2 for Boss 5, Pt 1 for all other bosses
+Line 126029: :nitd:00000001:1029B7:00000000:FFFFFFFF:ѹ濡  ó !
+Line 126030: :nitd:00010001:100011:00000000:FFFFFFFF:ѹ濡  ó ! (2/2)
+Line 126061: :nitdbl:00000001:1029B7:00000000:FFFFFFFF:ѹ濡  ó !
+Line 126062: :nitdbl:00010001:100011:00000000:FFFFFFFF:ѹ濡  ó ! (2/2)
+Line 155770: :sf2:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 156052: :sf2ce:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 156198: :sf2cej:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 156344: :sf2ceua:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 156490: :sf2ceub:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 156636: :sf2ceuc:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 156782: :sf2eb:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 156888: :sf2hf:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157034: :sf2j:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157140: :sf2ja:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157246: :sf2jc:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157352: :sf2koryu:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157498: :sf2m1:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157644: :sf2m2:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157790: :sf2m3:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 157936: :sf2m4:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 158082: :sf2m5:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 158228: :sf2m6:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 158374: :sf2m7:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 158520: :sf2mdt:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 158666: :sf2rb:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 158812: :sf2rb2:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 158958: :sf2red:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159104: :sf2t:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159250: :sf2tj:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159396: :sf2ua:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159502: :sf2ub:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159608: :sf2ud:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159714: :sf2ue:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159820: :sf2uf:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 159926: :sf2ui:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 160032: :sf2uk:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 160138: :sf2v004:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 160284: :sf2yyc:60000000:000000:00000000:00000000:ʽ 忡 ġƮ  մϴ.
+Line 169475: :shinobi:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169499: :shinobi1:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169523: :shinobi2:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169545: :shinobi3:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169567: :shinobi4:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169589: :shinobi5:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169611: :shinoblb:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169633: :shinobld:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 169655: :shinobls:00000001:FFC891:00000000:FFFFFFFF:ѹ濡  ó !:This cheat is partial - it only works for some bosses
+Line 190174: :thunderl:00000001:FFE2F7:00000000:FFFFFFFF:ѹ濡  ó !
+Line 190175: :thunderl:00010001:FFE32B:00000000:FFFFFFFF:ѹ濡  ó ! (2/2):Pt 1 for Boss 1, Pt 2 for all other bosses
+Line 191582: :toki:00000001:627DD:00000000:FFFFFFFF:ѹ濡  ó !
+Line 191583: :toki:00010001:62839:00000000:FFFFFFFF:ѹ濡  ó ! (2/2): Pt 2 for Boss 5, Pt 1 for all other bosses
+Line 191604: :tokia:00000001:627E5:00000000:FFFFFFFF:ѹ濡  ó !
+Line 191605: :tokia:00010001:62841:00000000:FFFFFFFF:ѹ濡  ó ! (2/2): Pt 2 for Boss 5, Pt 1 for all other bosses
+Line 191626: :tokib:00000001:627E5:00000000:FFFFFFFF:ѹ濡  ó !
+Line 191627: :tokib:00010001:62841:00000000:FFFFFFFF:ѹ濡  ó ! (2/2): Pt 2 for Boss 5, Pt 1 for all other bosses
+Line 191734: :tokiu:00000001:627E5:00000000:FFFFFFFF:ѹ濡  ó !
+Line 191735: :tokiu:00010001:62841:00000000:FFFFFFFF:ѹ濡  ó ! (2/2): Pt 2 for Boss 5, Pt 1 for all other bosses
+Line 204664: :wbmlkb:00010000:C21A:00000001:FFFFFFFF:׶콺 ҵ
+Line 204674: :wbmlkb:00010000:C221:00000007:FFFFFFFF:Ʈ ǵ (淮 )
+Line 204680: :wbmlkb:00010000:C223:0000000B:FFFFFFFF:Ʈ Ƹ (淮 )
