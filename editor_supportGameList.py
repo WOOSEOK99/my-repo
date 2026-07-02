@@ -65,6 +65,16 @@ class GameJsonEditor:
                     if "buttons" not in val or val["buttons"] == 0:
                         val["buttons"] = b_val
                 
+                # 버튼 값이 홀수인 경우 짝수(2,4,6)로 맞추기 위해 +1 처리
+                if "buttons" in val:
+                    try:
+                        b_num = int(val["buttons"])
+                        if b_num % 2 != 0:
+                            b_num += 1
+                        val["buttons"] = b_num
+                    except (ValueError, TypeError):
+                        pass
+                
                 # developer 필드 보장
                 if "developer" not in val:
                     val["developer"] = ""
@@ -88,6 +98,8 @@ class GameJsonEditor:
         # 상단 메뉴
         menubar = tk.Menu(self.root)
         menubar.add_command(label="파일 열기", command=self.load_file)
+        menubar.add_command(label="JSON 추가하기", command=self.append_json)
+        menubar.add_command(label="롬파일 일괄 연동", command=self.batch_link_roms)
         menubar.add_command(label="저장하기", command=self.save_file)
         self.root.config(menu=menubar)
 
@@ -100,7 +112,7 @@ class GameJsonEditor:
         list_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 5))
         
         search_frame = tk.Frame(list_frame)
-        search_frame.pack(fill=tk.X, pady=(0, 5))
+        search_frame.pack(fill=tk.X, pady=(0, 2))
         
         self.search_entry = tk.Entry(search_frame, width=15)
         self.search_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
@@ -108,12 +120,40 @@ class GameJsonEditor:
         
         tk.Button(search_frame, text="Next", command=self.go_next_search, font=("Malgun Gothic", 8)).pack(side=tk.LEFT, padx=2)
         tk.Label(search_frame, textvariable=self.search_info_var, font=("Consolas", 8), width=5).pack(side=tk.LEFT)
+
+        # 장르 필터
+        genre_frame = tk.Frame(list_frame)
+        genre_frame.pack(fill=tk.X, pady=(0, 2))
+        tk.Label(genre_frame, text="장르:", font=("Malgun Gothic", 8)).pack(side=tk.LEFT)
+        self.genre_filter_var = tk.StringVar(value="전체")
+        self.genre_filter_cb = ttk.Combobox(genre_frame, textvariable=self.genre_filter_var,
+                                             state="readonly", font=("Malgun Gothic", 8), width=14)
+        self.genre_filter_cb.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        self.genre_filter_cb.bind("<<ComboboxSelected>>", lambda e: self.update_listbox())
+        self.count_var = tk.StringVar(value="")
+        tk.Label(genre_frame, textvariable=self.count_var, font=("Malgun Gothic", 8), fg="gray").pack(side=tk.RIGHT)
+
+        # 화면 방향 필터 (가로/세로)
+        orient_frame = tk.Frame(list_frame)
+        orient_frame.pack(fill=tk.X, pady=(0, 3))
+        tk.Label(orient_frame, text="방향:", font=("Malgun Gothic", 8)).pack(side=tk.LEFT)
+        self.orient_filter_var = tk.StringVar(value="전체")
+        for label, val in [("전체", "전체"), ("가로", "가로"), ("세로", "세로")]:
+            tk.Radiobutton(orient_frame, text=label, variable=self.orient_filter_var, value=val,
+                           font=("Malgun Gothic", 8), command=self.update_listbox).pack(side=tk.LEFT)
         
-        self.listbox = tk.Listbox(list_frame, width=25, font=("Malgun Gothic", 9))
-        self.listbox.pack(side=tk.LEFT, fill=tk.Y)
+        btn_frame = tk.Frame(list_frame)
+        btn_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=(5, 0))
+        tk.Button(btn_frame, text="선택 게임 삭제", command=self.delete_selected, font=("Malgun Gothic", 9), fg="red").pack(fill=tk.X)
+        
+        lb_frame = tk.Frame(list_frame)
+        lb_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+
+        self.listbox = tk.Listbox(lb_frame, width=25, font=("Malgun Gothic", 9), selectmode=tk.EXTENDED)
+        self.listbox.pack(side=tk.LEFT, fill=tk.Y, expand=True)
         self.listbox.bind('<<ListboxSelect>>', self.on_select)
         
-        scrollbar = tk.Scrollbar(list_frame)
+        scrollbar = tk.Scrollbar(lb_frame)
         scrollbar.config(command=self.listbox.yview)
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
         self.listbox.config(yscrollcommand=scrollbar.set)
@@ -522,8 +562,9 @@ class GameJsonEditor:
                 return
 
     def on_select(self, event):
-        if not self.listbox.curselection(): return
-        raw_text = self.listbox.get(self.listbox.curselection())
+        sel = self.listbox.curselection()
+        if not sel: return
+        raw_text = self.listbox.get(sel[0])
         selected_key = raw_text.replace("   └─ ", "").strip()
         self.current_selected_key = selected_key
         item_data = self.data.get(selected_key)
@@ -559,7 +600,7 @@ class GameJsonEditor:
                 return
             selected_key = self.current_selected_key
         else:
-            raw_text = self.listbox.get(self.listbox.curselection())
+            raw_text = self.listbox.get(self.listbox.curselection()[0])
             selected_key = raw_text.replace("   └─ ", "").strip()
 
         # Key 변경 처리
@@ -689,16 +730,228 @@ class GameJsonEditor:
         self.refresh_all_lists()
         self.update_listbox()
 
+    def append_json(self):
+        append_path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")], title="추가할 JSON 파일 선택")
+        if not append_path: return
+        try:
+            with open(append_path, 'r', encoding='utf-8-sig') as f:
+                new_data = json.load(f)
+            new_data = self._normalize_data(new_data)
+            
+            count = 0
+            for key, val in new_data.items():
+                if key not in self.data:
+                    self.data[key] = val
+                    self.newly_added_keys.add(key)
+                    count += 1
+            
+            self.refresh_all_lists()
+            self.update_listbox()
+            messagebox.showinfo("완료", f"총 {count}개의 게임 항목이 목록에 추가되었습니다.\n(메뉴에서 '저장하기'를 눌러야 파일에 반영됩니다.)", parent=self.root)
+        except Exception as e:
+            messagebox.showerror("오류", f"JSON 병합 중 오류가 발생했습니다.\n{e}", parent=self.root)
+
+    def show_scrollable_info(self, title, message):
+        top = tk.Toplevel(self.root)
+        top.title(title)
+        top.geometry("500x300")
+        
+        self.root.update_idletasks()
+        width = 500
+        height = 300
+        x = self.root.winfo_x() + (self.root.winfo_width() // 2) - (width // 2)
+        y = self.root.winfo_y() + (self.root.winfo_height() // 2) - (height // 2)
+        top.geometry(f"{width}x{height}+{x}+{y}")
+        
+        txt = tk.Text(top, wrap=tk.WORD, padx=10, pady=10)
+        scroll = tk.Scrollbar(top, command=txt.yview)
+        txt.configure(yscrollcommand=scroll.set)
+        
+        txt.insert("1.0", message)
+        txt.config(state=tk.DISABLED)
+        
+        scroll.pack(side=tk.RIGHT, fill=tk.Y)
+        txt.pack(expand=True, fill=tk.BOTH)
+        
+        btn = tk.Button(top, text="확인", command=top.destroy)
+        btn.pack(pady=5)
+
+    def batch_link_roms(self):
+        missing_url_keys = [k for k, v in self.data.items() if not v.get("url")]
+        if not missing_url_keys:
+            messagebox.showinfo("알림", "현재 목록에 url이 비어있는 게임이 없습니다.", parent=self.root)
+            return
+
+        source_dir = filedialog.askdirectory(title="자동 매칭할 원본 롬파일들이 있는 폴더 선택")
+        if not source_dir:
+            return
+
+        import os, random, shutil
+
+        dest_dir = os.path.join(self.base_dir, "files")
+        if not os.path.exists(dest_dir):
+            os.makedirs(dest_dir)
+
+        linked_count = 0
+        missing_files = []
+
+        for key in missing_url_keys:
+            found_file = None
+            # key 이름과 동일한 롬파일 찾기 (.bin, .zip, .rom 등 확장자 고려)
+            for ext in [".bin", ".zip", ".rom", ""]:
+                target = os.path.join(source_dir, key + ext)
+                if os.path.isfile(target):
+                    found_file = target
+                    break
+            
+            if found_file:
+                prefix = random.randint(1000, 9999)
+                suffix = random.randint(1000, 9999)
+                
+                new_filename = f"{prefix}_{key}_{suffix}.bin"
+                dest_path = os.path.join(dest_dir, new_filename)
+                
+                try:
+                    shutil.copy2(found_file, dest_path)
+                    self.data[key]["url"] = f"{self.default_base}{new_filename}"
+                    linked_count += 1
+                except Exception as e:
+                    missing_files.append(f"{key} (복사실패: {e})")
+            else:
+                missing_files.append(key)
+        
+        if self.current_selected_key in self.data:
+            self.select_listbox_key(self.current_selected_key)
+            self.on_select(None)
+            
+        msg = f"총 {linked_count}개의 롬파일을 찾아 연동 및 파일 난수화 복사를 완료했습니다.\n\n"
+        if missing_files:
+            msg += f"[폴더에서 롬파일을 찾지 못한 게임: {len(missing_files)}개]\n" + ", ".join(missing_files)
+        else:
+            msg += "url이 빈 모든 게임의 롬파일을 완벽히 매칭했습니다!"
+            
+        self.show_scrollable_info("일괄 연동 결과", msg)
+
     def update_listbox(self):
         self.listbox.delete(0, tk.END)
+
+        # 장르 필터 콤보박스 목록 갱신
+        all_genres = sorted(set(
+            v.get("genre", "") for v in self.data.values() if v.get("genre")
+        ))
+        cb_values = ["전체"] + all_genres
+        self.genre_filter_cb["values"] = cb_values
+        if self.genre_filter_var.get() not in cb_values:
+            self.genre_filter_var.set("전체")
+
+        selected_genre = self.genre_filter_var.get()
+        selected_orient = self.orient_filter_var.get()
+
+        def item_match(key):
+            d = self.data[key]
+            # 장르 필터
+            if selected_genre != "전체" and d.get("genre", "") != selected_genre:
+                return False
+            # 화면 방향 필터
+            if selected_orient == "세로" and not d.get("portrait", False):
+                return False
+            if selected_orient == "가로" and d.get("portrait", False):
+                return False
+            return True
+
+        parents = [k for k, v in self.data.items() if not v.get("parent")]
+        clones  = [k for k, v in self.data.items() if v.get("parent")]
+        shown = 0
+        for p in parents:
+            children_match = [c for c in clones if self.data[c].get("parent") == p and item_match(c)]
+            if not item_match(p) and not children_match:
+                continue
+            if item_match(p):
+                self.listbox.insert(tk.END, p)
+                shown += 1
+                if p in self.newly_added_keys:
+                    self.listbox.itemconfig(self.listbox.size() - 1, {'fg': 'blue', 'bg': '#e6f7ff'})
+            for c in children_match:
+                self.listbox.insert(tk.END, f"   └─ {c}")
+                shown += 1
+                if c in self.newly_added_keys:
+                    self.listbox.itemconfig(self.listbox.size() - 1, {'fg': 'blue', 'bg': '#e6f7ff'})
+
+        self.count_var.set(f"{shown}개")
+        self.update_version_display()
+
+    def delete_selected(self):
+        sel = self.listbox.curselection()
+        if not sel:
+            messagebox.showwarning("경고", "삭제할 게임을 선택해주세요.", parent=self.root)
+            return
+
+        confirm = messagebox.askyesno("삭제 확인", f"선택한 {len(sel)}개의 게임을 삭제하시겠습니까?\n\n(참고: 부모 게임 삭제 시 자식 데이터가 트리에서 분리될 수 있습니다)", parent=self.root)
+        if not confirm:
+            return
+
+        keys_to_delete = []
+        for idx in sel:
+            raw_text = self.listbox.get(idx)
+            key = raw_text.replace("   └─ ", "").strip()
+            keys_to_delete.append(key)
+
+        for key in keys_to_delete:
+            if key in self.data:
+                del self.data[key]
+            if key in self.newly_added_keys:
+                self.newly_added_keys.remove(key)
+
+        self.update_listbox()
+        self.key_entry.delete(0, tk.END)
+        self.current_selected_key = ""
+        messagebox.showinfo("완료", "선택한 게임이 성공적으로 삭제되었습니다.", parent=self.root)
+
+    def save_file(self):
+        if not self.file_path: return
+
+        # 상대경로 url이면 파일명만 있다면 전체 경로로 변환
+        for key in self.data:
+            url_val = str(self.data[key].get("url", ""))
+            if url_val and not url_val.startswith("http"):
+                filename = os.path.basename(url_val)
+                self.data[key]["url"] = f"{self.default_base}{filename}"
+
+        # 부모/자식 순서로 정렬
+        ordered = {}
         parents = [k for k, v in self.data.items() if not v.get("parent")]
         clones = [k for k, v in self.data.items() if v.get("parent")]
         for p in parents:
-            self.listbox.insert(tk.END, p)
+            ordered[p] = self.data[p]
             for c in clones:
                 if self.data[c].get("parent") == p:
-                    self.listbox.insert(tk.END, f"   └─ {c}")
-        self.update_version_display()
+                    ordered[c] = self.data[c]
+
+        with open(self.file_path, 'w', encoding='utf-8') as f:
+            json.dump(ordered, f, indent=4, ensure_ascii=False)
+
+        if self.newly_added_keys:
+            txt_path = os.path.join(self.base_dir, "newly_added_titles.txt")
+
+            titles_ko = []
+            titles_en = []
+            for k in self.newly_added_keys:
+                item = self.data.get(k)
+                if item:
+                    title_str = item.get('title', '').strip()
+                    title_en_str = item.get('title_en', '').strip()
+                    if title_str:
+                        titles_ko.append(title_str)
+                    if title_en_str:
+                        titles_en.append(title_en_str)
+
+            with open(txt_path, 'w', encoding='utf-8') as tf:
+                for t in titles_ko:
+                    tf.write(f"<P>{t}</P>\n")
+
+        self.newly_added_keys.clear()
+        self.update_listbox()
+        messagebox.showinfo("저장 완료", f"파일이 저장되었습니다.\n{self.file_path}", parent=self.root)
 
     def add_new_game(self):
         """새로운 게임 항목을 추가하는 기능 (parent 또는 clone)"""

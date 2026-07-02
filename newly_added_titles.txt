@@ -1,138 +1,180 @@
-<P>아토믹 펑크</P>
-<P>키드 니키 - 라디칼 닌자</P>
-<P>어벤징 스피리트</P>
-<P>원티드</P>
-<P>마계전설</P>
-<P>매그 맥스</P>
-<P>배틀 크루져 M-12</P>
-<P>매니아 챌린지</P>
-<P>블래스티드</P>
-<P>하코우!</P>
-<P>츠왁커리</P>
-<P>메이저 타이틀</P>
-<P>E.D.F. : 어스 디펜스 포스</P>
-<P>랜드 씨 에어 스쿼드</P>
-<P>배틀로드</P>
-<P>팩 & 팔</P>
-<P>메인 이벤트 (1984)</P>
-<P>키메라 비스트</P>
-<P>디그 더그 II</P>
-<P>리전더리 윙스</P>
-<P>슈퍼 팩맨</P>
-<P>트로전</P>
-<P>파이어 버렐</P>
-<P>마린 보이</P>
-<P>로드 런너</P>
-<P>노스트라다무스</P>
-<P>플러스 알파</P>
-<P>솔담</P>
-<P>드루아가의 탑</P>
-<P>쿵푸 마스터</P>
-<P>아스티아낙스</P>
-<P>실력!! 프로야구</P>
-<P>제노포브</P>
-<P>마피</P>
-<P>섹션 Z</P>
-<P>약탈자</P>
-<P>스페랑카</P>
-<P>코만도 (Sega 버전)</P>
-<P>마크로스 플러스</P>
-<P>호라이즌</P>
-<P>체인지</P>
-<P>그로브다</P>
-<P>정글러</P>
-<P>마빈스 메이즈</P>
-<P>로트 로트</P>
-<P>아치 라이벌스</P>
-<P>택티션</P>
-<P>스프링거</P>
-<P>세인트 드래곤</P>
-<P>메인 이벤트 (4인용 버전 Y)</P>
-<P>매트매니아</P>
-<P>하커</P>
-<P>트라이 스포츠</P>
-<P>영(影)의전설</P>
-<P>피그스킨 621AD</P>
-<P>이가 인술전</P>
-<P>로코 모션</P>
-<P>어벤져스</P>
-<P>망캉</P>
-<P>뱅가드 II</P>
-<P>64번가 - 탐정 이야기</P>
-<P>빅 스트라이커</P>
-<P>스페랑카 II</P>
-<P>P-47 - 팬텀 파이터</P>
-<P>사이배틀러</P>
-<P>로드 런너 II - 번질링 스트라이크 백</P>
-<P>매드 크래셔</P>
-<P>리스키 챌린지</P>
-<P>킥 오프</P>
-<P>New Atomic Punk - Global Quest</P>
-<P>Kid Niki - Radical Ninja</P>
-<P>Avenging Spirit</P>
-<P>Wanted</P>
-<P>Legend of Makai</P>
-<P>Mag Max</P>
-<P>Battle Cruiser M-12</P>
-<P>Mania Challenge</P>
-<P>Blasted</P>
-<P>Hachoo!</P>
-<P>Zwackery</P>
-<P>Major Title</P>
-<P>E.D.F. : Earth Defense Force</P>
-<P>Land Sea Air Squad</P>
-<P>The Battle-Road</P>
-<P>Pac & Pal</P>
-<P>Main Event (1984)</P>
-<P>Chimera Beast</P>
-<P>Dig Dug II</P>
-<P>Legendary Wings</P>
-<P>Super Pac-Man</P>
-<P>Trojan</P>
-<P>Fire Barrel</P>
-<P>Marine Boy</P>
-<P>Lode Runner</P>
-<P>Nostradamus</P>
-<P>Plus Alpha</P>
-<P>Soldam</P>
-<P>The Tower of Druaga</P>
-<P>Kung-Fu Master</P>
-<P>The Astyanax</P>
-<P>Jitsuryoku!! Pro Yakyuu</P>
-<P>Xenophobe</P>
-<P>Mappy</P>
-<P>Section Z</P>
-<P>Devastators</P>
-<P>Spelunker</P>
-<P>Commando (Sega)</P>
-<P>Macross Plus</P>
-<P>Horizon</P>
-<P>Changes</P>
-<P>Grobda</P>
-<P>Jungler</P>
-<P>Marvin's Maze</P>
-<P>Lot Lot</P>
-<P>Arch Rivals</P>
-<P>Tactician</P>
-<P>Springer</P>
-<P>Saint Dragon</P>
-<P>The Main Event (4 Players ver. Y)</P>
-<P>Mat Mania</P>
-<P>Hoccer</P>
-<P>Tri-Sports</P>
-<P>The Legend of Kage</P>
-<P>Pigskin 621AD</P>
-<P>Ninja Kazan</P>
-<P>Loco-Motion</P>
-<P>Avengers</P>
-<P>Markham</P>
-<P>Vanguard II</P>
-<P>64th. Street - A Detective Story</P>
-<P>Big Striker</P>
-<P>Spelunker II</P>
-<P>P-47 - The Phantom Fighter</P>
-<P>Cybattler</P>
-<P>Lode Runner II - The Bungeling Strikes Back</P>
-<P>Mad Crasher</P>
-<P>Risky Challenge</P>
-<P>Kick Off</P>
+<P>닥터 마리오</P>
+<P>베이퍼 트레일</P>
+<P>이스케이프 키즈</P>
+<P>바스타</P>
+<P>TKO 복싱</P>
+<P>잭슨</P>
+<P>야마토</P>
+<P>야드</P>
+<P>워프 워프</P>
+<P>빈디케이터</P>
+<P>미궁도</P>
+<P>아이스 클라이머</P>
+<P>비치 발리</P>
+<P>슈퍼 스페이스 어택</P>
+<P>언더 파이어</P>
+<P>플레이 볼</P>
+<P>카운터 봄버</P>
+<P>잭 래빗</P>
+<P>버글러 X</P>
+<P>벅 로저스</P>
+<P>퍼커션</P>
+<P>덕 헌트</P>
+<P>자우스트</P>
+<P>레이디 골프</P>
+<P>골프</P>
+<P>조어 월드</P>
+<P>스플랫</P>
+<P>마하 라이더</P>
+<P>호건즈 앨리</P>
+<P>익시온</P>
+<P>큐티 Q</P>
+<P>자이오닉스</P>
+<P>파이널 드래프트</P>
+<P>울트라 탱크</P>
+<P>핫 체이스</P>
+<P>월드 랠리</P>
+<P>인베이더 헤드온 2</P>
+<P>스타 러스터</P>
+<P>볼피드</P>
+<P>스피드 볼</P>
+<P>퓨처 스파이</P>
+<P>메이데이</P>
+<P>탑건</P>
+<P>벌룬 파이트</P>
+<P>테니스</P>
+<P>도그파이트</P>
+<P>버블즈</P>
+<P>봄비</P>
+<P>캐논 볼</P>
+<P>블래스터</P>
+<P>벤데타</P>
+<P>시니스타</P>
+<P>빅토리</P>
+<P>비질란테</P>
+<P>미스틱 마스터</P>
+<P>베이스볼</P>
+<P>콩고</P>
+<P>슈퍼 잭슨</P>
+<P>자우스트 2</P>
+<P>베놈 메탈</P>
+<P>서브록 3D</P>
+<P>월 크래시</P>
+<P>플래닛 프로브</P>
+<P>울프팩</P>
+<P>인베이더스</P>
+<P>타겟 슈팅</P>
+<P>머니 머니</P>
+<P>스팅어</P>
+<P>스타게이트</P>
+<P>알파 호</P>
+<P>보더라인</P>
+<P>인빈코</P>
+<P>슬라롬</P>
+<P>레킹 크루</P>
+<P>조디악</P>
+<P>벙글링 베이</P>
+<P>로보트론 2084</P>
+<P>헤드 온</P>
+<P>펄서</P>
+<P>사이온</P>
+<P>콜로니 7</P>
+<P>테트리스</P>
+<P>슈퍼 하이 점프</P>
+<P>스페이스 트랙</P>
+<P>클루 클루 랜드</P>
+<P>바운티</P>
+<P>위클 맨</P>
+<P>WGP</P>
+<P>카니발</P>
+<P>모구찬</P>
+<P>Dr. Mario</P>
+<P>Vapor Trail</P>
+<P>Escape Kids</P>
+<P>Vastar</P>
+<P>TKO Boxing</P>
+<P>Zaxxon</P>
+<P>Yamato</P>
+<P>Yard</P>
+<P>Warp Warp</P>
+<P>Vindicators</P>
+<P>Kikstart</P>
+<P>Ice Climber</P>
+<P>U.S. Championship V'ball</P>
+<P>Super Space Attack</P>
+<P>Under Fire</P>
+<P>Play Ball</P>
+<P>Counter-Bomber</P>
+<P>Jack Rabbit</P>
+<P>Burglar X</P>
+<P>Buck Rogers: Planet of Zoom</P>
+<P>Percuss</P>
+<P>Duck Hunt</P>
+<P>Joust</P>
+<P>Lady Golf</P>
+<P>Golf</P>
+<P>Xor World</P>
+<P>Splat!</P>
+<P>Mach Rider</P>
+<P>Hogan's Alley</P>
+<P>Ixion</P>
+<P>Cutie Q</P>
+<P>Xyonix</P>
+<P>Final Draft</P>
+<P>Ultra Tank</P>
+<P>Hot Chase</P>
+<P>World Rally</P>
+<P>Invaders Head-On 2</P>
+<P>Star Luster</P>
+<P>Volfied</P>
+<P>Speed Ball</P>
+<P>Future Spy</P>
+<P>Mayday</P>
+<P>Top Gun</P>
+<P>Balloon Fight</P>
+<P>Tennis</P>
+<P>Dog Fight</P>
+<P>Bubbles</P>
+<P>Bomb Bee</P>
+<P>Cannon Ball</P>
+<P>Blaster</P>
+<P>Vendetta</P>
+<P>Sinistar</P>
+<P>Victory</P>
+<P>Vigilante</P>
+<P>Mystic Marathon</P>
+<P>Baseball</P>
+<P>Congo Bongo</P>
+<P>Super Zaxxon</P>
+<P>Joust 2: Survival of the Fittest</P>
+<P>Venom Metal</P>
+<P>Subroc-3D</P>
+<P>Wall Crash</P>
+<P>Planet Probe</P>
+<P>Wolf Pack</P>
+<P>Space Invaders</P>
+<P>Target Shoot</P>
+<P>Mony Mony</P>
+<P>Stinger</P>
+<P>Stargate</P>
+<P>Alpha One</P>
+<P>Borderline</P>
+<P>Invinco</P>
+<P>Slalom</P>
+<P>Wrecking Crew</P>
+<P>Zodiack</P>
+<P>Bungeling Bay</P>
+<P>Robotron: 2084</P>
+<P>Head On</P>
+<P>Pulsar</P>
+<P>Scion</P>
+<P>Colony 7</P>
+<P>Tetris</P>
+<P>Super High Jump</P>
+<P>Space Trek</P>
+<P>Clu Clu Land</P>
+<P>Bounty</P>
+<P>WEC Le Mans 24</P>
+<P>WGP</P>
+<P>Carnival</P>
+<P>Moguchan</P>
