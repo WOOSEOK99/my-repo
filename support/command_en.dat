@@ -6193,6 +6193,153 @@ Speed          2
 Skill          4
 $end
 
+
+$info=dinoslice
+$cmd
+Cadillacs and Dinosaurs                                     © 1993 Capcom
+Cadillacs: Kyouryuu Shin Seiki
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Attack
+_B : Jump
+_S : Start
+
+- HOW TO PLAY -
+─────────────────────────────────────────────────────────────────────────
+_( Normal Throws
+_) Command Moves
+_* Desperation Moves
+_# Tag Moves
+
+_` Desperation Moves
+   - Needs a small amount of Life Bar
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+_) Dash                                                                  _? _? (same direction)
+_) Pick Up Object                                                        close to object _A
+_) Pick Up Weapon                                                        close to weapon _A
+_) Pick Up Barrel                                                        close to barrel _6_+_A
+_) Throw Knife                                                           with Knife _A
+_) Stab with Knife                                                       with Knife, close _A
+
+- JACK TENREC -
+─────────────────────────────────────────────────────────────────────────
+_( Grab                                                                  close _6
+_(   ^!Face-Stomach Punch                                                _A_A
+_(       ^!Finishing Punch                                               _A
+_(       ^!Shoulder Toss                                                 _4 / _6_+_A
+_(       ^!Front Flip Kick                                               _2_8_+_A
+_(   ^!Jump Escape                                                       _B
+
+_) Straight Punches                                                      _A_A_A
+_)   ^!Finish Punch                                                      _A
+_)   ^!Shoulder Toss                                                     _2 / _8_+_A
+_) Dive Kick                                                             _B _A
+_) Dive Kick Backward                                                    _B _4_+_A
+_) Slide Kick                                                            dashing _A
+_) Flying Upward Kick                                                    dashing _B _A
+_) Front Flip Kick                                                       _2_8_+_A
+
+_* Final Uppercut                                                        _A_+_B
+
+_# Irish Whip                                                            stand close and above a partner for 2 seconds
+
+Power          4
+Speed          3
+Skill          3
+
+- HANNAH DUNDEE -
+─────────────────────────────────────────────────────────────────────────
+_( Grab                                                                  close _6
+_(   ^!Slap-Knee Strike                                                  _A_A
+_(       ^!Finishing Knee                                                _A
+_(       ^!Shoulder Toss                                                 _4 / _6_+_A
+_(       ^!Rolling Elbow                                                 _2_8_+_A
+_(   ^!Jump Escape                                                       _B
+
+_) Multi Elbows                                                          _A_A_A
+_)   ^!Side Kick                                                         _A
+_)   ^!Shoulder Toss                                                     _2 / _8_+_A
+_) Dive Kick                                                             _B _A
+_) Dive Kick Backward                                                    _B _4_+_A
+_) Turned Knee                                                           dashing _A
+_) Flying Split Kick                                                     dashing _B _A
+_) Wall Jump                                                             jump toward the wall _B
+_)   ^!Dive Kick                                                         _A
+_) Rolling Elbow                                                         _2_8_+_A
+
+_* Spiral Flash                                                          _A_+_B
+
+_# Assist Spring                                                         stand close and above a partner for 2 seconds
+
+Power          2
+Speed          4
+Skill          5
+
+- MUSTAPHA CAIRO -
+─────────────────────────────────────────────────────────────────────────
+_( Grab                                                                  close _6
+_(   ^!Arm Punch-Knee Bash                                               _A_A
+_(       ^!Finishing Knee                                                _A
+_(       ^!Shoulder Toss                                                 _4 / _6_+_A
+_(       ^!Backflip                                                      _2_8_+_A
+_(   ^!Jump Escape                                                       _B
+
+_) Reach Punches-Reach Punch                                             _A_A_A
+_)   ^!Power Kick                                                        _A
+_)   ^!Shoulder Toss                                                     _2 / _8_+_A
+_) Dive Kick                                                             dashing _A
+_) Dive Kick Backward                                                    _B _4_+_A
+_) Dropkick                                                              dashing _A
+_) Flying Retract Kick                                                   dashing _B _A
+_) Wall Jump                                                             jump toward the wall _B
+_)   ^!Dive Kick                                                         _A
+_) Backflip                                                              _2_8_+_A
+
+_* Get Off Me Spin                                                       _A_+_B
+
+_# Shoulder Launch                                                       stand close and above a partner for 2 seconds
+
+Power          3
+Speed          5
+Skill          3
+
+- MESS O'BRADOVICH -
+─────────────────────────────────────────────────────────────────────────
+_( Grab                                                                  close _6
+_(   ^!Headbutt-Low Knee                                                 _A_A
+_(       ^!Finishing Knee                                                _A
+_(       ^!Pancake Slam                                                  _6_+_A
+_(       ^!Backdrop                                                      _4_+_A
+_(       ^!Back Splash                                                   _2_8_+_A
+_(   ^!Jump Escape                                                       _B
+
+_) Multi Punches                                                         _A_A_A
+_)   ^!Jawing Upper                                                      _A
+_)   ^!Pancake Slam                                                      _2 / _8_+_A
+_) Dive Kick                                                             dashing _A
+_) Dive Kick Backward                                                    _B _4_+_A
+_) Body Splash                                                           dashing _A
+_) Air Uppercut                                                          dashing _B _A
+_) Back Splash                                                           _2_8_+_A
+
+_* Haymaker                                                              _A_+_B
+
+_# Rag Doll Toss                                                         stand close and above a partner for 2 seconds
+
+Power          5
+Speed          2
+Skill          4
+$end
+$cmd
+[ Hack Contents ]
+──────────────────────────────
+_> Select Shadow Boss : _2 _+ _A (Select button) on character select screen
+$end
+
 ###################################################################################################
 
 $info=capsnk,capsnka,capsnkb
@@ -51360,6 +51507,63 @@ _` WEAPONS
    - Flame Shot                          30
 $end
 
+$info=mslugrmpl02
+$cmd
+Metal Slug: Super Vehicle-001                                © 1996 Nazca
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Shot
+_B : Jump
+_C : Grenade
+_D : Not Used
+_S : Start
+^S : Select (AES only)
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+Crawl Forward                                                            ^3
+Crawl Backward                                                           ^1
+Enter on Metal Slug                                                      close to Metal Slug _B
+
+- VEHICLE COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+SV-001 "METAL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Metal Slug                                                     _2_+_B
+Metal Slug Self-Destruct Attack                                          _A_+_B
+
+- WEAPON LIST-
+─────────────────────────────────────────────────────────────────────────
+_` WEAPONS
+   - Pistol                              ∞
+   - Grenade                             10
+   - Heavy Machine Gun                   200
+   - Rocket Launcher                     30
+   - Shotgun                             30
+   - Flame Shot                          30
+$end
+$cmd
+[Hack Contents]
+_< Button Layout
+_D _E _F
+_A _B _C
+
+_< Default Weapon H (Heavy Machine Gun)
+_< Infinite Jump
+_< 99 Bombs
+_< Tank Summon : _F
+_< Weapon Change : _D
+_> Rocket Launcher
+_> Flame Shot
+_> Shotgun
+_> Heavy Machine Gun
+$end
+
 ###################################################################################################
 
 $info=mslug2
@@ -51425,6 +51629,94 @@ _` WEAPONS
    - Shotgun                             30
    - Flame Shot                          30
    - Laser Gun                           200
+$end
+
+
+$info=mslug2
+$cmd
+Metal Slug 2: Super Vehicle-001/II                            © 1998 SNK
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Shot
+_B : Jump
+_C : Grenade
+_D : Not Used
+_S : Start
+^S : Select (AES only)
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+Crawl Forward                                                            ^3
+Crawl Backward                                                           ^1
+Enter on Vehicle                                                         close to Vehicle _B
+
+- VEHICLE COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+SV-001 "METAL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Metal Slug                                                     _2_+_B
+Metal Slug Self-Destruct Attack                                          _A_+_B
+
+SV-CAMEL
+Shot                                                                     _A
+Jump                                                                     _B
+Grenade                                                                  _C
+Exit from Camel Slug                                                     _2_+_B
+Camel Slug Front Attack                                                  _A_+_B
+
+SVX-15D "SLUGNOID"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Slugnoid                                                       _2_+_B
+Slugnoid Self-Destruct Attack                                            _A_+_B
+
+SVF-07V "SLUG FLYER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Slug Flyer                                                     _2_+_B
+Slug Flyer Self-Destruct Attack                                          _A_+_B
+
+- WEAPON LIST-
+─────────────────────────────────────────────────────────────────────────
+_` WEAPONS
+   - Pistol                              ∞
+   - Grenade                             10
+   - Firebomb                            10
+   - Heavy Machine Gun                   200
+   - Rocket Launcher                     30
+   - Shotgun                             30
+   - Flame Shot                          30
+   - Laser Gun                           200
+$end
+$cmd
+[Hacking Content]
+_> Button layout
+  _D _E _F
+  _A _B _C
+_> Basic gun : Heavy Machine Gun
+_> Fire bomb : 99
+_> Infinite jump
+_> Display enemy HP
+_> Character change : _F (_A_B_C) button
+   _< Mummy
+   _< Fat
+_> Weapon change
+   _< Press _D (button) to change weapon (5 types)
+   _< Weapon change order :
+        1) Laser
+        2) Machine gun
+        3) Flame
+        4) Missile
+        5) Spray gun
+        6) Return to the first one.
 $end
 
 ###################################################################################################
@@ -51504,6 +51796,146 @@ _` WEAPONS
    - Super Grenade                       20
 $end
 
+
+$info=mslugxsp2
+$cmd
+Metal Slug X: Super Vehicle-001                                © 1999 SNK
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Shot
+_B : Jump
+_C : Grenade
+_D : Not Used
+_S : Start
+^S : Select (AES only)
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+Crawl Forward                                                            ^3
+Crawl Backward                                                           ^1
+Enter on Vehicle                                                         close to Vehicle _B
+
+- VEHICLE COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+SV-001 "METAL SLUG" / SV-001 Type-R "METAL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Metal Slug                                                     _2_+_B
+Metal Slug Self-Destruct Attack                                          _A_+_B
+
+SV-CAMEL
+Shot                                                                     _A
+Jump                                                                     _B
+Grenade                                                                  _C
+Exit from Camel Slug                                                     _2_+_B
+Camel Slug Front Attack                                                  _A_+_B
+
+SVX-15D "SLUGNOID"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Slugnoid                                                       _2_+_B
+Slugnoid Self-Destruct Attack                                            _A_+_B
+
+SVF-07V "SLUG FLYER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Slug Flyer                                                     _2_+_B
+Slug Flyer Self-Destruct Attack                                          _A_+_B
+
+- WEAPON LIST-
+─────────────────────────────────────────────────────────────────────────
+_` WEAPONS
+   - Pistol                              ∞
+   - Grenade                             10
+   - Firebomb                            10
+   - Stone                               10
+   - Heavy Machine Gun                   200
+   - Big Heavy Machine Gun               200
+   - Rocket Launcher                     30
+   - Big Rocket Launcher                 30
+   - Shotgun                             30
+   - Big Shotgun                         30
+   - Flame Shot                          30
+   - Big Flame Shot                      30
+   - Laser Gun                           200
+   - Big Laser Gun                       200
+   - Enemy Chaser                        40
+   - Iron Lizard                         30
+   - Drop Charge                         30
+   - Super Grenade                       20
+$end
+$cmd
+[ HACKING FEATURES]
+_> Button Layout
+   _D _E _F
+   _A _B _C
+
+1. Default Weapon: Big Heavy Machine Gun
+2. Default Bomb: Fire Bomb (x99)
+3. Mount System
+
+_> Instructions
+
+1) Summon Mount: F or S (Start Button)
+
+Summons 12 different mounts, including hostage helpers.
+
+In Stage 3, go to specific locations and press START 
+to call a mount.
+
+The same applies to Player 2.
+
+Mount Cycle:
+
+1) Original Tank 
+2) Hidden Golden 2-Wheel Tank 
+3) Camel 
+4) Fighter Jet 
+5) Jump Tank 
+6) Ostrich 
+7) Elephant 
+8) Helicopter 
+9) Submarine 
+10) Drill Car 
+11) Gatling Gun 
+12) Battle Robot 
+-> (Return to 1)
+
+5. Weapon Swap
+
+Press (D) to cycle through 14 types of ammunition.
+
+(May be unstable)
+
+Press (C + D) to transform into Fat mode (In Stage 3).
+
+The same applies to Player 2.
+
+Weapon Cycle:
+
+1) Howitzer
+2) Bouncing
+3) Trolley Missile
+4) Tracking Bomb 
+5) Big Laser 
+6) Big Machine Gun 
+7) Big Fire 
+8) Big Missile 
+9) Big Spray Gun 
+10) Small Laser 
+11) Small Machine Gun 
+12) Small Fire 
+13) Small Missile 
+14) Small Spray Gun 
+-> (Return to 1)
+$end
 ###################################################################################################
 
 $info=mslug3,mslug3a,mslug3h
@@ -51632,6 +52064,144 @@ _` WEAPONS
    - Super Grenade                       20
 $end
 
+
+$info=mslug3hek04
+$cmd
+Metal Slug 3                                                   © 2000 SNK
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Shot
+_B : Jump
+_C : Grenade
+_D : Not Used
+_S : Start
+^S : Select (AES only)
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+Crawl Forward                                                            ^3
+Crawl Backward                                                           ^1
+Enter on Vehicle                                                         close to Vehicle _B
+
+- VEHICLE COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+SV-001 "METAL SLUG" / SV-001 Type-R "METAL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Metal Slug                                                     _2_+_B
+Metal Slug Self-Destruct Attack                                          _A_+_B
+
+SV-CAMEL
+Shot                                                                     _A
+Jump                                                                     _B
+Grenade                                                                  _C
+Exit from Camel Slug                                                     _2_+_B
+Camel Slug Front Attack                                                  _A_+_B
+
+SVX-15D "SLUGNOID"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Slugnoid                                                       _2_+_B
+Slugnoid Self-Destruct Attack                                            _A_+_B
+
+SVF-07V "SLUG FLYER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Slug Flyer                                                     _2_+_B
+Slug Flyer Self-Destruct Attack                                          _A_+_B
+
+SVX-17M "SLUG MARINER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Slug Mariner                                                   _2_+_B
+Slug Mariner Self-Destruct Attack                                        _A_+_B
+
+SV-ELEPHANT SLUG
+Shot                                                                     _A
+Jump                                                                     _B
+Grenade                                                                  _C
+Exit from Elephant Slug                                                  _2_+_B
+Elephant Slug Front Attack                                               _A_+_B
+
+SV-OSTRICH SLUG
+Shot                                                                     _A
+Jump                                                                     _B
+Grenade                                                                  _C
+Exit from Ostrich Slug                                                   _2_+_B
+Ostrich Slug Front Attack                                                _A_+_B
+
+LV ARMOR "REBEL ARMOR"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Rebel Armor                                                    _2_+_B
+Rebel Armor Self-Destruct Attack                                         _A_+_B
+
+SVX-22UG "DRILL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Drill Slug                                                     _2_+_B
+Drill Slug Self-Destruct Attack                                          _A_+_B
+
+SVH-03 "SLUG COPTER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Slug Copter                                                    _2_+_B
+Slug Copter Self-Destruct Attack                                         _A_+_B
+
+ASTRO SLUG "REBEL ASTRO"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Astro Slug Self-Destruct Attack                                          _A_+_B
+
+- WEAPON LIST-
+─────────────────────────────────────────────────────────────────────────
+_` WEAPONS
+   - Pistol                              ∞
+   - Grenade                             10
+   - Firebomb                            10
+   - Stone                               10
+   - Heavy Machine Gun                   200
+   - Big Heavy Machine Gun               200
+   - Rocket Launcher                     30
+   - Big Rocket Launcher                 30
+   - Shotgun                             30
+   - Big Shotgun                         30
+   - Flame Shot                          30
+   - Big Flame Shot                      30
+   - Laser Gun                           200
+   - Big Laser Gun                       200
+   - Enemy Chaser                        40
+   - Iron Lizard                         30
+   - Drop Shot                           30
+   - Super Grenade                       20
+$end
+$cmd
+[ Hacking Contents ]
+_> Button Layout
+_D _E _F
+_A _B _C
+_> Default Weapon : Big Heavy Machine Gun
+_> Default Bomb : Fire
+_> Weapon Change : _D Button
+_> Vehicle Summon : _F or Coin Button
+_> Body Type Change : _E or (Start) Button
+_> Infinite Jump
+$end
 ###################################################################################################
 
 $info=mslug4,mslug4h
@@ -51716,6 +52286,104 @@ _` WEAPONS
    - Drop Shot                           30
    - Super Grenade                       20
    - Two Machine Guns                    200
+$end
+
+
+$info=mslug4ek01
+$cmd
+Metal Slug 4                                              © 2002 Playmore
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Shot
+_B : Jump
+_C : Grenade
+_D : Vehicle Self-Destruct Attack
+_S : Start
+^S : Select (AES only)
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+Crawl Forward                                                            ^3
+Crawl Backward                                                           ^1
+Enter on Vehicle                                                         close to Vehicle _B
+
+- VEHICLE COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+SV-001 "METAL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Metal Slug                                                     _2_+_B
+Metal Slug Self-Destruct Attack                                          _D
+
+SVX-15D "SLUGNOID"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Slugnoid                                                       _2_+_B
+Slugnoid Self-Destruct Attack                                            _D
+
+BRADLEY
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Bradley                                                        _2_+_B
+Bradley Self-Destruct Attack                                             _D
+
+METAL CLAW
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Metal Claw                                                     _2_+_B
+Metal Claw Self-Destruct Attack                                          _D
+
+WALKING MACHINE
+Shot                                                                     _A
+Jump                                                                     _B
+Grenade                                                                  _C
+Exit from Walking Machine                                                _2_+_B
+Walking Machine Self-Destruct Attack                                     _D
+
+FORKLIFT
+Weapon Shot                                                              _A
+Lift Up                                                                  _B
+Attack                                                                   _C
+Exit from Forklift                                                       _2_+_B
+Forklift Self-Destruct Attack                                            _D
+
+- WEAPON LIST-
+─────────────────────────────────────────────────────────────────────────
+_` WEAPONS
+   - Pistol                              ∞
+   - Grenade                             10
+   - Firebomb                            10
+   - Stone                               10
+   - Heavy Machine Gun                   200
+   - Rocket Launcher                     30
+   - Shotgun                             30
+   - Flame Shot                          30
+   - Laser Gun                           200
+   - Enemy Chaser                        40
+   - Iron Lizard                         30
+   - Drop Shot                           30
+   - Super Grenade                       20
+   - Two Machine Guns                    200
+$end
+$cmd
+[ Hacking Contents ]
+───────────────────────
+_> Button Layout
+_D _E _F
+_A _B _C
+_> Default Weapon : Dual Heavy Machine Gun
+_> Default Bomb : Fire Bomb 99
+_> Vehicle Summon : _F or Coin Button
+_> Body Type Change : _E or (Start) Button
+_< Fat, Mummy
+_> Weapon Change : _D
 $end
 
 ###################################################################################################
@@ -51803,6 +52471,94 @@ _` WEAPONS
    - Two Machine Guns                    300
 $end
 
+$info=mslug5,mslug5h,ms5pcb
+$cmd
+Metal Slug 5                                          © 2003 SNK Playmore
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Shot
+_B : Jump
+_C : Grenade
+_D : Vehicle Self-Destruct Attack
+_S : Start
+^S : Select (AES only)
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+Crawl Forward                                                            ^3
+Crawl Backward                                                           ^1
+Slide                                                                    _2_+_B
+Enter on Vehicle                                                         close to Vehicle _B
+
+- VEHICLE COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+SV-001 "METAL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Metal Slug                                                     _2_+_B
+Metal Slug Self-Destruct Attack                                          _D
+
+SVF-07V "SLUG FLYER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Slug Flyer                                                     _2_+_B
+Slug Flyer Self-Destruct Attack                                          _D
+
+SVX-17M "SLUG MARINER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Slug Mariner                                                   _2_+_B
+Slug Mariner Self-Destruct Attack                                        _D
+
+SVW-001 "SLUG GUNNER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Slug Gunner                                                    _2_+_B
+Slug Gunner Self-Destruct Attack                                         _D
+
+TIAF600 "SLUG MOBILE"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+
+AUGENSTERM
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Exit from Augensterm                                                     _2_+_B
+Augensterm Self-Destruct Attack                                          _D
+
+- WEAPON LIST-
+─────────────────────────────────────────────────────────────────────────
+_` WEAPONS
+   - Pistol                              ∞
+   - Grenade                             10
+   - Firebomb                            10
+   - Stone                               10
+   - Heavy Machine Gun                   200
+   - Rocket Launcher                     30
+   - Shotgun                             30
+   - Laser Gun                           200
+   - Enemy Chaser                        40
+   - Iron Lizard                         30
+   - Drop Shot                           30
+   - Super Grenade                       20
+   - Two Machine Guns                    300
+$end
+$cmd
+[ Hacking Content ]
+───────────────────────
+Coin button : Summon vehicle
+Start button : Summon weapon
+$end
 ###################################################################################################
 
 $info=mslug6
@@ -51912,6 +52668,123 @@ _` WEAPONS (Hard Mode)
 
 _` On Easy Mode, the Heavy Machine Gun replaces the Pistol and have ∞ ammo
 _` On Easy Mode, all weapons (but Grenade) have double ammo
+$end
+
+
+$info=ms6sre6px01
+$cmd
+Metal Slug 6                                          © 2006 SNK Playmore
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+_A : Shot
+_B : Jump
+_C : Grenade
+_D : Vehicle Self-Destruct Attack
+@E-button : Switch Weapon
+_S : Start
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+Crawl Forward                                                            ^3
+Crawl Backward                                                           ^1
+Alternate Melee                                                          _A_+_D
+Toss Weapon                                                              _C_+_D
+Enter on Vehicle                                                         close to Vehicle _B
+
+- VEHICLE COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+SV-001 "METAL SLUG" / SV-001 Type-R "METAL SLUG"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Metal Slug                                                     _2_+_B
+Metal Slug Self-Destruct Attack                                          _D
+
+SV-DONKEY SLUG
+Shot                                                                     _A
+Jump                                                                     _B
+Grenade                                                                  _C
+Exit from Donkey Slug                                                    _2_+_B
+Donkey Slug Self-Destruct Attack                                         _D
+
+SLUG GUNNER PROTOTYPE "PROTOGUNNER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Grenade                                                                  _2_+_C
+Exit from Protogunner                                                    _2_+_B
+Protogunner Self-Destruct Attack                                         _D
+
+SVF-07V "SLUG FLYER"
+Shot                                                                     _A
+Jump                                                                     _B
+Cannon                                                                   _C
+Slug Flyer Self-Destruct Attack                                          _D
+
+SLUG DIGGER
+Shot                                                                     _A
+Cannon                                                                   _C
+
+- CHARACTERS SPECIAL ABILITY -
+─────────────────────────────────────────────────────────────────────────
+_` Marco Rossi
+   - Damage for Pistol increased by 100% (Heavy Machine Gun on Easy Mode)
+
+_` Tarma Roving
+   - Vehicle damage increased by 50%
+   - Vehicle defense increased by 100%
+
+_` Fiolina "Fio" Germi
+   - Start the Mission with a Heavy Machine Gun (Big Heavy Machine Gun on Easy Mode)
+   - Ammo increased by 50%
+
+_` Eri Kasamoto
+   - Grenade Ammo incresed by 100%
+   - Can aim her grenades
+
+_` Ralf Jones
+   - Has double Life
+   - Has 50% less ammo
+   - Vulcan Punch: _8_+_A_+_D
+
+_` Clark Still
+   - Super Argentine Backbreaker: close _8_+_A_+_D
+
+- WEAPON LIST-
+─────────────────────────────────────────────────────────────────────────
+_` WEAPONS (Hard Mode)
+   - Pistol                              ∞
+   - Grenade                             10
+   - Firebomb                            10
+   - Heavy Machine Gun                   100
+   - Big Heavy Machine Gun               100
+   - Rocket Launcher                     10
+   - Big Rocket Launcher                 10
+   - Shotgun                             10
+   - Big Shotgun                         10
+   - Flame Shot                          10
+   - Big Flame Shot                      10
+   - Laser Gun                           100
+   - Big Laser Gun                       100
+   - Enemy Chaser                        10
+   - Iron Lizard                         10
+   - Drop Shot                           10
+   - Super Grenade                       10
+   - Two Machine Guns                    200
+   - Zantetsu Sword                      10
+
+_` On Easy Mode, the Heavy Machine Gun replaces the Pistol and have ∞ ammo
+_` On Easy Mode, all weapons (but Grenade) have double ammo
+$end
+$cmd
+[ Hacking Content ]
+───────────────────────
+_> Infinite jump
+_> Body type change : _S (Start) button
+_> Thunder cloud
 $end
 
 ###################################################################################################
@@ -95423,6 +96296,800 @@ _` URA MODE (CPS Changer only)
    - Some web sites shows "New and changed special moves", but i can't find any changes
 $end
 
+$info=tk2h65k
+$cmd
+Warriors of Fate                                            © 1992 Capcom
+Tenchi wo Kurau II: Sekiheki no Tatakai
+Sangokushi II
+Tenchi wo Kurau II: Sekiheki no Tatakai (CPS Changer)
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+- ARCADE -
+_A : Attack
+_B : Jump
+_S : Start
+
+- CPS Changer -
+@L-button : Attack
+@X-button : Jump
+@R-button : Desperation Move
+@Y-button : Not Use
+_B : Not Use
+_A : Not Use
+_S : Start
+^S : Select (Pause)
+
+- HOW TO PLAY -
+─────────────────────────────────────────────────────────────────────────
+_( Normal Throws
+_) Command Moves
+_* Desperation Moves
+
+_` Desperation Moves
+   - Needs a small amount of Life Bar
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_) Pick Up Object                                                        close to object _A
+_) Pick Up Weapon                                                        close to weapon _A
+_) Mount Horse                                                           walk towards the Horse
+
+ON HORSEBACK
+_) Turn Horse Around                                                     ^4
+_)   ^!Turn Around Cancel                                                ^6
+_) Pick Up Object                                                        walk towards the object 
+
+- PORTOR -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Headbutt                                                          ^*_A
+_(   ^!Toss                                                              _4 / _6_+_A
+_(   ^!Splash Elbow                                                      _2_8_+_A
+_(   ^!Jump Grapple                                                      _B
+_(       ^!Backbreaker                                                   _A
+
+_) Jabs                                                                  _A_A
+_)   ^!Front Kick                                                        _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Dropkick                                                              _B_A
+_) Flying Headbutt                                                       _2_+_B
+_) Splash Elbow                                                          _2_8_+_A
+
+_* Double Lariat                                                         _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slashes                                                         _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Slice and Dice                                                        ^*_A
+_) Crashing Wave                                                         _4_6_+_A
+_) Mega Crashing Wave                                                    _4_6_+_B
+_) Charging Naginata Helicopter                                          _6_+_B_B
+_) Heavy Slash                                                           _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Rising Stab                                                       _A
+_) Slash and Dismount                                                    _2_+_B
+
+_* Naginata Helicopter                                                   _A_+_B
+
+- KASSAR -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Back Wrench                                                       ^*_A
+_(       ^!Suplex                                                        _4 / _6_+_A
+_(   ^!Toss in Front                                                     _6_+_A
+_(   ^!Head Bite                                                         _2_+_A
+_(   ^!Destructive Straight                                              _2_8_+_A
+_( Jump Grapple                                                          _B
+_(   ^!Piledriver                                                        _A
+_( Jump Grapple                                                          _4 / _6_+_B
+_(   ^!Superplex                                                         _A
+
+_) Hammer Strike                                                         _A_A
+_)   ^!Straight Punch                                                    _A
+_)   ^!Toss in Front                                                     _2 / _8_+_A
+_)       ^!Suplex                                                        ^4
+_) Air Boot                                                              _B_A
+_) Reaching Air Boot                                                     diagonal jump _A
+_) Charging Bull                                                         _2_+_B
+_) Destructive Straight                                                  _2_8_+_A
+_) Spinning Piledriver                                                   close _x_+_A
+
+_* Wild Hammer                                                           _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slashes                                                         _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Sweeping Blade                                                        ^*_A
+_) Riding Wave                                                           _4_6_+_A
+_) Mega Riding Wave                                                      _4_6_+_B
+_) Charging Spiral Slicer                                                _6_+_B_B
+_) Heavy Low Stab                                                        _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Low Stab                                                          _A
+_) Stab and Dismount                                                     _2_+_B
+
+_* Spiral Slicer                                                         _A_+_B
+
+- SUBUTAI -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Sword Impale                                                      ^*_A
+_(   ^!Toss                                                              _4 / _6_+_A
+_(   ^!Soul Blade                                                        _2_8_+_A
+_(   ^!Dashing Soul Blade                                                _1_9_+_A
+_(   ^!Jump Up Escape                                                    _B
+_(       ^!Side Head Kick                                                _A
+
+_) Jab-Side Slice                                                        _A_A
+_)   ^!Roundhouse                                                        _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Jumping Sword Attack                                                  _B_A
+_) Jump Kick                                                             diagonal jump _A
+_) Shoulder Charge                                                       _2_+_B
+_) Soul Blade                                                            _2_8_+_A
+_) Dashing Soul Blade                                                    _1_9_+_A
+_) Driving Choke Slam                                                    _B, close _2_+_A
+
+_* Sword Wheel                                                           _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slices                                                          _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Rapid Impaler                                                         ^*_A
+_) Energy Wave                                                           _4_6_+_A
+_) Mega Energy Wave                                                      _4_6_+_B
+_) Charging Spear Helicopter                                             _6_+_B_B
+_) Heavy Stab                                                            _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Spear Stab                                                        _A
+_) Stab and Dismount                                                     _2_+_B
+
+_* Spear Helicopter                                                      _A_+_B
+
+- KADAN -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Stab                                                              ^*_A
+_(   ^!Slam                                                              _4 / _6_+_A
+_(   ^!Bow Uppercut                                                      _2_8_+_A
+_(   ^!Vault                                                             _B
+_(       ^!Neck Toss                                                     _A
+
+_) Multi Arrows                                                          _A_A_A
+_) Jumping Arrow                                                         _B_A
+_) Diagonal Dagger                                                       diagonal jump _A
+_) Roll Kick                                                             _2_+_B
+_) Triple Arrow                                                          ^*_A
+_) Bow Uppercut                                                          _2_8_+_A
+
+_* Spiral Rope Dart                                                      _A_+_B
+
+ON HORSEBACK
+_) Multi Arrows                                                          _A_A_A
+_) Backwards Arrow                                                       _4_+_A
+_) Triple Arrow                                                          ^*_A
+_) Flaming Arrow                                                         _4_6_+_A
+_) Mega Flaming Arrow                                                    _4_6_+_B
+_) Charging Sprial Rope Dart                                             _6_+_B_B
+_) Quick Arrow                                                           _B
+_) Turn Around Arrow                                                     _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Hidden Dagger                                                     _A
+_) Arrow and Dismount                                                    _2_+_B
+
+_* Spiral Rope Dart                                                      _A_+_B
+
+- ABAKA -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Throat Stab                                                       ^*_A
+_(   ^!Slam                                                              _4 / _6_+_A
+_(   ^!Flash Kick                                                        _2_8_+_A
+_(   ^!Jump Grapple                                                      _B
+_(       ^!Driving Slam                                                  _A
+
+_) Gut Punch-Straight Sword                                              _A_A
+_)   ^!Overhead Slice                                                    _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Air Slice                                                             _B_A
+_) Dash Elbow                                                            _2_+_B
+_) Flash Kick                                                            _2_8_+_A
+
+_* Tornado Sword                                                         _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Stabs                                                           _A_A_A
+_) Backwards Slice                                                       _4_+_A
+_) Lightning Sword                                                       ^*_A
+_) Riding Wave                                                           _4_6_+_A
+_) Mega Riding Wave                                                      _4_6_+_B
+_) Charging Wild Sword Swing                                             _6_+_B_B
+_) Sweeping Sword                                                        _B
+_) Turn Attack Slice                                                     _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Sword Stab                                                        _A
+_) Slice and Dismount                                                    _2_+_B
+
+_* Wild Sword Swing                                                      _A_+_B
+
+- CHEATS -
+─────────────────────────────────────────────────────────────────────────
+_` Game Options (CPS Changer only)
+   - On any screen _O_S_+^S
+
+_` URA MODE (CPS Changer only)
+   - On the Option Screen, put the Cursor on Password and press @R-button @X-button @L-button @Y-button _B _A @R-button
+   - Changes in URA MODE are unknown for now
+   - Some web sites shows "New and changed special moves", but i can't find any changes
+$end
+$cmd
+[ Hacking Contents ]
+──────────────────────────────
+Changed method for performing Zhang Fei's Spinning Piledriver:
+: Grab opponent -> Move directional pad
+(The skill is activated immediately by moving the directional 
+pad after grabbing the opponent.)
+$end
+
+
+$info=tk2h71k
+$cmd
+Warriors of Fate                                            © 1992 Capcom
+Tenchi wo Kurau II: Sekiheki no Tatakai
+Sangokushi II
+Tenchi wo Kurau II: Sekiheki no Tatakai (CPS Changer)
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+- ARCADE -
+_A : Attack
+_B : Jump
+_S : Start
+
+- CPS Changer -
+@L-button : Attack
+@X-button : Jump
+@R-button : Desperation Move
+@Y-button : Not Use
+_B : Not Use
+_A : Not Use
+_S : Start
+^S : Select (Pause)
+
+- HOW TO PLAY -
+─────────────────────────────────────────────────────────────────────────
+_( Normal Throws
+_) Command Moves
+_* Desperation Moves
+
+_` Desperation Moves
+   - Needs a small amount of Life Bar
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_) Pick Up Object                                                        close to object _A
+_) Pick Up Weapon                                                        close to weapon _A
+_) Mount Horse                                                           walk towards the Horse
+
+ON HORSEBACK
+_) Turn Horse Around                                                     ^4
+_)   ^!Turn Around Cancel                                                ^6
+_) Pick Up Object                                                        walk towards the object 
+
+- PORTOR -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Headbutt                                                          ^*_A
+_(   ^!Toss                                                              _4 / _6_+_A
+_(   ^!Splash Elbow                                                      _2_8_+_A
+_(   ^!Jump Grapple                                                      _B
+_(       ^!Backbreaker                                                   _A
+
+_) Jabs                                                                  _A_A
+_)   ^!Front Kick                                                        _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Dropkick                                                              _B_A
+_) Flying Headbutt                                                       _2_+_B
+_) Splash Elbow                                                          _2_8_+_A
+
+_* Double Lariat                                                         _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slashes                                                         _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Slice and Dice                                                        ^*_A
+_) Crashing Wave                                                         _4_6_+_A
+_) Mega Crashing Wave                                                    _4_6_+_B
+_) Charging Naginata Helicopter                                          _6_+_B_B
+_) Heavy Slash                                                           _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Rising Stab                                                       _A
+_) Slash and Dismount                                                    _2_+_B
+
+_* Naginata Helicopter                                                   _A_+_B
+
+- KASSAR -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Back Wrench                                                       ^*_A
+_(       ^!Suplex                                                        _4 / _6_+_A
+_(   ^!Toss in Front                                                     _6_+_A
+_(   ^!Head Bite                                                         _2_+_A
+_(   ^!Destructive Straight                                              _2_8_+_A
+_( Jump Grapple                                                          _B
+_(   ^!Piledriver                                                        _A
+_( Jump Grapple                                                          _4 / _6_+_B
+_(   ^!Superplex                                                         _A
+
+_) Hammer Strike                                                         _A_A
+_)   ^!Straight Punch                                                    _A
+_)   ^!Toss in Front                                                     _2 / _8_+_A
+_)       ^!Suplex                                                        ^4
+_) Air Boot                                                              _B_A
+_) Reaching Air Boot                                                     diagonal jump _A
+_) Charging Bull                                                         _2_+_B
+_) Destructive Straight                                                  _2_8_+_A
+_) Spinning Piledriver                                                   close _x_+_A
+
+_* Wild Hammer                                                           _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slashes                                                         _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Sweeping Blade                                                        ^*_A
+_) Riding Wave                                                           _4_6_+_A
+_) Mega Riding Wave                                                      _4_6_+_B
+_) Charging Spiral Slicer                                                _6_+_B_B
+_) Heavy Low Stab                                                        _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Low Stab                                                          _A
+_) Stab and Dismount                                                     _2_+_B
+
+_* Spiral Slicer                                                         _A_+_B
+
+- SUBUTAI -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Sword Impale                                                      ^*_A
+_(   ^!Toss                                                              _4 / _6_+_A
+_(   ^!Soul Blade                                                        _2_8_+_A
+_(   ^!Dashing Soul Blade                                                _1_9_+_A
+_(   ^!Jump Up Escape                                                    _B
+_(       ^!Side Head Kick                                                _A
+
+_) Jab-Side Slice                                                        _A_A
+_)   ^!Roundhouse                                                        _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Jumping Sword Attack                                                  _B_A
+_) Jump Kick                                                             diagonal jump _A
+_) Shoulder Charge                                                       _2_+_B
+_) Soul Blade                                                            _2_8_+_A
+_) Dashing Soul Blade                                                    _1_9_+_A
+_) Driving Choke Slam                                                    _B, close _2_+_A
+
+_* Sword Wheel                                                           _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slices                                                          _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Rapid Impaler                                                         ^*_A
+_) Energy Wave                                                           _4_6_+_A
+_) Mega Energy Wave                                                      _4_6_+_B
+_) Charging Spear Helicopter                                             _6_+_B_B
+_) Heavy Stab                                                            _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Spear Stab                                                        _A
+_) Stab and Dismount                                                     _2_+_B
+
+_* Spear Helicopter                                                      _A_+_B
+
+- KADAN -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Stab                                                              ^*_A
+_(   ^!Slam                                                              _4 / _6_+_A
+_(   ^!Bow Uppercut                                                      _2_8_+_A
+_(   ^!Vault                                                             _B
+_(       ^!Neck Toss                                                     _A
+
+_) Multi Arrows                                                          _A_A_A
+_) Jumping Arrow                                                         _B_A
+_) Diagonal Dagger                                                       diagonal jump _A
+_) Roll Kick                                                             _2_+_B
+_) Triple Arrow                                                          ^*_A
+_) Bow Uppercut                                                          _2_8_+_A
+
+_* Spiral Rope Dart                                                      _A_+_B
+
+ON HORSEBACK
+_) Multi Arrows                                                          _A_A_A
+_) Backwards Arrow                                                       _4_+_A
+_) Triple Arrow                                                          ^*_A
+_) Flaming Arrow                                                         _4_6_+_A
+_) Mega Flaming Arrow                                                    _4_6_+_B
+_) Charging Sprial Rope Dart                                             _6_+_B_B
+_) Quick Arrow                                                           _B
+_) Turn Around Arrow                                                     _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Hidden Dagger                                                     _A
+_) Arrow and Dismount                                                    _2_+_B
+
+_* Spiral Rope Dart                                                      _A_+_B
+
+- ABAKA -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Throat Stab                                                       ^*_A
+_(   ^!Slam                                                              _4 / _6_+_A
+_(   ^!Flash Kick                                                        _2_8_+_A
+_(   ^!Jump Grapple                                                      _B
+_(       ^!Driving Slam                                                  _A
+
+_) Gut Punch-Straight Sword                                              _A_A
+_)   ^!Overhead Slice                                                    _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Air Slice                                                             _B_A
+_) Dash Elbow                                                            _2_+_B
+_) Flash Kick                                                            _2_8_+_A
+
+_* Tornado Sword                                                         _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Stabs                                                           _A_A_A
+_) Backwards Slice                                                       _4_+_A
+_) Lightning Sword                                                       ^*_A
+_) Riding Wave                                                           _4_6_+_A
+_) Mega Riding Wave                                                      _4_6_+_B
+_) Charging Wild Sword Swing                                             _6_+_B_B
+_) Sweeping Sword                                                        _B
+_) Turn Attack Slice                                                     _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Sword Stab                                                        _A
+_) Slice and Dismount                                                    _2_+_B
+
+_* Wild Sword Swing                                                      _A_+_B
+
+- CHEATS -
+─────────────────────────────────────────────────────────────────────────
+_` Game Options (CPS Changer only)
+   - On any screen _O_S_+^S
+
+_` URA MODE (CPS Changer only)
+   - On the Option Screen, put the Cursor on Password and press @R-button @X-button @L-button @Y-button _B _A @R-button
+   - Changes in URA MODE are unknown for now
+   - Some web sites shows "New and changed special moves", but i can't find any changes
+$end
+$cmd
+[ Hacking Contents ]
+──────────────────────────────
+
+Guan Yu can now perform Zhang Fei's special skill, 
+Screw Piledriver (Cyclone).
+
+Skill Command:
+Grab -> Direction Down -> Direction Forward -> A Button
+(After grabbing the opponent, input the motion as 
+if performing a projectile attack, then press the attack button.)
+$end
+
+
+$info=tk2hek06k
+$cmd
+Warriors of Fate                                            © 1992 Capcom
+Tenchi wo Kurau II: Sekiheki no Tatakai
+Sangokushi II
+Tenchi wo Kurau II: Sekiheki no Tatakai (CPS Changer)
+Created by: Fabricio Coroquer
+
+- CONTROLS -
+─────────────────────────────────────────────────────────────────────────
+- ARCADE -
+_A : Attack
+_B : Jump
+_S : Start
+
+- CPS Changer -
+@L-button : Attack
+@X-button : Jump
+@R-button : Desperation Move
+@Y-button : Not Use
+_B : Not Use
+_A : Not Use
+_S : Start
+^S : Select (Pause)
+
+- HOW TO PLAY -
+─────────────────────────────────────────────────────────────────────────
+_( Normal Throws
+_) Command Moves
+_* Desperation Moves
+
+_` Desperation Moves
+   - Needs a small amount of Life Bar
+
+- COMMON COMMANDS -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_) Pick Up Object                                                        close to object _A
+_) Pick Up Weapon                                                        close to weapon _A
+_) Mount Horse                                                           walk towards the Horse
+
+ON HORSEBACK
+_) Turn Horse Around                                                     ^4
+_)   ^!Turn Around Cancel                                                ^6
+_) Pick Up Object                                                        walk towards the object 
+
+- PORTOR -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Headbutt                                                          ^*_A
+_(   ^!Toss                                                              _4 / _6_+_A
+_(   ^!Splash Elbow                                                      _2_8_+_A
+_(   ^!Jump Grapple                                                      _B
+_(       ^!Backbreaker                                                   _A
+
+_) Jabs                                                                  _A_A
+_)   ^!Front Kick                                                        _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Dropkick                                                              _B_A
+_) Flying Headbutt                                                       _2_+_B
+_) Splash Elbow                                                          _2_8_+_A
+
+_* Double Lariat                                                         _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slashes                                                         _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Slice and Dice                                                        ^*_A
+_) Crashing Wave                                                         _4_6_+_A
+_) Mega Crashing Wave                                                    _4_6_+_B
+_) Charging Naginata Helicopter                                          _6_+_B_B
+_) Heavy Slash                                                           _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Rising Stab                                                       _A
+_) Slash and Dismount                                                    _2_+_B
+
+_* Naginata Helicopter                                                   _A_+_B
+
+- KASSAR -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Back Wrench                                                       ^*_A
+_(       ^!Suplex                                                        _4 / _6_+_A
+_(   ^!Toss in Front                                                     _6_+_A
+_(   ^!Head Bite                                                         _2_+_A
+_(   ^!Destructive Straight                                              _2_8_+_A
+_( Jump Grapple                                                          _B
+_(   ^!Piledriver                                                        _A
+_( Jump Grapple                                                          _4 / _6_+_B
+_(   ^!Superplex                                                         _A
+
+_) Hammer Strike                                                         _A_A
+_)   ^!Straight Punch                                                    _A
+_)   ^!Toss in Front                                                     _2 / _8_+_A
+_)       ^!Suplex                                                        ^4
+_) Air Boot                                                              _B_A
+_) Reaching Air Boot                                                     diagonal jump _A
+_) Charging Bull                                                         _2_+_B
+_) Destructive Straight                                                  _2_8_+_A
+_) Spinning Piledriver                                                   close _x_+_A
+
+_* Wild Hammer                                                           _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slashes                                                         _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Sweeping Blade                                                        ^*_A
+_) Riding Wave                                                           _4_6_+_A
+_) Mega Riding Wave                                                      _4_6_+_B
+_) Charging Spiral Slicer                                                _6_+_B_B
+_) Heavy Low Stab                                                        _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Low Stab                                                          _A
+_) Stab and Dismount                                                     _2_+_B
+
+_* Spiral Slicer                                                         _A_+_B
+
+- SUBUTAI -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Sword Impale                                                      ^*_A
+_(   ^!Toss                                                              _4 / _6_+_A
+_(   ^!Soul Blade                                                        _2_8_+_A
+_(   ^!Dashing Soul Blade                                                _1_9_+_A
+_(   ^!Jump Up Escape                                                    _B
+_(       ^!Side Head Kick                                                _A
+
+_) Jab-Side Slice                                                        _A_A
+_)   ^!Roundhouse                                                        _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Jumping Sword Attack                                                  _B_A
+_) Jump Kick                                                             diagonal jump _A
+_) Shoulder Charge                                                       _2_+_B
+_) Soul Blade                                                            _2_8_+_A
+_) Dashing Soul Blade                                                    _1_9_+_A
+_) Driving Choke Slam                                                    _B, close _2_+_A
+
+_* Sword Wheel                                                           _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Slices                                                          _A_A_A
+_) Backwards Stab                                                        _4_+_A
+_) Rapid Impaler                                                         ^*_A
+_) Energy Wave                                                           _4_6_+_A
+_) Mega Energy Wave                                                      _4_6_+_B
+_) Charging Spear Helicopter                                             _6_+_B_B
+_) Heavy Stab                                                            _B
+_) Turn Attack Stab                                                      _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Spear Stab                                                        _A
+_) Stab and Dismount                                                     _2_+_B
+
+_* Spear Helicopter                                                      _A_+_B
+
+- KADAN -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Stab                                                              ^*_A
+_(   ^!Slam                                                              _4 / _6_+_A
+_(   ^!Bow Uppercut                                                      _2_8_+_A
+_(   ^!Vault                                                             _B
+_(       ^!Neck Toss                                                     _A
+
+_) Multi Arrows                                                          _A_A_A
+_) Jumping Arrow                                                         _B_A
+_) Diagonal Dagger                                                       diagonal jump _A
+_) Roll Kick                                                             _2_+_B
+_) Triple Arrow                                                          ^*_A
+_) Bow Uppercut                                                          _2_8_+_A
+
+_* Spiral Rope Dart                                                      _A_+_B
+
+ON HORSEBACK
+_) Multi Arrows                                                          _A_A_A
+_) Backwards Arrow                                                       _4_+_A
+_) Triple Arrow                                                          ^*_A
+_) Flaming Arrow                                                         _4_6_+_A
+_) Mega Flaming Arrow                                                    _4_6_+_B
+_) Charging Sprial Rope Dart                                             _6_+_B_B
+_) Quick Arrow                                                           _B
+_) Turn Around Arrow                                                     _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Hidden Dagger                                                     _A
+_) Arrow and Dismount                                                    _2_+_B
+
+_* Spiral Rope Dart                                                      _A_+_B
+
+- ABAKA -
+─────────────────────────────────────────────────────────────────────────
+ON FOOT
+_( Grab                                                                  close _6
+_(   ^!Throat Stab                                                       ^*_A
+_(   ^!Slam                                                              _4 / _6_+_A
+_(   ^!Flash Kick                                                        _2_8_+_A
+_(   ^!Jump Grapple                                                      _B
+_(       ^!Driving Slam                                                  _A
+
+_) Gut Punch-Straight Sword                                              _A_A
+_)   ^!Overhead Slice                                                    _A
+_)   ^!Toss                                                              _2 / _8_+_A
+_) Air Slice                                                             _B_A
+_) Dash Elbow                                                            _2_+_B
+_) Flash Kick                                                            _2_8_+_A
+
+_* Tornado Sword                                                         _A_+_B
+
+ON HORSEBACK
+_( Stab and Toss                                                         ^2 / ^8, then _A, ^4 / ^6
+
+_) Multi Stabs                                                           _A_A_A
+_) Backwards Slice                                                       _4_+_A
+_) Lightning Sword                                                       ^*_A
+_) Riding Wave                                                           _4_6_+_A
+_) Mega Riding Wave                                                      _4_6_+_B
+_) Charging Wild Sword Swing                                             _6_+_B_B
+_) Sweeping Sword                                                        _B
+_) Turn Attack Slice                                                     _4_+_B
+_) Charging                                                              _6_+_B
+_)   ^!Sword Stab                                                        _A
+_) Slice and Dismount                                                    _2_+_B
+
+_* Wild Sword Swing                                                      _A_+_B
+
+- CHEATS -
+─────────────────────────────────────────────────────────────────────────
+_` Game Options (CPS Changer only)
+   - On any screen _O_S_+^S
+
+_` URA MODE (CPS Changer only)
+   - On the Option Screen, put the Cursor on Password and press @R-button @X-button @L-button @Y-button _B _A @R-button
+   - Changes in URA MODE are unknown for now
+   - Some web sites shows "New and changed special moves", but i can't find any changes
+$end
+$cmd
+[ Hacking Contents ]
+──────────────────────────────
+
+Guan Yu can now perform Zhang Fei's special skill, 
+Screw Piledriver (Cyclone).
+
+Skill Command:
+Grab -> Direction Down -> Direction Forward -> A Button
+(After grabbing the opponent, input the motion as 
+if performing a projectile attack, then press the attack button.)
+$end
+$cmd
+[ Hacking Contents ]
+──────────────────────────────
+
+Start Button: Change Character
+
+Character Skill Change
+
+Guan Yu: Piledriver: Grab + Shoot Projectile (Hadouken) + A
+
+Zhang Fei: Piledriver: Grab + Lever Down + A
+
+Zhao Yun: Rapid Strikes
+
+Huang Zhong: Kusanagi Arrow (Sonic Boom)
+
+Weapon Drop instead of Treasure
+
+Weapon does not disappear
+
+Mount Attack Enhancement: Sonic Boom and Tackle Attack Enhanced
+$end
+
 ###################################################################################################
 
 $info=wh1,wh1h,wh1ha
@@ -97909,6 +99576,60 @@ _` Fight Akuma on Stage 6
 $end
 
 ###################################################################################################
+
+$info=sengoku3e3
+$cmd
+[ HACKING FEATURES]
+1. Damage Formula (공격 공식)
+
+Damage = Points × Combo Count × Burst Multiplier
+
+2. Difficulty Settings (난이도 변경)
+
+Enemy Attack: 0.5x (Reduced)
+
+Player Defense: 2.0x (Increased)
+
+Boss HP: 2.0x (Increased)
+
+3. Hidden Content (숨겨진 캐릭터 및 기능)
+
+Unlock Hidden Characters (White Ghost & Country Select)
+
+4. Co-op Combo Mode (협동 콤보)
+
+Command: [↑ + C + D] (Toggle On/Off)
+
+Description: Enables 1P-side dual-hit mechanics against Bosses.
+
+5. Randomized Enemies (적 무작위 생성)
+
+Dynamic Enemy Spawning: Randomized
+
+6. Difficulty Level Selection (난이도 설정)
+
+Command: [Start + D] (Set Level 8)
+
+7. Character Selection (캐릭터 선택)
+
+Duplicate Characters Allowed
+
+8. Magic Burst & Bonus (마법 에너지 폭발)
+
+Command: [Start Button]
+
+Effect: Triggers Magic Explosion & Afterimage 
+(Grants Attack Bonus)
+
+9. Scaling Growth (성장 시스템)
+
+Attack power increases slightly every 100,000 (10W) points.
+
+10. Combo Bonus (콤보 보너스)
+
+Attack Power Upgrades: Triggered at 10, 25, 50, and 100 Combo Hits.
+$end
+
 
 $info=
 $cmd
