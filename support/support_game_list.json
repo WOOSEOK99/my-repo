@@ -29150,5 +29150,21 @@
         "portrait": true,
         "LRbuttons": false,
         "buttons": 2
+    },
+    "toki": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4240_toki_9945.bin",
+        "title": "토키",
+        "title_en": "Toki",
+        "desc": "",
+        "genre": "어드벤쳐",
+        "genre_en": "Adventure",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 2,
+        "LRbuttons": false
     }
 }
