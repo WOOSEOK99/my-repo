@@ -1,28 +1,18 @@
-<P>소닉 더 헤지혹 2</P>
-<P>퍼즐 & 액션: 탄트-R (한국판)</P>
-<P>소닉 더 헤지혹 3</P>
-<P>썬더포스 AC</P>
-<P>블록시드</P>
-<P>알라딘</P>
-<P>트윙클 테일</P>
-<P>베어 너클 2</P>
-<P>준준교의 야망</P>
-<P>파이어 호크</P>
-<P>베어 너클 3</P>
-<P>슈퍼 버블 보블 (MD)</P>
-<P>퍽맨 포키몬</P>
-<P>스펙트럼 2000</P>
-<P>Sonic The Hedgehog 2</P>
-<P>Puzzle & Action: Tant-R (Korea)</P>
-<P>Sonic The Hedgehog 3</P>
-<P>ThunderForce AC</P>
-<P>Bloxeed</P>
-<P>Aladdin</P>
-<P>Twinkle Tale</P>
-<P>Bare Knuckle II</P>
-<P>Zunzunkyou No Yabou</P>
-<P>Fire Hawk</P>
-<P>Bare Knuckle III</P>
-<P>Super Bubble Bobble (MD)</P>
-<P>Puckman Pockimon</P>
-<P>Spectrum 2000</P>
+<P>삼국전기 플러스 (캐릭터 변경)</P>
+<P>퀴즈 대수사선 - 라스트 카운트다운</P>
+<P>텐가이 (아인선택)</P>
+<P>삼국전기 플러스 (여포선택)</P>
+<P>닌자 코만도 (EX Super)</P>
+<P>삼국전기 플러스 (캐릭터 많음)</P>
+<P>슈퍼 닷지 볼 (보스팀 선택)</P>
+<P>스트리트 파이터2' (쉬운조작)</P>
+<P>퀴즈 킹 오브 파이터즈</P>
+<P>Knights of Valour Plus (Char Change)</P>
+<P>Quiz Daisousa Sen - The Last Count Down (Korean)</P>
+<P>Tengai (Ayin)</P>
+<P>Knights of Valour Plus (Lu Bu)</P>
+<P>Ninja Commando (EX Super)</P>
+<P>Knights of Valour Plus (Many Character)</P>
+<P>Super Dodge Ball (Boss team)</P>
+<P>Street Fighter II' (Easy Command)</P>
+<P>Quiz King of Fighters</P>
