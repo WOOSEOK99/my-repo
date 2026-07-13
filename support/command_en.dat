@@ -99630,6 +99630,121 @@ Attack power increases slightly every 100,000 (10W) points.
 Attack Power Upgrades: Triggered at 10, 25, 50, and 100 Combo Hits.
 $end
 
+$info=tk2h162
+$cmd
+[Character Selection Screen Hidden Commands (Stackable)]
+
+While holding down the [Jump] button on the character selection screen, 
+enter the commands below to activate special modes.
+
+1. ↑ : Plus (+) Mode - Enemies become smarter and stronger. 
+       (Pressing it once more activates the aforementioned Sharp (#) Mode, making them even more vicious.)
+
+2. ↓ : Minus (-) Mode - You can have a maximum of 5 health (HP) bars. 
+       However, in exchange, your HP will not be fully restored after clearing a stage. 
+       (PGM Knights of Valour style)
+
+3. ← : E Mode - The strongest swords, the Kusanagi Sword (草薙) and the 
+       Holy Sword (聖劍), will drop during the game.
+
+4. → : Minion Mode - You can command enemy grunts as your summons.
+
+[Single Challenge Mode (Cannot be stacked)]
+
+This is a hardcore challenge mode activated by pressing only the arrow keys 
+independently, without any other key combinations, on the character selection screen.
+
+1. 1V3 (3-Player Volume): Even when playing solo, massive waves of enemies 
+       equivalent to a 3-player co-op session will pour in.
+
+2. 0BJ (No Criticals): Critical hits will not trigger at all throughout the game, 
+       making enemies much harder to kill.
+
+3. 1HP (Sliver HP Mode): You must play with only 1 health bar until the 
+       very end of the game. (Death in one hit)
+
+4. X2 (Double Mode): The total number of enemy soldiers appearing throughout 
+       the stages is exactly doubled.
+
+[In-Game]
+1. Minion Mode (Summon Minion)
+   1) Press the [Start] button during the game to summon a minion.
+   2) While grabbing a minion in-game, hold the [Start] button and press 
+      the Up or Down arrow key to change the minion.
+2. E Mode
+   1) While holding the [Start] button in-game, press the Left/Right arrow keys 
+      to switch your character.
+3. HP Number Display
+   1) While holding the [Start] button in-game, press the Up arrow key to 
+      display your HP as numbers. Press it again to hide it.
+
+$end
+$info=mslug5ext
+$cmd
+[Content & Stage Additions (Scenario Expansion)]
+
+Restoration of deleted branches & hidden areas: Restored 
+cut content including unused stages and branching paths, 
+allowing them to be played like regular stages.
+
+New hidden route in Mission 1: A new hidden branching point 
+has been added to the Mission 1-2 area. 
+(The trigger condition remains a secret!)
+
+[Stage Volume Up (Level Expansion)]
+
+Restoration of deleted enemies & hostages: Enemies and 
+hostages that previously existed only as dummy data 
+have been fully integrated. Every stage route now 
+features at least 10 hostages for massive bonus scores.
+
+Mission 3 hidden elements: Added 2 hidden hostages
+ and 1 Slug in a specific area.
+
+Mission 5 hidden elements: Added 3 hidden hostages 
+in a specific area. 
+(Spoiler: Activation conditions are a secret—go find them yourself!)
+
+[Item & Weapon Restoration (Item Expansion)]
+
+Resurrection of unimplemented weapons & items: 
+Restored weapons and items (Big Flame Shot, 
+Small Flame Shot, Big Heavy Machine Gun, Molotovs, 
+Stones, etc.) that were never accessible in the original Metal Slug 5.
+
+[BOSS Restoration & Enhancement]
+
+Perfect restoration of 2 deleted bosses: 
+The ‘Stone Turtle’ and the ‘Ptolemaic Master’ 
+have been perfectly implemented.
+
+Stone Turtle HP: 4,000 (1P) / 6,000 (2P). 
+(Support Slug deployed after surviving 1 minute).
+
+Ptolemaic Master HP: 4,000 (1P) / 5,000 (2P).
+
+Final Boss (Grim Reaper) pattern added: 
+'Horizontal Scythe Swing' added to the berserk mode.
+
+[Miscellaneous Visual Enhancements]
+
+Added detailed game elements and enhanced graphical effects.
+
+[Post-Clear Unlockables]
+
+Stage Select Function: Activated after clearing the game once.
+
+Developer Test Level: The 'Developer Test Map' 
+integrated as an official bonus route. 
+Access: Jump at the far left corner at the 
+start of Mission 3 after clearing Mission 1.
+
+Balance Adjustments: Fixed unfair bugs to ensure 
+a one-credit clear is possible with skill.
+
+Golden Stone Turtle: Restored boss appears in 
+gold upon replaying after the first clear.
+$end
 
 $info=
 $cmd
