@@ -6383,22 +6383,6 @@
         "LRbuttons": false,
         "buttons": 4
     },
-    "olds103t": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8580_olds103t_8603.bin",
-        "title": "오리엔탈 레전드 스페셜",
-        "title_en": "Oriental Legend Special",
-        "desc": "",
-        "genre": "벨트스크롤 액션",
-        "genre_en": "Side-scrolling Action",
-        "series": "",
-        "series_en": "",
-        "parent": "",
-        "year": 0,
-        "developer": "",
-        "portrait": false,
-        "LRbuttons": false,
-        "buttons": 4
-    },
     "dragwld2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8985_dragwld2_8157.bin",
         "title": "드래곤 월드2",
