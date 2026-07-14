@@ -99638,7 +99638,8 @@ While holding down the [Jump] button on the character selection screen,
 enter the commands below to activate special modes.
 
 1. ↑ : Plus (+) Mode - Enemies become smarter and stronger. 
-       (Pressing it once more activates the aforementioned Sharp (#) Mode, making them even more vicious.)
+       (Pressing it once more activates the aforementioned 
+       Sharp (#) Mode, making them even more vicious.)
 
 2. ↓ : Minus (-) Mode - You can have a maximum of 5 health (HP) bars. 
        However, in exchange, your HP will not be fully restored after clearing a stage. 
@@ -99683,67 +99684,291 @@ $info=mslug5ext
 $cmd
 [Content & Stage Additions (Scenario Expansion)]
 
-Restoration of deleted branches & hidden areas: Restored 
-cut content including unused stages and branching paths, 
-allowing them to be played like regular stages.
+Restoration of deleted branches & hidden areas: 
+ Restored cut content including unused stages 
+ and branching paths, allowing them to be played 
+ like regular stages.
 
-New hidden route in Mission 1: A new hidden branching point 
-has been added to the Mission 1-2 area. 
-(The trigger condition remains a secret!)
+New hidden route in Mission 1: 
+ A new hidden branching point 
+ has been added to the Mission 1-2 area. 
+ (The trigger condition remains a secret!)
 
 [Stage Volume Up (Level Expansion)]
 
-Restoration of deleted enemies & hostages: Enemies and 
-hostages that previously existed only as dummy data 
-have been fully integrated. Every stage route now 
-features at least 10 hostages for massive bonus scores.
+Restoration of deleted enemies & hostages: 
+ Enemies and hostages that previously existed 
+ only as dummy data have been fully integrated. 
+ Every stage route now features at least 10 
+ hostages for massive bonus scores.
 
-Mission 3 hidden elements: Added 2 hidden hostages
+Mission 3 hidden elements: 
+ Added 2 hidden hostages
  and 1 Slug in a specific area.
 
-Mission 5 hidden elements: Added 3 hidden hostages 
-in a specific area. 
-(Spoiler: Activation conditions are a secret—go find them yourself!)
+Mission 5 hidden elements: 
+ Added 3 hidden hostages in a specific area. 
+ (Spoiler: Activation conditions are a secret—go 
+ find them yourself!)
 
 [Item & Weapon Restoration (Item Expansion)]
 
 Resurrection of unimplemented weapons & items: 
-Restored weapons and items (Big Flame Shot, 
-Small Flame Shot, Big Heavy Machine Gun, Molotovs, 
-Stones, etc.) that were never accessible in the original Metal Slug 5.
+ Restored weapons and items (Big Flame Shot, 
+ Small Flame Shot, Big Heavy Machine Gun, Molotovs, 
+ Stones, etc.) that were never accessible in the 
+ original Metal Slug 5.
 
 [BOSS Restoration & Enhancement]
 
 Perfect restoration of 2 deleted bosses: 
-The ‘Stone Turtle’ and the ‘Ptolemaic Master’ 
-have been perfectly implemented.
+ The ‘Stone Turtle’ and the ‘Ptolemaic Master’ 
+ have been perfectly implemented.
 
-Stone Turtle HP: 4,000 (1P) / 6,000 (2P). 
-(Support Slug deployed after surviving 1 minute).
+Stone Turtle HP: 
+ 4,000 (1P) / 6,000 (2P). 
+ (Support Slug deployed after surviving 1 minute).
 
-Ptolemaic Master HP: 4,000 (1P) / 5,000 (2P).
+Ptolemaic Master HP: 
+ 4,000 (1P) / 5,000 (2P).
 
 Final Boss (Grim Reaper) pattern added: 
-'Horizontal Scythe Swing' added to the berserk mode.
+ 'Horizontal Scythe Swing' added to the berserk mode.
 
 [Miscellaneous Visual Enhancements]
 
-Added detailed game elements and enhanced graphical effects.
+ Added detailed game elements and 
+ enhanced graphical effects.
 
 [Post-Clear Unlockables]
 
-Stage Select Function: Activated after clearing the game once.
+Stage Select Function: 
+ Activated after clearing the game once.
 
-Developer Test Level: The 'Developer Test Map' 
-integrated as an official bonus route. 
-Access: Jump at the far left corner at the 
-start of Mission 3 after clearing Mission 1.
+Developer Test Level: 
+ The 'Developer Test Map' 
+ integrated as an official bonus route. 
 
-Balance Adjustments: Fixed unfair bugs to ensure 
-a one-credit clear is possible with skill.
+Access: 
+ Jump at the far left corner at the 
+ start of Mission 3 after clearing Mission 1.
 
-Golden Stone Turtle: Restored boss appears in 
-gold upon replaying after the first clear.
+Balance Adjustments: 
+ Fixed unfair bugs to ensure 
+ a one-credit clear is possible with skill.
+
+Golden Stone Turtle: 
+ Restored boss appears in 
+ gold upon replaying after the first clear.
+$end
+
+$info=kov115o
+$cmd
+[ Character & Item Performance Enhancements ]
+───────────────────────
+Increased Qi Gauge Collection Rate for All Characters: 
+  The Qi accumulation speed for all characters 
+  has been buffed to match 'Zhuge Liang', 
+  who previously had the fastest charging rate.
+
+'Mad Bull' Style Command Synchronization: 
+  The input timing and hit detection for Zhang Fei’s 
+  super move, 'Mad Bull' (↓↑+A), 
+  have been smoothed out to match the 119 (Plus) version.
+
+Fairy Pen (Divine Brush) Elemental Selection: 
+  The 'Divine Brush' item, which previously 
+  activated a random element, 
+  now allows you to select a specific element 
+  by inputting a command 
+  immediately after activation.
+  ↑: Fire / ↓: Ice / ←: Stone / →: Lightning / A: Snake
+  B: Scorpion / C: Change Element / D: Lock Element
+
+Heshibi Infinite Mid-Air Levitation: 
+  Equipping the Heshibi (Jade of He) allows for 
+  continuous jump (levitation) 
+  maneuvers in the air.
+
+Change to 'Remains of History' Effect: 
+  Killing enemies with the 'Remains of History' 
+  item now restores your Health (HP) 
+  (Lifesteal effect).
+
+[ Route & Secret Room Condition Adjustments ]
+(Optimized for Solo Play) 
+
+Fire Sword Secret Room Access in Solo Play: 
+  The Fire Sword room, which previously required 
+  2+ players, can now be entered 
+  in single-player mode by defeating the 
+  minions and proceeding directly.
+
+Fire Book Secret Room Access in Solo Play: 
+  You can now drop directly into the Fire Book room 
+  in single-player mode without needing to meet 
+  the specific hidden chamber conditions.
+
+Forced Access to Jingzhou Castle: 
+  The Jingzhou Castle route, which previously 
+  required giving meat to a specific 
+  character (Wang Ping) or had player count 
+  restrictions, can now be entered 
+  without any conditions. 
+  (Wang Ping's dialogue: "Finally, I don't need 
+  to be picky about guests anymore!")
+
+[ System & Quality of Life Improvements ]
+
+Hidden Characters Unlocked by Default: 
+  Characters that previously required 
+  complex button inputs to select, such as 
+  Zhuge Liang, Diaochan, and Zhang Liao, 
+  are now unlocked and selectable from the start.
+
+Removal of Invincible Minions: 
+  Removed specific enemy units that had 
+  invincibility frames, which previously 
+  hindered smooth gameplay progression.
+
+HP Recovery on Level Up: 
+  Characters now recover a small amount of 
+  HP each time they level up.
+
+Expanded Qi Gauge (up to 6 slots): 
+  The maximum energy orb (Qi gauge) capacity 
+  has been extended from 3–4 to 6 slots.
+
+Digital HP Display: 
+  Character and boss health bars now display 
+  exact remaining HP values as numbers.
+
+Removal of Post-Action Delay for Level Up and Qi Explosion: 
+  The hard-freeze motion that occurred during 
+  level-ups or when triggering 
+  Qi explosion has been removed, 
+  allowing for immediate movement.
+
+Improved EXP and Score System: 
+  Experience gain and scoring methods have been 
+  adjusted for a more user-friendly experience.
+
+4-Player Screen Mode for Solo Play: 
+  Even when playing solo, the game now utilizes 
+  the 4-player version's wider screen 
+  and enemy spawn layouts.
+$end
+
+$info=orlegndf
+$cmd
+[ System & Item Changes ]
+
+Character-Specific Weapon 'Hold' Feature Added:
+  Similar to ROM-pack versions (such as 'Journey to the West'), 
+  a function to bind (hold) 
+  enemies with certain special moves has been added. 
+  Note: To prevent infinite holding, there is a limit of 
+  255 counts, so it is not 
+  infinitely sustained.
+
+Adjustment to Special Moves and Item Drop Rates:
+  Qi gauge efficiency and balance for some characters 
+  have been modified. 
+  Specifically, the 'Ice Axe' item is now set to have 
+  the highest drop rate during 
+  underwater stages.
+
+Increased Inventory Capacity:
+  The maximum number of items that can be carried in 
+  the inventory has been 
+  expanded to 9.
+
+Restrictions on Elemental Treasure (Dharma Treasure) Usage:
+  Restrictions have been added when using certain 
+  elemental treasures, requiring 
+  you to drop all other treasures that do not match 
+  your character's element 
+  before use. (Prevents exploits)
+
+[ New Character Skills & Invincibility Frames ]
+
+Full-screen attack skills such as 'Earth Killing 
+Technique' and 'Ice Palm' have 
+been significantly buffed.
+
+Chain/Cancel Motion for Zhu Bajie and Sha Wujing:
+  Actions such as uppercuts, continuous dance motions, 
+  and sand-throwing cancels 
+  now connect smoothly, similar to the PlayStation (PS) 
+  or Sega Saturn (SS) console versions.
+
+Sun Wukong's 'Clone Technique' Invincibility:
+  Invincibility frames have been added to Sun Wukong's 
+  'Clone Technique'.
+
+Two new command-based special moves have been added for 
+both Zhu Bajie and Sha Wujing.
+
+[ New Character Command List ]
+
+Sun Wukong (Monkey)
+  ↑↓ + A : Qian-Kun Wave (Super Move)
+  ↓↘→ + A : Cross Sword
+  ↗ + B : Ride Cloud
+  ↓↑ + A : Lightning Strike (Hold Feature)
+  B + B : Lightning Dance
+  ↗ + C / ↘ + C : Lightning Bolt Attack
+
+Zhu Bajie
+  ↑↓ + A : Qian-Kun Wave (Super Move)
+  ↗ + B : Lion's Roar
+  B + B : Somersault Dance
+  ↗ + C / ↘ + C : Detoxify (Cure Poison)
+  ↓↘→ + A : Qian-Kun Field (Enemy Stun/Hold Skill)
+
+Sha Wujing
+  ↑↓ + A : Qian-Kun Wave (Super Move)
+  B + B : Continuous Somersault Dance
+  ↗ + C : Summon Spider Spirit
+  ↘ + C : Sky-Flying Killing
+  ↗ + B : Full-Screen Fire Attack (Hold Feature)
+
+Long Nü (Dragon Girl)
+  ↑↓ + A : Qian-Kun Wave (Super Move)
+  B + B : Backflip Turn
+  ↗ + B : Spider Web Shot (Enemy Stun/Hold Feature)
+  ↗ + C / ↘ + C : Flame Release
+
+Long Ma (Dragon Horse)
+  ↑↓ + A : Qian-Kun Wave (Super Move)
+  ↗ + B : Spider King Eye Laser (Enemy Stun/Hold Feature)
+  B + B : Rapid Strike Dance
+  ↗ + C : Summon Three Deer / ↘ + C : Dragon Summon (Hang Long You Hui)
+
+[ BOSS Pattern Difficulty Increase (Spicy Mode) ]
+
+Ox Demon (Small Boss): 
+  Now frequently spams a full-screen flame magic pattern as a core attack.
+
+Silver Horn King: 
+  Becomes invincible while casting thunder/lightning spells.
+
+Spider King: 
+  Becomes invincible while shooting eye lasers or casting webs.
+
+White Eye Demon King: 
+  Casts an earth-pillar magic spell that erupts from the ground.
+
+Bull Demon King: 
+  Equipped with a passive electrical shock that triggers on contact, and uses 
+  Fire Dragon summons to explode the entire map. Overall attack speed has been 
+  significantly increased.
+
+Tiger Power Immortal: 
+  Flame-slash patterns that cut across the screen are now standard.
+
+Goat Power Immortal: 
+  Lightning-strike patterns that drop from above are now standard.
 $end
 
 $info=

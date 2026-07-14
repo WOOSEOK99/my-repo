@@ -1,6 +1,8 @@
-<P>메탈 슬러그 3 (해킹판)</P>
-<P>천지를 먹다 2 (마스터 버전)</P>
-<P>메탈 슬러그 5</P>
-<P>Metal Slug 3 (Hack)</P>
-<P>Tenchi wo Kurau II (Master Ver.)</P>
-<P>Metal Slug 5</P>
+<P>언더커버 캅스 (한글판)</P>
+<P>야구 격투 리그 (한글판)</P>
+<P>후크 (한글판)</P>
+<P>삼국전기 (최적화)</P>
+<P>Undercover Cops (korean)</P>
+<P>Yakyuu Kakutou League-Man (korean)</P>
+<P>Hook (korean)</P>
+<P>Knights of Valour (optimized)</P>
