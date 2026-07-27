@@ -107,9 +107,12 @@ class GameJsonEditor:
         main_frame = tk.Frame(self.root)
         main_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
+        self.paned_win = tk.PanedWindow(main_frame, orient=tk.HORIZONTAL, sashrelief=tk.RAISED, sashwidth=5)
+        self.paned_win.pack(fill=tk.BOTH, expand=True)
+
         # --- 1열: 리스트박스 및 검색 ---
-        list_frame = tk.Frame(main_frame)
-        list_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 5))
+        list_frame = tk.Frame(self.paned_win)
+        self.paned_win.add(list_frame, minsize=200, stretch="never")
         
         search_frame = tk.Frame(list_frame)
         search_frame.pack(fill=tk.X, pady=(0, 2))
@@ -159,8 +162,8 @@ class GameJsonEditor:
         self.listbox.config(yscrollcommand=scrollbar.set)
 
         # --- 2열: 게임 정보 편집 ---
-        mid_frame = tk.Frame(main_frame)
-        mid_frame.pack(side=tk.LEFT, fill=tk.BOTH, padx=(0, 5))
+        mid_frame = tk.Frame(self.paned_win)
+        self.paned_win.add(mid_frame, minsize=350, stretch="never")
 
         edit_frame = tk.LabelFrame(mid_frame, text="게임 정보", pady=5)
         edit_frame.pack(fill=tk.X)
@@ -198,10 +201,6 @@ class GameJsonEditor:
         tk.Label(edit_frame, text="series_en").grid(row=5, column=0, sticky="e", padx=2)
         self.entries["series_en"] = tk.Entry(edit_frame, width=35)
         self.entries["series_en"].grid(row=5, column=1, sticky="ew", padx=5, pady=2)
-
-        tk.Label(edit_frame, text="desc").grid(row=6, column=0, sticky="ne", padx=2, pady=2)
-        self.entries["desc"] = tk.Text(edit_frame, width=35, height=4)
-        self.entries["desc"].grid(row=6, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="parent").grid(row=7, column=0, sticky="e", padx=2)
         self.entries["parent"] = ttk.Combobox(edit_frame, values=self.parent_list, width=35)
@@ -268,9 +267,29 @@ class GameJsonEditor:
         #tk.Button(batch_btn_frame, text="모든 year=0", command=self.batch_set_year, bg="#fff3e0").#pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
         #tk.Button(batch_btn_frame, text="모든 developer=''", command=self.batch_set_dev, #bg="#e0f7fa").pack(side=tk.LEFT, expand=True, fill=tk.X, padx=2)
 
+        # --- Description (게임 설명) ---
+        desc_label_frame = tk.LabelFrame(self.paned_win, text="Description", pady=5)
+        self.paned_win.add(desc_label_frame, minsize=150, stretch="always")
+
+        desc_text_frame = tk.Frame(desc_label_frame)
+        desc_text_frame.pack(fill=tk.BOTH, expand=True)
+
+        self.entries["desc"] = tk.Text(
+            desc_text_frame,
+            font=("Malgun Gothic", 9),
+            wrap=tk.WORD,
+            undo=True,
+            width=15,
+        )
+        desc_yscroll = tk.Scrollbar(desc_text_frame, command=self.entries["desc"].yview)
+        self.entries["desc"].configure(yscrollcommand=desc_yscroll.set)
+
+        desc_yscroll.pack(side=tk.RIGHT, fill=tk.Y)
+        self.entries["desc"].pack(fill=tk.BOTH, expand=True)
+
         # --- 3열: Cheat Data ---
-        cheat_frame = tk.LabelFrame(main_frame, text="Cheat Data", pady=5)
-        cheat_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        cheat_frame = tk.LabelFrame(self.paned_win, text="Cheat Data", pady=5)
+        self.paned_win.add(cheat_frame, minsize=150, stretch="always")
 
         # 치트 텍스트 + 스크롤바
         cheat_text_frame = tk.Frame(cheat_frame)
@@ -281,6 +300,7 @@ class GameJsonEditor:
             font=("Consolas", 9),
             wrap=tk.NONE,
             undo=True,
+            width=15,
         )
         cheat_yscroll = tk.Scrollbar(cheat_text_frame, command=self.cheat_text.yview)
         cheat_xscroll = tk.Scrollbar(cheat_text_frame, orient=tk.HORIZONTAL, command=self.cheat_text.xview)
@@ -329,8 +349,8 @@ class GameJsonEditor:
         ).pack(side=tk.LEFT, fill=tk.X, expand=True, padx=2)
 
         # --- 4열: Command Data ---
-        cmd_frame = tk.LabelFrame(main_frame, text="Command Data", pady=5)
-        cmd_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        cmd_frame = tk.LabelFrame(self.paned_win, text="Command Data", pady=5)
+        self.paned_win.add(cmd_frame, minsize=150, stretch="always")
 
         cmd_text_frame = tk.Frame(cmd_frame)
         cmd_text_frame.pack(fill=tk.BOTH, expand=True)
@@ -340,6 +360,7 @@ class GameJsonEditor:
             font=("Consolas", 9),
             wrap=tk.NONE,
             undo=True,
+            width=15,
         )
         cmd_yscroll = tk.Scrollbar(cmd_text_frame, command=self.command_text.yview)
         cmd_xscroll = tk.Scrollbar(cmd_text_frame, orient=tk.HORIZONTAL, command=self.command_text.xview)
