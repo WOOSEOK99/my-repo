@@ -94,9 +94,10 @@ class FileSearchApp:
         self.status_var = tk.StringVar(value="대기 중...")
         ttk.Label(result_frame, textvariable=self.status_var, foreground="gray").grid(row=1, column=0, columnspan=2, sticky="w", padx=10, pady=(0, 5))
 
-        # 이벤트 바인딩 (더블 클릭 및 우클릭)
+        # 이벤트 바인딩 (더블 클릭, 우클릭, 전체선택)
         self.tree.bind("<Double-1>", self.on_double_click)
         self.tree.bind("<Button-3>", self.show_context_menu) # 우클릭
+        self.tree.bind("<Control-a>", lambda e: self.tree.selection_set(self.tree.get_children())) # 전체 선택
 
     def _create_context_menu(self):
         """우클릭 컨텍스트 메뉴 구성"""
@@ -136,10 +137,12 @@ class FileSearchApp:
             messagebox.showwarning("경고", "탐색할 폴더를 하나 이상 추가해주세요.")
             return
 
-        search_term = self.search_var.get().strip().lower()
-        if not search_term:
+        raw_input = self.search_var.get().strip().lower()
+        if not raw_input:
             messagebox.showwarning("경고", "검색할 파일 이름을 입력해주세요.")
             return
+        # ; 구분자로 여러 검색어 분리 (공백 제거 후 빈 항목 필터)
+        search_terms = [t.strip() for t in raw_input.split(";") if t.strip()]
 
         exact_match = self.exact_match_var.get()
         self.status_var.set("검색 중...")
@@ -156,14 +159,17 @@ class FileSearchApp:
                     name_without_ext = os.path.splitext(file_lower)[0]
 
                     is_match = False
-                    if exact_match:
-                        # 100% 일치: 확장자를 포함한 전체 이름이 같거나, 확장자 제외 이름이 같은 경우
-                        if search_term == file_lower or search_term == name_without_ext:
-                            is_match = True
-                    else:
-                        # 부분 일치
-                        if search_term in file_lower:
-                            is_match = True
+                    for search_term in search_terms:
+                        if exact_match:
+                            # 100% 일치: 확장자를 포함한 전체 이름이 같거나, 확장자 제외 이름이 같은 경우
+                            if search_term == file_lower or search_term == name_without_ext:
+                                is_match = True
+                                break
+                        else:
+                            # 부분 일치
+                            if search_term in file_lower:
+                                is_match = True
+                                break
 
                     if is_match:
                         full_path = os.path.join(root_dir, filename)
@@ -193,10 +199,13 @@ class FileSearchApp:
         return os.path.normpath(os.path.join(directory, filename))
 
     def show_context_menu(self, event):
-        """우클릭 시 선택 항목 강제 지정 후 메뉴 표시"""
+        """우클릭 시 선택 항목 강제 지정 후 메뉴 표시 (다중 선택 유지)"""
         item = self.tree.identify_row(event.y)
         if item:
-            self.tree.selection_set(item)
+            # 우클릭한 항목이 현재 선택 범위 밖에 있을 때만 선택을 새로 지정
+            # → 이미 선택된 항목 위에서 우클릭하면 다중 선택이 그대로 유지됨
+            if item not in self.tree.selection():
+                self.tree.selection_set(item)
             self.context_menu.tk_popup(event.x_root, event.y_root)
 
     def on_double_click(self, event):
@@ -231,24 +240,41 @@ class FileSearchApp:
         """
         [전문가 팁] 파이썬 내장 기능만으로 탐색기 파일 복사 구현
         PowerShell 명령을 호출하여 파일 오브젝트 자체를 클립보드에 삽입합니다.
+        다중 선택(Ctrl+A 포함) 시 선택된 모든 파일을 한 번에 복사합니다.
         """
-        filepath = self.get_selected_filepath()
-        if not filepath or not os.path.exists(filepath):
+        selected = self.tree.selection()
+        if not selected:
+            return
+
+        # 선택된 모든 항목의 절대 경로 수집
+        filepaths = []
+        for item_id in selected:
+            item = self.tree.item(item_id)
+            filename = item['values'][0]
+            directory = item['values'][1]
+            fp = os.path.normpath(os.path.join(directory, filename))
+            if os.path.exists(fp):
+                filepaths.append(fp)
+
+        if not filepaths:
             return
 
         if sys.platform == "win32":
-            # 파일 경로를 PowerShell Set-Clipboard로 전달하여 '파일 복사' 상태 생성
-            cmd = f'powershell.exe -command "Set-Clipboard -Path \'{filepath}\'"'
-            creation_flags = 0x08000000 # CREATE_NO_WINDOW (콘솔창 숨김)
+            # 여러 경로를 PowerShell 배열로 전달 → 탐색기 붙여넣기 가능
+            paths_ps = "', '".join(filepaths)
+            cmd = f"powershell.exe -command \"Set-Clipboard -Path '{paths_ps}'\""
+            creation_flags = 0x08000000  # CREATE_NO_WINDOW (콘솔창 숨김)
             try:
                 subprocess.run(cmd, shell=True, creationflags=creation_flags)
-                self.status_var.set(f"클립보드에 복사됨 (Ctrl+V로 붙여넣기 가능): {os.path.basename(filepath)}")
+                count = len(filepaths)
+                label = os.path.basename(filepaths[0]) if count == 1 else f"{count}개 파일"
+                self.status_var.set(f"클립보드에 복사됨 (Ctrl+V로 붙여넣기 가능): {label}")
             except Exception as e:
                 messagebox.showerror("복사 오류", str(e))
         else:
             # Mac/Linux의 경우 텍스트(경로) 복사로 대체
             self.root.clipboard_clear()
-            self.root.clipboard_append(filepath)
+            self.root.clipboard_append("\n".join(filepaths))
             self.status_var.set("경로가 클립보드에 복사되었습니다.")
 
     def delete_selected(self):
