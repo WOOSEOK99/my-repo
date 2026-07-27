@@ -40610,7 +40610,7 @@ $end
 
 
 #손크트르파즈
-$info=shocktro
+$info=shocktro,shocktrok
 $cmd
 [ 기본 조작 방법에 대해 ]
 ───────────────────────
@@ -40627,6 +40627,7 @@ $end
 
 
 #삭카브로르
+
 $info=socbrawl
 $cmd
 [ 기본 조작 방법에 대해 ]

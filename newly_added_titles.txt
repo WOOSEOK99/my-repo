@@ -1,8 +1,4 @@
-<P>언더커버 캅스 (한글판)</P>
-<P>야구 격투 리그 (한글판)</P>
-<P>후크 (한글판)</P>
-<P>삼국전기 (최적화)</P>
-<P>Undercover Cops (korean)</P>
-<P>Yakyuu Kakutou League-Man (korean)</P>
-<P>Hook (korean)</P>
-<P>Knights of Valour (optimized)</P>
+<P>메탈 슬러그 X (적군선택)</P>
+<P>쇼크 트루퍼스 (한글판)</P>
+<P>Metal Slug X (Enemy select)</P>
+<P>Shock Troopers (Korean)</P>

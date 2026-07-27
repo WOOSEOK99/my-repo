@@ -591,6 +591,22 @@
         "LRbuttons": true,
         "buttons": 6
     },
+    "mslugxa": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/3193_mslugxa_6012.bin",
+        "title": "메탈 슬러그 X (적군선택)",
+        "title_en": "Metal Slug X (Enemy select)",
+        "desc": "",
+        "genre": "횡스크롤 액션",
+        "genre_en": "Side-scrolling Action",
+        "series": "메탈 슬러그 X",
+        "series_en": "Metal Slug X",
+        "parent": "mslugx",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "LRbuttons": false,
+        "buttons": 4
+    },
     "wbdeluxe": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5520_wbdeluxe_5948.bin",
         "title": "원더 보이 디럭스",
@@ -29918,5 +29934,21 @@
         "portrait": false,
         "LRbuttons": false,
         "buttons": 2
+    },
+    "shocktrok": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1652_shocktrok_3646.bin",
+        "title": "쇼크 트루퍼스 (한글판)",
+        "title_en": "Shock Troopers (Korean)",
+        "desc": "",
+        "genre": "슈팅",
+        "genre_en": "Shoot 'em up",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "LRbuttons": false,
+        "buttons": 4
     }
 }
