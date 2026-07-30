@@ -227154,3 +227154,1282 @@
 
 
 
+
+:kotm2k:00000000:1013D2:00000099:FFFFFFFF:矫埃 公茄
+:kotm2k:00800000:100001:00000002:00000002:公利:Debug DIP 2-?
+:kotm2k:62000000:000000:00000000:00000000:Select Starting Battle
+:kotm2k:20B10000:0027EE:4E714E71:FFFFFFFF:Battle 1 American City
+:kotm2k:20B18000:00C204:3B7C0000:FFFFFFFF:Battle 1 American City (2/3)
+:kotm2k:20B18000:00C208:FCE66038:FFFFFFFF:Battle 1 American City (3/3)
+:kotm2k:20B10000:0027EE:4E714E71:FFFFFFFF:Battle 2 French City
+:kotm2k:20B18000:00C204:3B7C0002:FFFFFFFF:Battle 2 French City (2/3)
+:kotm2k:20B18000:00C208:FCE66038:FFFFFFFF:Battle 2 French City (3/3)
+:kotm2k:20B10000:0027EE:4E714E71:FFFFFFFF:Battle 3 Grand Canyon
+:kotm2k:20B18000:00C204:3B7C0003:FFFFFFFF:Battle 3 Grand Canyon (2/3)
+:kotm2k:20B18000:00C208:FCE66038:FFFFFFFF:Battle 3 Grand Canyon (3/3)
+:kotm2k:20B10000:0027EE:4E714E71:FFFFFFFF:Battle 4 Desert
+:kotm2k:20B18000:00C204:3B7C0004:FFFFFFFF:Battle 4 Desert (2/3)
+:kotm2k:20B18000:00C208:FCE66038:FFFFFFFF:Battle 4 Desert (3/3)
+:kotm2k:20B10000:0027EE:4E714E71:FFFFFFFF:Battle 5 Sea Bed
+:kotm2k:20B18000:00C204:3B7C0001:FFFFFFFF:Battle 5 Sea Bed (2/3)
+:kotm2k:20B18000:00C208:FCE66038:FFFFFFFF:Battle 5 Sea Bed (3/3)
+:kotm2k:20B10000:0027EE:4E714E71:FFFFFFFF:Battle 6 Lava Zone
+:kotm2k:20B18000:00C204:3B7C0005:FFFFFFFF:Battle 6 Lava Zone (2/3)
+:kotm2k:20B18000:00C208:FCE66038:FFFFFFFF:Battle 6 Lava Zone (3/3)
+:kotm2k:20B10000:0027EE:4E714E71:FFFFFFFF:Battle 7 Hide-Out
+:kotm2k:20B18000:00C204:3B7C0006:FFFFFFFF:Battle 7 Hide-Out (2/3)
+:kotm2k:20B18000:00C208:FCE66038:FFFFFFFF:Battle 7 Hide-Out (3/3)
+:kotm2k:00000001:101617:00000000:FFFFFFFF:Drain Boss Energy Now!
+:kotm2k:00010001:101917:00000000:FFFFFFFF:Drain Boss Energy Now! (2/4)
+:kotm2k:00010001:101717:00000000:FFFFFFFF:Drain Boss Energy Now! (3/4)
+:kotm2k:00010001:101697:00000000:FFFFFFFF:Drain Boss Energy Now! (4/4)
+:kotm2k:60000000:000000:00000000:00000000:
+:kotm2k:00000000:1013B8:00000009:FFFFFFFF:积疙 公茄 PL1
+:kotm2k:00000000:101417:00000040:FFFFFFFF:俊呈瘤 公茄 PL1
+:kotm2k:00000001:1013E3:00000002:FFFFFFFF:Enable Max Power Now! PL1
+:kotm2k:62000000:000000:00000000:00000000:Select Character PL1
+:kotm2k:00010000:1013DC:00000000:FFFFFFFF:Super Geon
+:kotm2k:00010000:1013DC:00000001:FFFFFFFF:Atomic Guy
+:kotm2k:00010000:1013DC:00000002:FFFFFFFF:Cyber Woo
+:kotm2k:00010000:1013DC:00000004:FFFFFFFF:#Huge Frogger (some glitches)#
+:kotm2k:60000000:000000:00000000:00000000:
+:kotm2k:00000000:1013B9:00000009:FFFFFFFF:积疙 公茄 PL2
+:kotm2k:00000000:101517:00000040:FFFFFFFF:俊呈瘤 公茄 PL2
+:kotm2k:00000001:1014E3:00000002:FFFFFFFF:Enable Max Power Now! PL2
+:kotm2k:62000000:000000:00000000:00000000:Select Character PL2
+:kotm2k:00010000:1014DC:00000000:FFFFFFFF:Super Geon
+:kotm2k:00010000:1014DC:00000001:FFFFFFFF:Atomic Guy
+:kotm2k:00010000:1014DC:00000002:FFFFFFFF:Cyber Woo
+:kotm2k:00010000:1014DC:00000004:FFFFFFFF:#Huge Frogger (some glitches)#
+:kotm2k:60000000:000000:00000000:00000000:
+:kotm2k:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:kotm2k:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:kotm2k:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:kotm2k:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:kotm2k:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:kotm2k:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:kotm2k:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:kotm2k:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:kotm2k:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:kabukiklk:20B00000:00B9F8:1D7C0099:FFFFFFFF:矫埃 公茄
+:kabukiklk:20B00000:01278A:4EB90002:FFFFFFFF:Unlock Secret Characters
+:kabukiklk:20910000:01278E:0000F520:FFFFFFFF:Unlock Secret Characters (02/10):1st + 2nd = jsr $2f520.l
+:kabukiklk:20B10000:0127A8:4EB90002:FFFFFFFF:Unlock Secret Characters (03/10):3rd $ 4th = jsr $2f52a.l
+:kabukiklk:20910000:0127AC:0000F52A:FFFFFFFF:Unlock Secret Characters (04/10)
+:kabukiklk:20B10000:02F520:53106A10:FFFFFFFF:Unlock Secret Characters (05/10):subq.b #1,(A0) / bpl $2f534
+:kabukiklk:20B10000:02F524:10BC000B:FFFFFFFF:Unlock Secret Characters (06/10):move.b #$b,(A0)
+:kabukiklk:20B10000:02F528:600A5210:FFFFFFFF:Unlock Secret Characters (07/10):bra $2f534 / addq.b #1,(A0)
+:kabukiklk:20B10000:02F52C:0C100C0B:FFFFFFFF:Unlock Secret Characters (08/10):cmpi.b #$b,(A0)
+:kabukiklk:20B10000:02F530:63024210:FFFFFFFF:Unlock Secret Characters (09/10):bls $2f534 / clr.b (A0)
+:kabukiklk:20910000:02F534:00004E75:FFFFFFFF:Unlock Secret Characters (10/10):rts
+:kabukiklk:62000000:000000:00000000:00000000:公利
+:kabukiklk:20B10000:02FCB4:6000F88A:FFFFFFFF:PL1 Only
+:kabukiklk:20B18000:02F540:BDEDD094:FFFFFFFF:PL1 Only (02/16):[ Direct attack (Punch, Kick, Firearm etc) ]
+:kabukiklk:20918000:02F544:00006604:FFFFFFFF:PL1 Only (03/16):2FCB4 - bra $2f540 / 2F540 - cmpa.l (-$2f6c,A5),A6 / 2F544 - bne $2f54a
+:kabukiklk:20B18000:02F546:70014E75:FFFFFFFF:PL1 Only (04/16):2F546 - moveq #$1,D0 / rts [No Hit]
+:kabukiklk:20B18000:02F54A:70004E75:FFFFFFFF:PL1 Only (05/16):2F54A - moveq #$0,D0 / rts [Hit]
+:kabukiklk:20B18000:039222:4EB90002:FFFFFFFF:PL1 Only (06/16):[ Catch or throw - call player check routine ]
+:kabukiklk:20918000:039226:0000F54E:FFFFFFFF:PL1 Only (07/16):39222 - jsr $2f54e.l
+:kabukiklk:20B18000:03927E:4EB90002:FFFFFFFF:PL1 Only (08/16):[ Air throw (Jiraia) - call player check routine ]
+:kabukiklk:20918000:039282:0000F54E:FFFFFFFF:PL1 Only (09/16):3927E - jsr $2f54e.l
+:kabukiklk:20B18000:0392E6:4EB90002:FFFFFFFF:PL1 Only (10/16):[ Kamituki (Manto Ace) - call player check routine ]
+:kabukiklk:20918000:0392EA:0000F54E:FFFFFFFF:PL1 Only (11/16):392E6 - jsr $2f54e.l
+:kabukiklk:20B18000:02F54E:B7EDD094:FFFFFFFF:PL1 Only (12/16):[ Player check routine ]
+:kabukiklk:20918000:02F552:00006708:FFFFFFFF:PL1 Only (13/16):2F54E - cmpa.l (-$2f6c,A5),A3
+:kabukiklk:20B18000:02F554:082B0007:FFFFFFFF:PL1 Only (14/16):2F552 - beq $2f55c
+:kabukiklk:20B18000:02F558:00124E75:FFFFFFFF:PL1 Only (15/16):2F554 - btst #$7,($12,A3) / rts [Enable]
+:kabukiklk:20B18000:02F55C:70014E75:FFFFFFFF:PL1 Only (16/16):2F55C - moveq #$1,D0 / rts [Disable]
+:kabukiklk:20B10000:02FCB4:6000F88A:FFFFFFFF:PL2 Only
+:kabukiklk:20B18000:02F540:BDEDD098:FFFFFFFF:PL2 Only (02/16):[ Direct Attack (Punch, Kick, Firearm etc) ]
+:kabukiklk:20918000:02F544:00006604:FFFFFFFF:PL2 Only (03/16):2FCB4 - bra $2f540 / 2F540 - cmpa.l (-$2f68,A5),A6 / 2F544 - bne $2f54a
+:kabukiklk:20B18000:02F546:70014E75:FFFFFFFF:PL2 Only (04/16):2F546 - moveq #$1,D0 / rts [No Hit]
+:kabukiklk:20B18000:02F54A:70004E75:FFFFFFFF:PL2 Only (05/16):2F54A - moveq #$0,D0 / rts [Hit]
+:kabukiklk:20B18000:039222:4EB90002:FFFFFFFF:PL2 Only (06/16):[ Catch or throw - call player check routine ]
+:kabukiklk:20918000:039226:0000F54E:FFFFFFFF:PL2 Only (07/16):39222 - jsr $2f54e.l
+:kabukiklk:20B18000:03927E:4EB90002:FFFFFFFF:PL2 Only (08/16):[ Air throw (Jiraia) - call player check routine ]
+:kabukiklk:20918000:039282:0000F54E:FFFFFFFF:PL2 Only (09/16):3927E - jsr $2f54e.l
+:kabukiklk:20B18000:0392E6:4EB90002:FFFFFFFF:PL2 Only (10/16):[ Kamituki (Manto Ace) - call player check routine ]
+:kabukiklk:20918000:0392EA:0000F54E:FFFFFFFF:PL2 Only (11/16):392E6 - jsr $2f54e.l
+:kabukiklk:20B18000:02F54E:B7EDD098:FFFFFFFF:PL2 Only (12/16):[ Player check routine ]
+:kabukiklk:20918000:02F552:00006708:FFFFFFFF:PL2 Only (13/16):2F54E - cmpa.l (-$2f68,A5),A3
+:kabukiklk:20B18000:02F554:082B0007:FFFFFFFF:PL2 Only (14/16):2F552 - beq $2f55c
+:kabukiklk:20B18000:02F558:00124E75:FFFFFFFF:PL2 Only (15/16):2F554 - btst #$7,($12,A3) / rts [Enable]
+:kabukiklk:20B18000:02F55C:70014E75:FFFFFFFF:PL2 Only (16/16):2F55C - moveq #$1,D0 / rts [Disable]
+:kabukiklk:60000000:000000:00000000:00000000:
+:kabukiklk:83000000:105094:00000064:00000056:俊呈瘤 公茄 PL1
+:kabukiklk:83000001:105094:00000000:00000056:Drain All Energy Now! PL1
+:kabukiklk:83000000:105094:0000003C:0000006E:付过 公茄 PL1
+:kabukiklk:83000000:105094:00000000:0000006E:Always No Magic PL1
+:kabukiklk:62000001:000000:00000000:00000000:Select Character PL1:Use these cheats on the selection screen only!!
+:kabukiklk:00010001:102E17:00000008:FFFFFFFF:Manto Ace
+:kabukiklk:00010001:102E17:00000009:FFFFFFFF:Karakuri
+:kabukiklk:00010001:102E17:0000000A:FFFFFFFF:Jyashinsai
+:kabukiklk:00010001:102E17:0000000B:FFFFFFFF:Lucifeller
+:kabukiklk:60000000:000000:00000000:00000000:
+:kabukiklk:83000000:105098:00000064:00000056:俊呈瘤 公茄 PL2
+:kabukiklk:83000001:105098:00000000:00000056:Drain All Energy Now! PL2
+:kabukiklk:83000000:105098:0000003C:0000006E:付过 公茄 PL2
+:kabukiklk:83000000:105098:00000000:0000006E:Always No Magic PL2
+:kabukiklk:62000001:000000:00000000:00000000:Select Character PL2
+:kabukiklk:00010001:102E18:00000008:FFFFFFFF:Manto Ace
+:kabukiklk:00010001:102E18:00000009:FFFFFFFF:Karakuri
+:kabukiklk:00010001:102E18:0000000A:FFFFFFFF:Jyashinsai
+:kabukiklk:00010001:102E18:0000000B:FFFFFFFF:Lucifeller
+:kabukiklk:60000000:000000:00000000:00000000:
+:kabukiklk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:kabukiklk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:kabukiklk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:kabukiklk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:kabukiklk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:kabukiklk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:kabukiklk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:kabukiklk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:kabukiklk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+
+:kabukiklkb:20B00000:00B9F8:1D7C0099:FFFFFFFF:矫埃 公茄
+:kabukiklkb:20B00000:01278A:4EB90002:FFFFFFFF:Unlock Secret Characters
+:kabukiklkb:20910000:01278E:0000F520:FFFFFFFF:Unlock Secret Characters (02/10):1st + 2nd = jsr $2f520.l
+:kabukiklkb:20B10000:0127A8:4EB90002:FFFFFFFF:Unlock Secret Characters (03/10):3rd $ 4th = jsr $2f52a.l
+:kabukiklkb:20910000:0127AC:0000F52A:FFFFFFFF:Unlock Secret Characters (04/10)
+:kabukiklkb:20B10000:02F520:53106A10:FFFFFFFF:Unlock Secret Characters (05/10):subq.b #1,(A0) / bpl $2f534
+:kabukiklkb:20B10000:02F524:10BC000B:FFFFFFFF:Unlock Secret Characters (06/10):move.b #$b,(A0)
+:kabukiklkb:20B10000:02F528:600A5210:FFFFFFFF:Unlock Secret Characters (07/10):bra $2f534 / addq.b #1,(A0)
+:kabukiklkb:20B10000:02F52C:0C100C0B:FFFFFFFF:Unlock Secret Characters (08/10):cmpi.b #$b,(A0)
+:kabukiklkb:20B10000:02F530:63024210:FFFFFFFF:Unlock Secret Characters (09/10):bls $2f534 / clr.b (A0)
+:kabukiklkb:20910000:02F534:00004E75:FFFFFFFF:Unlock Secret Characters (10/10):rts
+:kabukiklkb:62000000:000000:00000000:00000000:公利
+:kabukiklkb:20B10000:02FCB4:6000F88A:FFFFFFFF:PL1 Only
+:kabukiklkb:20B18000:02F540:BDEDD094:FFFFFFFF:PL1 Only (02/16):[ Direct attack (Punch, Kick, Firearm etc) ]
+:kabukiklkb:20918000:02F544:00006604:FFFFFFFF:PL1 Only (03/16):2FCB4 - bra $2f540 / 2F540 - cmpa.l (-$2f6c,A5),A6 / 2F544 - bne $2f54a
+:kabukiklkb:20B18000:02F546:70014E75:FFFFFFFF:PL1 Only (04/16):2F546 - moveq #$1,D0 / rts [No Hit]
+:kabukiklkb:20B18000:02F54A:70004E75:FFFFFFFF:PL1 Only (05/16):2F54A - moveq #$0,D0 / rts [Hit]
+:kabukiklkb:20B18000:039222:4EB90002:FFFFFFFF:PL1 Only (06/16):[ Catch or throw - call player check routine ]
+:kabukiklkb:20918000:039226:0000F54E:FFFFFFFF:PL1 Only (07/16):39222 - jsr $2f54e.l
+:kabukiklkb:20B18000:03927E:4EB90002:FFFFFFFF:PL1 Only (08/16):[ Air throw (Jiraia) - call player check routine ]
+:kabukiklkb:20918000:039282:0000F54E:FFFFFFFF:PL1 Only (09/16):3927E - jsr $2f54e.l
+:kabukiklkb:20B18000:0392E6:4EB90002:FFFFFFFF:PL1 Only (10/16):[ Kamituki (Manto Ace) - call player check routine ]
+:kabukiklkb:20918000:0392EA:0000F54E:FFFFFFFF:PL1 Only (11/16):392E6 - jsr $2f54e.l
+:kabukiklkb:20B18000:02F54E:B7EDD094:FFFFFFFF:PL1 Only (12/16):[ Player check routine ]
+:kabukiklkb:20918000:02F552:00006708:FFFFFFFF:PL1 Only (13/16):2F54E - cmpa.l (-$2f6c,A5),A3
+:kabukiklkb:20B18000:02F554:082B0007:FFFFFFFF:PL1 Only (14/16):2F552 - beq $2f55c
+:kabukiklkb:20B18000:02F558:00124E75:FFFFFFFF:PL1 Only (15/16):2F554 - btst #$7,($12,A3) / rts [Enable]
+:kabukiklkb:20B18000:02F55C:70014E75:FFFFFFFF:PL1 Only (16/16):2F55C - moveq #$1,D0 / rts [Disable]
+:kabukiklkb:20B10000:02FCB4:6000F88A:FFFFFFFF:PL2 Only
+:kabukiklkb:20B18000:02F540:BDEDD098:FFFFFFFF:PL2 Only (02/16):[ Direct Attack (Punch, Kick, Firearm etc) ]
+:kabukiklkb:20918000:02F544:00006604:FFFFFFFF:PL2 Only (03/16):2FCB4 - bra $2f540 / 2F540 - cmpa.l (-$2f68,A5),A6 / 2F544 - bne $2f54a
+:kabukiklkb:20B18000:02F546:70014E75:FFFFFFFF:PL2 Only (04/16):2F546 - moveq #$1,D0 / rts [No Hit]
+:kabukiklkb:20B18000:02F54A:70004E75:FFFFFFFF:PL2 Only (05/16):2F54A - moveq #$0,D0 / rts [Hit]
+:kabukiklkb:20B18000:039222:4EB90002:FFFFFFFF:PL2 Only (06/16):[ Catch or throw - call player check routine ]
+:kabukiklkb:20918000:039226:0000F54E:FFFFFFFF:PL2 Only (07/16):39222 - jsr $2f54e.l
+:kabukiklkb:20B18000:03927E:4EB90002:FFFFFFFF:PL2 Only (08/16):[ Air throw (Jiraia) - call player check routine ]
+:kabukiklkb:20918000:039282:0000F54E:FFFFFFFF:PL2 Only (09/16):3927E - jsr $2f54e.l
+:kabukiklkb:20B18000:0392E6:4EB90002:FFFFFFFF:PL2 Only (10/16):[ Kamituki (Manto Ace) - call player check routine ]
+:kabukiklkb:20918000:0392EA:0000F54E:FFFFFFFF:PL2 Only (11/16):392E6 - jsr $2f54e.l
+:kabukiklkb:20B18000:02F54E:B7EDD098:FFFFFFFF:PL2 Only (12/16):[ Player check routine ]
+:kabukiklkb:20918000:02F552:00006708:FFFFFFFF:PL2 Only (13/16):2F54E - cmpa.l (-$2f68,A5),A3
+:kabukiklkb:20B18000:02F554:082B0007:FFFFFFFF:PL2 Only (14/16):2F552 - beq $2f55c
+:kabukiklkb:20B18000:02F558:00124E75:FFFFFFFF:PL2 Only (15/16):2F554 - btst #$7,($12,A3) / rts [Enable]
+:kabukiklkb:20B18000:02F55C:70014E75:FFFFFFFF:PL2 Only (16/16):2F55C - moveq #$1,D0 / rts [Disable]
+:kabukiklkb:60000000:000000:00000000:00000000:
+:kabukiklkb:83000000:105094:00000064:00000056:俊呈瘤 公茄 PL1
+:kabukiklkb:83000001:105094:00000000:00000056:Drain All Energy Now! PL1
+:kabukiklkb:83000000:105094:0000003C:0000006E:付过 公茄 PL1
+:kabukiklkb:83000000:105094:00000000:0000006E:Always No Magic PL1
+:kabukiklkb:62000001:000000:00000000:00000000:Select Character PL1:Use these cheats on the selection screen only!!
+:kabukiklkb:00010001:102E17:00000008:FFFFFFFF:Manto Ace
+:kabukiklkb:00010001:102E17:00000009:FFFFFFFF:Karakuri
+:kabukiklkb:00010001:102E17:0000000A:FFFFFFFF:Jyashinsai
+:kabukiklkb:00010001:102E17:0000000B:FFFFFFFF:Lucifeller
+:kabukiklkb:60000000:000000:00000000:00000000:
+:kabukiklkb:83000000:105098:00000064:00000056:俊呈瘤 公茄 PL2
+:kabukiklkb:83000001:105098:00000000:00000056:Drain All Energy Now! PL2
+:kabukiklkb:83000000:105098:0000003C:0000006E:付过 公茄 PL2
+:kabukiklkb:83000000:105098:00000000:0000006E:Always No Magic PL2
+:kabukiklkb:62000001:000000:00000000:00000000:Select Character PL2
+:kabukiklkb:00010001:102E18:00000008:FFFFFFFF:Manto Ace
+:kabukiklkb:00010001:102E18:00000009:FFFFFFFF:Karakuri
+:kabukiklkb:00010001:102E18:0000000A:FFFFFFFF:Jyashinsai
+:kabukiklkb:00010001:102E18:0000000B:FFFFFFFF:Lucifeller
+:kabukiklkb:60000000:000000:00000000:00000000:
+:kabukiklkb:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:kabukiklkb:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:kabukiklkb:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:kabukiklkb:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:kabukiklkb:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:kabukiklkb:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:kabukiklkb:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:kabukiklkb:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:kabukiklkb:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:lastbld2k:00000000:10E595:00000060:FFFFFFFF:矫埃 公茄
+:lastbld2k:00000001:10E595:00000000:FFFFFFFF:Finish this Fight Now!
+:lastbld2k:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:lastbld2k:60000000:000000:00000000:00000000:The 2 boss cheats must be activated at the selection screen. If
+:lastbld2k:60000000:000000:00000000:00000000:one is activated during the first stage and that you win, the
+:lastbld2k:60000000:000000:00000000:00000000:character boss cheat brings you to the final boss and the final
+:lastbld2k:60000000:000000:00000000:00000000:boss cheat let's you see the ending.
+:lastbld2k:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:lastbld2k:00000001:10E581:00000006:FFFFFFFF:Go to Character Boss Now!
+:lastbld2k:00000001:10E581:00000007:FFFFFFFF:Go to Final Boss Now!
+:lastbld2k:62000000:000000:00000000:00000000:Select Constant Background
+:lastbld2k:00010000:10E57D:00000000:FFFFFFFF:Shimiji Pass:Kaede, Hibiki, Original Kaede
+:lastbld2k:00010000:10E57D:00000001:FFFFFFFF:Battle of Cloudy Sky:Moriya, Kagami, Setsuna
+:lastbld2k:00010000:10E57D:00000002:FFFFFFFF:13 Porttown:Akari, Juzoh, Hagure
+:lastbld2k:00010000:10E57D:00000003:FFFFFFFF:Village of Twilight:Lee, Zantetsu
+:lastbld2k:00010000:10E57D:00000004:FFFFFFFF:The Graveyard
+:lastbld2k:00010000:10E57D:00000005:FFFFFFFF:Forest of Forgetfulness:Okina, Shigen, Kotetsu
+:lastbld2k:00010000:10E57D:00000006:FFFFFFFF:The Night Before 'Yuki-Machi':Yuki, Amano
+:lastbld2k:00010000:10E57D:00000007:FFFFFFFF:Shrine of the Vanquished:Mid-Boss Stage
+:lastbld2k:00010000:10E57D:00000008:FFFFFFFF:Boss Stage:Kouryu
+:lastbld2k:00010000:10E57D:00000009:FFFFFFFF:Fire at the Wadamoya:Washizuka, Mukuro, Kojiroh
+:lastbld2k:60000000:000000:00000000:00000000:
+:lastbld2k:83000000:10E344:00000002:0000017E:俊呈瘤 公茄 PL1
+:lastbld2k:83010000:10E344:00000000:0000017F:俊呈瘤 公茄 PL1 (2/2):Poked as bytes for max cheat engine compatability
+:lastbld2k:83100001:10E344:00000000:0000017E:Drain All Energy Now! PL1
+:lastbld2k:00000000:10E4B2:00000001:FFFFFFFF:公利 PL1
+:lastbld2k:00010000:10E44C:00000001:FFFFFFFF:公利 PL1 (2/2):Part 1 sorts out the energy bar and Part 2 stops you reacting when hit
+:lastbld2k:83000000:10E344:00000040:0000017D:颇况 公力茄 PL1
+:lastbld2k:83000100:10E344:00000003:000001AD:Select Rounds Won PL1:However, you still can't throw a round to win the match...
+:lastbld2k:62000000:000000:00000000:00000000:Select Character PL1
+:lastbld2k:00010000:10BD59:00000000:FFFFFFFF:Kaede
+:lastbld2k:00010000:10BD59:00000001:FFFFFFFF:Moriya
+:lastbld2k:00010000:10BD59:00000002:FFFFFFFF:Yuki
+:lastbld2k:00010000:10BD59:00000003:FFFFFFFF:Okina
+:lastbld2k:00010000:10BD59:00000004:FFFFFFFF:Akari
+:lastbld2k:00010000:10BD59:00000005:FFFFFFFF:Juzoh
+:lastbld2k:00010000:10BD59:00000006:FFFFFFFF:Washizuka
+:lastbld2k:00010000:10BD59:00000007:FFFFFFFF:Mukuro
+:lastbld2k:00010000:10BD59:00000008:FFFFFFFF:Amano
+:lastbld2k:00010000:10BD59:00000009:FFFFFFFF:Lee
+:lastbld2k:00010000:10BD59:0000000A:FFFFFFFF:Zantetsu
+:lastbld2k:00010000:10BD59:0000000B:FFFFFFFF:Shigen
+:lastbld2k:00010000:10BD59:0000000C:FFFFFFFF:Kagami
+:lastbld2k:00010000:10BD59:0000000D:FFFFFFFF:Kojiroh
+:lastbld2k:00010000:10BD59:0000000E:FFFFFFFF:Hibiki
+:lastbld2k:00010000:10BD59:0000000F:FFFFFFFF:Setsuna
+:lastbld2k:00010000:10BD59:00000010:FFFFFFFF:Kouryu
+:lastbld2k:00010000:10BD59:00000011:FFFFFFFF:Original Kaede
+:lastbld2k:00010000:10BD59:00000012:FFFFFFFF:Hagure
+:lastbld2k:00010000:10BD59:00000013:FFFFFFFF:Kotetsu
+:lastbld2k:62000000:000000:00000000:00000000:Select Playing Style PL1
+:lastbld2k:83010000:10E344:00000001:0000017C:Power Mode
+:lastbld2k:83010000:10E344:00000002:0000017C:Speed Mode
+:lastbld2k:83010000:10E344:00000003:0000017C:EX Mode
+:lastbld2k:62000000:000000:00000000:00000000:Select Colour PL1
+:lastbld2k:00010000:10BD60:00000000:FFFFFFFF:A colour (Power Mode)
+:lastbld2k:00010000:10BD60:00000001:FFFFFFFF:A colour (Speed Mode)
+:lastbld2k:00010000:10BD60:00000002:FFFFFFFF:A colour (EX Mode)
+:lastbld2k:00010000:10BD60:00000003:FFFFFFFF:D colour (Power Mode)
+:lastbld2k:00010000:10BD60:00000004:FFFFFFFF:D colour (Speed Mode)
+:lastbld2k:00010000:10BD60:00000005:FFFFFFFF:D colour (EX Mode)
+:lastbld2k:60000000:000000:00000000:00000000:
+:lastbld2k:83000000:10E348:00000002:0000017E:俊呈瘤 公茄 PL2
+:lastbld2k:83010000:10E348:00000000:0000017F:俊呈瘤 公茄 PL2 (2/2):Poked as bytes for max cheat engine compatability
+:lastbld2k:83100001:10E348:00000000:0000017E:Drain All Energy Now! PL2
+:lastbld2k:00000000:10E4B3:00000001:FFFFFFFF:公利 PL2
+:lastbld2k:00010000:10E450:00000001:FFFFFFFF:公利 PL2 (2/2):Part 1 sorts out the energy bar and Part 2 stops you reacting when hit
+:lastbld2k:83000000:10E348:00000040:0000017D:颇况 公力茄 PL2
+:lastbld2k:83000100:10E348:00000003:000001AD:Select Rounds Won PL2:However, you still can't throw a round to win the match...
+:lastbld2k:62000000:000000:00000000:00000000:Select Character PL2
+:lastbld2k:00010000:10BD5B:00000000:FFFFFFFF:Kaede
+:lastbld2k:00010000:10BD5B:00000001:FFFFFFFF:Moriya
+:lastbld2k:00010000:10BD5B:00000002:FFFFFFFF:Yuki
+:lastbld2k:00010000:10BD5B:00000003:FFFFFFFF:Okina
+:lastbld2k:00010000:10BD5B:00000004:FFFFFFFF:Akari
+:lastbld2k:00010000:10BD5B:00000005:FFFFFFFF:Juzoh
+:lastbld2k:00010000:10BD5B:00000006:FFFFFFFF:Washizuka
+:lastbld2k:00010000:10BD5B:00000007:FFFFFFFF:Mukuro
+:lastbld2k:00010000:10BD5B:00000008:FFFFFFFF:Amano
+:lastbld2k:00010000:10BD5B:00000009:FFFFFFFF:Lee
+:lastbld2k:00010000:10BD5B:0000000A:FFFFFFFF:Zantetsu
+:lastbld2k:00010000:10BD5B:0000000B:FFFFFFFF:Shigen
+:lastbld2k:00010000:10BD5B:0000000C:FFFFFFFF:Kagami
+:lastbld2k:00010000:10BD5B:0000000D:FFFFFFFF:Kojiroh
+:lastbld2k:00010000:10BD5B:0000000E:FFFFFFFF:Hibiki
+:lastbld2k:00010000:10BD5B:0000000F:FFFFFFFF:Setsuna
+:lastbld2k:00010000:10BD5B:00000010:FFFFFFFF:Kouryu
+:lastbld2k:00010000:10BD5B:00000011:FFFFFFFF:Original Kaede
+:lastbld2k:00010000:10BD5B:00000012:FFFFFFFF:Hagure
+:lastbld2k:00010000:10BD5B:00000013:FFFFFFFF:Kotetsu
+:lastbld2k:62000000:000000:00000000:00000000:Select Playing Style PL2
+:lastbld2k:83010000:10E348:00000001:0000017C:Power Mode
+:lastbld2k:83010000:10E348:00000002:0000017C:Speed Mode
+:lastbld2k:83010000:10E348:00000003:0000017C:EX Mode
+:lastbld2k:62000000:000000:00000000:00000000:Select Colour PL2
+:lastbld2k:00010000:10BD61:00000000:FFFFFFFF:A colour (Power Mode)
+:lastbld2k:00010000:10BD61:00000001:FFFFFFFF:A colour (Speed Mode)
+:lastbld2k:00010000:10BD61:00000002:FFFFFFFF:A colour (EX Mode)
+:lastbld2k:00010000:10BD61:00000003:FFFFFFFF:D colour (Power Mode)
+:lastbld2k:00010000:10BD61:00000004:FFFFFFFF:D colour (Speed Mode)
+:lastbld2k:00010000:10BD61:00000005:FFFFFFFF:D colour (EX Mode)
+:lastbld2k:60000000:000000:00000000:00000000:
+:lastbld2k:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:lastbld2k:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:lastbld2k:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:lastbld2k:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:lastbld2k:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:lastbld2k:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:lastbld2k:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:lastbld2k:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:lastbld2k:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:lastbld2kb:00000000:10E595:00000060:FFFFFFFF:矫埃 公茄
+:lastbld2kb:00000001:10E595:00000000:FFFFFFFF:Finish this Fight Now!
+:lastbld2kb:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:lastbld2kb:60000000:000000:00000000:00000000:The 2 boss cheats must be activated at the selection screen. If
+:lastbld2kb:60000000:000000:00000000:00000000:one is activated during the first stage and that you win, the
+:lastbld2kb:60000000:000000:00000000:00000000:character boss cheat brings you to the final boss and the final
+:lastbld2kb:60000000:000000:00000000:00000000:boss cheat let's you see the ending.
+:lastbld2kb:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:lastbld2kb:00000001:10E581:00000006:FFFFFFFF:Go to Character Boss Now!
+:lastbld2kb:00000001:10E581:00000007:FFFFFFFF:Go to Final Boss Now!
+:lastbld2kb:62000000:000000:00000000:00000000:Select Constant Background
+:lastbld2kb:00010000:10E57D:00000000:FFFFFFFF:Shimiji Pass:Kaede, Hibiki, Original Kaede
+:lastbld2kb:00010000:10E57D:00000001:FFFFFFFF:Battle of Cloudy Sky:Moriya, Kagami, Setsuna
+:lastbld2kb:00010000:10E57D:00000002:FFFFFFFF:13 Porttown:Akari, Juzoh, Hagure
+:lastbld2kb:00010000:10E57D:00000003:FFFFFFFF:Village of Twilight:Lee, Zantetsu
+:lastbld2kb:00010000:10E57D:00000004:FFFFFFFF:The Graveyard
+:lastbld2kb:00010000:10E57D:00000005:FFFFFFFF:Forest of Forgetfulness:Okina, Shigen, Kotetsu
+:lastbld2kb:00010000:10E57D:00000006:FFFFFFFF:The Night Before 'Yuki-Machi':Yuki, Amano
+:lastbld2kb:00010000:10E57D:00000007:FFFFFFFF:Shrine of the Vanquished:Mid-Boss Stage
+:lastbld2kb:00010000:10E57D:00000008:FFFFFFFF:Boss Stage:Kouryu
+:lastbld2kb:00010000:10E57D:00000009:FFFFFFFF:Fire at the Wadamoya:Washizuka, Mukuro, Kojiroh
+:lastbld2kb:60000000:000000:00000000:00000000:
+:lastbld2kb:83000000:10E344:00000002:0000017E:俊呈瘤 公茄 PL1
+:lastbld2kb:83010000:10E344:00000000:0000017F:俊呈瘤 公茄 PL1 (2/2):Poked as bytes for max cheat engine compatability
+:lastbld2kb:83100001:10E344:00000000:0000017E:Drain All Energy Now! PL1
+:lastbld2kb:00000000:10E4B2:00000001:FFFFFFFF:公利 PL1
+:lastbld2kb:00010000:10E44C:00000001:FFFFFFFF:公利 PL1 (2/2):Part 1 sorts out the energy bar and Part 2 stops you reacting when hit
+:lastbld2kb:83000000:10E344:00000040:0000017D:颇况 公力茄 PL1
+:lastbld2kb:83000100:10E344:00000003:000001AD:Select Rounds Won PL1:However, you still can't throw a round to win the match...
+:lastbld2kb:62000000:000000:00000000:00000000:Select Character PL1
+:lastbld2kb:00010000:10BD59:00000000:FFFFFFFF:Kaede
+:lastbld2kb:00010000:10BD59:00000001:FFFFFFFF:Moriya
+:lastbld2kb:00010000:10BD59:00000002:FFFFFFFF:Yuki
+:lastbld2kb:00010000:10BD59:00000003:FFFFFFFF:Okina
+:lastbld2kb:00010000:10BD59:00000004:FFFFFFFF:Akari
+:lastbld2kb:00010000:10BD59:00000005:FFFFFFFF:Juzoh
+:lastbld2kb:00010000:10BD59:00000006:FFFFFFFF:Washizuka
+:lastbld2kb:00010000:10BD59:00000007:FFFFFFFF:Mukuro
+:lastbld2kb:00010000:10BD59:00000008:FFFFFFFF:Amano
+:lastbld2kb:00010000:10BD59:00000009:FFFFFFFF:Lee
+:lastbld2kb:00010000:10BD59:0000000A:FFFFFFFF:Zantetsu
+:lastbld2kb:00010000:10BD59:0000000B:FFFFFFFF:Shigen
+:lastbld2kb:00010000:10BD59:0000000C:FFFFFFFF:Kagami
+:lastbld2kb:00010000:10BD59:0000000D:FFFFFFFF:Kojiroh
+:lastbld2kb:00010000:10BD59:0000000E:FFFFFFFF:Hibiki
+:lastbld2kb:00010000:10BD59:0000000F:FFFFFFFF:Setsuna
+:lastbld2kb:00010000:10BD59:00000010:FFFFFFFF:Kouryu
+:lastbld2kb:00010000:10BD59:00000011:FFFFFFFF:Original Kaede
+:lastbld2kb:00010000:10BD59:00000012:FFFFFFFF:Hagure
+:lastbld2kb:00010000:10BD59:00000013:FFFFFFFF:Kotetsu
+:lastbld2kb:62000000:000000:00000000:00000000:Select Playing Style PL1
+:lastbld2kb:83010000:10E344:00000001:0000017C:Power Mode
+:lastbld2kb:83010000:10E344:00000002:0000017C:Speed Mode
+:lastbld2kb:83010000:10E344:00000003:0000017C:EX Mode
+:lastbld2kb:62000000:000000:00000000:00000000:Select Colour PL1
+:lastbld2kb:00010000:10BD60:00000000:FFFFFFFF:A colour (Power Mode)
+:lastbld2kb:00010000:10BD60:00000001:FFFFFFFF:A colour (Speed Mode)
+:lastbld2kb:00010000:10BD60:00000002:FFFFFFFF:A colour (EX Mode)
+:lastbld2kb:00010000:10BD60:00000003:FFFFFFFF:D colour (Power Mode)
+:lastbld2kb:00010000:10BD60:00000004:FFFFFFFF:D colour (Speed Mode)
+:lastbld2kb:00010000:10BD60:00000005:FFFFFFFF:D colour (EX Mode)
+:lastbld2kb:60000000:000000:00000000:00000000:
+:lastbld2kb:83000000:10E348:00000002:0000017E:俊呈瘤 公茄 PL2
+:lastbld2kb:83010000:10E348:00000000:0000017F:俊呈瘤 公茄 PL2 (2/2):Poked as bytes for max cheat engine compatability
+:lastbld2kb:83100001:10E348:00000000:0000017E:Drain All Energy Now! PL2
+:lastbld2kb:00000000:10E4B3:00000001:FFFFFFFF:公利 PL2
+:lastbld2kb:00010000:10E450:00000001:FFFFFFFF:公利 PL2 (2/2):Part 1 sorts out the energy bar and Part 2 stops you reacting when hit
+:lastbld2kb:83000000:10E348:00000040:0000017D:颇况 公力茄 PL2
+:lastbld2kb:83000100:10E348:00000003:000001AD:Select Rounds Won PL2:However, you still can't throw a round to win the match...
+:lastbld2kb:62000000:000000:00000000:00000000:Select Character PL2
+:lastbld2kb:00010000:10BD5B:00000000:FFFFFFFF:Kaede
+:lastbld2kb:00010000:10BD5B:00000001:FFFFFFFF:Moriya
+:lastbld2kb:00010000:10BD5B:00000002:FFFFFFFF:Yuki
+:lastbld2kb:00010000:10BD5B:00000003:FFFFFFFF:Okina
+:lastbld2kb:00010000:10BD5B:00000004:FFFFFFFF:Akari
+:lastbld2kb:00010000:10BD5B:00000005:FFFFFFFF:Juzoh
+:lastbld2kb:00010000:10BD5B:00000006:FFFFFFFF:Washizuka
+:lastbld2kb:00010000:10BD5B:00000007:FFFFFFFF:Mukuro
+:lastbld2kb:00010000:10BD5B:00000008:FFFFFFFF:Amano
+:lastbld2kb:00010000:10BD5B:00000009:FFFFFFFF:Lee
+:lastbld2kb:00010000:10BD5B:0000000A:FFFFFFFF:Zantetsu
+:lastbld2kb:00010000:10BD5B:0000000B:FFFFFFFF:Shigen
+:lastbld2kb:00010000:10BD5B:0000000C:FFFFFFFF:Kagami
+:lastbld2kb:00010000:10BD5B:0000000D:FFFFFFFF:Kojiroh
+:lastbld2kb:00010000:10BD5B:0000000E:FFFFFFFF:Hibiki
+:lastbld2kb:00010000:10BD5B:0000000F:FFFFFFFF:Setsuna
+:lastbld2kb:00010000:10BD5B:00000010:FFFFFFFF:Kouryu
+:lastbld2kb:00010000:10BD5B:00000011:FFFFFFFF:Original Kaede
+:lastbld2kb:00010000:10BD5B:00000012:FFFFFFFF:Hagure
+:lastbld2kb:00010000:10BD5B:00000013:FFFFFFFF:Kotetsu
+:lastbld2kb:62000000:000000:00000000:00000000:Select Playing Style PL2
+:lastbld2kb:83010000:10E348:00000001:0000017C:Power Mode
+:lastbld2kb:83010000:10E348:00000002:0000017C:Speed Mode
+:lastbld2kb:83010000:10E348:00000003:0000017C:EX Mode
+:lastbld2kb:62000000:000000:00000000:00000000:Select Colour PL2
+:lastbld2kb:00010000:10BD61:00000000:FFFFFFFF:A colour (Power Mode)
+:lastbld2kb:00010000:10BD61:00000001:FFFFFFFF:A colour (Speed Mode)
+:lastbld2kb:00010000:10BD61:00000002:FFFFFFFF:A colour (EX Mode)
+:lastbld2kb:00010000:10BD61:00000003:FFFFFFFF:D colour (Power Mode)
+:lastbld2kb:00010000:10BD61:00000004:FFFFFFFF:D colour (Speed Mode)
+:lastbld2kb:00010000:10BD61:00000005:FFFFFFFF:D colour (EX Mode)
+:lastbld2kb:60000000:000000:00000000:00000000:
+:lastbld2kb:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:lastbld2kb:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:lastbld2kb:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:lastbld2kb:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:lastbld2kb:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:lastbld2kb:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:lastbld2kb:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:lastbld2kb:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:lastbld2kb:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:lastbld2kes:00000000:10E595:00000060:FFFFFFFF:矫埃 公茄
+:lastbld2kes:00000001:10E595:00000000:FFFFFFFF:Finish this Fight Now!
+:lastbld2kes:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:lastbld2kes:60000000:000000:00000000:00000000:The 2 boss cheats must be activated at the selection screen. If
+:lastbld2kes:60000000:000000:00000000:00000000:one is activated during the first stage and that you win, the
+:lastbld2kes:60000000:000000:00000000:00000000:character boss cheat brings you to the final boss and the final
+:lastbld2kes:60000000:000000:00000000:00000000:boss cheat let's you see the ending.
+:lastbld2kes:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:lastbld2kes:00000001:10E581:00000006:FFFFFFFF:Go to Character Boss Now!
+:lastbld2kes:00000001:10E581:00000007:FFFFFFFF:Go to Final Boss Now!
+:lastbld2kes:62000000:000000:00000000:00000000:Select Constant Background
+:lastbld2kes:00010000:10E57D:00000000:FFFFFFFF:Shimiji Pass:Kaede, Hibiki, Original Kaede
+:lastbld2kes:00010000:10E57D:00000001:FFFFFFFF:Battle of Cloudy Sky:Moriya, Kagami, Setsuna
+:lastbld2kes:00010000:10E57D:00000002:FFFFFFFF:13 Porttown:Akari, Juzoh, Hagure
+:lastbld2kes:00010000:10E57D:00000003:FFFFFFFF:Village of Twilight:Lee, Zantetsu
+:lastbld2kes:00010000:10E57D:00000004:FFFFFFFF:The Graveyard
+:lastbld2kes:00010000:10E57D:00000005:FFFFFFFF:Forest of Forgetfulness:Okina, Shigen, Kotetsu
+:lastbld2kes:00010000:10E57D:00000006:FFFFFFFF:The Night Before 'Yuki-Machi':Yuki, Amano
+:lastbld2kes:00010000:10E57D:00000007:FFFFFFFF:Shrine of the Vanquished:Mid-Boss Stage
+:lastbld2kes:00010000:10E57D:00000008:FFFFFFFF:Boss Stage:Kouryu
+:lastbld2kes:00010000:10E57D:00000009:FFFFFFFF:Fire at the Wadamoya:Washizuka, Mukuro, Kojiroh
+:lastbld2kes:60000000:000000:00000000:00000000:
+:lastbld2kes:83000000:10E344:00000002:0000017E:俊呈瘤 公茄 PL1
+:lastbld2kes:83010000:10E344:00000000:0000017F:俊呈瘤 公茄 PL1 (2/2):Poked as bytes for max cheat engine compatability
+:lastbld2kes:83100001:10E344:00000000:0000017E:Drain All Energy Now! PL1
+:lastbld2kes:00000000:10E4B2:00000001:FFFFFFFF:公利 PL1
+:lastbld2kes:00010000:10E44C:00000001:FFFFFFFF:公利 PL1 (2/2):Part 1 sorts out the energy bar and Part 2 stops you reacting when hit
+:lastbld2kes:83000000:10E344:00000040:0000017D:颇况 公力茄 PL1
+:lastbld2kes:83000100:10E344:00000003:000001AD:Select Rounds Won PL1:However, you still can't throw a round to win the match...
+:lastbld2kes:62000000:000000:00000000:00000000:Select Character PL1
+:lastbld2kes:00010000:10BD59:00000000:FFFFFFFF:Kaede
+:lastbld2kes:00010000:10BD59:00000001:FFFFFFFF:Moriya
+:lastbld2kes:00010000:10BD59:00000002:FFFFFFFF:Yuki
+:lastbld2kes:00010000:10BD59:00000003:FFFFFFFF:Okina
+:lastbld2kes:00010000:10BD59:00000004:FFFFFFFF:Akari
+:lastbld2kes:00010000:10BD59:00000005:FFFFFFFF:Juzoh
+:lastbld2kes:00010000:10BD59:00000006:FFFFFFFF:Washizuka
+:lastbld2kes:00010000:10BD59:00000007:FFFFFFFF:Mukuro
+:lastbld2kes:00010000:10BD59:00000008:FFFFFFFF:Amano
+:lastbld2kes:00010000:10BD59:00000009:FFFFFFFF:Lee
+:lastbld2kes:00010000:10BD59:0000000A:FFFFFFFF:Zantetsu
+:lastbld2kes:00010000:10BD59:0000000B:FFFFFFFF:Shigen
+:lastbld2kes:00010000:10BD59:0000000C:FFFFFFFF:Kagami
+:lastbld2kes:00010000:10BD59:0000000D:FFFFFFFF:Kojiroh
+:lastbld2kes:00010000:10BD59:0000000E:FFFFFFFF:Hibiki
+:lastbld2kes:00010000:10BD59:0000000F:FFFFFFFF:Setsuna
+:lastbld2kes:00010000:10BD59:00000010:FFFFFFFF:Kouryu
+:lastbld2kes:00010000:10BD59:00000011:FFFFFFFF:Original Kaede
+:lastbld2kes:00010000:10BD59:00000012:FFFFFFFF:Hagure
+:lastbld2kes:00010000:10BD59:00000013:FFFFFFFF:Kotetsu
+:lastbld2kes:62000000:000000:00000000:00000000:Select Playing Style PL1
+:lastbld2kes:83010000:10E344:00000001:0000017C:Power Mode
+:lastbld2kes:83010000:10E344:00000002:0000017C:Speed Mode
+:lastbld2kes:83010000:10E344:00000003:0000017C:EX Mode
+:lastbld2kes:62000000:000000:00000000:00000000:Select Colour PL1
+:lastbld2kes:00010000:10BD60:00000000:FFFFFFFF:A colour (Power Mode)
+:lastbld2kes:00010000:10BD60:00000001:FFFFFFFF:A colour (Speed Mode)
+:lastbld2kes:00010000:10BD60:00000002:FFFFFFFF:A colour (EX Mode)
+:lastbld2kes:00010000:10BD60:00000003:FFFFFFFF:D colour (Power Mode)
+:lastbld2kes:00010000:10BD60:00000004:FFFFFFFF:D colour (Speed Mode)
+:lastbld2kes:00010000:10BD60:00000005:FFFFFFFF:D colour (EX Mode)
+:lastbld2kes:60000000:000000:00000000:00000000:
+:lastbld2kes:83000000:10E348:00000002:0000017E:俊呈瘤 公茄 PL2
+:lastbld2kes:83010000:10E348:00000000:0000017F:俊呈瘤 公茄 PL2 (2/2):Poked as bytes for max cheat engine compatability
+:lastbld2kes:83100001:10E348:00000000:0000017E:Drain All Energy Now! PL2
+:lastbld2kes:00000000:10E4B3:00000001:FFFFFFFF:公利 PL2
+:lastbld2kes:00010000:10E450:00000001:FFFFFFFF:公利 PL2 (2/2):Part 1 sorts out the energy bar and Part 2 stops you reacting when hit
+:lastbld2kes:83000000:10E348:00000040:0000017D:颇况 公力茄 PL2
+:lastbld2kes:83000100:10E348:00000003:000001AD:Select Rounds Won PL2:However, you still can't throw a round to win the match...
+:lastbld2kes:62000000:000000:00000000:00000000:Select Character PL2
+:lastbld2kes:00010000:10BD5B:00000000:FFFFFFFF:Kaede
+:lastbld2kes:00010000:10BD5B:00000001:FFFFFFFF:Moriya
+:lastbld2kes:00010000:10BD5B:00000002:FFFFFFFF:Yuki
+:lastbld2kes:00010000:10BD5B:00000003:FFFFFFFF:Okina
+:lastbld2kes:00010000:10BD5B:00000004:FFFFFFFF:Akari
+:lastbld2kes:00010000:10BD5B:00000005:FFFFFFFF:Juzoh
+:lastbld2kes:00010000:10BD5B:00000006:FFFFFFFF:Washizuka
+:lastbld2kes:00010000:10BD5B:00000007:FFFFFFFF:Mukuro
+:lastbld2kes:00010000:10BD5B:00000008:FFFFFFFF:Amano
+:lastbld2kes:00010000:10BD5B:00000009:FFFFFFFF:Lee
+:lastbld2kes:00010000:10BD5B:0000000A:FFFFFFFF:Zantetsu
+:lastbld2kes:00010000:10BD5B:0000000B:FFFFFFFF:Shigen
+:lastbld2kes:00010000:10BD5B:0000000C:FFFFFFFF:Kagami
+:lastbld2kes:00010000:10BD5B:0000000D:FFFFFFFF:Kojiroh
+:lastbld2kes:00010000:10BD5B:0000000E:FFFFFFFF:Hibiki
+:lastbld2kes:00010000:10BD5B:0000000F:FFFFFFFF:Setsuna
+:lastbld2kes:00010000:10BD5B:00000010:FFFFFFFF:Kouryu
+:lastbld2kes:00010000:10BD5B:00000011:FFFFFFFF:Original Kaede
+:lastbld2kes:00010000:10BD5B:00000012:FFFFFFFF:Hagure
+:lastbld2kes:00010000:10BD5B:00000013:FFFFFFFF:Kotetsu
+:lastbld2kes:62000000:000000:00000000:00000000:Select Playing Style PL2
+:lastbld2kes:83010000:10E348:00000001:0000017C:Power Mode
+:lastbld2kes:83010000:10E348:00000002:0000017C:Speed Mode
+:lastbld2kes:83010000:10E348:00000003:0000017C:EX Mode
+:lastbld2kes:62000000:000000:00000000:00000000:Select Colour PL2
+:lastbld2kes:00010000:10BD61:00000000:FFFFFFFF:A colour (Power Mode)
+:lastbld2kes:00010000:10BD61:00000001:FFFFFFFF:A colour (Speed Mode)
+:lastbld2kes:00010000:10BD61:00000002:FFFFFFFF:A colour (EX Mode)
+:lastbld2kes:00010000:10BD61:00000003:FFFFFFFF:D colour (Power Mode)
+:lastbld2kes:00010000:10BD61:00000004:FFFFFFFF:D colour (Speed Mode)
+:lastbld2kes:00010000:10BD61:00000005:FFFFFFFF:D colour (EX Mode)
+:lastbld2kes:60000000:000000:00000000:00000000:
+:lastbld2kes:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:lastbld2kes:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:lastbld2kes:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:lastbld2kes:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:lastbld2kes:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:lastbld2kes:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:lastbld2kes:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:lastbld2kes:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:lastbld2kes:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:lastbladk:00000000:10E32B:00000061:FFFFFFFF:矫埃 公茄
+:lastbladk:60000000:000000:00000000:00000000:----------------------------------------------------------------
+:lastbladk:60000000:000000:00000000:00000000:Both story cheats are useful when using KAEDE, YUKI or MORIYA.
+:lastbladk:60000000:000000:00000000:00000000:Story Part 2 cheat is useful for JUZOH, AKARI, WASHIZUKA,
+:lastbladk:60000000:000000:00000000:00000000:SHIKYOH, OKINA, and SHINGEN.
+:lastbladk:60000000:000000:00000000:00000000:They MUST be activated on the character select screen.
+:lastbladk:60000000:000000:00000000:00000000:----------------------------------------------------------------
+:lastbladk:00000001:10AC43:00000006:FFFFFFFF:Story Part 1 (Stage 7)
+:lastbladk:00000001:10AC43:00000007:FFFFFFFF:Story Part 2 (Stage 8)
+:lastbladk:60000000:000000:00000000:00000000:The boss cheat must be activated on the Character Select screen.
+:lastbladk:00000001:10AC43:00000008:FFFFFFFF:First Boss
+:lastbladk:00000001:10AC43:00000009:FFFFFFFF:Final Boss.
+:lastbladk:62000001:000000:00000000:00000000:Select Next Cinematic Now!:This cheat must be activated during any fight. After winning, you can see the cinematic.
+:lastbladk:00010001:10AC43:00000003:FFFFFFFF:Middle Cinematic
+:lastbladk:00010001:10AC43:00000007:FFFFFFFF:First boss Cinematic
+:lastbladk:00010001:10AC43:00000008:FFFFFFFF:Inbetween Bosses Cinematic
+:lastbladk:00010001:10AC43:00000009:FFFFFFFF:Ending Cinematic
+:lastbladk:60000000:000000:00000000:00000000:
+:lastbladk:83100000:10AC2C:00000100:00000180:俊呈瘤 公茄 PL1
+:lastbladk:83100001:10AC2C:00000000:00000180:Drain All Energy Now! PL1
+:lastbladk:83000000:10AC2C:00000001:0000018C:Always have Power 'Power' Mode PL1
+:lastbladk:83000000:10AC2C:00000002:0000018C:Always have Power 'Speed' Mode PL1
+:lastbladk:83000000:10AC2C:00000040:0000018D:Always have 颇况 弥措 PL1:Power Bar display maybe incorrect though
+:lastbladk:83000000:10AC2C:00000000:0000018D:Always have Minimum Power PL1
+:lastbladk:83000001:10AC2C:00000000:0000018D:Drain All Power Now! PL1
+:lastbladk:62000000:000000:00000000:00000000:Select Character PL1
+:lastbladk:00010000:10EAAD:00000000:FFFFFFFF:Kaede
+:lastbladk:00010000:10EAAD:00000001:FFFFFFFF:Moriya
+:lastbladk:00010000:10EAAD:00000002:FFFFFFFF:Yuki
+:lastbladk:00010000:10EAAD:00000003:FFFFFFFF:Okina
+:lastbladk:00010000:10EAAD:00000004:FFFFFFFF:Akari
+:lastbladk:00010000:10EAAD:00000005:FFFFFFFF:Juzoh
+:lastbladk:00010000:10EAAD:00000006:FFFFFFFF:Washizuka
+:lastbladk:00010000:10EAAD:00000007:FFFFFFFF:Shikyoh
+:lastbladk:00010000:10EAAD:00000008:FFFFFFFF:Amano
+:lastbladk:00010000:10EAAD:00000009:FFFFFFFF:Lee
+:lastbladk:00010000:10EAAD:0000000A:FFFFFFFF:Zantetsu
+:lastbladk:00010000:10EAAD:0000000B:FFFFFFFF:Shigen
+:lastbladk:00010000:10EAAD:0000000C:FFFFFFFF:Musashi
+:lastbladk:00010000:10EAAD:0000000D:FFFFFFFF:Kagami
+:lastbladk:00010000:10EAAD:0000000E:FFFFFFFF:Awakened Kaede:Need to be touched one time
+:lastbladk:60000000:000000:00000000:00000000:
+:lastbladk:83100000:10AC30:00000100:00000180:俊呈瘤 公茄 PL2
+:lastbladk:83100001:10AC30:00000000:00000180:Drain All Energy Now! PL2
+:lastbladk:83000000:10AC30:00000001:0000018C:Always have Power 'Power' Mode PL2
+:lastbladk:83000000:10AC30:00000002:0000018C:Always have Power 'Speed' Mode PL2
+:lastbladk:83000000:10AC30:00000040:0000018D:Always have 颇况 弥措 PL2:Power Bar display maybe incorrect though
+:lastbladk:83000000:10AC30:00000000:0000018D:Always have Minimum Power PL2
+:lastbladk:83000001:10AC30:00000000:0000018D:Drain All Power Now! PL2
+:lastbladk:62000000:000000:00000000:00000000:Select Character PL2
+:lastbladk:00010000:10EAAF:00000000:FFFFFFFF:Kaede
+:lastbladk:00010000:10EAAF:00000001:FFFFFFFF:Moriya
+:lastbladk:00010000:10EAAF:00000002:FFFFFFFF:Yuki
+:lastbladk:00010000:10EAAF:00000003:FFFFFFFF:Okina
+:lastbladk:00010000:10EAAF:00000004:FFFFFFFF:Akari
+:lastbladk:00010000:10EAAF:00000005:FFFFFFFF:Juzoh
+:lastbladk:00010000:10EAAF:00000006:FFFFFFFF:Washizuka
+:lastbladk:00010000:10EAAF:00000007:FFFFFFFF:Shikyoh
+:lastbladk:00010000:10EAAF:00000008:FFFFFFFF:Amano
+:lastbladk:00010000:10EAAF:00000009:FFFFFFFF:Lee
+:lastbladk:00010000:10EAAF:0000000A:FFFFFFFF:Zantetsu
+:lastbladk:00010000:10EAAF:0000000B:FFFFFFFF:Shigen
+:lastbladk:00010000:10EAAF:0000000C:FFFFFFFF:Musashi
+:lastbladk:00010000:10EAAF:0000000D:FFFFFFFF:Kagami
+:lastbladk:00010000:10EAAF:0000000E:FFFFFFFF:Awakened Kaede:Need to be touched one time
+:lastbladk:60000000:000000:00000000:00000000:
+:lastbladk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:lastbladk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:lastbladk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:lastbladk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:lastbladk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:lastbladk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:lastbladk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:lastbladk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:lastbladk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:lastbladkb:00000000:10E32B:00000061:FFFFFFFF:矫埃 公茄
+:lastbladkb:60000000:000000:00000000:00000000:----------------------------------------------------------------
+:lastbladkb:60000000:000000:00000000:00000000:Both story cheats are useful when using KAEDE, YUKI or MORIYA.
+:lastbladkb:60000000:000000:00000000:00000000:Story Part 2 cheat is useful for JUZOH, AKARI, WASHIZUKA,
+:lastbladkb:60000000:000000:00000000:00000000:SHIKYOH, OKINA, and SHINGEN.
+:lastbladkb:60000000:000000:00000000:00000000:They MUST be activated on the character select screen.
+:lastbladkb:60000000:000000:00000000:00000000:----------------------------------------------------------------
+:lastbladkb:00000001:10AC43:00000006:FFFFFFFF:Story Part 1 (Stage 7)
+:lastbladkb:00000001:10AC43:00000007:FFFFFFFF:Story Part 2 (Stage 8)
+:lastbladkb:60000000:000000:00000000:00000000:The boss cheat must be activated on the Character Select screen.
+:lastbladkb:00000001:10AC43:00000008:FFFFFFFF:First Boss
+:lastbladkb:00000001:10AC43:00000009:FFFFFFFF:Final Boss.
+:lastbladkb:62000001:000000:00000000:00000000:Select Next Cinematic Now!:This cheat must be activated during any fight. After winning, you can see the cinematic.
+:lastbladkb:00010001:10AC43:00000003:FFFFFFFF:Middle Cinematic
+:lastbladkb:00010001:10AC43:00000007:FFFFFFFF:First boss Cinematic
+:lastbladkb:00010001:10AC43:00000008:FFFFFFFF:Inbetween Bosses Cinematic
+:lastbladkb:00010001:10AC43:00000009:FFFFFFFF:Ending Cinematic
+:lastbladkb:60000000:000000:00000000:00000000:
+:lastbladkb:83100000:10AC2C:00000100:00000180:俊呈瘤 公茄 PL1
+:lastbladkb:83100001:10AC2C:00000000:00000180:Drain All Energy Now! PL1
+:lastbladkb:83000000:10AC2C:00000001:0000018C:Always have Power 'Power' Mode PL1
+:lastbladkb:83000000:10AC2C:00000002:0000018C:Always have Power 'Speed' Mode PL1
+:lastbladkb:83000000:10AC2C:00000040:0000018D:Always have 颇况 弥措 PL1:Power Bar display maybe incorrect though
+:lastbladkb:83000000:10AC2C:00000000:0000018D:Always have Minimum Power PL1
+:lastbladkb:83000001:10AC2C:00000000:0000018D:Drain All Power Now! PL1
+:lastbladkb:62000000:000000:00000000:00000000:Select Character PL1
+:lastbladkb:00010000:10EAAD:00000000:FFFFFFFF:Kaede
+:lastbladkb:00010000:10EAAD:00000001:FFFFFFFF:Moriya
+:lastbladkb:00010000:10EAAD:00000002:FFFFFFFF:Yuki
+:lastbladkb:00010000:10EAAD:00000003:FFFFFFFF:Okina
+:lastbladkb:00010000:10EAAD:00000004:FFFFFFFF:Akari
+:lastbladkb:00010000:10EAAD:00000005:FFFFFFFF:Juzoh
+:lastbladkb:00010000:10EAAD:00000006:FFFFFFFF:Washizuka
+:lastbladkb:00010000:10EAAD:00000007:FFFFFFFF:Shikyoh
+:lastbladkb:00010000:10EAAD:00000008:FFFFFFFF:Amano
+:lastbladkb:00010000:10EAAD:00000009:FFFFFFFF:Lee
+:lastbladkb:00010000:10EAAD:0000000A:FFFFFFFF:Zantetsu
+:lastbladkb:00010000:10EAAD:0000000B:FFFFFFFF:Shigen
+:lastbladkb:00010000:10EAAD:0000000C:FFFFFFFF:Musashi
+:lastbladkb:00010000:10EAAD:0000000D:FFFFFFFF:Kagami
+:lastbladkb:00010000:10EAAD:0000000E:FFFFFFFF:Awakened Kaede:Need to be touched one time
+:lastbladkb:60000000:000000:00000000:00000000:
+:lastbladkb:83100000:10AC30:00000100:00000180:俊呈瘤 公茄 PL2
+:lastbladkb:83100001:10AC30:00000000:00000180:Drain All Energy Now! PL2
+:lastbladkb:83000000:10AC30:00000001:0000018C:Always have Power 'Power' Mode PL2
+:lastbladkb:83000000:10AC30:00000002:0000018C:Always have Power 'Speed' Mode PL2
+:lastbladkb:83000000:10AC30:00000040:0000018D:Always have 颇况 弥措 PL2:Power Bar display maybe incorrect though
+:lastbladkb:83000000:10AC30:00000000:0000018D:Always have Minimum Power PL2
+:lastbladkb:83000001:10AC30:00000000:0000018D:Drain All Power Now! PL2
+:lastbladkb:62000000:000000:00000000:00000000:Select Character PL2
+:lastbladkb:00010000:10EAAF:00000000:FFFFFFFF:Kaede
+:lastbladkb:00010000:10EAAF:00000001:FFFFFFFF:Moriya
+:lastbladkb:00010000:10EAAF:00000002:FFFFFFFF:Yuki
+:lastbladkb:00010000:10EAAF:00000003:FFFFFFFF:Okina
+:lastbladkb:00010000:10EAAF:00000004:FFFFFFFF:Akari
+:lastbladkb:00010000:10EAAF:00000005:FFFFFFFF:Juzoh
+:lastbladkb:00010000:10EAAF:00000006:FFFFFFFF:Washizuka
+:lastbladkb:00010000:10EAAF:00000007:FFFFFFFF:Shikyoh
+:lastbladkb:00010000:10EAAF:00000008:FFFFFFFF:Amano
+:lastbladkb:00010000:10EAAF:00000009:FFFFFFFF:Lee
+:lastbladkb:00010000:10EAAF:0000000A:FFFFFFFF:Zantetsu
+:lastbladkb:00010000:10EAAF:0000000B:FFFFFFFF:Shigen
+:lastbladkb:00010000:10EAAF:0000000C:FFFFFFFF:Musashi
+:lastbladkb:00010000:10EAAF:0000000D:FFFFFFFF:Kagami
+:lastbladkb:00010000:10EAAF:0000000E:FFFFFFFF:Awakened Kaede:Need to be touched one time
+:lastbladkb:60000000:000000:00000000:00000000:
+:lastbladkb:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:lastbladkb:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:lastbladkb:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:lastbladkb:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:lastbladkb:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:lastbladkb:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:lastbladkb:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:lastbladkb:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:lastbladkb:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:aof2k:00000000:108406:00000099:FFFFFFFF:矫埃 公茄 (Turn OFF on the Bonus Stage!)
+:aof2k:00000001:108406:00000000:FFFFFFFF:Finish this Fight Now!
+:aof2k:20B00000:0F6B9A:61007204:FFFFFFFF:公利 [Master Code]
+:aof2k:20B10000:0FDDA0:4A2C007E:FFFFFFFF:公利 [Master Code] (02/19):[ Direct Attack or Firearm ]
+:aof2k:20B10000:0FDDA4:6606C22C:FFFFFFFF:公利 [Master Code] (03/19):F6B9A - bsr $fdda0 / FDDA0 - tst.b ($7e,A4) / FDDA4 - bne $fddac
+:aof2k:20B10000:0FDDA8:006B4E75:FFFFFFFF:公利 [Master Code] (04/19):FDDA6 - and.b ($6b,A4),D1 / FDDAA - rts
+:aof2k:20B10000:0FDDAC:72004E75:FFFFFFFF:公利 [Master Code] (05/19):FDDAC - moveq #$0,D1 / FDDAE - rts
+:aof2k:20B10000:01DAEA:4EB9000F:FFFFFFFF:公利 [Master Code] (06/19):[ Catch or Throw ]
+:aof2k:20910000:01DAEE:0000DDB0:FFFFFFFF:公利 [Master Code] (07/19):1DAEA - jsr $fddb0.l
+:aof2k:20B10000:0FDDB0:4A2E12FE:FFFFFFFF:公利 [Master Code] (08/19):FDDB0 - tst.b ($12fe,A6)
+:aof2k:20910000:0FDDB4:00006608:FFFFFFFF:公利 [Master Code] (09/19):FDDB4 - bne $fddbe
+:aof2k:20B10000:0FDDB6:082E0000:FFFFFFFF:公利 [Master Code] (10/19):FDDB6 - btst #$0,($a68,A6)
+:aof2k:20B10000:0FDDBA:0A684E75:FFFFFFFF:公利 [Master Code] (11/19):FDDBC - rts
+:aof2k:20B10000:0FDDBE:70004E75:FFFFFFFF:公利 [Master Code] (12/19):FDDBE - moveq #$0,D0 / FDDC0 - rts
+:aof2k:20B10000:01DC14:4EB9000F:FFFFFFFF:公利 [Master Code] (13/19):[ Air or Move-type Throw ]
+:aof2k:20910000:01DC18:0000DDC2:FFFFFFFF:公利 [Master Code] (14/19):1DC14 - jsr $fddc2.l
+:aof2k:20B10000:0FDDC2:4A2E12FE:FFFFFFFF:公利 [Master Code] (15/19):FDDC2 - tst.b ($12fe,A6)
+:aof2k:20910000:0FDDC6:00006608:FFFFFFFF:公利 [Master Code] (16/19):FDDC6 - bne $fddd0
+:aof2k:20B10000:0FDDC8:082E0001:FFFFFFFF:公利 [Master Code] (17/19):FDDC8 - btst #$1,($a68,A6)
+:aof2k:20B10000:0FDDCC:0A684E75:FFFFFFFF:公利 [Master Code] (18/19):FDDCE - rts
+:aof2k:20B10000:0FDDD0:70004E75:FFFFFFFF:公利 [Master Code] (19/19):FDDD0 - moveq #$0,D0 / FDDD2 - rts
+:aof2k:62000000:000000:00000000:00000000:Select Ending
+:aof2k:00010000:109F91:00000000:FFFFFFFF:Ryo
+:aof2k:00010000:109F91:00000001:FFFFFFFF:Robert
+:aof2k:00010000:109F91:00000002:FFFFFFFF:Eiji
+:aof2k:00010000:109F91:00000003:FFFFFFFF:Jack
+:aof2k:00010000:109F91:00000004:FFFFFFFF:LEE
+:aof2k:00010000:109F91:00000005:FFFFFFFF:King
+:aof2k:00010000:109F91:00000006:FFFFFFFF:Mickey
+:aof2k:00010000:109F91:00000007:FFFFFFFF:John
+:aof2k:00010000:109F91:00000008:FFFFFFFF:Big
+:aof2k:00010000:109F91:00000009:FFFFFFFF:Takuma
+:aof2k:00010000:109F91:0000000A:FFFFFFFF:Yuri
+:aof2k:00010000:109F91:0000000B:FFFFFFFF:Temjin
+:aof2k:00010000:109F91:0000000C:FFFFFFFF:Big(2)
+:aof2k:62000000:000000:00000000:00000000:Select Background
+:aof2k:00010000:108401:00000001:FFFFFFFF:Ryo
+:aof2k:00010000:108401:00000002:FFFFFFFF:Robert
+:aof2k:00010000:108401:00000003:FFFFFFFF:Eiji
+:aof2k:00010000:108401:00000004:FFFFFFFF:Jack
+:aof2k:00010000:108401:00000005:FFFFFFFF:LEE
+:aof2k:00010000:108401:00000006:FFFFFFFF:King
+:aof2k:00010000:108401:00000007:FFFFFFFF:Mickey
+:aof2k:00010000:108401:00000008:FFFFFFFF:John
+:aof2k:00010000:108401:00000009:FFFFFFFF:Big
+:aof2k:00010000:108401:0000000A:FFFFFFFF:Takuma
+:aof2k:00010000:108401:0000000B:FFFFFFFF:Yuri
+:aof2k:00010000:108401:0000000C:FFFFFFFF:Temjin
+:aof2k:00010000:108401:0000000D:FFFFFFFF:Geese
+:aof2k:00010000:108401:0000000E:FFFFFFFF:Bonus Stage
+:aof2k:00010000:108401:0000000F:FFFFFFFF:Bonus Stage 2
+:aof2k:00010000:108401:0000000F:FFFFFFFF:Blank
+:aof2k:60000000:000000:00000000:00000000:
+:aof2k:00000000:1092ED:00000060:FFFFFFFF:俊呈瘤 公茄 PL1
+:aof2k:00000001:1092ED:00000001:FFFFFFFF:Drain All Energy Now! PL1
+:aof2k:00800000:10A67E:00000001:FFFFFFFF:公利 PL1:Works after you've 脑(劝己) '公利 [Master Code]'
+:aof2k:00810000:10A97E:00000001:FFFFFFFF:公利 PL1 (2/4)
+:aof2k:00810000:10AA7E:00000001:FFFFFFFF:公利 PL1 (3/4)
+:aof2k:00810000:10AB7E:00000001:FFFFFFFF:公利 PL1 (4/4)
+:aof2k:00000000:1094A4:00000080:FFFFFFFF:颇况 公力茄 PL1
+:aof2k:00000000:1094A4:00000000:FFFFFFFF:Always have Minimum Power PL1
+:aof2k:00000001:1094A4:00000000:FFFFFFFF:Drain All Power Now! PL1
+:aof2k:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2k:60000000:000000:00000000:00000000: Free player selection-Can be used anytime!
+:aof2k:60000000:000000:00000000:00000000: At selection screen, use AFTER selection,
+:aof2k:60000000:000000:00000000:00000000: however there are some palette glitches.
+:aof2k:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2k:62000001:000000:00000000:00000000:Select Character PL1:Win causes 'Game Over' when you select Geese
+:aof2k:00010001:1092E3:00000001:FFFFFFFF:Ryo Sakazaki
+:aof2k:00010001:1092E3:00000002:FFFFFFFF:Robert Garcia
+:aof2k:00010001:1092E3:00000003:FFFFFFFF:Eiji Kisaragi
+:aof2k:00010001:1092E3:00000004:FFFFFFFF:Jack Turner
+:aof2k:00010001:1092E3:00000005:FFFFFFFF:Lee Pai Long
+:aof2k:00010001:1092E3:00000006:FFFFFFFF:King
+:aof2k:00010001:1092E3:00000007:FFFFFFFF:Mickey Rogers
+:aof2k:00010001:1092E3:00000008:FFFFFFFF:John Crawley
+:aof2k:00010001:1092E3:00000009:FFFFFFFF:Big
+:aof2k:00010001:1092E3:0000000A:FFFFFFFF:Takuma Sakazaki
+:aof2k:00010001:1092E3:0000000B:FFFFFFFF:Yuri Sakazaki
+:aof2k:00010001:1092E3:0000000C:FFFFFFFF:Temjin
+:aof2k:00010001:1092E3:0000000D:FFFFFFFF:Geese Howard
+:aof2k:60000000:000000:00000000:00000000:
+:aof2k:00000000:1093ED:00000060:FFFFFFFF:俊呈瘤 公茄 PL2
+:aof2k:00000001:1093ED:00000001:FFFFFFFF:Drain All Energy Now! PL2
+:aof2k:00800000:10A07E:00000001:FFFFFFFF:公利 PL2:Works after you've 脑(劝己) '公利 [Master Code]'
+:aof2k:00810000:10A37E:00000001:FFFFFFFF:公利 PL2 (2/4)
+:aof2k:00810000:10A47E:00000001:FFFFFFFF:公利 PL2 (3/4)
+:aof2k:00810000:10A57E:00000001:FFFFFFFF:公利 PL2 (4/4)
+:aof2k:00000000:1095A4:00000080:FFFFFFFF:颇况 公力茄 PL2
+:aof2k:00000000:1095A4:00000000:FFFFFFFF:Always have Minimum Power PL2
+:aof2k:00000001:1095A4:00000000:FFFFFFFF:Drain All Power Now! PL2
+:aof2k:00000001:108429:0000000E:FFFFFFFF:Next fight = Boss Now!
+:aof2k:00000001:108429:0000000F:FFFFFFFF:Next fight = Special BossNow!
+:aof2k:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2k:60000000:000000:00000000:00000000: Free player selection-Can be used anytime!
+:aof2k:60000000:000000:00000000:00000000: At selection screen, use AFTER selection,
+:aof2k:60000000:000000:00000000:00000000: however there are some palette glitches.
+:aof2k:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2k:62000001:000000:00000000:00000000:Select Character PL2:Win causes 'Game Over' when you select Geese
+:aof2k:00010001:1093E3:00000001:FFFFFFFF:Ryo Sakazaki
+:aof2k:00010001:1093E3:00000002:FFFFFFFF:Robert Garcia
+:aof2k:00010001:1093E3:00000003:FFFFFFFF:Eiji Kisaragi
+:aof2k:00010001:1093E3:00000004:FFFFFFFF:Jack Turner
+:aof2k:00010001:1093E3:00000005:FFFFFFFF:Lee Pai Long
+:aof2k:00010001:1093E3:00000006:FFFFFFFF:King
+:aof2k:00010001:1093E3:00000007:FFFFFFFF:Mickey Rogers
+:aof2k:00010001:1093E3:00000008:FFFFFFFF:John Crawley
+:aof2k:00010001:1093E3:00000009:FFFFFFFF:Big
+:aof2k:00010001:1093E3:0000000A:FFFFFFFF:Takuma Sakazaki
+:aof2k:00010001:1093E3:0000000B:FFFFFFFF:Yuri Sakazaki
+:aof2k:00010001:1093E3:0000000C:FFFFFFFF:Temjin
+:aof2k:00010001:1093E3:0000000D:FFFFFFFF:Geese Howard
+:aof2k:60000000:000000:00000000:00000000:
+:aof2k:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:aof2k:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:aof2k:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:aof2k:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:aof2k:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:aof2k:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:aof2k:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:aof2k:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:aof2k:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:aof2kb:00000000:108406:00000099:FFFFFFFF:矫埃 公茄 (Turn OFF on the Bonus Stage!)
+:aof2kb:00000001:108406:00000000:FFFFFFFF:Finish this Fight Now!
+:aof2kb:20B00000:0F6B9A:61007204:FFFFFFFF:公利 [Master Code]
+:aof2kb:20B10000:0FDDA0:4A2C007E:FFFFFFFF:公利 [Master Code] (02/19):[ Direct Attack or Firearm ]
+:aof2kb:20B10000:0FDDA4:6606C22C:FFFFFFFF:公利 [Master Code] (03/19):F6B9A - bsr $fdda0 / FDDA0 - tst.b ($7e,A4) / FDDA4 - bne $fddac
+:aof2kb:20B10000:0FDDA8:006B4E75:FFFFFFFF:公利 [Master Code] (04/19):FDDA6 - and.b ($6b,A4),D1 / FDDAA - rts
+:aof2kb:20B10000:0FDDAC:72004E75:FFFFFFFF:公利 [Master Code] (05/19):FDDAC - moveq #$0,D1 / FDDAE - rts
+:aof2kb:20B10000:01DAEA:4EB9000F:FFFFFFFF:公利 [Master Code] (06/19):[ Catch or Throw ]
+:aof2kb:20910000:01DAEE:0000DDB0:FFFFFFFF:公利 [Master Code] (07/19):1DAEA - jsr $fddb0.l
+:aof2kb:20B10000:0FDDB0:4A2E12FE:FFFFFFFF:公利 [Master Code] (08/19):FDDB0 - tst.b ($12fe,A6)
+:aof2kb:20910000:0FDDB4:00006608:FFFFFFFF:公利 [Master Code] (09/19):FDDB4 - bne $fddbe
+:aof2kb:20B10000:0FDDB6:082E0000:FFFFFFFF:公利 [Master Code] (10/19):FDDB6 - btst #$0,($a68,A6)
+:aof2kb:20B10000:0FDDBA:0A684E75:FFFFFFFF:公利 [Master Code] (11/19):FDDBC - rts
+:aof2kb:20B10000:0FDDBE:70004E75:FFFFFFFF:公利 [Master Code] (12/19):FDDBE - moveq #$0,D0 / FDDC0 - rts
+:aof2kb:20B10000:01DC14:4EB9000F:FFFFFFFF:公利 [Master Code] (13/19):[ Air or Move-type Throw ]
+:aof2kb:20910000:01DC18:0000DDC2:FFFFFFFF:公利 [Master Code] (14/19):1DC14 - jsr $fddc2.l
+:aof2kb:20B10000:0FDDC2:4A2E12FE:FFFFFFFF:公利 [Master Code] (15/19):FDDC2 - tst.b ($12fe,A6)
+:aof2kb:20910000:0FDDC6:00006608:FFFFFFFF:公利 [Master Code] (16/19):FDDC6 - bne $fddd0
+:aof2kb:20B10000:0FDDC8:082E0001:FFFFFFFF:公利 [Master Code] (17/19):FDDC8 - btst #$1,($a68,A6)
+:aof2kb:20B10000:0FDDCC:0A684E75:FFFFFFFF:公利 [Master Code] (18/19):FDDCE - rts
+:aof2kb:20B10000:0FDDD0:70004E75:FFFFFFFF:公利 [Master Code] (19/19):FDDD0 - moveq #$0,D0 / FDDD2 - rts
+:aof2kb:62000000:000000:00000000:00000000:Select Ending
+:aof2kb:00010000:109F91:00000000:FFFFFFFF:Ryo
+:aof2kb:00010000:109F91:00000001:FFFFFFFF:Robert
+:aof2kb:00010000:109F91:00000002:FFFFFFFF:Eiji
+:aof2kb:00010000:109F91:00000003:FFFFFFFF:Jack
+:aof2kb:00010000:109F91:00000004:FFFFFFFF:LEE
+:aof2kb:00010000:109F91:00000005:FFFFFFFF:King
+:aof2kb:00010000:109F91:00000006:FFFFFFFF:Mickey
+:aof2kb:00010000:109F91:00000007:FFFFFFFF:John
+:aof2kb:00010000:109F91:00000008:FFFFFFFF:Big
+:aof2kb:00010000:109F91:00000009:FFFFFFFF:Takuma
+:aof2kb:00010000:109F91:0000000A:FFFFFFFF:Yuri
+:aof2kb:00010000:109F91:0000000B:FFFFFFFF:Temjin
+:aof2kb:00010000:109F91:0000000C:FFFFFFFF:Big(2)
+:aof2kb:62000000:000000:00000000:00000000:Select Background
+:aof2kb:00010000:108401:00000001:FFFFFFFF:Ryo
+:aof2kb:00010000:108401:00000002:FFFFFFFF:Robert
+:aof2kb:00010000:108401:00000003:FFFFFFFF:Eiji
+:aof2kb:00010000:108401:00000004:FFFFFFFF:Jack
+:aof2kb:00010000:108401:00000005:FFFFFFFF:LEE
+:aof2kb:00010000:108401:00000006:FFFFFFFF:King
+:aof2kb:00010000:108401:00000007:FFFFFFFF:Mickey
+:aof2kb:00010000:108401:00000008:FFFFFFFF:John
+:aof2kb:00010000:108401:00000009:FFFFFFFF:Big
+:aof2kb:00010000:108401:0000000A:FFFFFFFF:Takuma
+:aof2kb:00010000:108401:0000000B:FFFFFFFF:Yuri
+:aof2kb:00010000:108401:0000000C:FFFFFFFF:Temjin
+:aof2kb:00010000:108401:0000000D:FFFFFFFF:Geese
+:aof2kb:00010000:108401:0000000E:FFFFFFFF:Bonus Stage
+:aof2kb:00010000:108401:0000000F:FFFFFFFF:Bonus Stage 2
+:aof2kb:00010000:108401:0000000F:FFFFFFFF:Blank
+:aof2kb:60000000:000000:00000000:00000000:
+:aof2kb:00000000:1092ED:00000060:FFFFFFFF:俊呈瘤 公茄 PL1
+:aof2kb:00000001:1092ED:00000001:FFFFFFFF:Drain All Energy Now! PL1
+:aof2kb:00800000:10A67E:00000001:FFFFFFFF:公利 PL1:Works after you've 脑(劝己) '公利 [Master Code]'
+:aof2kb:00810000:10A97E:00000001:FFFFFFFF:公利 PL1 (2/4)
+:aof2kb:00810000:10AA7E:00000001:FFFFFFFF:公利 PL1 (3/4)
+:aof2kb:00810000:10AB7E:00000001:FFFFFFFF:公利 PL1 (4/4)
+:aof2kb:00000000:1094A4:00000080:FFFFFFFF:颇况 公力茄 PL1
+:aof2kb:00000000:1094A4:00000000:FFFFFFFF:Always have Minimum Power PL1
+:aof2kb:00000001:1094A4:00000000:FFFFFFFF:Drain All Power Now! PL1
+:aof2kb:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2kb:60000000:000000:00000000:00000000: Free player selection-Can be used anytime!
+:aof2kb:60000000:000000:00000000:00000000: At selection screen, use AFTER selection,
+:aof2kb:60000000:000000:00000000:00000000: however there are some palette glitches.
+:aof2kb:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2kb:62000001:000000:00000000:00000000:Select Character PL1:Win causes 'Game Over' when you select Geese
+:aof2kb:00010001:1092E3:00000001:FFFFFFFF:Ryo Sakazaki
+:aof2kb:00010001:1092E3:00000002:FFFFFFFF:Robert Garcia
+:aof2kb:00010001:1092E3:00000003:FFFFFFFF:Eiji Kisaragi
+:aof2kb:00010001:1092E3:00000004:FFFFFFFF:Jack Turner
+:aof2kb:00010001:1092E3:00000005:FFFFFFFF:Lee Pai Long
+:aof2kb:00010001:1092E3:00000006:FFFFFFFF:King
+:aof2kb:00010001:1092E3:00000007:FFFFFFFF:Mickey Rogers
+:aof2kb:00010001:1092E3:00000008:FFFFFFFF:John Crawley
+:aof2kb:00010001:1092E3:00000009:FFFFFFFF:Big
+:aof2kb:00010001:1092E3:0000000A:FFFFFFFF:Takuma Sakazaki
+:aof2kb:00010001:1092E3:0000000B:FFFFFFFF:Yuri Sakazaki
+:aof2kb:00010001:1092E3:0000000C:FFFFFFFF:Temjin
+:aof2kb:00010001:1092E3:0000000D:FFFFFFFF:Geese Howard
+:aof2kb:60000000:000000:00000000:00000000:
+:aof2kb:00000000:1093ED:00000060:FFFFFFFF:俊呈瘤 公茄 PL2
+:aof2kb:00000001:1093ED:00000001:FFFFFFFF:Drain All Energy Now! PL2
+:aof2kb:00800000:10A07E:00000001:FFFFFFFF:公利 PL2:Works after you've 脑(劝己) '公利 [Master Code]'
+:aof2kb:00810000:10A37E:00000001:FFFFFFFF:公利 PL2 (2/4)
+:aof2kb:00810000:10A47E:00000001:FFFFFFFF:公利 PL2 (3/4)
+:aof2kb:00810000:10A57E:00000001:FFFFFFFF:公利 PL2 (4/4)
+:aof2kb:00000000:1095A4:00000080:FFFFFFFF:颇况 公力茄 PL2
+:aof2kb:00000000:1095A4:00000000:FFFFFFFF:Always have Minimum Power PL2
+:aof2kb:00000001:1095A4:00000000:FFFFFFFF:Drain All Power Now! PL2
+:aof2kb:00000001:108429:0000000E:FFFFFFFF:Next fight = Boss Now!
+:aof2kb:00000001:108429:0000000F:FFFFFFFF:Next fight = Special BossNow!
+:aof2kb:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2kb:60000000:000000:00000000:00000000: Free player selection-Can be used anytime!
+:aof2kb:60000000:000000:00000000:00000000: At selection screen, use AFTER selection,
+:aof2kb:60000000:000000:00000000:00000000: however there are some palette glitches.
+:aof2kb:60000000:000000:00000000:00000000:--------------------------------------------
+:aof2kb:62000001:000000:00000000:00000000:Select Character PL2:Win causes 'Game Over' when you select Geese
+:aof2kb:00010001:1093E3:00000001:FFFFFFFF:Ryo Sakazaki
+:aof2kb:00010001:1093E3:00000002:FFFFFFFF:Robert Garcia
+:aof2kb:00010001:1093E3:00000003:FFFFFFFF:Eiji Kisaragi
+:aof2kb:00010001:1093E3:00000004:FFFFFFFF:Jack Turner
+:aof2kb:00010001:1093E3:00000005:FFFFFFFF:Lee Pai Long
+:aof2kb:00010001:1093E3:00000006:FFFFFFFF:King
+:aof2kb:00010001:1093E3:00000007:FFFFFFFF:Mickey Rogers
+:aof2kb:00010001:1093E3:00000008:FFFFFFFF:John Crawley
+:aof2kb:00010001:1093E3:00000009:FFFFFFFF:Big
+:aof2kb:00010001:1093E3:0000000A:FFFFFFFF:Takuma Sakazaki
+:aof2kb:00010001:1093E3:0000000B:FFFFFFFF:Yuri Sakazaki
+:aof2kb:00010001:1093E3:0000000C:FFFFFFFF:Temjin
+:aof2kb:00010001:1093E3:0000000D:FFFFFFFF:Geese Howard
+:aof2kb:60000000:000000:00000000:00000000:
+:aof2kb:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:aof2kb:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:aof2kb:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:aof2kb:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:aof2kb:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:aof2kb:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:aof2kb:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:aof2kb:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:aof2kb:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:ncommandk:00000000:106029:000000CC:FFFFFFFF:矫埃 公茄 PL1
+:ncommandk:00000000:106030:00000002:FFFFFFFF:俊呈瘤 公茄 PL1
+:ncommandk:00000000:1000C0:00000035:FFFFFFFF:公利 PL1
+:ncommandk:60000000:000000:00000000:00000000:
+:ncommandk:00000000:106129:000000CC:FFFFFFFF:矫埃 公茄 PL2
+:ncommandk:00000000:106130:00000002:FFFFFFFF:俊呈瘤 公茄 PL2
+:ncommandk:00000000:1001C0:00000035:FFFFFFFF:公利 PL2
+:ncommandk:60000000:000000:00000000:00000000:
+:ncommandk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:ncommandk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:ncommandk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:ncommandk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:ncommandk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:ncommandk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:ncommandk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:ncommandk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:ncommandk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:ncommandkx:00000000:106029:000000CC:FFFFFFFF:矫埃 公茄 PL1
+:ncommandkx:00000000:106030:00000002:FFFFFFFF:俊呈瘤 公茄 PL1
+:ncommandkx:00000000:1000C0:00000035:FFFFFFFF:公利 PL1
+:ncommandkx:60000000:000000:00000000:00000000:
+:ncommandkx:00000000:106129:000000CC:FFFFFFFF:矫埃 公茄 PL2
+:ncommandkx:00000000:106130:00000002:FFFFFFFF:俊呈瘤 公茄 PL2
+:ncommandkx:00000000:1001C0:00000035:FFFFFFFF:公利 PL2
+:ncommandkx:60000000:000000:00000000:00000000:
+:ncommandkx:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:ncommandkx:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:ncommandkx:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:ncommandkx:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:ncommandkx:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:ncommandkx:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:ncommandkx:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:ncommandkx:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:ncommandkx:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+:ncombatk:00100000:101818:00007FFF:FFFFFFFF:矫埃 公茄 PL1
+:ncombatk:00000000:101811:00000064:FFFFFFFF:捞绢窍扁 公力茄 PL1
+:ncombatk:00000000:102402:0000000A:FFFFFFFF:积疙 公茄 PL1
+:ncombatk:00000000:100632:00000020:FFFFFFFF:俊呈瘤 公茄 PL1
+:ncombatk:00000000:10261B:00000001:FFFFFFFF:公利 PL1
+:ncombatk:00010000:10261E:00000002:FFFFFFFF:公利 PL1 (2/2)
+:ncombatk:00000000:1018C0:00000002:FFFFFFFF:公扁 拳仿 弥措 PL1
+:ncombatk:00010000:10063B:00000002:FFFFFFFF:公扁 拳仿 弥措 PL1 (2/2)
+:ncombatk:00000000:1018C1:00000002:FFFFFFFF:Maximum Speed PL1
+:ncombatk:00010000:102635:00000002:FFFFFFFF:Maximum Speed PL1 (2/2)
+:ncombatk:00000120:100630:00000006:FFFFFFFF:公扁 急琶 PL1:Only works if you are playing as Joe
+:ncombatk:62000000:000000:00000000:00000000:Select Character PL1
+:ncombatk:00010000:10262E:00000000:FFFFFFFF:Joe
+:ncombatk:00010000:10262E:00000001:FFFFFFFF:Musashi
+:ncombatk:00010000:10262E:00000002:FFFFFFFF:Gembu
+:ncombatk:00010000:10262E:00000003:FFFFFFFF:Kagerow
+:ncombatk:60000000:000000:00000000:00000000:
+:ncombatk:00100000:101828:00007FFF:FFFFFFFF:矫埃 公茄 PL2
+:ncombatk:00000000:101821:00000064:FFFFFFFF:捞绢窍扁 公力茄 PL2
+:ncombatk:00000000:102403:0000000A:FFFFFFFF:积疙 公茄 PL2
+:ncombatk:00000000:100682:00000020:FFFFFFFF:俊呈瘤 公茄 PL2
+:ncombatk:00000000:10266B:00000001:FFFFFFFF:公利 PL2
+:ncombatk:00010000:10266E:00000002:FFFFFFFF:公利 PL2 (2/2)
+:ncombatk:00000000:1018E0:00000002:FFFFFFFF:Always 公扁 拳仿 弥措 PL2
+:ncombatk:00010000:10068B:00000002:FFFFFFFF:Always 公扁 拳仿 弥措 PL2 (2/2)
+:ncombatk:00000000:1018E1:00000002:FFFFFFFF:Always Maximum Speed PL2
+:ncombatk:00010000:102685:00000002:FFFFFFFF:Always Maximum Speed PL2 (2/2)
+:ncombatk:00000120:100680:00000006:FFFFFFFF:公扁 急琶 PL2:Only works if you are playing as Hayabusa
+:ncombatk:62000000:000000:00000000:00000000:Select Character PL2
+:ncombatk:00010000:10267E:00000000:FFFFFFFF:Hayabusa
+:ncombatk:00010000:10267E:00000001:FFFFFFFF:Musashi
+:ncombatk:00010000:10267E:00000002:FFFFFFFF:Gembu
+:ncombatk:00010000:10267E:00000003:FFFFFFFF:Kagerow
+:ncombatk:60000000:000000:00000000:00000000:
+:ncombatk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:ncombatk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:ncombatk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:ncombatk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:ncombatk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:ncombatk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:ncombatk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:ncombatk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:ncombatk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:maglordhk:00000000:10FD89:00000064:FFFFFFFF:捞绢窍扁 公力茄
+:maglordhk:00010000:100CB2:00000000:FFFFFFFF:捞绢窍扁 公力茄 (2/3)
+:maglordhk:00010000:100CB3:00000000:FFFFFFFF:捞绢窍扁 公力茄 (3/3)
+:maglordhk:00000000:103A0D:00000005:FFFFFFFF:矫埃 公茄
+:maglordhk:00010000:103A0E:000000DB:FFFFFFFF:矫埃 公茄 (2/3)
+:maglordhk:00010000:103A0F:000000FF:FFFFFFFF:矫埃 公茄 (3/3)
+:maglordhk:60000000:000000:00000000:00000000:
+:maglordhk:00000000:103C00:00000009:FFFFFFFF:积疙 公茄 PL1
+:maglordhk:00000000:103C07:00000005:FFFFFFFF:俊呈瘤 公茄 PL1
+:maglordhk:00000000:103C04:00000002:FFFFFFFF:颇况 公力茄 PL1
+:maglordhk:00000000:103C09:0000009F:FFFFFFFF:公利 PL1
+:maglordhk:62000000:000000:00000000:00000000:Select Character PL1:With this Character Transformation cheat when you die this will be the character you become.
+:maglordhk:00010000:103C05:0000000D:FFFFFFFF:Ninja
+:maglordhk:00010000:103C05:00000009:FFFFFFFF:Triton
+:maglordhk:00010000:103C05:0000000E:FFFFFFFF:Samourai
+:maglordhk:00010000:103C05:00000005:FFFFFFFF:Dragon
+:maglordhk:00010000:103C05:0000000A:FFFFFFFF:Atlant
+:maglordhk:00010000:103C05:0000000F:FFFFFFFF:Mutant
+:maglordhk:60000000:000000:00000000:00000000:
+:maglordhk:00000000:103C80:00000009:FFFFFFFF:积疙 公茄 PL2
+:maglordhk:00000000:103C87:00000005:FFFFFFFF:俊呈瘤 公茄 PL2
+:maglordhk:00000000:103C84:00000002:FFFFFFFF:颇况 公力茄 PL2
+:maglordhk:00000000:103C89:0000009F:FFFFFFFF:公利 PL2
+:maglordhk:62000000:000000:00000000:00000000:Select Character PL2:With this Character Transformation cheat when you die this will be the character you become.
+:maglordhk:00010000:103C85:0000000D:FFFFFFFF:Ninja
+:maglordhk:00010000:103C85:00000009:FFFFFFFF:Triton
+:maglordhk:00010000:103C85:0000000E:FFFFFFFF:Samourai
+:maglordhk:00010000:103C85:00000005:FFFFFFFF:Dragon
+:maglordhk:00010000:103C85:0000000A:FFFFFFFF:Atlant
+:maglordhk:00010000:103C85:0000000F:FFFFFFFF:Mutant
+:maglordhk:60000000:000000:00000000:00000000:
+:maglordhk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:maglordhk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:maglordhk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:maglordhk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:maglordhk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:maglordhk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:maglordhk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:maglordhk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:maglordhk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:spinmastk:00000000:105015:00000003:FFFFFFFF:积疙 公茄 PL1:F6 at the end of game
+:spinmastk:00000000:105F62:00000005:FFFFFFFF:俊呈瘤 公茄 PL1
+:spinmastk:00000000:105FBD:00000005:FFFFFFFF:气藕 公茄 PL1
+:spinmastk:00000000:105F95:00000002:FFFFFFFF:公利 PL1
+:spinmastk:62000000:000000:00000000:00000000:公扁 急琶 PL1
+:spinmastk:00010000:105F55:00000000:0000001C:No Weapon
+:spinmastk:00010000:105F55:00000004:0000001C:Yoyo
+:spinmastk:00010000:105F55:00000008:0000001C:Fire
+:spinmastk:00010000:105F55:0000000C:0000001C:Ice
+:spinmastk:00010000:105F55:00000010:0000001C:Bomb
+:spinmastk:00010000:105F55:00000014:0000001C:Glove
+:spinmastk:00010000:105F55:00000018:0000001C:Thunder
+:spinmastk:00010000:105F55:0000001C:0000001C:Double
+:spinmastk:60000000:000000:00000000:00000000:
+:spinmastk:00000000:10503D:00000003:FFFFFFFF:积疙 公茄 PL2:F6 at the end of game
+:spinmastk:00000000:106022:00000005:FFFFFFFF:俊呈瘤 公茄 PL2
+:spinmastk:00000000:10607D:00000005:FFFFFFFF:气藕 公茄 PL2
+:spinmastk:00000000:106055:00000002:FFFFFFFF:公利 PL2
+:spinmastk:62000000:000000:00000000:00000000:公扁 急琶 PL2
+:spinmastk:00010000:106015:00000000:0000001C:No Weapon
+:spinmastk:00010000:106015:00000004:0000001C:Yoyo
+:spinmastk:00010000:106015:00000008:0000001C:Fire
+:spinmastk:00010000:106015:0000000C:0000001C:Ice
+:spinmastk:00010000:106015:00000010:0000001C:Bomb
+:spinmastk:00010000:106015:00000014:0000001C:Glove
+:spinmastk:00010000:106015:00000018:0000001C:Thunder
+:spinmastk:00010000:106015:0000001C:0000001C:Double
+:spinmastk:60000000:000000:00000000:00000000:
+:spinmastk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:spinmastk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:spinmastk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:spinmastk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:spinmastk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:spinmastk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:spinmastk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:spinmastk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:spinmastk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:spinmastkx:00000000:105015:00000003:FFFFFFFF:积疙 公茄 PL1:F6 at the end of game
+:spinmastkx:00000000:105F62:00000005:FFFFFFFF:俊呈瘤 公茄 PL1
+:spinmastkx:00000000:105FBD:00000005:FFFFFFFF:气藕 公茄 PL1
+:spinmastkx:00000000:105F95:00000002:FFFFFFFF:公利 PL1
+:spinmastkx:62000000:000000:00000000:00000000:公扁 急琶 PL1
+:spinmastkx:00010000:105F55:00000000:0000001C:No Weapon
+:spinmastkx:00010000:105F55:00000004:0000001C:Yoyo
+:spinmastkx:00010000:105F55:00000008:0000001C:Fire
+:spinmastkx:00010000:105F55:0000000C:0000001C:Ice
+:spinmastkx:00010000:105F55:00000010:0000001C:Bomb
+:spinmastkx:00010000:105F55:00000014:0000001C:Glove
+:spinmastkx:00010000:105F55:00000018:0000001C:Thunder
+:spinmastkx:00010000:105F55:0000001C:0000001C:Double
+:spinmastkx:60000000:000000:00000000:00000000:
+:spinmastkx:00000000:10503D:00000003:FFFFFFFF:积疙 公茄 PL2:F6 at the end of game
+:spinmastkx:00000000:106022:00000005:FFFFFFFF:俊呈瘤 公茄 PL2
+:spinmastkx:00000000:10607D:00000005:FFFFFFFF:气藕 公茄 PL2
+:spinmastkx:00000000:106055:00000002:FFFFFFFF:公利 PL2
+:spinmastkx:62000000:000000:00000000:00000000:公扁 急琶 PL2
+:spinmastkx:00010000:106015:00000000:0000001C:No Weapon
+:spinmastkx:00010000:106015:00000004:0000001C:Yoyo
+:spinmastkx:00010000:106015:00000008:0000001C:Fire
+:spinmastkx:00010000:106015:0000000C:0000001C:Ice
+:spinmastkx:00010000:106015:00000010:0000001C:Bomb
+:spinmastkx:00010000:106015:00000014:0000001C:Glove
+:spinmastkx:00010000:106015:00000018:0000001C:Thunder
+:spinmastkx:00010000:106015:0000001C:0000001C:Double
+:spinmastkx:60000000:000000:00000000:00000000:
+:spinmastkx:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:spinmastkx:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:spinmastkx:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:spinmastkx:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:spinmastkx:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:spinmastkx:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:spinmastkx:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:spinmastkx:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:spinmastkx:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:bjourneyk:00000000:10FD89:00000064:FFFFFFFF:捞绢窍扁 公力茄
+:bjourneyk:00010000:1030B2:00000000:FFFFFFFF:捞绢窍扁 公力茄 (2/3)
+:bjourneyk:00010000:1030B3:00000000:FFFFFFFF:捞绢窍扁 公力茄 (3/3)
+:bjourneyk:00000020:106906:00000038:FFFFFFFF:矫埃 公茄
+:bjourneyk:00010020:106907:00000040:FFFFFFFF:矫埃 公茄 (2/2)
+:bjourneyk:00000000:10783F:00000009:FFFFFFFF:Infinite Shop Time
+:bjourneyk:60000000:000000:00000000:00000000:
+:bjourneyk:00000000:107000:00000009:FFFFFFFF:积疙 公茄 PL1
+:bjourneyk:00000000:107009:0000007F:FFFFFFFF:公利 PL1
+:bjourneyk:00000000:107011:00000005:FFFFFFFF:俊呈瘤 公茄 PL1
+:bjourneyk:00010000:107020:00000005:FFFFFFFF:俊呈瘤 公茄 PL1 (2/2)
+:bjourneyk:00000001:107010:000000FF:FFFFFFFF:Get 255 Roses Now! PL1
+:bjourneyk:00000000:107010:000000FF:FFFFFFFF:Infinite Money PL1
+:bjourneyk:00010000:10701B:000000FF:FFFFFFFF:Infinite Money PL1 (2/2)
+:bjourneyk:00000000:107017:00000004:FFFFFFFF:Always 1 cocoon for life PL1
+:bjourneyk:00000001:107017:00000004:FFFFFFFF:Get 1 cocoon for life Now!PL1
+:bjourneyk:00000000:107012:00000002:FFFFFFFF:Always have leaf PL1
+:bjourneyk:00010000:10702B:00000000:FFFFFFFF:Always have leaf PL1 (2/3)
+:bjourneyk:00010000:10702C:00000000:FFFFFFFF:Always have leaf PL1 (3/3)
+:bjourneyk:00000000:107012:00000000:FFFFFFFF:Always have boomrang PL1
+:bjourneyk:00010000:10702B:00000003:FFFFFFFF:Always have boomrang PL1 (2/3)
+:bjourneyk:00010000:10702C:00000000:FFFFFFFF:Always have boomrang PL1 (3/3)
+:bjourneyk:00000000:107012:00000000:FFFFFFFF:Always have 'bomb' PL1
+:bjourneyk:00010000:10702B:00000000:FFFFFFFF:Always have 'bomb' PL1 (2/3)
+:bjourneyk:00010000:10702C:00000003:FFFFFFFF:Always have 'bomb' PL1 (3/3)
+:bjourneyk:00000001:107012:00000002:FFFFFFFF:Get leaf Now! PL1
+:bjourneyk:00010001:10702B:00000000:FFFFFFFF:Get leaf Now! PL1 (2/3)
+:bjourneyk:00010001:10702C:00000000:FFFFFFFF:Get leaf Now! PL1 (3/3)
+:bjourneyk:00000001:107012:00000000:FFFFFFFF:Get boomrang Now! PL1
+:bjourneyk:00010001:10702B:00000003:FFFFFFFF:Get boomrang Now! PL1 (2/3)
+:bjourneyk:00010001:10702C:00000000:FFFFFFFF:Get boomrang Now! PL1 (3/3)
+:bjourneyk:00000001:107012:00000000:FFFFFFFF:Get 'bomb' Now! PL1
+:bjourneyk:00010001:10702B:00000000:FFFFFFFF:Get 'bomb' Now! PL1 (2/3)
+:bjourneyk:00010001:10702C:00000003:FFFFFFFF:Get 'bomb' Now! PL1 (3/3)
+:bjourneyk:00000000:10701C:00000001:FFFFFFFF:Never lose flowers PL1
+:bjourneyk:00000000:107019:00000000:FFFFFFFF:Never get cursed PL1
+:bjourneyk:00000000:10701A:00000001:FFFFFFFF:Always have the club PL1
+:bjourneyk:00000000:107013:00000001:FFFFFFFF:Always have the spikes PL1
+:bjourneyk:00000000:107014:00000001:FFFFFFFF:Always have the spring PL1
+:bjourneyk:00000000:107015:00000001:FFFFFFFF:Always have the swin fin PL1
+:bjourneyk:00000000:107015:00000001:FFFFFFFF:Always have the light safe PL1
+:bjourneyk:00000000:107015:00000002:FFFFFFFF:Always have the super safe PL1
+:bjourneyk:00000001:10701A:00000001:FFFFFFFF:Get the club Now! PL1
+:bjourneyk:00000001:107013:00000001:FFFFFFFF:Get the spikes Now! PL1
+:bjourneyk:00000001:107014:00000001:FFFFFFFF:Get the spring Now! PL1
+:bjourneyk:00000001:107015:00000001:FFFFFFFF:Get the swin fin Now! PL1
+:bjourneyk:00000000:107016:00000000:FFFFFFFF:Always have No Safe PL1
+:bjourneyk:00000000:107016:00000001:FFFFFFFF:Always have the Light Safe PL1
+:bjourneyk:00000000:107016:00000002:FFFFFFFF:Always have the Super Safe PL1
+:bjourneyk:00000001:107016:00000000:FFFFFFFF:Get No Safe Now! PL1
+:bjourneyk:00000001:107016:00000001:FFFFFFFF:Get the Light Safe Now! PL1
+:bjourneyk:00000001:107016:00000002:FFFFFFFF:Get the Super Safe Now! PL1
+:bjourneyk:60000000:000000:00000000:00000000:
+:bjourneyk:00000000:107400:00000009:FFFFFFFF:积疙 公茄 PL2
+:bjourneyk:00000000:107409:0000007F:FFFFFFFF:公利 PL2
+:bjourneyk:00000000:107411:00000005:FFFFFFFF:俊呈瘤 公茄 PL2
+:bjourneyk:00010000:107420:00000005:FFFFFFFF:俊呈瘤 公茄 PL2 (2/2)
+:bjourneyk:00000001:107410:000000FF:FFFFFFFF:Get 255 Roses Now! PL2
+:bjourneyk:00000000:107410:000000FF:FFFFFFFF:Infinite Money PL2
+:bjourneyk:00010000:10741B:000000FF:FFFFFFFF:Infinite Money PL2 (2/2)
+:bjourneyk:00000000:107417:00000004:FFFFFFFF:Always 1 cocoon for life PL2
+:bjourneyk:00000001:107417:00000004:FFFFFFFF:Get 1 cocoon for life Now!PL2
+:bjourneyk:00000000:107412:00000002:FFFFFFFF:Always have leaf PL2
+:bjourneyk:00010000:10742B:00000000:FFFFFFFF:Always have leaf PL2 (2/3)
+:bjourneyk:00010000:10742C:00000000:FFFFFFFF:Always have leaf PL2 (3/3)
+:bjourneyk:00000000:107412:00000000:FFFFFFFF:Always have boomrang PL2
+:bjourneyk:00010000:10742B:00000003:FFFFFFFF:Always have boomrang PL2(2/3)
+:bjourneyk:00010000:10742C:00000000:FFFFFFFF:Always have boomrang PL2(3/3)
+:bjourneyk:00000000:107412:00000000:FFFFFFFF:Always have 'bomb' PL2
+:bjourneyk:00010000:10742B:00000000:FFFFFFFF:Always have 'bomb' PL2 (2/3)
+:bjourneyk:00010000:10742C:00000003:FFFFFFFF:Always have 'bomb' PL2 (3/3)
+:bjourneyk:00000001:107412:00000002:FFFFFFFF:Get leaf Now! PL2
+:bjourneyk:00010001:10742B:00000000:FFFFFFFF:Get leaf Now! PL2 (2/3)
+:bjourneyk:00010001:10742C:00000000:FFFFFFFF:Get leaf Now! PL2 (3/3)
+:bjourneyk:00000001:107412:00000000:FFFFFFFF:Get boomrang Now! PL2
+:bjourneyk:00010001:10742B:00000003:FFFFFFFF:Get boomrang Now! PL2(2/3)
+:bjourneyk:00010001:10742C:00000000:FFFFFFFF:Get boomrang Now! PL2(3/3)
+:bjourneyk:00000001:107412:00000000:FFFFFFFF:Get 'bomb' Now! PL2
+:bjourneyk:00010001:10742B:00000000:FFFFFFFF:Get 'bomb' Now! PL2 (2/3)
+:bjourneyk:00010001:10742C:00000003:FFFFFFFF:Get 'bomb' Now! PL2 (3/3)
+:bjourneyk:00000000:10741C:00000001:FFFFFFFF:Never lose flowers PL2
+:bjourneyk:00000000:107419:00000000:FFFFFFFF:Never get cursed PL2
+:bjourneyk:00000000:10741A:00000001:FFFFFFFF:Always have the club PL2
+:bjourneyk:00000000:107413:00000001:FFFFFFFF:Always have the spikes PL2
+:bjourneyk:00000000:107414:00000001:FFFFFFFF:Always have the spring PL2
+:bjourneyk:00000000:107415:00000001:FFFFFFFF:Always have the swin fin PL2
+:bjourneyk:00000001:10741A:00000001:FFFFFFFF:Get the club Now! PL2
+:bjourneyk:00000001:107413:00000001:FFFFFFFF:Get the spikes Now! PL2
+:bjourneyk:00000001:107414:00000001:FFFFFFFF:Get the spring Now! PL2
+:bjourneyk:00000001:107415:00000001:FFFFFFFF:Get the swin fin Now! PL2
+:bjourneyk:00000000:107416:00000000:FFFFFFFF:Always have No Safe PL2
+:bjourneyk:00000000:107416:00000001:FFFFFFFF:Always have the Light Safe PL2
+:bjourneyk:00000000:107416:00000002:FFFFFFFF:Always have the Super Safe PL2
+:bjourneyk:00000001:107416:00000000:FFFFFFFF:Get No Safe Now! PL2
+:bjourneyk:00000001:107416:00000001:FFFFFFFF:Get the Light Safe Now! PL2
+:bjourneyk:00000001:107416:00000002:FFFFFFFF:Get the Super Safe Now! PL2
+:bjourneyk:60000000:000000:00000000:00000000:
+:bjourneyk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:bjourneyk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:bjourneyk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:bjourneyk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:bjourneyk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:bjourneyk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:bjourneyk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:bjourneyk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:bjourneyk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
