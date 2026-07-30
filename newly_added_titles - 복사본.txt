@@ -1,12 +1,2 @@
-<P>킹 오브 더 몬스터즈 2 (한글판)</P>
-<P>막말낭만 제2막 월화의 검사 (한글판)</P>
-<P>천외마경 진전 (한글판)</P>
-<P>막말낭만 제2막 월화의 검사 (한글판,보스선택,필살커맨드 변경)</P>
-<P>막말낭만 제2막 월화의 검사 (한글판&보스선택)</P>
-<P>천외마경 진전 (한글판&보스선택)</P>
-<P>he Next ThingKing of the Monsters 2 (Korean)</P>
-<P>Last Blade 2 (korean)</P>
-<P>Far East of Eden (Korean)</P>
-<P>Last Blade 2 (korean,boss,command)</P>
-<P>Last Blade 2 (Korean,Boss Select)</P>
-<P>Far East of Eden (Korean&boss select)</P>
+<P>메탈 슬러그 X (알렌,모덴군,햐쿠타로 선택가능)</P>
+<P>Metal Slug X (Allen O'Neil,Morden,Hyakutaro)</P>

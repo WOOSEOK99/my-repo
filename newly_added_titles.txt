@@ -1,28 +1,8 @@
-<P>아트 오브 파이팅 2 (한글판,보스 선택)</P>
-<P>스핀 마스터 (한글판,Ex Super)</P>
-<P>막말낭만 월화의 검사 (한글판,보스선택,필살커맨드변경)</P>
-<P>아트 오브 파이팅 2 (한글판)</P>
-<P>스핀 마스터 (한글판)</P>
-<P>블루의 모험 / 라기 (한글판)</P>
-<P>막말낭만 월화의 검사 (한글판)</P>
-<P>사이버 립 (한글판)</P>
-<P>용호의권 외전 (한글판,보스선택)</P>
-<P>닌자 코만도 (한글판)</P>
-<P>매지션 로드 (한글판)</P>
-<P>닌자 코만도 (한글판,Ex Super)</P>
-<P>닌자 컴뱃 (한글판)</P>
-<P>막말낭만 월화의 검사 (한글판,보스선택)</P>
-<P>Art of Fighting 2 (Korean,Boss)</P>
-<P>Spin Master (Korean,Ex Super)</P>
-<P>Last Blade (Korean,Boss,Changed command)</P>
-<P>Art of Fighting 2 (korean)</P>
-<P>Spin Master (Korean)</P>
-<P>Blue's Journey</P>
-<P>Last Blade (korean)</P>
-<P>Cyber-Lip (Korean)</P>
-<P>Art of Fighting 3 (Korean,Boss Select)</P>
-<P>Ninja Commando (Korean)</P>
-<P>Magician Lord (Korean)</P>
-<P>Ninja Commando (Korean,Ex Super)</P>
-<P>Ninja Combat (Korean)</P>
-<P>Last Blade (Korean,Boss)</P>
+<P>원더 3 (한글판)</P>
+<P>안드로 듀노스 (Ex Super)</P>
+<P>아수라 블레이드 (히든캐릭 선택)</P>
+<P>1943 개 (改) (Ex Super)</P>
+<P>Three Wonders (korean)</P>
+<P>Andro Dunos (Ex Super)</P>
+<P>Asura Blade (Hidden Character)</P>
+<P>1943 Kai (Ex Super)</P>

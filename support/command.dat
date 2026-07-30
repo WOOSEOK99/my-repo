@@ -29388,7 +29388,7 @@ $end
 #
 
 
-$info=asurabld
+$info=asurabld,asurabldh
 $cmd
 [ 기본 조작 방법 ]
 ─────────────────────────
@@ -29595,6 +29595,7 @@ $end
 #
 # 가이아 크루세이더 (C) 1999 Nose Factory
 #
+
 $info=gaia,gaias01
 $cmd
 [ 기본 조작 방법 ]
