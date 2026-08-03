@@ -15939,7 +15939,7 @@ _A를 연사하면서，_8_6_8_6를 반복한다．
 꽤 빠르게 연사를 할 수 있다．
 $end
 
-$info=mslugx
+$info=mslugx,mslugxup,mslugxsvh,mslugxa
 $cmd
 [ 기본 조작 방법에 대해 ]
 ───────────────────────
@@ -16188,6 +16188,7 @@ _A를 연사하면서，_8_6_8_6를 반복한다．
 베기 캔슬과 같은 공격을 하면，
 꽤 빠르게 연사를 할 수 있다．
 $end
+
 
 
 
@@ -42848,7 +42849,7 @@ $end
 
 
 #캬 디 락스 - 공룡 신세기 -　　   (C) 1993  CAPCOM
-$info=dino,dinos145,dinosek1
+$info=dino,dinos145,dinosek1,dino3p,dinoex,dinoplus
 $cmd
 [ 기본 조작 방법에 대해 ]
 --------------------------------------------------------------
@@ -42878,6 +42879,9 @@ $end
 
 
 #캬 디 락스 - 공룡 신세기 -　　   (C) 1993  CAPCOM
+
+
+
 
 $info=dinofr
 $cmd

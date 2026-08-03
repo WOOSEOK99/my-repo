@@ -1,8 +1,8 @@
-<P>원더 3 (한글판)</P>
-<P>안드로 듀노스 (Ex Super)</P>
-<P>아수라 블레이드 (히든캐릭 선택)</P>
-<P>1943 개 (改) (Ex Super)</P>
-<P>Three Wonders (korean)</P>
-<P>Andro Dunos (Ex Super)</P>
-<P>Asura Blade (Hidden Character)</P>
-<P>1943 Kai (Ex Super)</P>
+<P>캐딜락 & 다이노소어 (3인용)</P>
+<P>캐딜락 & 다이노소어 (미사일 이식 강화판)</P>
+<P>메탈 슬러그 5 (속성 강화판)</P>
+<P>캐딜락 & 다이노소어 (plus)</P>
+<P>Cadillacs and Dinosaurs (3 player)</P>
+<P>Cadillacs and Dinosaurs (Missile Ported Enhanced Edition)</P>
+<P>Metal Slug 5 (Strengthen Properties ex)</P>
+<P>Cadillacs and Dinosaurs (plus)</P>
