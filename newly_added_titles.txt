@@ -1,8 +1,2 @@
-<P>캐딜락 & 다이노소어 (3인용)</P>
-<P>캐딜락 & 다이노소어 (미사일 이식 강화판)</P>
-<P>메탈 슬러그 5 (속성 강화판)</P>
-<P>캐딜락 & 다이노소어 (plus)</P>
-<P>Cadillacs and Dinosaurs (3 player)</P>
-<P>Cadillacs and Dinosaurs (Missile Ported Enhanced Edition)</P>
-<P>Metal Slug 5 (Strengthen Properties ex)</P>
-<P>Cadillacs and Dinosaurs (plus)</P>
+<P>퍼니셔 (Xiang Long Edition)</P>
+<P>The Punisher (Xiang Long Edition)</P>
