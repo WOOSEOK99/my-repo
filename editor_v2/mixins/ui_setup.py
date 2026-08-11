@@ -129,26 +129,30 @@ class UiSetupMixin:
         self.entries["genre_en"] = ttk.Combobox(edit_frame, values=self.genre_en_list, width=35)
         self.entries["genre_en"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
 
-        # tk.Label(edit_frame, text="year").grid(row=10, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="system").grid(row=10, column=0, sticky="e", padx=2)
+        self.entries["system"] = ttk.Combobox(edit_frame, values=["ekmame", "fbneo"], width=35)
+        self.entries["system"].grid(row=10, column=1, sticky="ew", padx=5, pady=2)
+
+        # tk.Label(edit_frame, text="year").grid(row=11, column=0, sticky="e", padx=2)
         self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=35)
-        # self.entries["year"].grid(row=10, column=1, sticky="ew", padx=5, pady=2)
+        # self.entries["year"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["portrait"] = tk.BooleanVar()
-        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=10, column=1, sticky="w", padx=5, pady=2)
+        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=11, column=1, sticky="w", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="buttons").grid(row=11, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="buttons").grid(row=12, column=0, sticky="e", padx=2)
         btn_chk_frame = tk.Frame(edit_frame)
-        btn_chk_frame.grid(row=11, column=1, sticky="w", padx=5, pady=2)
+        btn_chk_frame.grid(row=12, column=1, sticky="w", padx=5, pady=2)
         tk.Checkbutton(btn_chk_frame, text="2", variable=self.buttons_var, onvalue=2, offvalue=0).pack(side=tk.LEFT, padx=2)
         tk.Checkbutton(btn_chk_frame, text="4", variable=self.buttons_var, onvalue=4, offvalue=0).pack(side=tk.LEFT, padx=2)
         tk.Checkbutton(btn_chk_frame, text="6", variable=self.buttons_var, onvalue=6, offvalue=0).pack(side=tk.LEFT, padx=2)
 
         self.bool_vars["LRbuttons"] = tk.BooleanVar()
-        # tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=12, column=1, sticky="w", padx=5, pady=2)
+        # tk.Checkbutton(edit_frame, text="LRbuttons(6버튼일때 R1 L1 사용)", variable=self.bool_vars["LRbuttons"]).grid(row=13, column=1, sticky="w", padx=5, pady=2)
 
-        # tk.Label(edit_frame, text="developer").grid(row=13, column=0, sticky="e", padx=2)
+        # tk.Label(edit_frame, text="developer").grid(row=14, column=0, sticky="e", padx=2)
         self.entries["developer"] = ttk.Combobox(edit_frame, values=self.dev_list, width=35)
-        # self.entries["developer"].grid(row=13, column=1, sticky="ew", padx=5, pady=2)
+        # self.entries["developer"].grid(row=14, column=1, sticky="ew", padx=5, pady=2)
 
         # 이미지 미리보기
         img_container = tk.Frame(mid_frame, bd=1, relief="sunken", bg="white", height=170)

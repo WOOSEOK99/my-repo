@@ -396,6 +396,7 @@ class DataOpsMixin:
             "developer": "",
             "portrait": False,
             "buttons": 0,
+            "system": "ekmame",
             "LRbuttons": False
         }
         self.newly_added_keys.add(new_key)
