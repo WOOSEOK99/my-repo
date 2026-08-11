@@ -32962,6 +32962,23 @@
         "buttons": 4,
         "system": "ekmame"
     },
+    "pgm": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7451_pgm_5745.bin",
+        "title": "fbneo pgm 바이오스",
+        "title_en": "fbneo pgm bios",
+        "desc": "",
+        "genre": "",
+        "genre_en": "",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 0,
+        "system": "fbneo",
+        "LRbuttons": false
+    },
     "kov2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1353_kov2_5808.bin",
         "title": "삼국전기 2",
@@ -32971,7 +32988,7 @@
         "genre_en": "Test",
         "series": "",
         "series_en": "",
-        "parent": "",
+        "parent": "pgm",
         "year": 0,
         "developer": "",
         "portrait": false,
