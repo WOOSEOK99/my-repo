@@ -32961,5 +32961,22 @@
         "LRbuttons": false,
         "buttons": 4,
         "system": "ekmame"
+    },
+    "kov2": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/1353_kov2_5808.bin",
+        "title": "삼국전기 2",
+        "title_en": "Knights of Valour 2",
+        "desc": "",
+        "genre": "벨트스크롤 액션",
+        "genre_en": "Side-scrolling Action",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 4,
+        "system": "fbneo",
+        "LRbuttons": false
     }
 }
