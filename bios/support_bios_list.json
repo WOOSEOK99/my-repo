@@ -5,6 +5,9 @@
     "pgm": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bpgm.bin"
     },
+    "fbneo_pgm": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/fbeno_bpgm.bin"
+    },
     "cpzn1": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/bios/bcpzn1.bin"
     },
