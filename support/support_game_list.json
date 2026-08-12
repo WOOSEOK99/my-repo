@@ -32995,5 +32995,22 @@
         "buttons": 4,
         "system": "fbneo",
         "LRbuttons": false
+    },
+    "kovsh": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8724_kovsh_9207.bin",
+        "title": "삼국전기 슈퍼 히어로즈",
+        "title_en": "Knights of Valour Super Heroes",
+        "desc": "",
+        "genre": "미지원(테스트)",
+        "genre_en": "Test",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 4,
+        "system": "fbneo",
+        "LRbuttons": false
     }
 }
