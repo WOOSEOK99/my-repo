@@ -1,5 +1,25 @@
 <P>삼국전기 2</P>
 <P>삼국전기 슈퍼 히어로즈</P>
+<P>도돈파치 대왕생 혼</P>
+<P>삼국전기 2 뉴 레전드</P>
+<P>삼국전기 3</P>
+<P>데몬프론트</P>
+<P>삼국전기2 플러스 - 나인 드래곤즈</P>
+<P>서유석액전 스페셜</P>
+<P>서유석액전 2</P>
+<P>도돈파치 II</P>
+<P>서유석액전 슈퍼 플러스</P>
+<P>마샬 마스터즈</P>
 
+<P>DoDonPachi Dai-Ou-Jou Tamashii</P>
+<P>Knights of Valour 2 New Legend</P>
+<P>Knights of Valour 3</P>
+<P>Demon Front</P>
+<P>Knights of Valour 2 Plus - Nine Dragons</P>
+<P>Oriental Legend Special</P>
+<P>Oriental Legend 2</P>
+<P>DoDonPachi II</P>
+<P>Oriental Legend Special Plus</P>
+<P>Martial Masters</P>
 <P>Knights of Valour 2</P>
 <P>Knights of Valour Super Heroes</P>
