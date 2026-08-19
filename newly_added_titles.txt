@@ -1,12 +1,2 @@
-<P>리얼 바웃 아랑 전설 스페셜</P>
-<P>아랑 전설 3</P>
-<P>아랑 전설 2 (한글판)</P>
-<P>리얼 바웃 아랑 전설 (한글판)</P>
-<P>아랑 전설 스페셜 (한글판)</P>
-<P>아랑 - 마스크 오브 울브즈 (한글판)</P>
-<P>Real Bout Fatal Fury Special</P>
-<P>Fatal Fury 3</P>
-<P>Fatal Fury 2 (Korean)</P>
-<P>Real Bout Fatal Fury (Korean)</P>
-<P>Fatal Fury Special (Korean)</P>
-<P>Garou - Mark of the Wolves (Korean)</P>
+<P>크로노 트리거 플러스 v2.1 (k)</P>
+<P>Chrono Trigger plus v2.1 (k)</P>

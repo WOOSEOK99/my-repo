@@ -35296,5 +35296,23 @@
         "buttons": 4,
         "system": "ekmame",
         "category": "arcade"
+    },
+    "[SFC]크로너트리거(k) v2.1": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/sfc/4267_[SFC]크로너트리거(k) v2.1_7497.bin",
+        "title": "크로노 트리거 플러스 v2.1 (k)",
+        "title_en": "Chrono Trigger plus v2.1 (k)",
+        "desc": "",
+        "category": "console",
+        "genre": "RPG",
+        "genre_en": "RPG",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 0,
+        "system": "sfc",
+        "LRbuttons": false
     }
 }
