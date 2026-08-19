@@ -229965,3 +229965,498 @@
 :punisherxl:81000000:FF8FCE:000000FE:00FF0037:Infinite Weapon on Pickup PL2:If you pick up the objects, they will become almost indestructable.
 
 
+
+:dinok:00000000:FF84E9:00000009:FFFFFFFF:시간 무한
+:dinok:20B00000:0239DE:4EB90018:FFFFFFFF:무기 무한:Works for Rifle, Gun, Uzi, M-16A1, 샷건 and Bazooka
+:dinok:20B10000:0239E2:00004E71:FFFFFFFF:무기 무한 (2/5):jsr $180000.l / nop
+:dinok:20B10000:180000:366A00B4:FFFFFFFF:무기 무한 (3/5):movea.w ($b4,A2), A3
+:dinok:20B10000:180004:70323740:FFFFFFFF:무기 무한 (4/5):moveq #$32,D0 [ Always 50 bullets ]
+:dinok:20B10000:180008:006C4E75:FFFFFFFF:무기 무한 (5/5):move.w D0,($6c,A3) / rts
+:dinok:00000001:FFDCA0:00000000:FFFFFFFF:Kill Vice T. with 1 hit Now!
+:dinok:00010001:FFDCA1:00000001:FFFFFFFF:Kill Vice T. with 1 hit Now! (2/2)
+:dinok:00000001:FFDCA0:00000000:FFFFFFFF:Kill Butcher with 1 hit Now!
+:dinok:00010001:FFDCA1:00000001:FFFFFFFF:Kill Butcher with 1 hit Now! (2/2)
+:dinok:00000001:FFD3E0:00000000:FFFFFFFF:Kill Hogg with 1 hit Now!
+:dinok:00010001:FFD3E1:00000001:FFFFFFFF:Kill Hogg with 1 hit Now! (2/2)
+:dinok:00000001:FFDAE0:00000000:FFFFFFFF:Kill Slice with 1 hit Now!
+:dinok:00010001:FFDAE1:00000001:FFFFFFFF:Kill Slice with 1 hit Now! (2/2)
+:dinok:00000001:FFDCA0:00000000:FFFFFFFF:Kill Morgan/Morgue with 1 hit Now!
+:dinok:00010001:FFDCA1:00000001:FFFFFFFF:Kill Morgan/Morgue with 1 hit Now! (2/2)
+:dinok:00000001:FFDCA0:00000000:FFFFFFFF:Kill Tyrog with 1 hit Now!
+:dinok:00010001:FFDCA1:00000001:FFFFFFFF:Kill Tyrog with 1 hit Now! (2/2)
+:dinok:00000001:FFD680:00000000:FFFFFFFF:Kill Slisaur 1 with 1 hit Now!
+:dinok:00010001:FFD681:00000001:FFFFFFFF:Kill Slisaur 1 with 1 hit Now! (2/2)
+:dinok:00000001:FFD5A0:00000000:FFFFFFFF:Kill Slisaur 2 with 1 hit Now!
+:dinok:00010001:FFD5A1:00000001:FFFFFFFF:Kill Slisaur 2 with 1 hit Now! (2/2)
+:dinok:00000001:FFD920:00000000:FFFFFFFF:Kill the one headed Fessenden with 1 hit Now!
+:dinok:00010001:FFD921:00000001:FFFFFFFF:Kill the one headed Fessenden with 1 hit Now! (2/2)
+:dinok:00000001:FFD4C0:00000000:FFFFFFFF:Kill the several headed Fessenden with 1 hit Now!
+:dinok:00010001:FFD4C1:00000001:FFFFFFFF:Kill the several headed Fessenden with 1 hit Now! (2/2)
+:dinok:60000000:000000:00000000:00000000:
+:dinok:00000000:FFB317:00000003:FFFFFFFF:생명 무한 PL1
+:dinok:00000000:FFB2E1:00000064:FFFFFFFF:에너지 무한 PL1
+:dinok:00000000:FFB274:00000002:FFFFFFFF:무적 PL1
+:dinok:00110000:FFB360:00000002:FFFFFFFF:무적 PL1 (2/2)
+:dinok:00000000:FFB314:00000000:00000010:화력 속도 - 일반 PL1:Turn it OFF on the name entry screen
+:dinok:00000000:FFB314:00000000:00000010:화력 속도 - Unlimited PL1:Turn it OFF on the name entry screen
+:dinok:00010000:FFB326:00000000:FFFFFFFF:화력 속도 - Unlimited PL1 (2/2)
+:dinok:60000000:000000:00000000:00000000:
+:dinok:00000000:FFB497:00000003:FFFFFFFF:생명 무한 PL2
+:dinok:00000000:FFB461:00000064:FFFFFFFF:에너지 무한 PL2
+:dinok:00000000:FFB3F4:00000002:FFFFFFFF:무적 PL2
+:dinok:00110000:FFB4E0:00000002:FFFFFFFF:무적 PL2 (2/2)
+:dinok:00000000:FFB494:00000000:00000010:화력 속도 - 일반 PL2:Turn it OFF on the name entry screen
+:dinok:00000000:FFB494:00000000:00000010:화력 속도 - Unlimited PL2:Turn it OFF on the name entry screen
+:dinok:00010000:FFB4A6:00000000:FFFFFFFF:화력 속도 - Unlimited PL2 (2/2)
+:dinok:60000000:000000:00000000:00000000:
+:dinok:00000000:FFB617:00000003:FFFFFFFF:생명 무한 PL3
+:dinok:00000000:FFB5E1:00000064:FFFFFFFF:에너지 무한 PL3
+:dinok:00000000:FFB574:00000002:FFFFFFFF:무적 PL3
+:dinok:00110000:FFB660:00000002:FFFFFFFF:무적 PL3 (2/2)
+:dinok:00000000:FFB614:00000000:00000010:화력 속도 - 일반 PL3:Turn it OFF on the name entry screen
+:dinok:00000000:FFB614:00000000:00000010:화력 속도 - Unlimited PL3:Turn it OFF on the name entry screen
+:dinok:00010000:FFB626:00000000:FFFFFFFF:화력 속도 - Unlimited PL3 (2/2)
+
+
+
+:punishrk:00000000:FF18AB:000000BF:FFFFFFFF:시간 무한
+:punishrk:00000000:FF5D96:00000001:FFFFFFFF:Always have Gun drawn
+:punishrk:20800000:01ADEE:00000060:FFFFFFFF:Sticky Weapons:When the enemies punch you won't drop any weapons you are holding (The only exception is when you die, launch, or when the level ends!)
+:punishrk:00000001:FF5FA1:000000FF:FFFFFFFF:이번판 종료 Now!:Simply walk to the end, though on the First Level you will need the 'Always have Gun drawn' cheat to kill the Boss
+:punishrk:62000000:000000:00000000:00000000:Select Starting Stage
+:punishrk:00090000:FF5BB9:00000000:00000000:Stage 1
+:punishrk:00090000:FF5BB9:00000001:00000000:Stage 2
+:punishrk:00090000:FF5BB9:00000002:00000000:Stage 3
+:punishrk:00090000:FF5BB9:00000007:00000000:Bonus Stage
+:punishrk:00090000:FF5BB9:00000003:00000000:Stage 4
+:punishrk:00090000:FF5BB9:00000004:00000000:Stage 5
+:punishrk:00090000:FF5BB9:00000005:00000000:Last Stage
+:punishrk:00090000:FF5BB9:00000006:00000000:Hidden Bonus Stage 
+:punishrk:60000000:000000:00000000:00000000:
+:punishrk:00000000:FF5BA4:00000003:FFFFFFFF:생명 무한 PL1
+:punishrk:00000000:FF8E9F:00000088:FFFFFFFF:에너지 무한 PL1
+:punishrk:00000000:FF5BCA:00000009:FFFFFFFF:폭탄 무한 PL1
+:punishrk:00000000:FF8EB5:000000F0:FFFFFFFF:무적 PL1
+:punishrk:81000000:FF8ECE:000000FE:00FF0037:Infinite Weapon on Pickup PL1:If you pick up the objects, they will become almost indestructable.
+:punishrk:60000000:000000:00000000:00000000:
+:punishrk:00000000:FF8F9F:00000088:FFFFFFFF:에너지 무한 PL2
+:punishrk:00000000:FF5BCB:00000009:FFFFFFFF:폭탄 무한 PL2
+:punishrk:00000000:FF5BA5:00000003:FFFFFFFF:생명 무한 PL2
+:punishrk:00000000:FF8FB5:000000F0:FFFFFFFF:무적 PL2
+:punishrk:81000000:FF8FCE:000000FE:00FF0037:Infinite Weapon on Pickup PL2:If you pick up the objects, they will become almost indestructable.
+
+
+
+:fatfury2k:00000000:10092A:00000099:FFFFFFFF:시간 무한
+:fatfury2k:00000001:10092A:00000000:FFFFFFFF:Finish Round Now!
+:fatfury2k:20800000:01A3F7:00000002:FFFFFFFF:Always Enable Special Move
+:fatfury2k:60000000:000000:00000000:00000000:
+:fatfury2k:00000000:1003CB:00000060:FFFFFFFF:에너지 무한 PL1
+:fatfury2k:00000001:1003CB:00000000:FFFFFFFF:Drain all Energy Now! PL1
+:fatfury2k:62000001:000000:00000000:00000000:Select Character PL1:Free player selection - Use on the selection screen. If it doesn't work, then press F3 in order to reset the machine.
+:fatfury2k:00010001:102693:00000009:FFFFFFFF:Billy Kane
+:fatfury2k:00010001:102693:0000000A:FFFFFFFF:Axel Hawk
+:fatfury2k:00010001:102693:0000000B:FFFFFFFF:Laurence Blood
+:fatfury2k:00010001:102693:0000000C:FFFFFFFF:Wolfgang Krauser
+:fatfury2k:60000000:000000:00000000:00000000:
+:fatfury2k:00000000:1004CB:00000060:FFFFFFFF:에너지 무한 PL2
+:fatfury2k:00000001:1004CB:00000000:FFFFFFFF:Drain all Energy Now! PL2
+:fatfury2k:62000001:000000:00000000:00000000:Select Character PL2:Free player selection - Use on the selection screen. If it doesn't work, then press F3 in order to reset the machine.
+:fatfury2k:00010001:102793:00000009:FFFFFFFF:Billy Kane
+:fatfury2k:00010001:102793:0000000A:FFFFFFFF:Axel Hawk
+:fatfury2k:00010001:102793:0000000B:FFFFFFFF:Laurence Blood
+:fatfury2k:00010001:102793:0000000C:FFFFFFFF:Wolfgang Krauser
+:fatfury2k:60000000:000000:00000000:00000000:
+:fatfury2k:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:fatfury2k:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:fatfury2k:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:fatfury2k:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:fatfury2k:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:fatfury2k:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:fatfury2k:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:fatfury2k:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:fatfury2k:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:garouk:00000000:107490:00000099:FFFFFFFF:시간 무한
+:garouk:00000001:107490:00000000:FFFFFFFF:Finish this Round Now!
+:garouk:20900000:027F9C:00004E71:FFFFFFFF:Always have Easy Supers
+:garouk:20910000:04CEDE:00004E71:FFFFFFFF:Always have Easy Supers (2/2):Debug Dip 2-1 is on the first bit of 10E001 but a RAM cheat has no effect ingame
+:garouk:00000001:107439:00000008:FFFFFFFF:Current 일반 Level is Final Level Now!:일반 Mode
+:garouk:00000001:107439:0000000E:FFFFFFFF:Current Survival Level is Final Level Now!:Survival Mode
+:garouk:62000000:000000:00000000:00000000:Select Backdrop
+:garouk:00010000:107435:00000000:FFFFFFFF:Freight Express:Terry Bogard
+:garouk:00010000:107435:00000001:FFFFFFFF:Live House 'Old Line':Rock Howard
+:garouk:00010000:107435:00000002:FFFFFFFF:Oriental Casino 'Woo':Kim Dong Hwan
+:garouk:00010000:107435:00000003:FFFFFFFF:Yok Chong Market:Kim Jae Hoon
+:garouk:00010000:107435:00000004:FFFFFFFF:Philantrophy Belfry:Hotaru Futaba
+:garouk:00010000:107435:00000005:FFFFFFFF:Barbaroi Falls:Gato
+:garouk:00010000:107435:00000006:FFFFFFFF:Blue Wave Harbor:Bonne Jenet
+:garouk:00010000:107435:00000007:FFFFFFFF:Sarah Forest:Khushnood Butt
+:garouk:00010000:107435:00000008:FFFFFFFF:5th Ave. and 2nd St.:Hokutomaru
+:garouk:00010000:107435:00000009:FFFFFFFF:Slam 'Free Field':Freeman
+:garouk:00010000:107435:0000000A:FFFFFFFF:Universal Arena:Tizoc
+:garouk:00010000:107435:0000000B:FFFFFFFF:S.S.P. Maneuver Field:Kevin Rian
+:garouk:00010000:107435:0000000C:FFFFFFFF:(Mansion Basement):Grant
+:garouk:00010000:107435:0000000D:FFFFFFFF:(Mansion):Kain R. Heinlein
+:garouk:00800000:1041D9:00000001:FFFFFFFF:Enable Survival Mode
+:garouk:60000000:000000:00000000:00000000:
+:garouk:00000000:10E008:00000009:FFFFFFFF:동전 무한 PL1:Home version
+:garouk:00000000:10048E:00000078:FFFFFFFF:에너지 무한 PL1
+:garouk:00000001:10048E:00000000:FFFFFFFF:Drain All Energy Now! PL1
+:garouk:00000000:1004BE:00000080:FFFFFFFF:파워 무제한 PL1
+:garouk:00000001:1004BE:00000000:FFFFFFFF:Drain All Power Now! PL1
+:garouk:62000000:000000:00000000:00000000:Select Character PL1
+:garouk:00010000:10742B:00000000:FFFFFFFF:Terry Bogard
+:garouk:00010000:10742B:00000001:FFFFFFFF:Rock Howard
+:garouk:00010000:10742B:00000002:FFFFFFFF:Kim Dong Hwan
+:garouk:00010000:10742B:00000003:FFFFFFFF:Kim Jae Hoon
+:garouk:00010000:10742B:00000004:FFFFFFFF:Hotaru Futaba
+:garouk:00010000:10742B:00000005:FFFFFFFF:Gato
+:garouk:00010000:10742B:00000006:FFFFFFFF:Bonne Jenet
+:garouk:00010000:10742B:00000007:FFFFFFFF:Khushnood Butt
+:garouk:00010000:10742B:00000008:FFFFFFFF:Hokutomaru
+:garouk:00010000:10742B:00000009:FFFFFFFF:Freeman
+:garouk:00010000:10742B:0000000A:FFFFFFFF:Tizoc
+:garouk:00010000:10742B:0000000B:FFFFFFFF:Kevin Rian
+:garouk:00010000:10742B:0000000C:FFFFFFFF:Grant
+:garouk:00010000:10742B:0000000D:FFFFFFFF:Kain R. Heinlein
+:garouk:62000000:000000:00000000:00000000:Select Character Colour PL1
+:garouk:00010000:107432:00000000:FFFFFFFF:A colour
+:garouk:00010000:107432:00000001:FFFFFFFF:B colour
+:garouk:00010000:107432:00000002:FFFFFFFF:C colour
+:garouk:00010000:107432:00000003:FFFFFFFF:D colour
+:garouk:00000100:107474:00000002:FFFFFFFF:Select Rounds Won PL1
+:garouk:62000000:000000:00000000:00000000:Select TOP Bar Length PL1:Works only when player is NOT CPU controlled
+:garouk:00010000:1074C2:00000000:FFFFFFFF:5 chunks
+:garouk:00010000:1074C2:00000001:FFFFFFFF:3 chunks
+:garouk:00010000:1074C2:00000002:FFFFFFFF:1 chunk
+:garouk:00010000:1074C2:00000003:FFFFFFFF:Entire Life Bar
+:garouk:00000100:1074C3:0000000E:FFFFFFFF:Select Leftmost TOP Chunk PL1:Works only when player is NOT CPU controlled
+:garouk:60000000:000000:00000000:00000000:
+:garouk:00000000:10E009:00000009:FFFFFFFF:동전 무한 PL2:Home version
+:garouk:00000000:10058E:00000078:FFFFFFFF:에너지 무한 PL2
+:garouk:00000001:10058E:00000000:FFFFFFFF:Drain All Energy Now! PL2
+:garouk:00000000:1005BE:00000080:FFFFFFFF:파워 무제한 PL2
+:garouk:00000001:1005BE:00000000:FFFFFFFF:Drain All Power Now! PL2
+:garouk:62000000:000000:00000000:00000000:Select Character PL2
+:garouk:00010000:10742D:00000000:FFFFFFFF:Terry Bogard
+:garouk:00010000:10742D:00000001:FFFFFFFF:Rock Howard
+:garouk:00010000:10742D:00000002:FFFFFFFF:Kim Dong Hwan
+:garouk:00010000:10742D:00000003:FFFFFFFF:Kim Jae Hoon
+:garouk:00010000:10742D:00000004:FFFFFFFF:Hotaru Futaba
+:garouk:00010000:10742D:00000005:FFFFFFFF:Gato
+:garouk:00010000:10742D:00000006:FFFFFFFF:Bonne Jenet
+:garouk:00010000:10742D:00000007:FFFFFFFF:Khushnood Butt
+:garouk:00010000:10742D:00000008:FFFFFFFF:Hokutomaru
+:garouk:00010000:10742D:00000009:FFFFFFFF:Freeman
+:garouk:00010000:10742D:0000000A:FFFFFFFF:Tizoc
+:garouk:00010000:10742D:0000000B:FFFFFFFF:Kevin Rian
+:garouk:00010000:10742D:0000000C:FFFFFFFF:Grant
+:garouk:00010000:10742D:0000000D:FFFFFFFF:Kain R. Heinlein
+:garouk:62000000:000000:00000000:00000000:Select Character Colour PL2
+:garouk:00010000:107433:00000000:FFFFFFFF:A colour
+:garouk:00010000:107433:00000001:FFFFFFFF:B colour
+:garouk:00010000:107433:00000002:FFFFFFFF:C colour
+:garouk:00010000:107433:00000003:FFFFFFFF:D colour
+:garouk:00000100:107475:00000002:FFFFFFFF:Select Rounds Won PL2
+:garouk:62000000:000000:00000000:00000000:Select TOP Bar Length PL2:Works only when player is NOT CPU controlled
+:garouk:00010000:1074C4:00000000:FFFFFFFF:5 chunks
+:garouk:00010000:1074C4:00000001:FFFFFFFF:3 chunks
+:garouk:00010000:1074C4:00000002:FFFFFFFF:1 chunk
+:garouk:00010000:1074C4:00000003:FFFFFFFF:Entire Life Bar
+:garouk:00000100:1074C5:0000000E:FFFFFFFF:Select Leftmost TOP Chunk PL2:Works only when player is NOT CPU controlled
+:garouk:60000000:000000:00000000:00000000:
+:garouk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:garouk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:garouk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:garouk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:garouk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:garouk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:garouk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:garouk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:garouk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:fatfurspk:00000000:10092A:00000099:FFFFFFFF:시간 무한
+:fatfurspk:00000001:10092A:00000000:FFFFFFFF:Finish Round Now!
+:fatfurspk:20800000:024103:00000002:FFFFFFFF:Always Enable Special Move
+:fatfurspk:00000000:10E063:000000FF:FFFFFFFF:Unlock Ryo Sakazaki
+:fatfurspk:20910000:02094E:00004E71:FFFFFFFF:Unlock Ryo Sakazaki (3/3)
+:fatfurspk:20910000:020BD2:00004E71:FFFFFFFF:Unlock Ryo Sakazaki (2/3)
+:fatfurspk:60000000:000000:00000000:00000000:
+:fatfurspk:00000000:10049A:00000060:FFFFFFFF:에너지 무한 PL1
+:fatfurspk:00000001:10049A:00000000:FFFFFFFF:Drain all Energy Now! PL1
+:fatfurspk:00000000:10FD96:00000000:00000010:화력 속도 - Quick Punch PL1
+:fatfurspk:00000000:10FD96:00000000:00000020:화력 속도 - Quick Kick PL1
+:fatfurspk:00000000:10FD96:00000000:00000040:화력 속도 - Strong Punch PL1
+:fatfurspk:00000000:10FD96:00000000:00000080:화력 속도 - Strong Kick PL1
+:fatfurspk:00000001:101E93:00000010:FFFFFFFF:Play with Ryo Sakazaki PL1:Free player selection - Use it on the selection screen.
+:fatfurspk:60000000:000000:00000000:00000000:
+:fatfurspk:00000000:10059A:00000060:FFFFFFFF:에너지 무한 PL2
+:fatfurspk:00000001:10059A:00000000:FFFFFFFF:Drain all Energy Now! PL2
+:fatfurspk:00000000:10FD9C:00000000:00000010:화력 속도 - Quick Punch PL2
+:fatfurspk:00000000:10FD9C:00000000:00000020:화력 속도 - Quick Kick PL2
+:fatfurspk:00000000:10FD9C:00000000:00000040:화력 속도 - Strong Punch PL2
+:fatfurspk:00000000:10FD9C:00000000:00000080:화력 속도 - Strong Kick PL2
+:fatfurspk:00000001:101F93:00000010:FFFFFFFF:Play with Ryo Sakazaki PL2:Free player selection - Use it on the selection screen.
+:fatfurspk:60000000:000000:00000000:00000000:
+:fatfurspk:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:fatfurspk:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:fatfurspk:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:fatfurspk:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:fatfurspk:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:fatfurspk:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:fatfurspk:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:fatfurspk:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:fatfurspk:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:fatfury3k:00000000:105680:0000009A:FFFFFFFF:시간 무한
+:fatfury3k:00000001:105680:00000000:FFFFFFFF:Finish this Round Now!
+:fatfury3k:62000000:000000:00000000:00000000:Select Perm. Background:Name in brackets is the fighter you'd 일반ly encounter on that Level
+:fatfury3k:00010000:105627:00000001:FFFFFFFF:Sound Beach (Terry)
+:fatfury3k:00010000:105627:00000002:FFFFFFFF:Howard Arena (Andy)
+:fatfury3k:00010000:105627:00000003:FFFFFFFF:National Park (Joe)
+:fatfury3k:00010000:105627:00000004:FFFFFFFF:East Side Park (Mai)
+:fatfury3k:00010000:105627:00000005:FFFFFFFF:Geese Tower (Geese)
+:fatfury3k:00010000:105627:00000006:FFFFFFFF:Dream Amusement Park (Sokaku)
+:fatfury3k:00010000:105627:00000007:FFFFFFFF:Pao Pao Cafe 2 (Bob)
+:fatfury3k:00010000:105627:00000008:FFFFFFFF:Port Town (Hon-Fu)
+:fatfury3k:00010000:105627:00000009:FFFFFFFF:Pioneer Plaza (Mary)
+:fatfury3k:00010000:105627:0000000A:FFFFFFFF:South Town Airport (Franco)
+:fatfury3k:00010000:105627:0000000B:FFFFFFFF:South Station (Yamazaki)
+:fatfury3k:00010000:105627:0000000C:FFFFFFFF:Delta Park (???)
+:fatfury3k:00010000:105627:0000000D:FFFFFFFF:Delta Park(2) (???)
+:fatfury3k:00010000:105627:0000000E:FFFFFFFF:Delta Park(3) (Chonshu, Chonrei)
+:fatfury3k:00010000:105627:0000000F:FFFFFFFF:Geese Tower(2)
+:fatfury3k:60000000:000000:00000000:00000000:---------------------------------------------
+:fatfury3k:60000000:000000:00000000:00000000:Once you activate Easy Supers you can do
+:fatfury3k:60000000:000000:00000000:00000000:all the SDMs of any character (even the
+:fatfury3k:60000000:000000:00000000:00000000:hidden SDMs), all you have to do usually is
+:fatfury3k:60000000:000000:00000000:00000000:during play press down, down + A (DM),
+:fatfury3k:60000000:000000:00000000:00000000:down, down + C (SDM), some characters that
+:fatfury3k:60000000:000000:00000000:00000000:have more than 2 SDMs can use the B or D
+:fatfury3k:60000000:000000:00000000:00000000:buttons as well.
+:fatfury3k:60000000:000000:00000000:00000000:---------------------------------------------
+:fatfury3k:00000000:10E001:00000001:FFFFFFFF:Always have Easy Supers
+:fatfury3k:60000000:000000:00000000:00000000:
+:fatfury3k:00000000:100489:00000078:FFFFFFFF:에너지 무한 PL1
+:fatfury3k:00000001:100489:00000000:FFFFFFFF:Drain all Energy Now! PL1
+:fatfury3k:00000000:108A84:000000FF:FFFFFFFF:Eliminate SDM Conditions PL1:Should allow you to use SDMs in the same manner as DMs (ie. low life only, no special conditions)
+:fatfury3k:20B10000:044B46:4E714E71:FFFFFFFF:Eliminate SDM Conditions PL1 (2/4)
+:fatfury3k:20B10000:031D24:4E714E71:FFFFFFFF:Eliminate SDM Conditions PL1 (3/4)
+:fatfury3k:00010000:108A86:000000FF:FFFFFFFF:Eliminate SDM Conditions PL1 (4/4)
+:fatfury3k:00000000:1004A2:00000000:FFFFFFFF:Infinite SDMs PL1:This will make it so that you can do your SDM more than once a round
+:fatfury3k:00000001:105666:00000002:FFFFFFFF:Rounds Won = 2  Now! PL1
+:fatfury3k:62000000:000000:00000000:00000000:Select Character PL1:Free player selection, Use between rounds
+:fatfury3k:00010000:10561D:00000001:FFFFFFFF:Terry Bogard
+:fatfury3k:00010000:10561D:00000002:FFFFFFFF:Andy Bogard
+:fatfury3k:00010000:10561D:00000003:FFFFFFFF:Joe Higashi
+:fatfury3k:00010000:10561D:00000004:FFFFFFFF:Mai Shiranui
+:fatfury3k:00010000:10561D:00000005:FFFFFFFF:Geese Howard
+:fatfury3k:00010000:10561D:00000006:FFFFFFFF:Sokaku
+:fatfury3k:00010000:10561D:00000007:FFFFFFFF:Bob Wilson
+:fatfury3k:00010000:10561D:00000008:FFFFFFFF:Hon Fu
+:fatfury3k:00010000:10561D:00000009:FFFFFFFF:Blue Mary
+:fatfury3k:00010000:10561D:0000000A:FFFFFFFF:Franco Bash
+:fatfury3k:00010000:10561D:0000000B:FFFFFFFF:Ryuji Yamazaki
+:fatfury3k:00010000:10561D:0000000C:FFFFFFFF:Jin Chonrei
+:fatfury3k:00010000:10561D:0000000D:FFFFFFFF:Jin Chonshu
+:fatfury3k:62000000:000000:00000000:00000000:Select Colour PL1
+:fatfury3k:00010000:105624:00000000:FFFFFFFF:A colour
+:fatfury3k:00010000:105624:00000001:FFFFFFFF:D colour
+:fatfury3k:60000000:000000:00000000:00000000:
+:fatfury3k:00000000:100589:00000078:FFFFFFFF:에너지 무한 PL2
+:fatfury3k:00000001:100589:00000000:FFFFFFFF:Drain all Energy Now! PL2
+:fatfury3k:00000000:108A85:000000FF:FFFFFFFF:Eliminate SDM Conditions PL2:Should allow you to use SDMs in the same manner as DMs (ie. low life only, no special conditions)
+:fatfury3k:20B10000:044B46:4E714E71:FFFFFFFF:Eliminate SDM Conditions PL2 (2/4)
+:fatfury3k:20B10000:031D24:4E714E71:FFFFFFFF:Eliminate SDM Conditions PL2 (3/4)
+:fatfury3k:00010000:108A87:000000FF:FFFFFFFF:Eliminate SDM Conditions PL2 (4/4)
+:fatfury3k:00000000:1005A2:00000000:FFFFFFFF:Infinite SDMs PL2:This will make it so that you can do your SDM more than once a round
+:fatfury3k:00000001:105667:00000002:FFFFFFFF:Rounds Won = 2  Now! PL2
+:fatfury3k:62000000:000000:00000000:00000000:Select Character PL2:Free player selection, Use between rounds
+:fatfury3k:00010000:10561F:00000001:FFFFFFFF:Terry Bogard
+:fatfury3k:00010000:10561F:00000002:FFFFFFFF:Andy Bogard
+:fatfury3k:00010000:10561F:00000003:FFFFFFFF:Joe Higashi
+:fatfury3k:00010000:10561F:00000004:FFFFFFFF:Mai Shiranui
+:fatfury3k:00010000:10561F:00000005:FFFFFFFF:Geese Howard
+:fatfury3k:00010000:10561F:00000006:FFFFFFFF:Sokaku
+:fatfury3k:00010000:10561F:00000007:FFFFFFFF:Bob Wilson
+:fatfury3k:00010000:10561F:00000008:FFFFFFFF:Hon Fu
+:fatfury3k:00010000:10561F:00000009:FFFFFFFF:Blue Mary
+:fatfury3k:00010000:10561F:0000000A:FFFFFFFF:Franco Bash
+:fatfury3k:00010000:10561F:0000000B:FFFFFFFF:Ryuji Yamazaki
+:fatfury3k:00010000:10561F:0000000C:FFFFFFFF:Jin Chonrei
+:fatfury3k:00010000:10561F:0000000D:FFFFFFFF:Jin Chonshu
+:fatfury3k:62000000:000000:00000000:00000000:Select Colour PL2
+:fatfury3k:00010000:105625:00000000:FFFFFFFF:A colour
+:fatfury3k:00010000:105625:00000001:FFFFFFFF:D colour
+:fatfury3k:60000000:000000:00000000:00000000:
+:fatfury3k:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:fatfury3k:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:fatfury3k:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:fatfury3k:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:fatfury3k:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:fatfury3k:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:fatfury3k:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:fatfury3k:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:fatfury3k:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
+
+:rbffspeck:00000000:106AB4:0000009A:FFFFFFFF:시간 무한
+:rbffspeck:00000001:106AB4:00000000:FFFFFFFF:Finish this Round Now!
+:rbffspeck:62000000:000000:00000000:00000000:Select Stage
+:rbffspeck:00010000:106A31:00000001:FFFFFFFF:Japan:Andy, Mai, Sokaku
+:rbffspeck:00010000:106A31:00000002:FFFFFFFF:Korea:Kim, Chonshu
+:rbffspeck:00010000:106A31:00000003:FFFFFFFF:Brazil:Joe, Bob, Franco
+:rbffspeck:00010000:106A31:00000004:FFFFFFFF:Hong Kong:Tung, Chonrei
+:rbffspeck:00010000:106A31:00000005:FFFFFFFF:China:Yamazaki, Hon-Fu, Cheng
+:rbffspeck:00010000:106A31:00000006:FFFFFFFF:USA (Beach):Terry, Mary, Duck
+:rbffspeck:00010000:106A31:00000007:FFFFFFFF:USA (Stage):Billy
+:rbffspeck:00010000:106A31:00000008:FFFFFFFF:Germany (Day):Laurence
+:rbffspeck:00010000:106A31:00000009:FFFFFFFF:Germany (Night):Krauser
+:rbffspeck:00010000:106A31:0000000A:FFFFFFFF:Geese Tower:Geese
+:rbffspeck:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:rbffspeck:60000000:000000:00000000:00000000:The Goto Boss Fight Screen should be activated on the character
+:rbffspeck:60000000:000000:00000000:00000000:selection screen. If you activate it during any fight however
+:rbffspeck:60000000:000000:00000000:00000000:you will see the ENDING after you win that match!
+:rbffspeck:60000000:000000:00000000:00000000:-----------------------------------------------------------------
+:rbffspeck:00000001:106A35:00000009:FFFFFFFF:Goto Boss (Krauser) Now!
+:rbffspeck:00000001:106A35:0000000A:FFFFFFFF:Goto Secret Boss (Geese) Now!
+:rbffspeck:60000000:000000:00000000:00000000:---------------------------------------------------------------
+:rbffspeck:60000000:000000:00000000:00000000:Once you activate Easy Supers you can do all the SDMs of any
+:rbffspeck:60000000:000000:00000000:00000000:character (even the hidden SDMs), all you have to do usually
+:rbffspeck:60000000:000000:00000000:00000000:is during play press down,down + A (DM),down,down + C (SDM),
+:rbffspeck:60000000:000000:00000000:00000000:some characters that have more than 2 SDMs can use the B or D
+:rbffspeck:60000000:000000:00000000:00000000:buttons as well.
+:rbffspeck:60000000:000000:00000000:00000000:---------------------------------------------------------------
+:rbffspeck:00000000:10E001:00000001:FFFFFFFF:Always have Easy Supers:Debug DIP
+:rbffspeck:60000000:000000:00000000:00000000:
+:rbffspeck:00000000:10048B:000000C0:FFFFFFFF:에너지 무한 PL1
+:rbffspeck:00000001:10048B:00000000:FFFFFFFF:Drain All Energy Now! PL1
+:rbffspeck:00000000:1004BC:0000003C:FFFFFFFF:파워 무제한 PL1
+:rbffspeck:00000000:10046F:00000000:FFFFFFFF:Quick Action PL1
+:rbffspeck:00000000:102588:0000000A:FFFFFFFF:Infinite Select Time PL1
+:rbffspeck:62000000:000000:00000000:00000000:Select Character PL1:Free player selection, use anytime after the selection screen (may cause some glitches).
+:rbffspeck:00010001:100411:00000001:FFFFFFFF:Terry B.
+:rbffspeck:00018001:106A25:00000001:FFFFFFFF:Terry B. (2/2):1st=Sprite, 2nd=Memory
+:rbffspeck:00010001:100411:00000002:FFFFFFFF:Andy B.
+:rbffspeck:00018001:106A25:00000002:FFFFFFFF:Andy B. (2/2)
+:rbffspeck:00010001:100411:00000003:FFFFFFFF:Joe H.
+:rbffspeck:00018001:106A25:00000003:FFFFFFFF:Joe H. (2/2)
+:rbffspeck:00010001:100411:00000004:FFFFFFFF:Mai S.
+:rbffspeck:00018001:106A25:00000004:FFFFFFFF:Mai S. (2/2)
+:rbffspeck:00010001:100411:00000005:FFFFFFFF:#Geese Howard#
+:rbffspeck:00018001:106A25:00000005:FFFFFFFF:#Geese Howard# (2/2)
+:rbffspeck:00010001:100411:00000006:FFFFFFFF:Sokaku M.
+:rbffspeck:00018001:106A25:00000006:FFFFFFFF:Sokaku M. (2/2)
+:rbffspeck:00010001:100411:00000007:FFFFFFFF:Bob Wilson
+:rbffspeck:00018001:106A25:00000007:FFFFFFFF:Bob Wilson (2/2)
+:rbffspeck:00010001:100411:00000008:FFFFFFFF:Hon Fu
+:rbffspeck:00018001:106A25:00000008:FFFFFFFF:Hon Fu (2/2)
+:rbffspeck:00010001:100411:00000009:FFFFFFFF:Blue Mary
+:rbffspeck:00018001:106A25:00000009:FFFFFFFF:Blue Mary (2/2)
+:rbffspeck:00010001:100411:0000000A:FFFFFFFF:Franco Bash
+:rbffspeck:00018001:106A25:0000000A:FFFFFFFF:Franco Bash (2/2)
+:rbffspeck:00010001:100411:0000000B:FFFFFFFF:R. Yamazaki
+:rbffspeck:00018001:106A25:0000000B:FFFFFFFF:R. Yamazaki (2/2)
+:rbffspeck:00010001:100411:0000000C:FFFFFFFF:Jin Chonshu
+:rbffspeck:00018001:106A25:0000000C:FFFFFFFF:Jin Chonshu (2/2)
+:rbffspeck:00010001:100411:0000000D:FFFFFFFF:Jin Chonrei
+:rbffspeck:00018001:106A25:0000000D:FFFFFFFF:Jin Chonrei (2/2)
+:rbffspeck:00010001:100411:0000000E:FFFFFFFF:Duck King
+:rbffspeck:00018001:106A25:0000000E:FFFFFFFF:Duck King (2/2)
+:rbffspeck:00010001:100411:0000000F:FFFFFFFF:Kim Kaphwan
+:rbffspeck:00018001:106A25:0000000F:FFFFFFFF:Kim Kaphwan (2/2)
+:rbffspeck:00010001:100411:00000010:FFFFFFFF:Billy Kane
+:rbffspeck:00018001:106A25:00000010:FFFFFFFF:Billy Kane (2/2)
+:rbffspeck:00010001:100411:00000011:FFFFFFFF:Cheng S.
+:rbffspeck:00018001:106A25:00000011:FFFFFFFF:Cheng S. (2/2)
+:rbffspeck:00010001:100411:00000012:FFFFFFFF:Tung Fu Rue
+:rbffspeck:00018001:106A25:00000012:FFFFFFFF:Tung Fu Rue (2/2)
+:rbffspeck:00010001:100411:00000013:FFFFFFFF:Laurence B.
+:rbffspeck:00018001:106A25:00000013:FFFFFFFF:Laurence B. (2/2)
+:rbffspeck:00010001:100411:00000014:FFFFFFFF:#W. Krauser#
+:rbffspeck:00018001:106A25:00000014:FFFFFFFF:#W. Krauser# (2/2)
+:rbffspeck:00800000:1004D8:00000081:FFFFFFFF:Activate #EX# Flag PL1:This code only works with the following characters- Andy Bogard, Billy Kane, Blue Mary, Tung Fu Rue
+:rbffspeck:62000000:000000:00000000:00000000:Select Control Type PL1
+:rbffspeck:00010000:100412:00000000:FFFFFFFF:-NOTHING-
+:rbffspeck:00010000:100412:00000001:FFFFFFFF:1P (Human)
+:rbffspeck:00010000:100412:00000002:FFFFFFFF:2P (Human)
+:rbffspeck:00010000:100412:00000003:FFFFFFFF:CPU (AutoPlay)
+:rbffspeck:62000000:000000:00000000:00000000:Select Colour PL1
+:rbffspeck:00010000:106A2C:00000000:FFFFFFFF:A Colour
+:rbffspeck:00010000:106A2C:00000001:FFFFFFFF:D Colour
+:rbffspeck:60000000:000000:00000000:00000000:
+:rbffspeck:00000000:10058B:000000C0:FFFFFFFF:에너지 무한 PL2
+:rbffspeck:00000001:10058B:00000000:FFFFFFFF:Drain All Energy Now! PL2
+:rbffspeck:00000000:1005BC:0000003C:FFFFFFFF:파워 무제한 PL2
+:rbffspeck:00000000:10056F:00000000:FFFFFFFF:Quick Action PL2
+:rbffspeck:00000000:102688:0000000A:FFFFFFFF:Infinite Select Time PL2
+:rbffspeck:62000000:000000:00000000:00000000:Select Character PL2:Free player selection, use anytime after the selection screen (may cause some glitches).
+:rbffspeck:00010001:100511:00000001:FFFFFFFF:Terry B.
+:rbffspeck:00018001:106B25:00000001:FFFFFFFF:Terry B. (2/2):1st=Sprite, 2nd=Memory
+:rbffspeck:00010001:100511:00000002:FFFFFFFF:Andy B.
+:rbffspeck:00018001:106B25:00000002:FFFFFFFF:Andy B. (2/2)
+:rbffspeck:00010001:100511:00000003:FFFFFFFF:Joe H.
+:rbffspeck:00018001:106B25:00000003:FFFFFFFF:Joe H. (2/2)
+:rbffspeck:00010001:100511:00000004:FFFFFFFF:Mai S.
+:rbffspeck:00018001:106B25:00000004:FFFFFFFF:Mai S. (2/2)
+:rbffspeck:00010001:100511:00000005:FFFFFFFF:#Geese Howard#
+:rbffspeck:00018001:106B25:00000005:FFFFFFFF:#Geese Howard# (2/2)
+:rbffspeck:00010001:100511:00000006:FFFFFFFF:Sokaku M.
+:rbffspeck:00018001:106B25:00000006:FFFFFFFF:Sokaku M. (2/2)
+:rbffspeck:00010001:100511:00000007:FFFFFFFF:Bob Wilson
+:rbffspeck:00018001:106B25:00000007:FFFFFFFF:Bob Wilson (2/2)
+:rbffspeck:00010001:100511:00000008:FFFFFFFF:Hon Fu
+:rbffspeck:00018001:106B25:00000008:FFFFFFFF:Hon Fu (2/2)
+:rbffspeck:00010001:100511:00000009:FFFFFFFF:Blue Mary
+:rbffspeck:00018001:106B25:00000009:FFFFFFFF:Blue Mary (2/2)
+:rbffspeck:00010001:100511:0000000A:FFFFFFFF:Franco Bash
+:rbffspeck:00018001:106B25:0000000A:FFFFFFFF:Franco Bash (2/2)
+:rbffspeck:00010001:100511:0000000B:FFFFFFFF:R. Yamazaki
+:rbffspeck:00018001:106B25:0000000B:FFFFFFFF:R. Yamazaki (2/2)
+:rbffspeck:00010001:100511:0000000C:FFFFFFFF:Jin Chonshu
+:rbffspeck:00018001:106B25:0000000C:FFFFFFFF:Jin Chonshu (2/2)
+:rbffspeck:00010001:100511:0000000D:FFFFFFFF:Jin Chonrei
+:rbffspeck:00018001:106B25:0000000D:FFFFFFFF:Jin Chonrei (2/2)
+:rbffspeck:00010001:100511:0000000E:FFFFFFFF:Duck King
+:rbffspeck:00018001:106B25:0000000E:FFFFFFFF:Duck King (2/2)
+:rbffspeck:00010001:100511:0000000F:FFFFFFFF:Kim Kaphwan
+:rbffspeck:00018001:106B25:0000000F:FFFFFFFF:Kim Kaphwan (2/2)
+:rbffspeck:00010001:100511:00000010:FFFFFFFF:Billy Kane
+:rbffspeck:00018001:106B25:00000010:FFFFFFFF:Billy Kane (2/2)
+:rbffspeck:00010001:100511:00000011:FFFFFFFF:Cheng S.
+:rbffspeck:00018001:106B25:00000011:FFFFFFFF:Cheng S. (2/2)
+:rbffspeck:00010001:100511:00000012:FFFFFFFF:Tung Fu Rue
+:rbffspeck:00018001:106B25:00000012:FFFFFFFF:Tung Fu Rue (2/2)
+:rbffspeck:00010001:100511:00000013:FFFFFFFF:Laurence B.
+:rbffspeck:00018001:106B25:00000013:FFFFFFFF:Laurence B. (2/2)
+:rbffspeck:00010001:100511:00000014:FFFFFFFF:#W. Krauser#
+:rbffspeck:00018001:106B25:00000014:FFFFFFFF:#W. Krauser# (2/2)
+:rbffspeck:00800000:1005D8:00000081:FFFFFFFF:Activate #EX# Flag PL2:This code only works with the following characters- Andy Bogard, Billy Kane, Blue Mary, Tung Fu Rue
+:rbffspeck:62000000:000000:00000000:00000000:Select Control Type PL2
+:rbffspeck:00010000:100512:00000000:FFFFFFFF:-NOTHING-
+:rbffspeck:00010000:100512:00000001:FFFFFFFF:1P (Human)
+:rbffspeck:00010000:100512:00000002:FFFFFFFF:2P (Human)
+:rbffspeck:00010000:100512:00000003:FFFFFFFF:CPU (AutoPlay)
+:rbffspeck:62000000:000000:00000000:00000000:Select Colour PL2
+:rbffspeck:00010000:106A2D:00000000:FFFFFFFF:A Colour
+:rbffspeck:00010000:106A2D:00000001:FFFFFFFF:D Colour
+:rbffspeck:60000000:000000:00000000:00000000:
+:rbffspeck:62000000:000000:00000000:00000000:Select Cartridge/NeoGeo Type:Use in conjuction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+:rbffspeck:00010000:10FD82:00000080:FFFFFFFF:Arcade (MVS)
+:rbffspeck:00010000:10FD82:00000000:FFFFFFFF:Home (NEOGEO)
+:rbffspeck:A0B80000:C1315C:6000EB08:51CFFFF2:Skip RAM/ROM Checks:Also allows a quicker start-up without the green screens. It's better to use together with Pre-Enable.:Euro + Japan-S2 BIOSs
+:rbffspeck:A0B90000:C1314E:6000EB16:51CFFFF2:Skip RAM/ROM Checks (2/6):Euro-S1 + Japan-S1 BIOSs
+:rbffspeck:A0B90000:C131E8:6000EA52:51CFFFF2:Skip RAM/ROM Checks (3/6):US BIOS
+:rbffspeck:A0B90000:C13184:6000EAB6:51CFFFF2:Skip RAM/ROM Checks (4/6):US-E BIOS
+:rbffspeck:A0B90000:C1212E:6000EB36:51CFFFF2:Skip RAM/ROM Checks (5/6):Asia BIOS
+:rbffspeck:A0B90000:C134FA:6000E892:51CFFFF2:Skip RAM/ROM Checks (6/6):Japan BIOS
+
+
