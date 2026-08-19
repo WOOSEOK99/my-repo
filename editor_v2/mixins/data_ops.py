@@ -320,7 +320,7 @@ class DataOpsMixin:
 
         # System 입력
         tk.Label(dialog, text="System:").grid(row=2, column=0, padx=10, pady=5, sticky="e")
-        system_combo = ttk.Combobox(dialog, values=["ekmame", "fbneo", "sfc", "md"], width=17)
+        system_combo = ttk.Combobox(dialog, values=["ekmame", "fbneo", "snes", "genesis","gba"], width=17)
         system_combo.grid(row=2, column=1, padx=10, pady=5, sticky="w")
         system_combo.set("ekmame")
 

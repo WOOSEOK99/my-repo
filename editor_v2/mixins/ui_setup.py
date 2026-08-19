@@ -131,7 +131,7 @@ class UiSetupMixin:
         self.entries["genre_en"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="system").grid(row=10, column=0, sticky="e", padx=2)
-        self.entries["system"] = ttk.Combobox(edit_frame, values=["ekmame", "fbneo", "sfc", "md"], width=35)
+        self.entries["system"] = ttk.Combobox(edit_frame, values=["ekmame", "fbneo", "snes", "genesis","gba"], width=35)
         self.entries["system"].grid(row=10, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="category").grid(row=11, column=0, sticky="e", padx=2)
