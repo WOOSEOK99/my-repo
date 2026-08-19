@@ -35297,10 +35297,10 @@
         "system": "ekmame",
         "category": "arcade"
     },
-    "[SFC]크로너트리거(k) v2.1": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/sfc/4267_[SFC]크로너트리거(k) v2.1_7497.bin",
-        "title": "크로노 트리거 플러스 v2.1 (k)",
-        "title_en": "Chrono Trigger plus v2.1 (k)",
+    "chronotrigger_plus_kr2.1": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/sfc/4466_chronotrigger_plus_kr2.1_9666.bin",
+        "title": "크로노 트리거 플러스 한글판(V2.1)",
+        "title_en": "Chronotrigger plus korean(v2.1)",
         "desc": "",
         "category": "console",
         "genre": "RPG",
