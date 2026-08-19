@@ -3,6 +3,7 @@ import os
 import tkinter as tk
 from tkinter import messagebox, filedialog, simpledialog, ttk
 import urllib.request
+import urllib.parse
 from io import BytesIO
 from PIL import Image, ImageTk
 
@@ -412,7 +413,8 @@ class UiSetupMixin:
     def load_image(self, key):
         """GitHub에서 이미지를 가져와서 UI 크기에 맞게 조절"""
         try:
-            img_url = f"{self.img_base}{key}.png"
+            encoded_key = urllib.parse.quote(key)
+            img_url = f"{self.img_base}{encoded_key}.png"
             with urllib.request.urlopen(img_url) as url:
                 img_data = url.read()
             
@@ -431,7 +433,8 @@ class UiSetupMixin:
     def load_marquee_image(self, key):
         """GitHub에서 마키 이미지를 가져와서 UI 크기에 맞게 조절"""
         try:
-            marquee_url = f"{self.marquee_base}{key}.png"
+            encoded_key = urllib.parse.quote(key)
+            marquee_url = f"{self.marquee_base}{encoded_key}.png"
             with urllib.request.urlopen(marquee_url) as url:
                 img_data = url.read()
             
