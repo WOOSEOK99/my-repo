@@ -130,19 +130,23 @@ class UiSetupMixin:
         self.entries["genre_en"].grid(row=9, column=1, sticky="ew", padx=5, pady=2)
 
         tk.Label(edit_frame, text="system").grid(row=10, column=0, sticky="e", padx=2)
-        self.entries["system"] = ttk.Combobox(edit_frame, values=["ekmame", "fbneo"], width=35)
+        self.entries["system"] = ttk.Combobox(edit_frame, values=["ekmame", "fbneo", "sfc", "md"], width=35)
         self.entries["system"].grid(row=10, column=1, sticky="ew", padx=5, pady=2)
 
-        # tk.Label(edit_frame, text="year").grid(row=11, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="category").grid(row=11, column=0, sticky="e", padx=2)
+        self.entries["category"] = ttk.Combobox(edit_frame, values=self.category_list if hasattr(self, 'category_list') else ["arcade", "console"], width=35)
+        self.entries["category"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
+
+        # tk.Label(edit_frame, text="year").grid(row=12, column=0, sticky="e", padx=2)
         self.entries["year"] = tk.Spinbox(edit_frame, from_=1980, to=2030, width=35)
-        # self.entries["year"].grid(row=11, column=1, sticky="ew", padx=5, pady=2)
+        # self.entries["year"].grid(row=12, column=1, sticky="ew", padx=5, pady=2)
 
         self.bool_vars["portrait"] = tk.BooleanVar()
-        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=11, column=1, sticky="w", padx=5, pady=2)
+        tk.Checkbutton(edit_frame, text="portrait", variable=self.bool_vars["portrait"]).grid(row=12, column=1, sticky="w", padx=5, pady=2)
 
-        tk.Label(edit_frame, text="buttons").grid(row=12, column=0, sticky="e", padx=2)
+        tk.Label(edit_frame, text="buttons").grid(row=13, column=0, sticky="e", padx=2)
         btn_chk_frame = tk.Frame(edit_frame)
-        btn_chk_frame.grid(row=12, column=1, sticky="w", padx=5, pady=2)
+        btn_chk_frame.grid(row=13, column=1, sticky="w", padx=5, pady=2)
         tk.Checkbutton(btn_chk_frame, text="2", variable=self.buttons_var, onvalue=2, offvalue=0).pack(side=tk.LEFT, padx=2)
         tk.Checkbutton(btn_chk_frame, text="4", variable=self.buttons_var, onvalue=4, offvalue=0).pack(side=tk.LEFT, padx=2)
         tk.Checkbutton(btn_chk_frame, text="6", variable=self.buttons_var, onvalue=6, offvalue=0).pack(side=tk.LEFT, padx=2)
@@ -347,7 +351,13 @@ class UiSetupMixin:
             # 입력된 값이 파일명뿐이라면 기본 경로를 앞에 붙임
             import os
             filename = os.path.basename(val)
-            full_url = f"{self.default_base}{filename}"
+            sys_val = self.entries.get("system")
+            sys_str = sys_val.get().strip() if sys_val else "ekmame"
+            if sys_str in ["ekmame", "fbneo"]:
+                prefix = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
+            else:
+                prefix = f"https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/{sys_str}/"
+            full_url = f"{prefix}{filename}"
             widget.delete(0, tk.END)
             widget.insert(0, full_url)
 

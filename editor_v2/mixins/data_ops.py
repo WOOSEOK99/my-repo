@@ -124,7 +124,12 @@ class DataOpsMixin:
             url_val = str(self.data[key].get("url", ""))
             if url_val and not url_val.startswith("http"):
                 filename = os.path.basename(url_val)
-                self.data[key]["url"] = f"{self.default_base}{filename}"
+                sys_val = str(self.data[key].get("system", "ekmame")).strip()
+                if sys_val in ["ekmame", "fbneo"]:
+                    prefix = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
+                else:
+                    prefix = f"https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/{sys_val}/"
+                self.data[key]["url"] = f"{prefix}{filename}"
 
         # 부모-자식 순서 유지
         ordered = {}
@@ -198,10 +203,6 @@ class DataOpsMixin:
 
         import os, random, shutil
 
-        dest_dir = os.path.join(self.base_dir, "files")
-        if not os.path.exists(dest_dir):
-            os.makedirs(dest_dir)
-
         linked_count = 0
         missing_files = []
 
@@ -219,11 +220,21 @@ class DataOpsMixin:
                 suffix = random.randint(1000, 9999)
                 
                 new_filename = f"{prefix}_{key}_{suffix}.bin"
+                
+                sys_val = str(self.data[key].get("system", "ekmame")).strip()
+                if sys_val in ["ekmame", "fbneo"]:
+                    dest_dir = os.path.join(self.base_dir, "files")
+                    url_prefix = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
+                else:
+                    dest_dir = os.path.join(self.base_dir, "konfiles", sys_val)
+                    url_prefix = f"https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/{sys_val}/"
+                os.makedirs(dest_dir, exist_ok=True)
+                
                 dest_path = os.path.join(dest_dir, new_filename)
                 
                 try:
                     shutil.copy2(found_file, dest_path)
-                    self.data[key]["url"] = f"{self.default_base}{new_filename}"
+                    self.data[key]["url"] = f"{url_prefix}{new_filename}"
                     linked_count += 1
                 except Exception as e:
                     missing_files.append(f"{key} (복사실패: {e})")
@@ -307,6 +318,12 @@ class DataOpsMixin:
         parent_entry = tk.Entry(dialog, width=20)
         parent_entry.grid(row=1, column=1, padx=10, pady=5, sticky="w")
 
+        # System 입력
+        tk.Label(dialog, text="System:").grid(row=2, column=0, padx=10, pady=5, sticky="e")
+        system_combo = ttk.Combobox(dialog, values=["ekmame", "fbneo", "sfc", "md"], width=17)
+        system_combo.grid(row=2, column=1, padx=10, pady=5, sticky="w")
+        system_combo.set("ekmame")
+
         # 게임파일 추가 버튼
         def pick_game_file():
             source_file = filedialog.askopenfilename(title="게임 파일 선택")
@@ -321,10 +338,13 @@ class DataOpsMixin:
                 suffix = random.randint(1000, 9999)
                 new_filename = f"{prefix}_{name_only}_{suffix}.bin"
                 
-                # files 폴더가 없으면 생성
-                dest_dir = os.path.join(self.base_dir, "files")
-                if not os.path.exists(dest_dir):
-                    os.makedirs(dest_dir)
+                # system 에 따른 경로
+                sys_val = system_combo.get().strip() or "ekmame"
+                if sys_val in ["ekmame", "fbneo"]:
+                    dest_dir = os.path.join(self.base_dir, "files")
+                else:
+                    dest_dir = os.path.join(self.base_dir, "konfiles", sys_val)
+                os.makedirs(dest_dir, exist_ok=True)
                 
                 dest_path = os.path.join(dest_dir, new_filename)
                 shutil.copy2(source_file, dest_path)
@@ -337,10 +357,10 @@ class DataOpsMixin:
                 
                 messagebox.showinfo("성공", f"파일이 복사되었습니다: {new_filename}", parent=dialog)
 
-        tk.Button(dialog, text="게임파일 추가", command=pick_game_file).grid(row=2, column=0, padx=10, pady=5, sticky="e")
-        tk.Label(dialog, textvariable=selected_file_name, fg="darkgreen", font=("Consolas", 8)).grid(row=2, column=1, padx=10, pady=5, sticky="w")
+        tk.Button(dialog, text="게임파일 추가", command=pick_game_file).grid(row=3, column=0, padx=10, pady=5, sticky="e")
+        tk.Label(dialog, textvariable=selected_file_name, fg="darkgreen", font=("Consolas", 8)).grid(row=3, column=1, padx=10, pady=5, sticky="w")
 
-        result = {"new_key": None, "parent_key": None, "url_file": None}
+        result = {"new_key": None, "parent_key": None, "url_file": None, "system_val": None}
         
         def on_ok():
             new_key = id_entry.get().strip()
@@ -358,6 +378,7 @@ class DataOpsMixin:
             result["new_key"] = new_key
             result["parent_key"] = parent_key if parent_key else ""
             result["url_file"] = selected_file_name.get()
+            result["system_val"] = system_combo.get().strip() or "ekmame"
             dialog.destroy()
         
         def on_cancel():
@@ -365,7 +386,7 @@ class DataOpsMixin:
         
         # 버튼
         btn_frame = tk.Frame(dialog)
-        btn_frame.grid(row=3, column=0, columnspan=2, pady=10)
+        btn_frame.grid(row=4, column=0, columnspan=2, pady=10)
         tk.Button(btn_frame, text="추가", command=on_ok).pack(side=tk.LEFT, padx=5)
         tk.Button(btn_frame, text="취소", command=on_cancel).pack(side=tk.LEFT, padx=5)
         
@@ -376,17 +397,24 @@ class DataOpsMixin:
         
         new_key = result["new_key"]
         parent_key = result["parent_key"]
+        sys_val = result["system_val"]
+
+        if sys_val in ["ekmame", "fbneo"]:
+            url_prefix = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
+        else:
+            url_prefix = f"https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/{sys_val}/"
         
         # 기본 템플릿으로 새 게임 추가
         new_url = ""
         if result["url_file"]:
-            new_url = f"{self.default_base}{result['url_file']}"
+            new_url = f"{url_prefix}{result['url_file']}"
 
         self.data[new_key] = {
             "url": new_url,
             "title": "",
             "title_en": "",
             "desc": "",
+            "category": "",
             "genre": "",
             "genre_en": "",
             "series": "",
@@ -396,7 +424,7 @@ class DataOpsMixin:
             "developer": "",
             "portrait": False,
             "buttons": 0,
-            "system": "ekmame",
+            "system": sys_val,
             "LRbuttons": False
         }
         self.newly_added_keys.add(new_key)
@@ -460,7 +488,11 @@ class DataOpsMixin:
                 suffix = random.randint(1000, 9999)
                 new_filename = f"{prefix}_{name_only}_{suffix}.bin"
                 
-                dest_dir = os.path.join(self.base_dir, "files")
+                sys_val = self.data[source_key].get("system", "ekmame").strip()
+                if sys_val in ["ekmame", "fbneo"]:
+                    dest_dir = os.path.join(self.base_dir, "files")
+                else:
+                    dest_dir = os.path.join(self.base_dir, "konfiles", sys_val)
                 os.makedirs(dest_dir, exist_ok=True)
                 
                 dest_path = os.path.join(dest_dir, new_filename)
@@ -512,7 +544,12 @@ class DataOpsMixin:
             
             # 파일이 선택된 경우 URL 업데이트
             if result["url_file"]:
-                self.data[new_key]["url"] = f"{self.default_base}{result['url_file']}"
+                sys_val = self.data[source_key].get("system", "ekmame").strip()
+                if sys_val in ["ekmame", "fbneo"]:
+                    url_prefix = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
+                else:
+                    url_prefix = f"https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/{sys_val}/"
+                self.data[new_key]["url"] = f"{url_prefix}{result['url_file']}"
 
             # parent 게임을 복사하면 clone으로 만들고 parent 설정
             if self.data[source_key].get("parent") == "":

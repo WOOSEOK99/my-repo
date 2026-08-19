@@ -146,7 +146,13 @@ class ListOpsMixin:
             # url 필드인데 파일명만 있다면 전체 경로로 보정 후 저장
             if field == "url" and val and not val.startswith("http"):
                 import os
-                val = f"{self.default_base}{os.path.basename(val)}"
+                sys_val = self.entries.get("system")
+                sys_str = sys_val.get().strip() if sys_val else "ekmame"
+                if sys_str in ["ekmame", "fbneo"]:
+                    prefix = "https://github.com/WOOSEOK99/my-repo/blob/main/files/"
+                else:
+                    prefix = f"https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/{sys_str}/"
+                val = f"{prefix}{os.path.basename(val)}"
             
             # 숫자형 변환
             if field in ["year"]:
@@ -215,10 +221,21 @@ class ListOpsMixin:
         if "developer" in self.entries:
             self.entries["developer"]["values"] = self.dev_list
 
+    def refresh_category_list(self):
+        categories = set(["arcade", "console"])
+        for v in self.data.values():
+            c = str(v.get("category", "")).strip()
+            if c:
+                categories.add(c)
+        self.category_list = sorted(list(categories))
+        if "category" in self.entries:
+            self.entries["category"]["values"] = self.category_list
+
     def refresh_all_lists(self):
         self.refresh_series_list()
         self.refresh_parent_list()
         self.refresh_genre_list()
         self.refresh_genre_en_list()
         self.refresh_developer_list()
+        self.refresh_category_list()
 

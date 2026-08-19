@@ -36,6 +36,7 @@ class GameJsonEditor(
         self.dev_list = list(self.default_devs)
         self.series_list = []
         self.parent_list = []
+        self.category_list = ["arcade", "console"]
         self.version_var = tk.StringVar(value="Version: -")
         
         # 검색 관련 상태
