@@ -51,6 +51,26 @@ class UiSetupMixin:
         self.count_var = tk.StringVar(value="")
         tk.Label(genre_frame, textvariable=self.count_var, font=("Malgun Gothic", 8), fg="gray").pack(side=tk.RIGHT)
 
+        # 시스템 필터
+        system_frame = tk.Frame(list_frame)
+        system_frame.pack(fill=tk.X, pady=(0, 2))
+        tk.Label(system_frame, text="기종:", font=("Malgun Gothic", 8)).pack(side=tk.LEFT)
+        self.system_filter_var = tk.StringVar(value="전체")
+        self.system_filter_cb = ttk.Combobox(system_frame, textvariable=self.system_filter_var,
+                                             state="readonly", font=("Malgun Gothic", 8), width=14)
+        self.system_filter_cb.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        self.system_filter_cb.bind("<<ComboboxSelected>>", lambda e: self.update_listbox())
+
+        # 카테고리 필터
+        category_frame = tk.Frame(list_frame)
+        category_frame.pack(fill=tk.X, pady=(0, 2))
+        tk.Label(category_frame, text="분류:", font=("Malgun Gothic", 8)).pack(side=tk.LEFT)
+        self.category_filter_var = tk.StringVar(value="전체")
+        self.category_filter_cb = ttk.Combobox(category_frame, textvariable=self.category_filter_var,
+                                               state="readonly", font=("Malgun Gothic", 8), width=14)
+        self.category_filter_cb.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        self.category_filter_cb.bind("<<ComboboxSelected>>", lambda e: self.update_listbox())
+
         # 화면 방향 필터 (가로/세로)
         orient_frame = tk.Frame(list_frame)
         orient_frame.pack(fill=tk.X, pady=(0, 3))
@@ -62,6 +82,7 @@ class UiSetupMixin:
         
         btn_frame = tk.Frame(list_frame)
         btn_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=(5, 0))
+        tk.Button(btn_frame, text="현재 목록 title 추출", command=self.extract_current_titles, font=("Malgun Gothic", 9)).pack(fill=tk.X, pady=(0, 2))
         tk.Button(btn_frame, text="선택 게임 삭제", command=self.delete_selected, font=("Malgun Gothic", 9), fg="red").pack(fill=tk.X)
         
         lb_frame = tk.Frame(list_frame)
@@ -374,13 +395,41 @@ class UiSetupMixin:
         if self.genre_filter_var.get() not in cb_values:
             self.genre_filter_var.set("전체")
 
+        # 시스템 필터 콤보박스 목록 갱신
+        if hasattr(self, 'system_filter_cb'):
+            all_systems = sorted(set(
+                v.get("system", "") for v in self.data.values() if v.get("system")
+            ))
+            sys_values = ["전체"] + all_systems
+            self.system_filter_cb["values"] = sys_values
+            if self.system_filter_var.get() not in sys_values:
+                self.system_filter_var.set("전체")
+
+        # 카테고리 필터 콤보박스 목록 갱신
+        if hasattr(self, 'category_filter_cb'):
+            all_categories = sorted(set(
+                v.get("category", "") for v in self.data.values() if v.get("category")
+            ))
+            cat_values = ["전체"] + all_categories
+            self.category_filter_cb["values"] = cat_values
+            if self.category_filter_var.get() not in cat_values:
+                self.category_filter_var.set("전체")
+
         selected_genre = self.genre_filter_var.get()
+        selected_system = self.system_filter_var.get() if hasattr(self, 'system_filter_var') else "전체"
+        selected_category = self.category_filter_var.get() if hasattr(self, 'category_filter_var') else "전체"
         selected_orient = self.orient_filter_var.get()
 
         def item_match(key):
             d = self.data[key]
             # 장르 필터
             if selected_genre != "전체" and d.get("genre", "") != selected_genre:
+                return False
+            # 시스템 필터
+            if selected_system != "전체" and d.get("system", "") != selected_system:
+                return False
+            # 카테고리 필터
+            if selected_category != "전체" and d.get("category", "") != selected_category:
                 return False
             # 화면 방향 필터
             if selected_orient == "세로" and not d.get("portrait", False):
@@ -415,8 +464,13 @@ class UiSetupMixin:
         try:
             encoded_key = urllib.parse.quote(key)
             img_url = f"{self.img_base}{encoded_key}.png"
-            with urllib.request.urlopen(img_url) as url:
-                img_data = url.read()
+            try:
+                with urllib.request.urlopen(img_url) as url:
+                    img_data = url.read()
+            except:
+                jpg_url = f"{self.img_base}{encoded_key}.jpg"
+                with urllib.request.urlopen(jpg_url) as url:
+                    img_data = url.read()
             
             img = Image.open(BytesIO(img_data))
             
@@ -435,8 +489,13 @@ class UiSetupMixin:
         try:
             encoded_key = urllib.parse.quote(key)
             marquee_url = f"{self.marquee_base}{encoded_key}.png"
-            with urllib.request.urlopen(marquee_url) as url:
-                img_data = url.read()
+            try:
+                with urllib.request.urlopen(marquee_url) as url:
+                    img_data = url.read()
+            except:
+                marquee_jpg_url = f"{self.marquee_base}{encoded_key}.jpg"
+                with urllib.request.urlopen(marquee_jpg_url) as url:
+                    img_data = url.read()
             
             img = Image.open(BytesIO(img_data))
             

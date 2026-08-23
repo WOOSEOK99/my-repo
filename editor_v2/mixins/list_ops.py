@@ -239,3 +239,22 @@ class ListOpsMixin:
         self.refresh_developer_list()
         self.refresh_category_list()
 
+    def extract_current_titles(self):
+        """현재 리스트박스에 보이는 항목들의 title만 추출하여 팝업으로 표시"""
+        titles = []
+        for idx in range(self.listbox.size()):
+            raw_text = self.listbox.get(idx)
+            key = raw_text.replace("   └─ ", "").strip()
+            item_data = self.data.get(key, {})
+            title = item_data.get("title", "")
+            if title:
+                titles.append(title)
+            else:
+                titles.append(f"(No Title: {key})")
+        
+        result_text = "\n".join(titles)
+        if not result_text:
+            messagebox.showinfo("결과", "추출할 제목이 없습니다.", parent=self.root)
+            return
+            
+        self.show_scrollable_info(f"현재 목록 타이틀 추출 (총 {len(titles)}개)", result_text)
