@@ -37798,5 +37798,41 @@
         "buttons": 0,
         "system": "nes",
         "LRbuttons": false
+    },
+    "testm_278948": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/genesis/6093_testm_278948_6684.bin",
+        "title": "베어너클 3",
+        "title_en": "Bare knuckle",
+        "desc": "",
+        "category": "console",
+        "genre": "벨트스크롤 액션",
+        "genre_en": "Side-scrolling Action",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 6,
+        "system": "genesis",
+        "LRbuttons": false
+    },
+    "testg_123586": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/gba/3350_testg_123586_3994.bin",
+        "title": "별의 커비 꿈의 샘 이야기 디럭스",
+        "title_en": "Hoshi no Kirby - Yume no Izumi Deluxe (kor)",
+        "desc": "",
+        "category": "console",
+        "genre": "횡스크롤 액션",
+        "genre_en": "Side-scrolling Action",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 0,
+        "system": "gba",
+        "LRbuttons": false
     }
 }
