@@ -7796,7 +7796,7 @@
     "ddp3": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2615_ddp3_4229.bin",
         "title": "도돈파치 3",
-        "title_en": "DoDonPachi III",
+        "title_en": "DoDonPachi 3",
         "desc": "",
         "genre": "슈팅",
         "genre_en": "Shoot 'em up",
@@ -7814,7 +7814,7 @@
     "ddp3blk": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8356_ddp3blk_5962.bin",
         "title": "도돈파치 3 블랙라벨",
-        "title_en": "DoDonPachi III",
+        "title_en": "DoDonPachi 3",
         "desc": "",
         "genre": "슈팅",
         "genre_en": "Shoot 'em up",
@@ -35047,8 +35047,8 @@
     },
     "ddp2": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/7686_ddp2_4822.bin",
-        "title": "도돈파치 II",
-        "title_en": "DoDonPachi II",
+        "title": "도돈파치 2",
+        "title_en": "DoDonPachi 2",
         "desc": "",
         "genre": "슈팅",
         "genre_en": "Shoot 'em up",
