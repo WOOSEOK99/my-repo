@@ -258,3 +258,65 @@ class ListOpsMixin:
             return
             
         self.show_scrollable_info(f"현재 목록 타이틀 추출 (총 {len(titles)}개)", result_text)
+
+    def compare_keys_with_txt(self):
+        """TXT 파일의 Key 목록과 현재 게임 목록의 Key를 비교하여 diff_key.txt 저장"""
+        if not self.data:
+            messagebox.showwarning("경고", "먼저 게임 목록을 불러오세요.", parent=self.root)
+            return
+
+        txt_path = filedialog.askopenfilename(
+            title="비교할 Key 목록 TXT 파일 선택",
+            filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
+        )
+        if not txt_path:
+            return
+
+        try:
+            with open(txt_path, 'r', encoding='utf-8-sig') as f:
+                txt_keys = set(line.strip() for line in f if line.strip())
+        except Exception as e:
+            messagebox.showerror("오류", f"파일을 읽는 중 오류가 발생했습니다.\n{e}", parent=self.root)
+            return
+
+        game_keys = set(self.data.keys())
+
+        # txt에는 있는데 게임 목록에 없는 key
+        only_in_txt = sorted(txt_keys - game_keys)
+        # 게임 목록에는 있는데 txt에 없는 key
+        only_in_game = sorted(game_keys - txt_keys)
+
+        if not only_in_txt and not only_in_game:
+            messagebox.showinfo("결과", "두 목록의 Key가 완전히 일치합니다. 차이가 없습니다.", parent=self.root)
+            return
+
+        lines = []
+        lines.append(f"[비교 파일] {os.path.basename(txt_path)}")
+        lines.append(f"[TXT Key 수] {len(txt_keys)}개  /  [게임 목록 Key 수] {len(game_keys)}개")
+        lines.append("")
+        lines.append(f"=== TXT에만 있고 게임 목록에 없는 Key ({len(only_in_txt)}개) ===")
+        lines.extend(only_in_txt if only_in_txt else ["(없음)"])
+        lines.append("")
+        lines.append(f"=== 게임 목록에만 있고 TXT에 없는 Key ({len(only_in_game)}개) ===")
+        lines.extend(only_in_game if only_in_game else ["(없음)"])
+
+        result_text = "\n".join(lines)
+
+        # diff_key.txt 저장 위치 = base_dir
+        save_path = os.path.join(self.base_dir, "diff_key.txt")
+        try:
+            with open(save_path, 'w', encoding='utf-8') as f:
+                f.write(result_text)
+        except Exception as e:
+            messagebox.showerror("오류", f"diff_key.txt 저장 중 오류가 발생했습니다.\n{e}", parent=self.root)
+            return
+
+        self.show_scrollable_info(
+            f"Key 비교 결과 (차이: TXT전용 {len(only_in_txt)}개 / 게임전용 {len(only_in_game)}개)",
+            result_text
+        )
+        messagebox.showinfo(
+            "저장 완료",
+            f"diff_key.txt 가 저장되었습니다.\n경로: {save_path}",
+            parent=self.root
+        )

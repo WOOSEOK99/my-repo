@@ -83,6 +83,7 @@ class UiSetupMixin:
         btn_frame = tk.Frame(list_frame)
         btn_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=(5, 0))
         tk.Button(btn_frame, text="현재 목록 title 추출", command=self.extract_current_titles, font=("Malgun Gothic", 9)).pack(fill=tk.X, pady=(0, 2))
+        tk.Button(btn_frame, text="Key 비교 (diff)", command=self.compare_keys_with_txt, font=("Malgun Gothic", 9), fg="darkblue").pack(fill=tk.X, pady=(0, 2))
         tk.Button(btn_frame, text="선택 게임 삭제", command=self.delete_selected, font=("Malgun Gothic", 9), fg="red").pack(fill=tk.X)
         
         lb_frame = tk.Frame(list_frame)
