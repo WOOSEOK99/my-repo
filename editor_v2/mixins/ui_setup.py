@@ -84,6 +84,8 @@ class UiSetupMixin:
         btn_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=(5, 0))
         tk.Button(btn_frame, text="현재 목록 title 추출", command=self.extract_current_titles, font=("Malgun Gothic", 9)).pack(fill=tk.X, pady=(0, 2))
         tk.Button(btn_frame, text="Key 비교 (diff)", command=self.compare_keys_with_txt, font=("Malgun Gothic", 9), fg="darkblue").pack(fill=tk.X, pady=(0, 2))
+        self.duplicate_btn = tk.Button(btn_frame, text="중복 title 모아보기", command=self.toggle_duplicate_mode, font=("Malgun Gothic", 9), fg="purple")
+        self.duplicate_btn.pack(fill=tk.X, pady=(0, 2))
         tk.Button(btn_frame, text="선택 게임 삭제", command=self.delete_selected, font=("Malgun Gothic", 9), fg="red").pack(fill=tk.X)
         
         lb_frame = tk.Frame(list_frame)
@@ -386,6 +388,10 @@ class UiSetupMixin:
 
     def update_listbox(self):
         self.listbox.delete(0, tk.END)
+
+        if getattr(self, "show_duplicates_mode", False):
+            self._render_duplicates_list()
+            return
 
         # 장르 필터 콤보박스 목록 갱신
         all_genres = sorted(set(

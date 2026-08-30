@@ -239,6 +239,53 @@ class ListOpsMixin:
         self.refresh_developer_list()
         self.refresh_category_list()
 
+    def toggle_duplicate_mode(self):
+        """중복 title 모드 ON/OFF 토글"""
+        self.show_duplicates_mode = not getattr(self, "show_duplicates_mode", False)
+        
+        if self.show_duplicates_mode:
+            self.duplicate_btn.config(text="일반 목록으로 돌아가기", fg="red")
+            messagebox.showinfo("안내", "title이 중복된 게임들을 찾아서 리스트에 표시합니다.", parent=self.root)
+        else:
+            self.duplicate_btn.config(text="중복 title 모아보기", fg="purple")
+            
+        self.update_listbox()
+
+    def _render_duplicates_list(self):
+        """중복된 title을 가진 게임들만 찾아서 리스트박스에 렌더링"""
+        # 1. title 그룹화
+        title_groups = {}
+        for k, v in self.data.items():
+            title = str(v.get("title", "")).strip()
+            if title:
+                if title not in title_groups:
+                    title_groups[title] = []
+                title_groups[title].append(k)
+                
+        # 2. 중복된 title 추출
+        duplicate_titles = {t: keys for t, keys in title_groups.items() if len(keys) > 1}
+        
+        if not duplicate_titles:
+            self.count_var.set("중복: 0개")
+            # 강제로 중복 모드 해제
+            self.show_duplicates_mode = False
+            self.duplicate_btn.config(text="중복 title 모아보기", fg="purple")
+            self.update_listbox()
+            messagebox.showinfo("결과", "중복된 title이 없습니다.", parent=self.root)
+            return
+
+        # 3. 리스트박스에 중복된 게임들만 추가 (title 순 정렬)
+        shown = 0
+        for title in sorted(duplicate_titles.keys()):
+            keys = duplicate_titles[title]
+            for k in keys:
+                self.listbox.insert(tk.END, k)
+                # 같은 타이틀끼리 묶여 보이도록 표시 (파란색 등)
+                self.listbox.itemconfig(self.listbox.size() - 1, {'fg': 'purple'})
+                shown += 1
+                
+        self.count_var.set(f"중복: {shown}개")
+
     def extract_current_titles(self):
         """현재 리스트박스에 보이는 항목들의 title만 추출하여 팝업으로 표시"""
         titles = []
