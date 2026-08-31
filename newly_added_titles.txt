@@ -1,16 +1,26 @@
-<P>퀴즈 올림픽</P>
-<P>디디 크루</P>
-<P>스타디움 히어로 96</P>
-<P>크랙 다운</P>
-<P>도돈파치 대부활 v1.5</P>
-<P>슈퍼 퀵스</P>
-<P>데인져로스 던전스</P>
-<P>스노우 브라더스 3</P>
-<P>Quiz Olympic</P>
-<P>D. D. Crew</P>
-<P>Stadium Hero 96</P>
-<P>Crack Down</P>
-<P>Dodonpachi Daifukkatsu Ver. 1.5</P>
-<P>Super Qix</P>
-<P>Dangerous Dungeons</P>
-<P>Snow Brothers 3 - Magical Adventure</P>
+<P>삼국전기 플러스 - 신영웅전</P>
+<P>삼국전기 플러스 2012 워리어즈</P>
+<P>삼국전기2 플러스 성황지전</P>
+<P>삼국전기 플러스 - 군웅난무</P>
+<P>삼국전기 슈퍼 히어로즈 플러스 - 일통중원 청판 2020-A</P>
+<P>삼국전기 플러스 2012 - 나이트메어</P>
+<P>삼국전기2 플러스 봉무룡음 (v s0709)</P>
+<P>삼국전기 슈퍼 히어로즈 플러스 - 일통중원 무쌍판</P>
+<P>삼국전기2 플러스 사봉천치</P>
+<P>삼국전기2 플러스 봉무룡음 (v 205s)</P>
+<P>삼국전기2 플러스 Extend Magic Plus</P>
+<P>삼국전기 슈퍼 히어로즈 플러스 - 워리어즈</P>
+<P>삼국전기 2 - 두전성선</P>
+<P>Knights of Valour Plus - New Biography of Heroes</P>
+<P>Knights of Valour Plus 2012 - Warriors</P>
+<P>Knights of Valour 2 Plus - Sheng Huang Ji Zhan</P>
+<P>Knights of Valour Plus - Qun Xiong Luan Wu 2020</P>
+<P>Knights of Valour Super Heroes Plus - Yi Tong Zhong Yuan Qing Ban</P>
+<P>Knights of Valour Plus 2012 - Nightmare</P>
+<P>Knights of Valour 2 Plus - Feng Wu Long Yin (v s0709)</P>
+<P>Knights of Valour Super Heroes Plus - Yi Tong Zhong YuanWu Shuang Ban</P>
+<P>Knights of Valour 2 Plus - Xie Feng Tian Chi</P>
+<P>Knights of Valour 2 Plus - Feng Wu Long Yin (v 205s)</P>
+<P>Knights of Valour 2 Plus - Extend Magic Plus</P>
+<P>Knights of Valour Super Heroes Plus - Warriors</P>
+<P>Knights of Valour 2 - Dou Zhuan Xing Xuan</P>
