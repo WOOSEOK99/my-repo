@@ -1,26 +1,20 @@
-<P>삼국전기 플러스 - 신영웅전</P>
-<P>삼국전기 플러스 2012 워리어즈</P>
-<P>삼국전기2 플러스 성황지전</P>
-<P>삼국전기 플러스 - 군웅난무</P>
-<P>삼국전기 슈퍼 히어로즈 플러스 - 일통중원 청판 2020-A</P>
-<P>삼국전기 플러스 2012 - 나이트메어</P>
-<P>삼국전기2 플러스 봉무룡음 (v s0709)</P>
-<P>삼국전기 슈퍼 히어로즈 플러스 - 일통중원 무쌍판</P>
-<P>삼국전기2 플러스 사봉천치</P>
-<P>삼국전기2 플러스 봉무룡음 (v 205s)</P>
-<P>삼국전기2 플러스 Extend Magic Plus</P>
-<P>삼국전기 슈퍼 히어로즈 플러스 - 워리어즈</P>
-<P>삼국전기 2 - 두전성선</P>
-<P>Knights of Valour Plus - New Biography of Heroes</P>
-<P>Knights of Valour Plus 2012 - Warriors</P>
-<P>Knights of Valour 2 Plus - Sheng Huang Ji Zhan</P>
-<P>Knights of Valour Plus - Qun Xiong Luan Wu 2020</P>
-<P>Knights of Valour Super Heroes Plus - Yi Tong Zhong Yuan Qing Ban</P>
-<P>Knights of Valour Plus 2012 - Nightmare</P>
-<P>Knights of Valour 2 Plus - Feng Wu Long Yin (v s0709)</P>
-<P>Knights of Valour Super Heroes Plus - Yi Tong Zhong YuanWu Shuang Ban</P>
-<P>Knights of Valour 2 Plus - Xie Feng Tian Chi</P>
-<P>Knights of Valour 2 Plus - Feng Wu Long Yin (v 205s)</P>
-<P>Knights of Valour 2 Plus - Extend Magic Plus</P>
-<P>Knights of Valour Super Heroes Plus - Warriors</P>
-<P>Knights of Valour 2 - Dou Zhuan Xing Xuan</P>
+<P>삼국전기 - 진 삼국지</P>
+<P>포토 Y2K 2</P>
+<P>삼국전기 - 소병쟁패 (Ver A)</P>
+<P>삼국전기 - 횡소천군</P>
+<P>서유석액전 스페셜 - 몽심령산</P>
+<P>서유석액전 제로</P>
+<P>서유석액전 스페셜 - 대성귀래</P>
+<P>삼국전기 - 소병쟁패 (Ver B)</P>
+<P>서유석액전 슈퍼 플러스 - 신 군마난무</P>
+<P>삼국전기 슈퍼 히어로즈 플러스 - 군웅쟁패 풍운재기 (무쌍)</P>
+<P>Knights of Valour - Zhen Tun Shi Tian Di</P>
+<P>Photo Y2K 2</P>
+<P>Knights of Valour - xiao bing zheng ba (Ver A)</P>
+<P>Knights of Valour - heng sao qian jun</P>
+<P>Oriental Legend Special -meng xun ling shan</P>
+<P>Oriental Legend Zero</P>
+<P>Oriental Legend Special -Da Sheng Gui Lai</P>
+<P>Knights of Valour - xiao bing zheng ba (Ver B)</P>
+<P>Oriental Legend Special Plus - Xin Qun Mo Luan Wu</P>
+<P>Knights of Valour Super Heroes Plus - qunziong zhengba - fengyun zai qi (wushung )</P>
