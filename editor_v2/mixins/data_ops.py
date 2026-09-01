@@ -333,13 +333,20 @@ class DataOpsMixin:
                 base_name = os.path.basename(source_file)
                 name_only, ext = os.path.splitext(base_name)
                 
-                # 무작위 숫자 생성
-                prefix = random.randint(1000, 9999)
-                suffix = random.randint(1000, 9999)
-                new_filename = f"{prefix}_{name_only}_{suffix}.bin"
-                
                 # system 에 따른 경로
                 sys_val = system_combo.get().strip() or "ekmame"
+                
+                if sys_val not in ["ekmame", "fbneo"] and ext.lower() in [".zip", ".rar", ".7z", ".gz", ".tar"]:
+                    import string
+                    import random
+                    random_str = ''.join(random.choices(string.ascii_letters + string.digits, k=15))
+                    new_filename = f"{random_str}.bin"
+                else:
+                    # 무작위 숫자 생성
+                    prefix = random.randint(1000, 9999)
+                    suffix = random.randint(1000, 9999)
+                    new_filename = f"{prefix}_{name_only}_{suffix}.bin"
+                
                 if sys_val in ["ekmame", "fbneo"]:
                     dest_dir = os.path.join(self.base_dir, "files")
                 else:
@@ -357,8 +364,33 @@ class DataOpsMixin:
                 
                 messagebox.showinfo("성공", f"파일이 복사되었습니다: {new_filename}", parent=dialog)
 
-        tk.Button(dialog, text="게임파일 추가", command=pick_game_file).grid(row=3, column=0, padx=10, pady=5, sticky="e")
-        tk.Label(dialog, textvariable=selected_file_name, fg="darkgreen", font=("Consolas", 8)).grid(row=3, column=1, padx=10, pady=5, sticky="w")
+        def pick_snapshot_file():
+            cur_game_file = selected_file_name.get()
+            if not cur_game_file:
+                messagebox.showwarning("경고", "먼저 게임 파일을 추가해주세요.", parent=dialog)
+                return
+                
+            source_img = filedialog.askopenfilename(title="스냅샷 파일 선택", filetypes=[("Image files", "*.png *.jpg *.jpeg *.bmp")])
+            if source_img:
+                img_dir = os.path.dirname(source_img)
+                _, img_ext = os.path.splitext(source_img)
+                
+                # 게임 파일명 획득 (확장자 제외)
+                game_name_only, _ = os.path.splitext(cur_game_file)
+                new_img_name = f"{game_name_only}{img_ext}"
+                new_img_path = os.path.join(img_dir, new_img_name)
+                
+                try:
+                    os.rename(source_img, new_img_path)
+                    messagebox.showinfo("성공", f"스냅샷 파일 이름이 변경되었습니다:\n{new_img_name}", parent=dialog)
+                except Exception as e:
+                    messagebox.showerror("오류", f"이름 변경 실패:\n{e}", parent=dialog)
+
+        btn_container = tk.Frame(dialog)
+        btn_container.grid(row=3, column=0, columnspan=2, padx=10, pady=5, sticky="w")
+        tk.Button(btn_container, text="게임파일 추가", command=pick_game_file).pack(side=tk.LEFT, padx=(0, 5))
+        tk.Button(btn_container, text="스냅샷 추가", command=pick_snapshot_file).pack(side=tk.LEFT, padx=5)
+        tk.Label(btn_container, textvariable=selected_file_name, fg="darkgreen", font=("Consolas", 8)).pack(side=tk.LEFT, padx=5)
 
         result = {"new_key": None, "parent_key": None, "url_file": None, "system_val": None}
         
@@ -479,16 +511,22 @@ class DataOpsMixin:
         def pick_game_file():
             import random
             import shutil
+            import string
             source_file = filedialog.askopenfilename(title="게임 파일 선택")
             if source_file:
                 base_name = os.path.basename(source_file)
                 name_only, ext = os.path.splitext(base_name)
                 
-                prefix = random.randint(1000, 9999)
-                suffix = random.randint(1000, 9999)
-                new_filename = f"{prefix}_{name_only}_{suffix}.bin"
-                
                 sys_val = self.data[source_key].get("system", "ekmame").strip()
+                
+                if sys_val not in ["ekmame", "fbneo"] and ext.lower() in [".zip", ".rar", ".7z", ".gz", ".tar"]:
+                    random_str = ''.join(random.choices(string.ascii_letters + string.digits, k=15))
+                    new_filename = f"{random_str}.bin"
+                else:
+                    prefix = random.randint(1000, 9999)
+                    suffix = random.randint(1000, 9999)
+                    new_filename = f"{prefix}_{name_only}_{suffix}.bin"
+                
                 if sys_val in ["ekmame", "fbneo"]:
                     dest_dir = os.path.join(self.base_dir, "files")
                 else:
@@ -507,9 +545,31 @@ class DataOpsMixin:
                 
                 messagebox.showinfo("성공", f"파일이 복사되었습니다: {new_filename}", parent=dialog)
 
+        def pick_snapshot_file():
+            cur_game_file = selected_file_name.get()
+            if not cur_game_file:
+                messagebox.showwarning("경고", "먼저 게임 파일을 추가해주세요.", parent=dialog)
+                return
+                
+            source_img = filedialog.askopenfilename(title="스냅샷 파일 선택", filetypes=[("Image files", "*.png *.jpg *.jpeg *.bmp")])
+            if source_img:
+                img_dir = os.path.dirname(source_img)
+                _, img_ext = os.path.splitext(source_img)
+                
+                game_name_only, _ = os.path.splitext(cur_game_file)
+                new_img_name = f"{game_name_only}{img_ext}"
+                new_img_path = os.path.join(img_dir, new_img_name)
+                
+                try:
+                    os.rename(source_img, new_img_path)
+                    messagebox.showinfo("성공", f"스냅샷 파일 이름이 변경되었습니다:\n{new_img_name}", parent=dialog)
+                except Exception as e:
+                    messagebox.showerror("오류", f"이름 변경 실패:\n{e}", parent=dialog)
+
         file_frame = tk.Frame(dialog)
         file_frame.pack(pady=5)
         tk.Button(file_frame, text="게임파일 추가", command=pick_game_file).pack(side=tk.LEFT, padx=5)
+        tk.Button(file_frame, text="스냅샷 추가", command=pick_snapshot_file).pack(side=tk.LEFT, padx=5)
         tk.Label(file_frame, textvariable=selected_file_name, fg="darkgreen", font=("Consolas", 8)).pack(side=tk.LEFT, padx=5)
 
         result = {"new_key": None, "url_file": None}
