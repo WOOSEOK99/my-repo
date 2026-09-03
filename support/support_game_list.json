@@ -38896,5 +38896,23 @@
         "buttons": 4,
         "system": "fbneo",
         "category": "arcade"
+    },
+    "ty6YErt2KeeEZ6u": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/snes/ty6YErt2KeeEZ6u.bin",
+        "title": "별의 커비 3",
+        "title_en": "Hoshi no Kirby 3",
+        "desc": "",
+        "category": "console",
+        "genre": "액션",
+        "genre_en": "Action",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "buttons": 0,
+        "system": "snes",
+        "LRbuttons": false
     }
 }
