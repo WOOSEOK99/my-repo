@@ -39041,8 +39041,8 @@
         "system": "snes",
         "LRbuttons": false
     },
-    "A1JVIO": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/snes/A1JVIO.bin",
+    "test_A1JVIO": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/konfiles/snes/test_A1JVIO.bin",
         "title": "젤다의 전설 - 신들의 트라이포스",
         "title_en": "Zelda no Densetsu - Kamigami no Triforce",
         "desc": "",
