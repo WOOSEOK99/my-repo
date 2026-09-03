@@ -1,2 +1,16 @@
-<P>별의 커비 3</P>
-<P>Hoshi no Kirby 3</P>
+<P>슈퍼 마리오 월드</P>
+<P>젤다의 전설 - 신들의 트라이포스</P>
+<P>슈퍼 동키콩</P>
+<P>슈퍼마리오 올스타즈</P>
+<P>슈퍼 마리오 카트</P>
+<P>삼국지 영걸전</P>
+<P>삼국지 3</P>
+<P>슈퍼 마리오 RPG</P>
+<P>Super Mario World</P>
+<P>Zelda no Densetsu - Kamigami no Triforce</P>
+<P>Super Donkey Kong</P>
+<P>Super Mario All-Stars</P>
+<P>Super Mario Kart</P>
+<P>Sangokushi Eiketsuden</P>
+<P>Sangokushi III</P>
+<P>Super Mario RPG</P>
