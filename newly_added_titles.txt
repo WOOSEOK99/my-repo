@@ -1,16 +1,20 @@
-<P>슈퍼 마리오 월드</P>
-<P>젤다의 전설 - 신들의 트라이포스</P>
-<P>슈퍼 동키콩</P>
-<P>슈퍼마리오 올스타즈</P>
-<P>슈퍼 마리오 카트</P>
-<P>삼국지 영걸전</P>
-<P>삼국지 3</P>
-<P>슈퍼 마리오 RPG</P>
-<P>Super Mario World</P>
-<P>Zelda no Densetsu - Kamigami no Triforce</P>
-<P>Super Donkey Kong</P>
-<P>Super Mario All-Stars</P>
-<P>Super Mario Kart</P>
-<P>Sangokushi Eiketsuden</P>
-<P>Sangokushi III</P>
-<P>Super Mario RPG</P>
+<P>뱀파이어 킬러</P>
+<P>샤이닝 포스 2 - 고대의 봉인</P>
+<P>원더보이 5 - 몬스터 월드 3</P>
+<P>알렉스 키드 - 천공마성</P>
+<P>피구왕 통키 - 불꽃의 투구아 돗지</P>
+<P>몬스터 월드 4</P>
+<P>북두의 권 - 신세기말 구세주 전설</P>
+<P>신창세기 라그나센티</P>
+<P>샤이닝 포스 - 신들의 유산</P>
+<P>콘트라 - 더 하드 코어</P>
+<P>Vampire Killer</P>
+<P>Shining Force II - Ancient Sealing</P>
+<P>Wonder Boy V - Monster World III</P>
+<P>Alex Kidd in the Enchanted Castle</P>
+<P>Honoo no Toukyuu-ji: Dodge Danpei</P>
+<P>Monster World IV</P>
+<P>Fist of the North Star</P>
+<P>Crusader of Centy</P>
+<P>Shining Force: The Legacy of Great Intention</P>
+<P>Contra - The Hard Core</P>
