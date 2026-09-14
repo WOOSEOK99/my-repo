@@ -24,14 +24,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Create site directory
+        run: |
+          mkdir _site
+          cp app-ads.txt _site/
 
-      - name: Upload artifact (app-ads.txt only)
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 대용량 폴더를 다 무시하고 app-ads.txt 파일 하나만 타겟으로 올립니다.
-          path: '.'
+          path: '_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
