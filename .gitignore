@@ -10,3 +10,4 @@ __pycache__/
 
 # Exclude tools directory
 tools/
+samples/twotiger.zip
