@@ -1,18 +1,32 @@
-<P>더 킹 오브 드래곤즈 (J-K v20171221)</P>
-<P>더 파이어맨</P>
-<P>더 그레이트 배틀 3</P>
-<P>기괴괴계 - 월야초자</P>
-<P>노이기아 - 바람과 바다의 고동</P>
-<P>기동경찰 패트레이버</P>
-<P>더 그레이트 배틀 2 - 라스트 파이터 트윈</P>
-<P>노스페라투</P>
-<P>더 닌자워리어즈 어게인</P>
-<P>King of Dragons, The</P>
-<P>Firemen, The</P>
-<P>Great Battle III, The</P>
-<P>Kiki Kaikai - Tsukiyo Soushi</P>
-<P>Neugier - Umi to Kaze no Kodou</P>
-<P>Kidou Keisatsu Patlabor</P>
-<P>Great Battle II, The - Last Fighter Twin</P>
-<P>Nosferatu</P>
-<P>Ninjawarriors Again, The</P>
+<P>드래곤볼 Z - 초오공전 각성편</P>
+<P>독립전쟁 - 리버티 오어 데스</P>
+<P>데몬즈 블레이즌 - 마계촌 문장편</P>
+<P>드래곤 퀘스트 6 - 환상의 대지</P>
+<P>드래곤볼 Z - 초사이어인 전설</P>
+<P>러싱 비트 수라</P>
+<P>듀얼 오브 2</P>
+<P>드래곤볼 Z - 초무투전 3</P>
+<P>로맨싱 사가 2</P>
+<P>로맨싱 사가</P>
+<P>라이브 어 라이브</P>
+<P>드래곤 퀘스트 3 - 그리고 전설로...</P>
+<P>로쿠데나시 블루스 - 대결! 도쿄 사천왕</P>
+<P>드래곤볼 Z - 초무투전 2</P>
+<P>드래곤볼 Z - 초오공전 돌격편</P>
+<P>로맨싱 사가 3</P>
+<P>Dragon Ball Z - Super Gokuu Den - Kakusei Hen</P>
+<P>Dokuritsu Sensou - Liberty or Death</P>
+<P>Demon's Blazon - Makaimura Monshou Hen</P>
+<P>Dragon Quest VI - Maboroshi no Daichi</P>
+<P>Dragon Ball Z - Super Saiya Densetsu</P>
+<P>Rushing Beat Shura</P>
+<P>Dual Orb II</P>
+<P>Dragon Ball Z - Chomutujeon</P>
+<P>Romancing Sa-Ga 2</P>
+<P>Romancing Sa-Ga</P>
+<P>Live A Live</P>
+<P>Dragon Quest III - Soshite Densetsu e...</P>
+<P>Rokudenashi Blues - Taiketsu! Tokyo Shitennou</P>
+<P>Dragon Ball Z - Super Butouden 2</P>
+<P>Dragon Ball Z - Super Gokuu Den - Kakusei Hen</P>
+<P>Romancing Sa-Ga 3</P>
