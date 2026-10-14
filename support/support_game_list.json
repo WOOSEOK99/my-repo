@@ -31157,24 +31157,6 @@
         "system": "ekmame",
         "category": "arcade"
     },
-    "cotton": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/2312_cotton_1199.bin",
-        "title": "코튼",
-        "title_en": "Cotton",
-        "desc": "",
-        "genre": "슈팅",
-        "genre_en": "Shoot 'em up",
-        "series": "Cotton",
-        "series_en": "Cotton",
-        "parent": "",
-        "year": 0,
-        "developer": "",
-        "portrait": false,
-        "LRbuttons": false,
-        "buttons": 2,
-        "system": "ekmame",
-        "category": "arcade"
-    },
     "hwchamp": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4340_hwchamp_9684.bin",
         "title": "헤비급 챔피언",
@@ -40300,5 +40282,23 @@
         "buttons": 0,
         "system": "snes",
         "LRbuttons": false
+    },
+    "cottond": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/5920_cottond_3321.bin",
+        "title": "코튼",
+        "title_en": "Cotton",
+        "desc": "",
+        "genre": "슈팅",
+        "genre_en": "Shoot 'em up",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "LRbuttons": false,
+        "buttons": 2,
+        "system": "ekmame",
+        "category": "arcade"
     }
 }
