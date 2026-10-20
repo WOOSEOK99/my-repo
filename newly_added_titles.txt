@@ -1,2 +1,2 @@
-<P>코튼</P>
-<P>Cotton</P>
+<P>성검전설 2</P>
+<P>Seiken Densetsu 2</P>
