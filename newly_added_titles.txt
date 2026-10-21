@@ -1,2 +1,108 @@
+<P>용호의 권 2</P>
+<P>힘내라 고에몬 2 - 기천열장군 마기네스</P>
+<P>파이널 판타지 4</P>
+<P>용호의 권</P>
+<P>파이널 파이트 2</P>
+<P>슬램덩크 - SD 히트업!!</P>
+<P>에스트폴리스 전기</P>
+<P>중장기병 발켄</P>
+<P>클락 타워</P>
+<P>트윈비 - 레인보우 벨 어드벤처</P>
+<P>파이널 파이트 터프</P>
+<P>신기동전기 건담 W - 엔들리스 듀얼</P>
+<P>토르네코의 대모험 - 이상한 던전</P>
+<P>초대 열혈경파 쿠니오군</P>
+<P>파이널 판타지 5</P>
+<P>하가네</P>
+<P>트레저 헌터 G</P>
+<P>한국 프로야구</P>
+<P>이상한 던전 2 - 풍래의 시렌</P>
+<P>테일즈 오브 판타지아</P>
+<P>하멜의 바이올린</P>
+<P>파이널 판타지 6</P>
+<P>신 열혈경파 쿠니오들의 만가</P>
+<P>파이널 파이트</P>
+<P>이스 4 - 태양의 가면</P>
+<P>태권도</P>
+<P>악마성 드라큘라 XX</P>
+<P>요괴 버스터 - 루카의 대모험</P>
+<P>웨딩 피치</P>
+<P>슈퍼 메트로이드</P>
+<P>슈퍼 수수께끼 뿌요 츄 - 루루의 철완 번성기</P>
+<P>이스 3 - 원더러즈 프롬 이스</P>
+<P>성검전설 3</P>
 <P>성검전설 2</P>
+<P>슈퍼로봇대전 EX</P>
+<P>요괴소년 호야</P>
+<P>제절초</P>
+<P>슈퍼 뿌요뿌요 통</P>
+<P>죠죠의 기묘한 모험</P>
+<P>패미컴 문고 - 시작의 숲</P>
+<P>슬램덩크 2 - IH 예선 완전판!!</P>
+<P>슬레이어즈</P>
+<P>파이널 파이트 가이</P>
+<P>초시공요새 마크로스 - 스크램블드 발키리</P>
+<P>언더커버 캅스</P>
+<P>천지창조</P>
+<P>알카헤스트</P>
+<P>학교에서 있었던 무서운 이야기</P>
+<P>스타폭스</P>
+<P>슈퍼로봇대전 외전 - 마장기신 - 더 로드 오브 엘리멘탈</P>
+<P>에어리어 88</P>
+<P>전설의 오우거 배틀 - 검은 여왕의 행진</P>
+<P>원더 프로젝트 J - 기계소년 피노</P>
+<P>아이언 코만도 - 강철의 전사</P>
+<P>Ryuuko no Ken 2</P>
+<P>Ganbare Goemon 2 - Kiteretsu Shougun Magginesu</P>
+<P>Final Fantasy IV</P>
+<P>Ryuuko no Ken</P>
+<P>Final Fight 2</P>
+<P>From TV Animation Slam Dunk - SD Heat Up!!</P>
+<P>Estpolis Denki</P>
+<P>Juusou Kihei Valken</P>
+<P>Clock Tower</P>
+<P>TwinBee - Rainbow Bell Adventure</P>
+<P>Final Fight Tough</P>
+<P>Shin Kidou Senki Gundam W - Endless Duel</P>
+<P>Torneko no Daibouken - Fushigi no Dungeon</P>
+<P>Shodai Nekketsu Kouha Kunio-kun</P>
+<P>Final Fantasy V</P>
+<P>Hagane</P>
+<P>Treasure Hunter G</P>
+<P>Hanguk Pro Yagu</P>
+<P>Fushigi no Dungeon 2 - Fuurai no Shiren</P>
+<P>Tales of Phantasia</P>
+<P>Hameln no Violin Hiki</P>
+<P>Final Fantasy VI</P>
+<P>Shin Nekketsu Kouha - Kunio-tachi no Banka</P>
+<P>Final Fight</P>
+<P>Ys IV - Mask of the Sun</P>
+<P>Taekwon-Do</P>
+<P>Akumajou Dracula XX</P>
+<P>Youkai Buster - Ruka no Daibouken</P>
+<P>Wedding Peach</P>
+<P>Super Metroid</P>
+<P>Super Nazo Puyo Tsuu - Rulue no Tetsuwan Hanjouki</P>
+<P>Ys III - Wanderers from Ys</P>
+<P>Seiken Densetsu 3</P>
 <P>Seiken Densetsu 2</P>
+<P>Super Robot Taisen EX</P>
+<P>Ushio to Tora</P>
+<P>Otogirisou</P>
+<P>Super Puyo Puyo 2</P>
+<P>JoJo no Kimyou na Bouken</P>
+<P>Famicom Bunko - Hajimari no Mori</P>
+<P>From TV Animation Slam Dunk 2 - IH Yosen Kanzen Ban!!</P>
+<P>Slayers</P>
+<P>Final Fight Guy</P>
+<P>Choujikuu Yousai Macross - Scrambled Valkyrie</P>
+<P>Undercover Cops</P>
+<P>Terranigma</P>
+<P>Alcahest</P>
+<P>Gakkou de Atta Kowai Hanashi</P>
+<P>Star Fox</P>
+<P>Super Robot Taisen Gaiden - Masoukishin - The Lord of Elemental</P>
+<P>Area 88</P>
+<P>Densetsu no Ogre Battle - The March of the Black Queen</P>
+<P>Wonder Project J - Kikai no Shounen Pino</P>
+<P>Iron Commando - Koutetsu no Senshi</P>
