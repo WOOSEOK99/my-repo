@@ -13121,24 +13121,6 @@
         "system": "ekmame",
         "category": "arcade"
     },
-    "vhunt2": {
-        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/8447_vhunt2_9790.bin",
-        "title": "뱀파이어 헌터 2: 다크스토커즈 리벤지",
-        "title_en": "Vampire Hunter 2: Darkstalkers Revenge",
-        "desc": "",
-        "genre": "격투",
-        "genre_en": "Fighting",
-        "series": "",
-        "series_en": "",
-        "parent": "",
-        "year": 0,
-        "developer": "",
-        "portrait": false,
-        "LRbuttons": false,
-        "buttons": 6,
-        "system": "ekmame",
-        "category": "arcade"
-    },
     "vsav": {
         "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/9672_vsav_7593.bin",
         "title": "뱀파이어 세이비어: 뱀파이어의 제왕",
@@ -41722,5 +41704,23 @@
         "buttons": 0,
         "system": "snes",
         "LRbuttons": false
+    },
+    "vhunt2r1": {
+        "url": "https://github.com/WOOSEOK99/my-repo/blob/main/files/4212_vhunt2r1_6838.bin",
+        "title": "뱀파이어 헌터 2: 다크스토커즈 리벤지",
+        "title_en": "Vampire Hunter 2: Darkstalkers Revenge",
+        "desc": "",
+        "genre": "격투",
+        "genre_en": "Fighting",
+        "series": "",
+        "series_en": "",
+        "parent": "",
+        "year": 0,
+        "developer": "",
+        "portrait": false,
+        "LRbuttons": false,
+        "buttons": 6,
+        "system": "ekmame",
+        "category": "arcade"
     }
 }
