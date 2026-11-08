@@ -1,2 +1,336 @@
-<P>뱀파이어 헌터 2: 다크스토커즈 리벤지</P>
-<P>Vampire Hunter 2: Darkstalkers Revenge</P>
+<P>미스터 드릴러 A - 이상한 박테리아</P>
+<P>우리들의 태양 - 태양 액션 RPG</P>
+<P>슈퍼 로봇 대전 R</P>
+<P>포켓몬스터 - 사파이어</P>
+<P>라라 크로프트 툼 레이더 - 더 예언</P>
+<P>포켓몬스터 - 루비</P>
+<P>배틀네트워크 록맨 에그제</P>
+<P>시작의 일보-더 파이팅</P>
+<P>유희왕 듀얼몬스터즈 인터내셔널 2</P>
+<P>포켓몬스터 - 파이어레드</P>
+<P>파워프로군 포켓 7</P>
+<P>모두의 사육 시리즈 - 나의 장수풍뎅이, 사슴벌레</P>
+<P>록맨 제로 3</P>
+<P>슈퍼 로봇 대전 A</P>
+<P>아이언 키드</P>
+<P>파워프로군 포켓 1, 2</P>
+<P>마리오 카트 어드밴스</P>
+<P>쓰르라미 울 적에</P>
+<P>소닉 배틀</P>
+<P>슈퍼로봇대전 A</P>
+<P>포켓몬 핀볼 - 루비 & 사파이어</P>
+<P>노부나가의 야망</P>
+<P>소닉 어드밴스</P>
+<P>포켓몬스터 - 썬더 옐로우</P>
+<P>유희왕 듀얼몬스터즈 익스퍼트 2006</P>
+<P>리듬 천국</P>
+<P>레벨스타 - 택티컬 커맨드</P>
+<P>슈퍼 로봇 대전 J</P>
+<P>슈퍼 로봇 대전 D</P>
+<P>슈퍼로봇대전 - 오리지널 제네레이션 2</P>
+<P>별의 커비 - 꿈의 샘 디럭스</P>
+<P>진 여신전생</P>
+<P>원피스 - 일곱 섬의 대비보</P>
+<P>록맨 제로 2</P>
+<P>칼초비트</P>
+<P>샤이닝 포스 - 암흑룡의 부활</P>
+<P>포켓몬스터 - 에메랄드</P>
+<P>유희왕 듀얼몬스터즈 인터내셔널 - 월드와이드 에디션</P>
+<P>테니스의 왕자 2003 - 패션 레드</P>
+<P>악마성 드라큘라 - 서클 오브 더 문</P>
+<P>드래곤볼 Z - 부우의 분노</P>
+<P>신약 성검전설</P>
+<P>역전재판 2</P>
+<P>스크류 브레이커 - 굉진 도릴레로</P>
+<P>댄싱 소드 - 섬광</P>
+<P>테일즈 오브 더 월드 - 나리키리 던전 2</P>
+<P>히카루의 바둑</P>
+<P>테일즈 오브 판타지아</P>
+<P>슈퍼로봇대전 D</P>
+<P>더 킹 오브 파이터즈 EX2 - 하울링 블러드</P>
+<P>드래곤 퀘스트 톨네코의 대모험 2</P>
+<P>아스트로 보이 철완 아톰 - 아톰 하트의 비밀</P>
+<P>테니스의 왕자 1</P>
+<P>바이오니클 - 그림자의 미로</P>
+<P>어드밴스 가디언 히어로즈</P>
+<P>겟 백커스 탈환대 - 지옥의 스카라무슈</P>
+<P>우에키의 법칙 - 신기작렬! 능력자 배틀</P>
+<P>파워프로군 포켓 5</P>
+<P>마더 1+2</P>
+<P>택틱스 오우거 외전 - 로디스의 기사</P>
+<P>파이어 엠블렘 - 드림 오브 파이브</P>
+<P>굿보이 갤럭시</P>
+<P>브레스 오브 파이어 - 용의 전사</P>
+<P>히카루의 바둑 2</P>
+<P>슬라임 모리모리 드래곤 퀘스트 - 충격의 꼬리단</P>
+<P>황금의 태양 - 잃어버린 시대</P>
+<P>젤다의 전설 - 신들의 트라이포스 & 4개의 검</P>
+<P>샤이닝 소울</P>
+<P>피안화</P>
+<P>건스타 슈퍼 히어로즈</P>
+<P>파이어 엠블렘 - 봉인의 검</P>
+<P>위닝일레븐 - 월드 사커 위닝 일레븐</P>
+<P>테일즈 오브 더 월드 - 서머너즈 리니지</P>
+<P>슈퍼로봇대전 - 오리지널 제네레이션</P>
+<P>삼국지</P>
+<P>파이널 파이트 원</P>
+<P>SD 건담 G 제네레이션 어드밴스</P>
+<P>브레스 오브 파이어 2</P>
+<P>샤이닝 소울 2</P>
+<P>슈퍼 동키콩</P>
+<P>슈퍼 로봇 대전 OG 2</P>
+<P>캐슬바니아 - 백야의 협주곡</P>
+<P>황금의 태양 - 잃어버린 시대</P>
+<P>파이널 판타지 5 어드밴스</P>
+<P>파이어 엠블렘 - 성마의 광석</P>
+<P>메이드 인 와리오</P>
+<P>플레이 노벨 - 사일런트 힐</P>
+<P>모두의 소프트 시리즈 - 모두의 장기</P>
+<P>다운타운 - 열혈물어 EX</P>
+<P>카마이타치의 밤</P>
+<P>유희왕 듀얼몬스터즈 6 익스퍼트 2</P>
+<P>레전더 - 부활하는 시련의 섬</P>
+<P>마더 3</P>
+<P>슈퍼로봇대전 J</P>
+<P>파이널 판타지 4 어드밴스</P>
+<P>역전재판 3</P>
+<P>황금의 태양 - 열린 봉인</P>
+<P>캐슬바니아 - 효월의 원무곡</P>
+<P>록맨 제로 4</P>
+<P>귀무자 택틱스</P>
+<P>파이어 엠블렘 - 세룰리안 크레센트</P>
+<P>리비에라 - 약속의 땅 리비에라</P>
+<P>대전략 for 게임보이 어드밴스</P>
+<P>파이어 엠블렘 - 더 모로우즈 골든 컨트리</P>
+<P>파이어 엠블렘 - 열화의 검</P>
+<P>메트로이드 퓨전</P>
+<P>드래곤볼 Z - 무공투극</P>
+<P>젤다의 전설 - 이상한 모자</P>
+<P>킹덤 하츠 - 체인 오브 메모리즈</P>
+<P>슈퍼 마리오 어드밴스 2 - 슈퍼 마리오 월드 + 마리오 브라더스</P>
+<P>슈퍼로봇대전 R</P>
+<P>악마성 드라큘라-백야의 협주곡</P>
+<P>와리오 랜드 어드밴스 - 요키의 보물</P>
+<P>미스터 드릴러 2</P>
+<P>테일즈 오브 더 월드 - 나리키리 던전 3</P>
+<P>레이브 마스터 - 특공화전!</P>
+<P>목장이야기 - 미네랄 타운의 친구들</P>
+<P>아즈망가 대왕 어드밴스</P>
+<P>슈퍼 스트리트 파이터 2 X - 리바이벌</P>
+<P>포켓몬스터 - 리프그린</P>
+<P>별의 커비 - 거울의 대미궁</P>
+<P>더블 드래곤 어드밴스</P>
+<P>나루토 - 최강닌자 대결집 2</P>
+<P>메탈슬러그 어드밴스</P>
+<P>포켓몬스터 - 오디세이</P>
+<P>드래곤 퀘스트 캐릭터즈 - 토르네코의 대모험 2 어드밴스 - 이상한 던전</P>
+<P>악마성 드라큘라-효월의 원무곡</P>
+<P>파이어 엠블렘 - 비전 퀘스트</P>
+<P>파이널 판타지 택틱스 어드밴스</P>
+<P>유그드라 유니온</P>
+<P>탐정 진구지 사부로 - 하얀 그림자의 소녀</P>
+<P>유희왕 듀얼몬스터즈 익스퍼트 3</P>
+<P>드래곤볼 Z - 레거시 오브 오공 2</P>
+<P>블랙 매트릭스 제로</P>
+<P>테니스의 왕자 2003 - 쿨 블루</P>
+<P>버블보블 - 올드 & 뉴</P>
+<P>남쪽 바다의 오디세이</P>
+<P>더 킹 오브 파이터즈 EX - 네오블러드</P>
+<P>속 우리들의 태양 - 태양소년 쟝고</P>
+<P>마리, 에리 & 아니스의 아틀리에 - 산들바람에서의 전언</P>
+<P>조이드 사가 2</P>
+<P>고스트 바둑 왕</P>
+<P>슈퍼 로봇 대전 OG 1</P>
+<P>테니스의 왕자 - 지니어스 보이즈 아카데미</P>
+<P>우에키의 법칙</P>
+<P>파이널 판타지 1, 2 어드밴스</P>
+<P>존 오브 디 엔더스 2173 - 테스타먼트</P>
+<P>드래곤볼 - 어드밴스 어드벤처</P>
+<P>소닉 어드밴스 3</P>
+<P>파이널 판타지 6 어드밴스</P>
+<P>디지몬 - 배틀 스피릿 2</P>
+<P>카마이타치의 밤 어드밴스</P>
+<P>파이널 판타지 택틱스 어드밴스 A 1</P>
+<P>메달 오브 아너 어드밴스</P>
+<P>강철의 연금술사 - 미주의 윤무곡</P>
+<P>슈퍼로봇대전 - 오리지널 제네레이션 2 엑셀</P>
+<P>역전재판</P>
+<P>더 타워 SP</P>
+<P>록맨 제로</P>
+<P>원피스 - 고잉 베이스볼 - 해적 야구</P>
+<P>슈퍼 퍼즐 파이터 2</P>
+<P>더 파이팅</P>
+<P>메트로이드 - 제로 미션</P>
+<P>기동천사 엔젤릭 레이어 - 미사키와 꿈의 천사들</P>
+<P>소닉 어드밴스 2</P>
+<P>드래곤 퀘스트 몬스터즈 - 캐러밴 하트</P>
+<P>마리오 & 루이지 RPG</P>
+<P>황금의 태양 - 열린 봉인</P>
+<P>Mr. Driller A - Fushigi na Pacteria</P>
+<P>Bokura no Taiyou - Taiyou Action RPG</P>
+<P>Super Robot Taisen R</P>
+<P>Pocket Monsters - Sapphire</P>
+<P>Lara Croft Tomb Raider - The Prophecy</P>
+<P>Pocket Monsters - Ruby</P>
+<P>Battle Network Rockman EXE</P>
+<P>Hajime no Ippo: The Fighting</P>
+<P>Yu-Gi-Oh! Duel Monsters International 2</P>
+<P>Pocket Monsters - FireRed</P>
+<P>Power Pro-kun Pocket 7</P>
+<P>Minna no Shiiku Series - Boku no Kabuto, Kuwagata</P>
+<P>Rockman Zero 3</P>
+<P>Super Robot Taisen A</P>
+<P>Iron Kid</P>
+<P>Power Pro Kun Pocket 1, 2</P>
+<P>Mario Kart Advance</P>
+<P>Higurashi no Naku Koro ni</P>
+<P>Sonic Battle</P>
+<P>Super Robot Taisen A</P>
+<P>Pokemon Pinball - Ruby & Sapphire</P>
+<P>Nobunaga no Yabou</P>
+<P>Sonic Advance</P>
+<P>Pocket Monsters - Thunder Yellow</P>
+<P>Yu-Gi-Oh! Duel Monsters Expert 2006</P>
+<P>Rhythm Tengoku</P>
+<P>Rebelstar - Tactical Command</P>
+<P>Super Robot Taisen J</P>
+<P>Super Robot Taisen D</P>
+<P>Super Robot Taisen - Original Generation 2</P>
+<P>Hoshi no Kirby - Yume no Izumi Deluxe</P>
+<P>Shin Megami Tensei</P>
+<P>One Piece - Ilgop Seomui Debomool</P>
+<P>Rockman Zero 2</P>
+<P>Calciobit</P>
+<P>Shining Force - Kuroki Ryuu no Fukkatsu</P>
+<P>Pocket Monsters - Emerald</P>
+<P>Yu-Gi-Oh! Duel Monsters International - Worldwide Edition</P>
+<P>Tennis no Ouji-sama 2003 - Passion Red</P>
+<P>Akumajou Dracula - Circle of the Moon</P>
+<P>Dragon Ball Z - Buu's Fury</P>
+<P>Shinyaku Seiken Densetsu</P>
+<P>Gyakuten Saiban 2</P>
+<P>Screw Breaker - Goushin DoriRureRo</P>
+<P>Dancing Sword - Senkou</P>
+<P>Tales of the World - Narikiri Dungeon 2</P>
+<P>Hikaru no Go</P>
+<P>Tales of Phantasia</P>
+<P>Super Robot Taisen D</P>
+<P>King of Fighters EX2, The - Howling Blood</P>
+<P>Dragon Quest Characters: Torneko no Daibouken 2</P>
+<P>Astro Boy - Tetsuwan Atom - Atom Heart no Himitsu</P>
+<P>Tennis no Ouji-sama 1</P>
+<P>Bionicle - Maze of Shadows</P>
+<P>Advance Guardian Heroes</P>
+<P>GetBackers Dakkanya - Jigoku no Scaramouche</P>
+<P>Ueki no Housoku - Jingi Sakuretsu! Nouryokusha Battle</P>
+<P>Power Pro Kun Pocket 5</P>
+<P>Mother 1+2</P>
+<P>Tactics Ogre Gaiden - The Knight of Lodis</P>
+<P>Fire Emblem - Dream of Five</P>
+<P>Goodboy Galaxy</P>
+<P>Breath of Fire - Ryuu no Senshi</P>
+<P>Hikaru no Go 2</P>
+<P>Slime Morimori Dragon Quest - Shougeki no Shippo Dan</P>
+<P>Ougon no Taiyou - Ushinawareshi Toki</P>
+<P>Zelda no Densetsu - Kamigami no Triforce & 4tsu no Tsurugi</P>
+<P>Shining Soul</P>
+<P>Higanbana</P>
+<P>Gunstar Super Heroes</P>
+<P>Fire Emblem - Fuuin no Tsurugi</P>
+<P>Ui-Ire - World Soccer Winning Eleven</P>
+<P>Tales of the World - Summoner's Lineage</P>
+<P>Super Robot Taisen - Original Generation</P>
+<P>Sangokushi</P>
+<P>Final Fight One</P>
+<P>SD Gundam G Generation Advance</P>
+<P>Breath of Fire II</P>
+<P>Shining Soul II</P>
+<P>Super Donkey Kong</P>
+<P>Super Robot Taisen OG 2</P>
+<P>Castlevania - Byakuya no Concerto</P>
+<P>Ougon no Taiyou - Ushinawareshi Toki</P>
+<P>Final Fantasy V Advance</P>
+<P>Fire Emblem - Seima no Kouseki</P>
+<P>Made in Wario</P>
+<P>Play Novel - Silent Hill</P>
+<P>Minna no Soft Series - Minna no Shougi</P>
+<P>Downtown - Nekketsu Monogatari EX</P>
+<P>Kamaitachi - Korean</P>
+<P>Yu-Gi-Oh! Duel Monsters 6 Expert 2</P>
+<P>Legendz - Buhwarhaneun Siryeonyi Seom</P>
+<P>Mother 3</P>
+<P>Super Robot Taisen J</P>
+<P>Final Fantasy IV Advance</P>
+<P>Gyakuten Saiban 3</P>
+<P>Ougon no Taiyou - Hirakareshi Fuuin</P>
+<P>Castlevania - Akatsuki no Minuet</P>
+<P>Rockman Zero 4</P>
+<P>Onimusha Tactics</P>
+<P>Fire Emblem - Cerulean Crescent</P>
+<P>Riviera - Yakusoku no Chi Riviera</P>
+<P>Daisenryaku for Game Boy Advance</P>
+<P>Fire Emblem - The Morrow's Golden Country</P>
+<P>Fire Emblem - Rekka no Ken</P>
+<P>Metroid Fusion</P>
+<P>Dragon Ball Z - Moogongtoogeuk</P>
+<P>Zelda no Densetsu - Fushigi no Boushi</P>
+<P>Kingdom Hearts - Chain of Memories</P>
+<P>Super Mario Advance 2 - Super Mario World + Mario Brothers</P>
+<P>Super Robot Taisen R</P>
+<P>Castlevania: Harmony of Dissonance</P>
+<P>Wario Land Advance - Youki no Otakara</P>
+<P>Mr. Driller 2</P>
+<P>Tales of the World - Narikiri Dungeon 3</P>
+<P>Rave Master - Special Attack Force!</P>
+<P>Bokujou Monogatari - Mineral Town no Nakama-tachi</P>
+<P>Azumanga Daiou Advance</P>
+<P>Super Street Fighter II X - Revival</P>
+<P>Pocket Monsters - LeafGreen</P>
+<P>Hoshi no Kirby - Kagami no Daimeikyuu</P>
+<P>Double Dragon Advance</P>
+<P>Naruto - Saikyou Ninja Daikesshuu 2</P>
+<P>Metal Slug Advance</P>
+<P>Pocket Monsters - Odyssey</P>
+<P>Dragon Quest Characters - Torneko no Daibouken 2 Advance - Fushigi no Dungeon</P>
+<P>Castlevania: Aria of Sorrow</P>
+<P>Fire Emblem - Vision Quest</P>
+<P>Final Fantasy Tactics Advance</P>
+<P>Yggdra Union</P>
+<P>Tantei Jinguuji Saburou - Shiroi Kage no Shoujo</P>
+<P>Yu-Gi-Oh! Duel Monsters Expert 3</P>
+<P>Dragon Ball Z - The Legacy of Goku II</P>
+<P>Black Matrix Zero</P>
+<P>Tennis no Ouji-sama 2003 - Cool Blue</P>
+<P>Bubble Bobble - Old & New</P>
+<P>Minami no Umi no Odyssey</P>
+<P>King of Fighters EX, The - NeoBlood</P>
+<P>Zoku Bokura no Taiyou - Taiyou Shounen Django</P>
+<P>Marie, Elie & Anis no Atelier - Soyokaze kara no Dengon</P>
+<P>Zoids Saga II</P>
+<P>Hikaru no Go</P>
+<P>Super Robot Taisen OG 1</P>
+<P>Tennis no Ouji-sama - Genius Boys Academy</P>
+<P>Ueki no Housoku</P>
+<P>Final Fantasy I, II Advance</P>
+<P>Z.O.E. 2173 - Testament</P>
+<P>Dragon Ball - Advance Adventure</P>
+<P>Sonic Advance 3</P>
+<P>Final Fantasy VI Advance</P>
+<P>Digimon - Battle Spirit 2</P>
+<P>Kamaitachi no Yoru Advance</P>
+<P>Final Fantasy Tactics Advance A 1</P>
+<P>Medal of Honor Advance</P>
+<P>Hagane no Renkinjutsushi - Meisou no Rondo</P>
+<P>Super Robot Taisen - Original Generation 2 Excel</P>
+<P>Gyakuten Saiban</P>
+<P>Tower SP, The</P>
+<P>Rockman Zero</P>
+<P>One Piece - Going Baseball - Haejeok Yaku</P>
+<P>Super Puzzle Fighter II</P>
+<P>Hajime no Ippo - The Fighting!</P>
+<P>Metroid - Zero Mission</P>
+<P>Kidou Tenshi Angelic Layer - Misaki to Yume no Tenshi-tachi</P>
+<P>Sonic Advance 2</P>
+<P>Dragon Quest Monsters - Caravan Heart</P>
+<P>Mario & Luigi RPG</P>
+<P>Ougon no Taiyou - Hirakareshi Fuuin</P>
